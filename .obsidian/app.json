@@ -1,4 +1,5 @@
 {
   "attachmentFolderPath": "附件",
-  "newLinkFormat": "relative"
+  "newLinkFormat": "relative",
+  "promptDelete": false
 }
