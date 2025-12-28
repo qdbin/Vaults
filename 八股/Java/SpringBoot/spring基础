@@ -1,0 +1,84 @@
+### 控制反转/依赖注入（IOC/DI）
+
+#### 总结
+
+![image-20250911082324204](./assets/image-20250911082324204.png)
+
+#### 控制反转
+
+![image-20250911082056906](./assets/image-20250911082056906.png)
+
+#### 依赖注入
+
+![image-20250911082141341](./assets/image-20250911082141341.png)
+
+### SpringBoot核心注解
+
+`@SpringBootApplication`看作是 `@Configuration`、`@EnableAutoConfiguration`、`@ComponentScan` 注解的集合。根据 SpringBoot 官网，这三个注解的作用分别是：
+
+- `@EnableAutoConfiguration`：启用 SpringBoot 的自动配置机制
+- `@Configuration`：允许在上下文中注册额外的 bean 或导入其他配置类
+- `@ComponentScan`：扫描被`@Component` (`@Service`,`@Controller`)注解的 bean，注解默认会扫描启动类所在的包下所有的类 ，可以自定义不扫描某些 bean。如下图所示，容器中将排除`TypeExcludeFilter`和`AutoConfigurationExcludeFilter`。
+
+### SpringBoot自动装配
+
+#### [须知](https://www.bilibili.com/video/BV1zjbJz5EEs?vd_source=a3edfa2588cde0dbe42d7192afacee48)
+
+**介绍：**
+
+- 当我们的程序依赖一些第三方功能的组件，不需要手动拿到这些组件类去加载到IOC容器
+
+- 通过Springboot自动装配，自动把相关组件注人到IOC容器，只需要导入相关依赖即可（pom依赖）
+
+**自动装配流程：**
+
+- springboot的启动类都会有一个@SpringBootApplication注解
+- @SpringBootApplication注解是个复合注解（@SpringBootConfiguration+@EnableAutoConfiguration）
+- @EnableAutoConfiguration是一个核心很重要的自动装配的注解，这个上面有个@import的注解
+- @Import注解，会把import（..）里面的class对象加载到IOC容器中，即把AutoConfigurationImportSelector类对象加载到IOC容器中，其实现了一个重要的接口ImportSelector接口
+- ImportSelector接口有关方法selectImports(..)返回的是string[]数组，Spring会自动将其返回的数组的全路径名的对象加载到IOC容器中
+- ……
+
+#### [回答](https://www.bilibili.com/video/BV1aL411Y763/?vd_source=a3edfa2588cde0dbe42d7192afacee48)
+
+**简单回答：**
+
+SpringBoot的自动装配就是@EnableAutoConfiguration注解来实现的，他的主要作用就是可以实习Bean的自动的注入，也就是说，在SpringBoot中我如果直接依赖了Starter这样的一个启动依赖，它会自动帮我把这个启动依赖里面的相关的Bean装载到IOC容器里面，这样我就可以直接通过DI方式去完成依赖注入的一个动作
+
+**专业回答：**
+
+自动装配简单来说，就是自动把第三方组件的Bean装载到IOC容器里面，不需要开发人员再去写Bean相关的配置，在SpringBoot应用里只需要在启动类上加上@SpringBootApplication注解即可实现自动装配
+
+@SpringBootApplication注解是个复合注解，真正去实现自动装配的注解是@EnableAutoConfiguration注解
+
+自动装配的实现主要依靠三个核心的关键技术
+
+- 引入Starter启动依赖组件的时候，这个组件里必须要包含@Configuration配置类，在这个配置类我们需要通过@Bean这个注解去声明需要装配到IOC容器里面的Bean对象
+- 第二个，这个配置类是放置第三方的jar包里面，然后通过SpringBoot中约定优于配置的理念，去把这个配置类的全路径放在`classpath:/META-lNF/spring.factories`文件里面，这样spring就可以知道，第三方jar包里面的这个配置类的位置，这个步骤主要是用到了Spring里面的`SpringFactoriesLoader`来完成的
+- 第三个，SpringBoot拿到所有第三方jar包里面声明的配置类以后，再通过Spring提供的ImportSelector这样一个接口，来实习对这些配置类的动态加载，从而完成自动装配这样一个动作
+- 在我看来SpringBoot是约定优于配置的这一理念下的一个产物，所以在很多的地方都会看到这一类的思想，他的出现可以让开发人员可以更加聚焦在业务代码的编写上，而不需要去关注和业务无关的配置
+- @Enable注解是一尔模块驱动的意思，我们只需要增加@Enable注解就能自动打开某个功能，而不需要针对这个功能做Bean的装配，@Enable注解的底层也是去帮我们自动去完成这样一个模块相关Beand的注入
+
+### [SpringBoot的启动流程](https://www.bilibili.com/video/BV1NY411P7VX?vd_source=a3edfa2588cde0dbe42d7192afacee48)（自动装配）
+
+> 简化源码，理解主要逻辑（10min左右，简化版的底层源码有点多就没看了）
+
+1. 创建IOC容器，即createApplicationContext（…）
+
+2. 加载源配置类，即loadSourceClass（…）
+
+  > 源配置类：通常是main方法所在的类，而且会被注解@SpringBootApplication所修饰，我们又称之为主类。
+
+3. 加载并处理所有的配置类，即processConfigurationClass(…)
+
+  > SpringBoot会自动找到所有的配置类，然后加载和处理它们。“自动配置”就属于其中的一环。
+
+  > 源码简化流程
+  >
+  > <img src="./assets/image-20250912050246016.png" alt="image-20250912050246016" style="zoom: 25%;" />
+
+4. 实例化所有的单例Bean，即instantiateSingletonBeans（…）
+
+   > 实例化所有的单例Bean。“依赖注入”和“自动装配”就属于其中的环节。
+
+5. 启动web服务器，即startWebServer（..）

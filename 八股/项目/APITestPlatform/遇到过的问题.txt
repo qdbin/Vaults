@@ -1,0 +1,2 @@
+项目统一响应 -- 响应是string -- 但是因为统一响应，所以需要吧对应的响应数据对象转化为json字符串
+    - 前端传对象，需序列化为jsonObject和反序列化为javaObject,但可能会报JSONException 或 ClassCastException （把对象/数组转成 Long ）
