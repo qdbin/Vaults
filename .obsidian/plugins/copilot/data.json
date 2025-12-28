@@ -22,7 +22,7 @@
   "siliconflowApiKey": "",
   "defaultChainType": "vault_qa",
   "defaultModelKey": "deepseek-r1:1.5b|ollama",
-  "embeddingModelKey": "text-embedding-3-small|openai",
+  "embeddingModelKey": "bge-m3|ollama",
   "temperature": 0.1,
   "maxTokens": 6000,
   "contextTurns": 15,
@@ -354,6 +354,16 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "bge-m3",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": []
     }
   ],
   "embeddingRequestsPerMin": 60,
@@ -372,7 +382,7 @@
   "passMarkdownImages": true,
   "enableAutonomousAgent": true,
   "enableCustomPromptTemplating": true,
-  "enableSemanticSearchV3": false,
+  "enableSemanticSearchV3": true,
   "enableLexicalBoosts": true,
   "suggestedDefaultCommands": true,
   "autonomousAgentMaxIterations": 4,
