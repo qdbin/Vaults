@@ -11,7 +11,7 @@
    > - **联想校园招聘-技术笔试**
    > - **联想校园招聘-综合能力测评**
 
-3. 滴滴（杭州-测开-初筛中-待笔试）:https://app.mokahr.com/campus-recruitment/didiglobal/96064?recommendCode=DSaR5E3p#/candidateHome/applications
+3. 滴滴（杭州-测开-初筛中-待笔试）:https://app.mokahr.com/campus-recruitment/didiglobal/96064?recommendCode=DSaR5E3p#/candidateHome/applications                                                                                                                                                                                                                                                          
 
 ## 需测评
 
@@ -22,7 +22,7 @@
 ## 已测评
 
 - 亿道集团（深圳/上海-已测试-待处理）：https://emdoor1.zhiye.com/personal/deliveryRecord
-- 携程（上海-测开-已测评）：https://campus.ctrip.com/#/candidateHome/applications
+- 携程（上海-测开-已测评）：https://campus.ctrip.com/#/candidateHome/applications  
 
 - 深圳石犀科技众云网（深圳/武汉-测试-已笔试-无结果）：https://ouryun.zhiye.com/personal/deliveryRecord
 
