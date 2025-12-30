@@ -82,5 +82,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "tmp/[16]-Paper+94+(2025.7.8)+Advancing+Software+Reliability+Through+Systematic.md": {
+    "scroll": 168.83334668477377,
+    "cursor": {
+      "from": {
+        "line": 189,
+        "ch": 215
+      },
+      "to": {
+        "line": 189,
+        "ch": 215
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/[16]-Paper+94+(2025.7/[16]-Paper+94+(2025.7.md": {
+    "scroll": 158.18301889631482,
+    "cursor": {
+      "from": {
+        "line": 160,
+        "ch": 1
+      },
+      "to": {
+        "line": 160,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
   }
 }
