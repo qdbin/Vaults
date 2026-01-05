@@ -1,11 +1,11 @@
 {
   "addToCommand": true,
   "addToContextMenu": true,
-  "createInstanceNearExistingOnes": true,
+  "createInstanceNearExistingOnes": false,
   "errorNoticeTimeout": 0,
   "exposeInternalModules": true,
-  "focusOnNewInstance": true,
-  "hideStatusBar": "focused",
+  "focusOnNewInstance": false,
+  "hideStatusBar": "never",
   "interceptLogging": true,
   "language": "zh-Hans",
   "newInstanceBehavior": "newTab",
@@ -14,14 +14,13 @@
   "pinNewInstance": false,
   "preferredRenderer": "webgl",
   "profiles": {
-    "cb758331-6f4f-404a-a3c9-64a629ada541": {
+    "950b1222-0934-4849-b4da-e6612c8e371b": {
       "args": [],
-      "executable": "powershell",
-      "name": "powershell-整合",
+      "executable": "C:\\Windows\\System32\\cmd.exe",
+      "name": "cmd-外部",
       "platforms": {
         "win32": true
       },
-      "pythonExecutable": "C:\\Users\\hanbin\\scoop\\apps\\miniconda3-py311\\current\\envs\\test\\python.exe",
       "restoreHistory": false,
       "rightClickAction": "copyPaste",
       "successExitCodes": [
@@ -32,13 +31,12 @@
       "terminalOptions": {
         "documentOverride": null
       },
-      "type": "integrated",
-      "useWin32Conhost": true
+      "type": "external"
     },
-    "950b1222-0934-4849-b4da-e6612c8e371b": {
+    "cb758331-6f4f-404a-a3c9-64a629ada541": {
       "args": [],
-      "executable": "C:\\Windows\\System32\\cmd.exe",
-      "name": "cmd-外部",
+      "executable": "powershell",
+      "name": "powershell-外部",
       "platforms": {
         "win32": true
       },

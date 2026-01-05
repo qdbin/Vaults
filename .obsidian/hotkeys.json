@@ -1,4 +1,6 @@
 {
+  "terminal:find-in-terminal": [],
+  "terminal:close-terminal": [],
   "outline:open": [
     {
       "modifiers": [
@@ -143,14 +145,12 @@
       "key": "D"
     }
   ],
-  "terminal:open-terminal.integrated.root": [
+  "terminal:open-terminal.external.root": [
     {
       "modifiers": [
         "Mod"
       ],
       "key": "J"
     }
-  ],
-  "terminal:find-in-terminal": [],
-  "terminal:close-terminal": []
+  ]
 }
