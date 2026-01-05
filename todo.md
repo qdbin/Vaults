@@ -1,4 +1,4 @@
-### 11/3 ~ 11/9                                                                                  
+### 11/3 ~ 11/9                                                                                                                                                                                                                                                      
 
 #### 比心（上海-300~350/day）  
 
@@ -34,7 +34,7 @@ https://meeting.tencent.com/dm/ywdwav0MyEOU
 
   > [**点此链接**](https://app.mokahr.com/m/candidate/applications/deliver-query/digital-engine) **可实时查询您的投递进度；**
   >
-  > 联系邮箱：[CampusHR@service.digital-engine.com](mailto:CampusHR@service.digital-engine.com)                                                                                                                                                                                                                                                                                                                                                                                  
+  > 联系邮箱：[CampusHR@service.digital-engine.com](mailto:CampusHR@service.digital-engine.com)                                                                                                                                                                                                                                                                                                                                                                                    
 
 
 

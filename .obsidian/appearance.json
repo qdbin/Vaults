@@ -4,5 +4,7 @@
   "accentColor": "#2d8de6",
   "enabledCssSnippets": [
     "custom-icons-differing-files-and-folders"
-  ]
+  ],
+  "baseFontSizeAction": true,
+  "baseFontSize": 24
 }

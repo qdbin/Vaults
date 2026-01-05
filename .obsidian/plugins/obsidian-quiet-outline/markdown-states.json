@@ -110,5 +110,21 @@
       }
     },
     "expandedKeys": []
+  },
+  "todo.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 13,
+        "ch": 76
+      },
+      "to": {
+        "line": 13,
+        "ch": 76
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
   }
 }
