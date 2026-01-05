@@ -112,15 +112,15 @@
     "expandedKeys": []
   },
   "todo.md": {
-    "scroll": 8.797896722889124,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 12,
-        "ch": 78
+        "line": 0,
+        "ch": 0
       },
       "to": {
-        "line": 12,
-        "ch": 78
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -341,11 +341,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 8,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 8,
+        "line": 0,
         "ch": 0
       }
     },
