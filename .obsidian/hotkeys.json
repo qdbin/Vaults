@@ -142,5 +142,15 @@
       ],
       "key": "D"
     }
-  ]
+  ],
+  "terminal:open-terminal.integrated.root": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "J"
+    }
+  ],
+  "terminal:find-in-terminal": [],
+  "terminal:close-terminal": []
 }

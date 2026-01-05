@@ -11,11 +11,17 @@
   "newInstanceBehavior": "newTab",
   "noticeTimeout": 5,
   "openChangelogOnUpdate": true,
-  "pinNewInstance": true,
+  "pinNewInstance": false,
   "preferredRenderer": "webgl",
   "profiles": {
     "cb758331-6f4f-404a-a3c9-64a629ada541": {
-      "name": "powershell",
+      "args": [],
+      "executable": "powershell",
+      "name": "powershell-整合",
+      "platforms": {
+        "win32": true
+      },
+      "pythonExecutable": "C:\\Users\\hanbin\\scoop\\apps\\miniconda3-py311\\current\\envs\\test\\python.exe",
       "restoreHistory": false,
       "rightClickAction": "copyPaste",
       "successExitCodes": [
@@ -26,7 +32,27 @@
       "terminalOptions": {
         "documentOverride": null
       },
-      "type": ""
+      "type": "integrated",
+      "useWin32Conhost": true
+    },
+    "950b1222-0934-4849-b4da-e6612c8e371b": {
+      "args": [],
+      "executable": "C:\\Windows\\System32\\cmd.exe",
+      "name": "cmd-外部",
+      "platforms": {
+        "win32": true
+      },
+      "restoreHistory": false,
+      "rightClickAction": "copyPaste",
+      "successExitCodes": [
+        "0",
+        "SIGINT",
+        "SIGTERM"
+      ],
+      "terminalOptions": {
+        "documentOverride": null
+      },
+      "type": "external"
     }
   }
 }
