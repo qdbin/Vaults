@@ -1,7 +1,6 @@
 [
   "obsidian-git",
   "obsidian-custom-attachment-location",
-  "mousewheel-image-zoom",
   "docxer",
   "obsidian42-brat",
   "i18n",
@@ -11,9 +10,10 @@
   "markdown-prettifier",
   "file-explorer-note-count",
   "obsidian-quiet-outline",
-  "obsidian-hover-editor",
   "editor-width-slider",
   "code-styler",
   "vscode-editor",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-style-settings",
+  "obsidian-day-and-night"
 ]

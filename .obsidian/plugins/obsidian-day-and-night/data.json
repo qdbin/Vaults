@@ -1,0 +1,12 @@
+{
+  "pluginEnabled": true,
+  "currentTheme": "Minimal",
+  "currentColorScheme": "obsidian",
+  "dayColorScheme": "moonstone",
+  "dayTime": "10:00",
+  "dayTheme": "Minimal",
+  "nightColorScheme": "obsidian",
+  "nightTime": "19:00",
+  "nightTheme": "Minimal",
+  "pauseThemeToggle": false
+}
