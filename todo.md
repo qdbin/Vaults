@@ -10,7 +10,7 @@
 |      |                                             |
 |      |                                             |
 
-#### [万昇智能](https://www.zhipin.com/gongsi/dc61f308a81915ca1nd_3dS8E1s~.html)
+#### [万昇智能](https://www.zhipin.com/gongsi/dc61f308a81915ca1nd_3dS8E1s~.html)  
 
 会议主题：线上面试-韩斌
 会议时间：2025/11/06 17:00-17:30 (GMT+08:00) 中国标准时间 - 北京
