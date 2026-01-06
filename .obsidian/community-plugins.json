@@ -1,7 +1,6 @@
 [
   "obsidian-git",
   "obsidian-custom-attachment-location",
-  "docxer",
   "obsidian42-brat",
   "i18n",
   "obsidian-mind-map",
@@ -15,9 +14,12 @@
   "vscode-editor",
   "obsidian-image-toolkit",
   "obsidian-style-settings",
-  "obsidian-day-and-night",
   "media-extended",
   "mx-bili-plugin",
   "obsidian-hover-editor",
-  "terminal"
+  "terminal",
+  "xmind-linker",
+  "cmdr",
+  "docxer",
+  "manual-sorting"
 ]

@@ -1,18 +1,55 @@
+# ========================
+# 特定目录忽略
+# ========================
+
+# 资源目录
+**/todo
+**/八股文（External）
+**/Prompt
+**/assets
+**/images
+**/videos
+**/audios
+**/uploads
+**/downloads
+**/temp
+**/tmp
+
+# 文件
+todo.md
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 
-## tmp&personal
-todo.md
-tmp
 
-### output ###
+# ========================
+# 构建依赖目录文件（根据不同技术栈调整）
+# ========================
+
+# 构建
+**/dist
+**/build
+*.min.js
+*.min.css
+
+# 依赖
+**/node_modules
+vendor/
+**/__pycache__/
+**/*.pyc
+.DS_Store
+Thumbs.db
+
+
+# ========================
+# 输出目录忽略
+# ========================
 # common
 **/reports
 **/target
 **/output
 **/out
 **/debug
-log/
+**/log
 *.log
 build/
 **/temp
@@ -26,10 +63,9 @@ build/
 dist
 build
 
-
-### others ###
-# DEV_ENV
-node_modules
+# ========================
+# 其他目录忽略
+# ========================
 
 # IDES
 .idea/
@@ -70,3 +106,75 @@ Desktop.ini
 # My configurations:
 db.ini
 deploy_key_rsa
+
+
+# ========================
+# 资源文件忽略配置
+# ========================
+
+# 图片文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.webp
+*.svg
+*.ico
+*.icns
+
+# 视频文件
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.mkv
+*.webm
+
+# 音频文件
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+*.m4a
+
+# Office文档
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+*.pdf
+*.rtf
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# 设计文件
+*.psd
+*.ai
+*.sketch
+*.fig
+
+# 3D模型
+*.obj
+*.fbx
+*.blend
+*.stl
+
+# 数据库文件
+*.db
+*.sqlite
+*.mdb
+
+# 日志文件
+*.log
+logs/
+*.tmp
