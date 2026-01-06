@@ -1,0 +1,13 @@
+[java基础]
+	常见面试题总结上：
+		包装类型的缓存机制了解么？（没仔细看）
+	常见面试题总结中：
+		String、StringBuilder、StringBuffer区别（没仔细看）	
+	常见面试题总结下：
+		序列号和反序列化（细节没仔细看），语法糖（纯优化美观代码，常见语法糖闲了可以了解）
+	重要知识点：
+		- java序列化（对象存储传输方面的，懒得看）、泛型&通配符详解（在《java面试指北》中）
+		- 反射机制的源码介绍没有细看（https://www.cnblogs.com/chanshuyi/p/head_first_of_reflection.html）
+		- BigDecimal详解（懒得看），魔法类 Unsafe 详解（懒得看），SPI 机制详解（懒得看），语法糖详解（懒得看）
+[疑问]
+	1、java存储？堆内存，栈内存？变量栈内存！
