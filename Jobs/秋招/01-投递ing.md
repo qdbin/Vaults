@@ -1,18 +1,18 @@
 ## 0914
 
-1. 锐捷网络（福州/北京-AI测开-初筛中）：https://app.mokahr.com/campus_apply/ruijie/136206?recommendCode=DSuvyGeG#/candidateHome/applications
-2. 小鹏汽车：https://xiaopeng.jobs.feishu.cn/398875/position/application?share_token=MzsxNzUxOTQyNzQ1Mzg4Ozc1MjQ1MzU2NzYwNDM0MzAyMDc7MDsxLzI
-3. 华勤技术（测试-无投递信息）：https://app.mokahr.com/recommendation-recruitment/hq/44758?recommendCode=NTAgzI1#/
+1. 锐捷网络（福州/北京-AI测开-初筛中）：https://app.mokahr.com/campus_apply/ruijie/136206?recommendCode=DSuvyGeG#/candidateHome/applications                                                                                                                                                  
+2. 小鹏汽车：https://xiaopeng.jobs.feishu.cn/398875/position/application?share_token=MzsxNzUxOTQyNzQ1Mzg4Ozc1MjQ1MzU2NzYwNDM0MzAyMDc7MDsxLzI  
+3. 华勤技术（测试-无投递信息）：https://app.mokahr.com/recommendation-recruitment/hq/44758?recommendCode=NTAgzI1#/  
 4. 招银（测开-无法查看状态信息）：https://cmbntjob.cmbchina.com/center/resume
-5. shein（上海-测开-初筛中-简历挂）：https://app.mokahr.com/campus-recruitment/shein/2932?recommendCode=DSYG9nWJ#/candidateHome/applications
-7. 58同城（北京-测开-筛选中）：https://campus.58.com/personal/deliveryRecord
+5. shein（上海-测开-初筛中-简历挂）：https://app.mokahr.com/campus-recruitment/shein/2932?recommendCode=DSYG9nWJ#/candidateHome/applications  
+6. 58同城（北京-测开-筛选中）：https://campus.58.com/personal/deliveryRecord  
 
 ## 0915
 
-1. 明源云集团：https://app.mokahr.com/campus_apply/mingyuan/116135?recommendCode=DSSgDgtx#/candidateHome/applications
-2. 美团（上海-进行中）：https://zhaopin.meituan.com/web/personalCenter/deliveryRecord?staffSsoId=23765171
+1. 明源云集团：https://app.mokahr.com/campus_apply/mingyuan/116135?recommendCode=DSSgDgtx#/candidateHome/applications  
+2. 美团（上海-进行中）：https://zhaopin.meituan.com/web/personalCenter/deliveryRecord?staffSsoId=23765171  
 3. 腾讯音乐（上海-测开-网申中）：https://join.tencentmusic.com/deliver
-4. 爱德万测试（上海-测试-初筛中-笔试）：https://app.mokahr.com/campus-recruitment/advantest/144999?locale=zh-CN#/candidateHome/applications
+4. 爱德万测试（上海-测试-初筛中-笔试）：https://app.mokahr.com/campus-recruitment/advantest/144999?locale=zh-CN#/candidateHome/applications  
 5. 点众科技（北京公司-初筛中（有杭州分公司））：https://app.mokahr.com/campus_apply/dianzhong/28122#/candidateHome/applications
 6. 网易（杭州-测开-初筛中-笔试）：https://campus.163.com/app/personal/apply
 7. 滴滴（杭州-测开-初筛中-待笔试）:https://app.mokahr.com/campus-recruitment/didiglobal/96064?recommendCode=DSaR5E3p#/candidateHome/applications

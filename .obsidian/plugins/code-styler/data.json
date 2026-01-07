@@ -442,7 +442,7 @@
       }
     }
   },
-  "selectedTheme": "Default",
+  "selectedTheme": "vscode",
   "currentTheme": {
     "settings": {
       "codeblock": {

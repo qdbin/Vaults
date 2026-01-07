@@ -1,15 +1,7 @@
 {
   "terminal:find-in-terminal": [],
   "terminal:close-terminal": [],
-  "outline:open": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "1"
-    }
-  ],
+  "terminal:clear-terminal": [],
   "editor:toggle-code": [
     {
       "modifiers": [
@@ -152,5 +144,20 @@
       ],
       "key": "J"
     }
-  ]
+  ],
+  "i18n:i18n-translate": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "A"
+    }
+  ],
+  "obsidian-editor-shortcuts:selectWordOrNextOccurrence": [],
+  "editor:open-link-in-new-leaf": [],
+  "obsidian-editor-shortcuts:deleteLine": [],
+  "obsidian-editor-shortcuts:duplicateLine": [],
+  "obsidian-editor-shortcuts:selectLine": [],
+  "obsidian-editor-shortcuts:joinLines": []
 }

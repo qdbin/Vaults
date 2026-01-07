@@ -1,10 +1,12 @@
 {
   "theme": "obsidian",
-  "cssTheme": "Minimal",
-  "accentColor": "#2d8de6",
+  "cssTheme": "",
+  "accentColor": "#4c9ce6",
   "enabledCssSnippets": [
     "custom-icons-differing-files-and-folders"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 30
+  "baseFontSize": 24,
+  "showViewHeader": false,
+  "showRibbon": true
 }

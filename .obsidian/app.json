@@ -3,5 +3,12 @@
   "newLinkFormat": "relative",
   "promptDelete": false,
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": true
+  "useMarkdownLinks": true,
+  "livePreview": true,
+  "strictLineBreaks": false,
+  "propertiesInDocument": "visible",
+  "showLineNumber": true,
+  "rightToLeft": false,
+  "vimMode": false,
+  "showInlineTitle": false
 }
