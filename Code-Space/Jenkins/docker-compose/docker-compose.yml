@@ -1,0 +1,120 @@
+services:
+  # Jenkins持续集成服务
+  jenkins:
+    image: jenkins/jenkins:lts  
+    container_name: jenkins
+    hostname: jenkins
+    user: root  # root权限用于Docker操作,需要root权限来访问Docker socket
+    ports:
+      - "37808:8080"    # Web界面端口
+      - "37500:50000"   # Agent连接端口
+    volumes:
+      - jenkins_data:/var/jenkins_home  # Jenkins数据卷
+      - /var/run/docker.sock:/var/run/docker.sock  # Docker支持
+    environment:
+      # 启用Jenkins初始化向导，首次启动会显示：
+      # 1. 管理员密码设置界面
+      # 2. 推荐插件安装界面  
+      # 3. 管理员账号创建界面
+      - JAVA_OPTS=-Dhudson.footerURL=http://localhost:37808
+    # restart: "no"  # 不自动重启，需要手动启动（默认行为）
+    networks:
+      - ci-cd-network
+    depends_on:
+      - gitlab
+
+  # GitLab代码仓库服务
+  gitlab:
+    image: gitlab/gitlab-ce:latest
+    container_name: gitlab
+    hostname: gitlab
+    ports:
+      - "35022:22"       # SSH端口
+      - "35080:80"       # Web端口
+    volumes:
+      - gitlab_config:/etc/gitlab
+      - gitlab_logs:/var/log/gitlab
+      - gitlab_data:/var/opt/gitlab
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        # 设置外部URL，确保GitLab知道如何配置端口
+        external_url 'http://localhost'
+        gitlab_rails['gitlab_shell_ssh_port'] = 35022
+        # 性能优化配置
+        postgresql['shared_buffers'] = "256MB"
+        postgresql['max_worker_processes'] = 8
+        sidekiq['max_concurrency'] = 25
+    # restart: "no"  # 不自动重启，需要手动启动（默认行为）
+    networks:
+      - ci-cd-network
+    shm_size: '256m'  # 增加共享内存
+
+  # Java应用部署容器
+  app-server:
+    image: ubuntu
+    container_name: app 
+    hostname: app      
+    ports:
+      - "31022:22"       # SSH端口
+      - "31808:8080"     # 应用端口
+      - "31888:8888"     # Spring Boot应用端口
+    volumes:
+      - app_data:/root/app
+      - scripts_data:/root/scripts
+    environment:
+      - DEBIAN_FRONTEND=noninteractive
+    # restart: "no"  # 不自动重启，需要手动启动（默认行为）
+    # 容器状态说明：
+    # - 停止状态：不占用CPU/内存，启动快，数据保留 ✅推荐
+    # - 删除状态：完全清理，但重建慢，可能丢失数据
+    networks:
+      - ci-cd-network
+    command: >
+      bash -c "
+        apt update && 
+
+        # 软件包： 用于Jenkins远程连接的SSH服务器、 Java开发环境、 下载工具、 Python运行环境
+        apt install -y openssh-server openjdk-8-jdk-headless curl wget python3 &&
+
+        # 创建SSH服务运行所需的目录
+        mkdir -p /run/sshd &&
+
+        # 配置SSH允许root用户登录（Jenkins需要通过SSH连接）
+        echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config &&
+
+        # 设置root用户密码为password123（用于Jenkins SSH认证）
+        echo 'root:password123' | chpasswd &&
+
+        # 创建一个简单的HTML页面，用于验证Web服务是否正常运行
+        echo '<h1>Ubuntu App Server</h1><p>Java应用部署容器运行正常</p><p>SSH端口: 31022</p><p>Web端口: 31808</p><p>当前时间: $(date)</p>' > /root/index.html &&
+        
+        # 启动SSH服务（后台运行）
+        /usr/sbin/sshd &&
+        
+        # 输出启动信息
+        echo 'Starting Python HTTP server on port 8080...' &&
+        
+        # 切换到/root目录并启动Python HTTP服务器（前台运行，保持容器活跃）
+        cd /root && exec python3 -m http.server 8080
+      "
+
+# 数据卷定义
+volumes:
+  jenkins_data:    # Jenkins数据卷
+  gitlab_config:   # GitLab配置卷
+  gitlab_logs:     # GitLab日志卷
+  gitlab_data:     # GitLab数据卷
+  app_data:        # 应用数据卷
+  scripts_data:    # 脚本数据卷
+
+# 网络配置
+networks:
+  ci-cd-network:
+    driver: bridge
+    ipam:
+      config:
+        - subnet: 172.12.0.0/16   
+          gateway: 172.12.0.1
+
+# 参考学习
+# https://www.cnblogs.com/wbourne/p/17035591.html

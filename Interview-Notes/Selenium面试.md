@@ -1,4 +1,4 @@
-# [Selenium面试问答题](https://www.nowcoder.com/discuss/769975354977947648?sourceSSR=users)
+# [Selenium面试问答题](https://www.nowcoder.com/discuss/769975354977947648?sourceSSR=users)                      
 
 ###  1、什么是测试自动化或自动化测试？
 
@@ -10,14 +10,14 @@
 
 ###  3、用于功能自动化的常用自动化测试工具有哪些？
 
-- 由 Teleric 开发的Teleric Test Studio。
-- TestingWhiz
-- HPE Unified Functional Testing (HP - UFT 以前的 QTP)
-- Tosca Testsuite
-- Watir
-- Quick Test Professional(由 HP 提供)。
-- Rational Robot(由 IBM 提供)。
-- Coded UI(由 Microsoft 提供)。
+- 由 Teleric 开发的Teleric Test Studio。  
+- TestingWhiz  
+- HPE Unified Functional Testing (HP - UFT 以前的 QTP)  
+- Tosca Testsuite  
+- Watir  
+- Quick Test Professional(由 HP 提供)。  
+- Rational Robot(由 IBM 提供)。  
+- Coded UI(由 Microsoft 提供)。  
 - Selenium(开源)。
 - Auto It(开源)。
 

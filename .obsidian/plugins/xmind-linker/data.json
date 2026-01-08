@@ -1,0 +1,12 @@
+{
+  "enableThumbnailExtraction": true,
+  "defaultRegion": "global",
+  "enableSystemIntegration": true,
+  "thumbnailCacheDir": ".xmind-thumbnails",
+  "thumbnailMaxWidth": 600,
+  "thumbnailMaxHeight": 400,
+  "thumbnailQuality": "medium",
+  "enableThumbnailFallback": true,
+  "showThumbnailLoadingIndicator": true,
+  "maxCacheSize": 10
+}

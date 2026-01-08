@@ -1,0 +1,27 @@
+div.mermaid {
+    text-align: center;
+}
+
+/* */
+.mermaid svg {
+	width: auto;
+    height: auto;
+}
+
+/*
+.mermaid svg {
+	min-width: 100px;
+    max-width: 100%;
+    height: auto;
+}
+
+or
+
+# 对所有svg设置
+svg[id^="m"][width][height][viewBox] {
+    min-width: 350px;
+    max-width: 600px;
+    width: 80%;
+    height: auto;
+}
+*/

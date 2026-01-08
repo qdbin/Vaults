@@ -3,10 +3,11 @@
   "cssTheme": "",
   "accentColor": "#4c9ce6",
   "enabledCssSnippets": [
-    "custom-icons-differing-files-and-folders"
+    "custom-icons-differing-files-and-folders",
+    "mermaid"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 24,
+  "baseFontSize": 28,
   "showViewHeader": false,
   "showRibbon": true
 }

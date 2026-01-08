@@ -21,5 +21,8 @@
   "xmind-linker",
   "cmdr",
   "docxer",
-  "manual-sorting"
+  "manual-sorting",
+  "drawio-obsidian",
+  "mermaid-tools",
+  "mermaid-popup"
 ]

@@ -7,8 +7,2200 @@
         "Knowledge-Base",
         "Jobs",
         "tmp",
-        "todo.md"
+        "todo.md",
+        "Code-Space"
       ],
+      "sortOrder": "custom"
+    },
+    "Code-Space": {
+      "children": [
+        "Code-Space/AI",
+        "Code-Space/AI_LLM",
+        "Code-Space/code",
+        "Code-Space/Jenkins",
+        "Code-Space/job",
+        "Code-Space/tmp",
+        "Code-Space/matplotlib.ipynb",
+        "Code-Space/numpy.ipynb",
+        "Code-Space/tmp.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI": {
+      "children": [
+        "Code-Space/AI/00-基础理论",
+        "Code-Space/AI/01-AI测试开发",
+        "Code-Space/AI/02-工具技术栈",
+        "Code-Space/AI/03-实战应用",
+        "Code-Space/AI/标签系统指南.md",
+        "Code-Space/AI/机器学习知识库MOC.md",
+        "Code-Space/AI/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI/00-基础理论": {
+      "children": [
+        "Code-Space/AI/00-基础理论/01-机器学习核心概念.md",
+        "Code-Space/AI/00-基础理论/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI/01-AI测试开发": {
+      "children": [
+        "Code-Space/AI/01-AI测试开发/01-AI测试开发指南.md",
+        "Code-Space/AI/01-AI测试开发/02-LLM评测技术体系.md",
+        "Code-Space/AI/01-AI测试开发/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI/02-工具技术栈": {
+      "children": [
+        "Code-Space/AI/02-工具技术栈/01-PyTorch实战指南.md",
+        "Code-Space/AI/02-工具技术栈/02-LangChain应用开发.md",
+        "Code-Space/AI/02-工具技术栈/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI/03-实战应用": {
+      "children": [
+        "Code-Space/AI/03-实战应用/01-测试工具开发最佳实践.md",
+        "Code-Space/AI/03-实战应用/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI_LLM": {
+      "children": [
+        "Code-Space/AI_LLM/langchain",
+        "Code-Space/AI_LLM/streamlit"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI_LLM/langchain": {
+      "children": [
+        "Code-Space/AI_LLM/langchain/01-aliyun_invoke.py",
+        "Code-Space/AI_LLM/langchain/version_comparison.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/AI_LLM/streamlit": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code": {
+      "children": [
+        "Code-Space/code/arithmetic",
+        "Code-Space/code/script"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic": {
+      "children": [
+        "Code-Space/code/arithmetic/__pycache__",
+        "Code-Space/code/arithmetic/全部题目",
+        "Code-Space/code/arithmetic/LeetCode 75",
+        "Code-Space/code/arithmetic/LeetCode 热题 100",
+        "Code-Space/code/arithmetic/全.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/__pycache__": {
+      "children": [
+        "Code-Space/code/arithmetic/__pycache__/tmp.cpython-313.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/全部题目": {
+      "children": [
+        "Code-Space/code/arithmetic/全部题目/00-tmp.py",
+        "Code-Space/code/arithmetic/全部题目/01-两数之和.py",
+        "Code-Space/code/arithmetic/全部题目/02-两数相加.py",
+        "Code-Space/code/arithmetic/全部题目/03-无重复字符的最长子串.py",
+        "Code-Space/code/arithmetic/全部题目/04-寻找两个正序数的中位数.py",
+        "Code-Space/code/arithmetic/全部题目/05-最长回文子串.py",
+        "Code-Space/code/arithmetic/全部题目/09-回文数.py",
+        "Code-Space/code/arithmetic/全部题目/15-三数之和.py",
+        "Code-Space/code/arithmetic/全部题目/19-删除链表倒数第N个结点.py",
+        "Code-Space/code/arithmetic/全部题目/20-有效的括号.py",
+        "Code-Space/code/arithmetic/全部题目/49-字母异位词分组.py",
+        "Code-Space/code/arithmetic/全部题目/128-最长连续序列.py",
+        "Code-Space/code/arithmetic/全部题目/136- 只出现一次的数字.py",
+        "Code-Space/code/arithmetic/全部题目/141-环形链表.py",
+        "Code-Space/code/arithmetic/全部题目/142-环形链表II.py",
+        "Code-Space/code/arithmetic/全部题目/206-反转链表.py",
+        "Code-Space/code/arithmetic/全部题目/234-回文链表.py",
+        "Code-Space/code/arithmetic/全部题目/300-最长递增子序列.py",
+        "Code-Space/code/arithmetic/全部题目/345-反转字符串中的元音字母.py",
+        "Code-Space/code/arithmetic/全部题目/876-链表的中间结点.py",
+        "Code-Space/code/arithmetic/全部题目/LCR 018-验证回文串.py",
+        "Code-Space/code/arithmetic/全部题目/LCR 020-回文子串.py",
+        "Code-Space/code/arithmetic/全部题目/LCR 095-最长公共子序列.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 75": {
+      "children": [
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串",
+        "Code-Space/code/arithmetic/LeetCode 75/双指针",
+        "Code-Space/code/arithmetic/LeetCode 75/位运算"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 75/数组字符串": {
+      "children": [
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/151-反转字符串中的单词.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/334-递增的三元子序列.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/345-反转字符串中的元音字母.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/433-压缩字符串.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/605-种花问题.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/1071-字符串的最大公因子.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/1431-拥有最多糖果的孩子.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/1768-反转字符串中的单词.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 75/双指针": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 75/位运算": {
+      "children": [
+        "Code-Space/code/arithmetic/LeetCode 75/位运算/136-只出现一次的数字.py",
+        "Code-Space/code/arithmetic/LeetCode 75/位运算/338-比特位计数.py",
+        "Code-Space/code/arithmetic/LeetCode 75/位运算/1318-或运算的最小翻转次数.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100": {
+      "children": [
+        "Code-Space/code/arithmetic/LeetCode 热题 100/动态规划",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/二叉树",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/哈希",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/滑动窗口",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/双指针",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/图论",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/子串",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/00-tmp.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100/动态规划": {
+      "children": [
+        "Code-Space/code/arithmetic/LeetCode 热题 100/动态规划/70-爬楼梯.py",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/动态规划/300-最长递增子序列.py",
+        "Code-Space/code/arithmetic/LeetCode 热题 100/动态规划/322-零钱兑换.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100/二叉树": {
+      "children": [
+        "Code-Space/code/arithmetic/LeetCode 热题 100/二叉树/94-二叉树的中序遍历.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100/哈希": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100/滑动窗口": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100/双指针": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100/图论": {
+      "children": [
+        "Code-Space/code/arithmetic/LeetCode 热题 100/图论/200-岛屿数量.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/arithmetic/LeetCode 热题 100/子串": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/script": {
+      "children": [
+        "Code-Space/code/script/12306查票.py",
+        "Code-Space/code/script/代理IP.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/Jenkins": {
+      "children": [
+        "Code-Space/Jenkins/docker-compose",
+        "Code-Space/Jenkins/k8s",
+        "Code-Space/Jenkins/pipeline",
+        "Code-Space/Jenkins/cicd-interview-guide.md",
+        "Code-Space/Jenkins/container-demo.sh",
+        "Code-Space/Jenkins/docker-commands-comparison.md",
+        "Code-Space/Jenkins/enterprise-deployment-guide.md",
+        "Code-Space/Jenkins/jenkins-complete-guide.md",
+        "Code-Space/Jenkins/jenkins-setup.sh",
+        "Code-Space/Jenkins/README-improved.md",
+        "Code-Space/Jenkins/README-optimized.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/Jenkins/docker-compose": {
+      "children": [
+        "Code-Space/Jenkins/docker-compose/docker-compose.yml",
+        "Code-Space/Jenkins/docker-compose/start.sh"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/Jenkins/k8s": {
+      "children": [
+        "Code-Space/Jenkins/k8s/enterprise-pipeline-demo.groovy",
+        "Code-Space/Jenkins/k8s/k8s-deployment-template.yaml"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/Jenkins/pipeline": {
+      "children": [
+        "Code-Space/Jenkins/pipeline/基础语法.jenkins",
+        "Code-Space/Jenkins/pipeline/最佳实践.jenkins"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job": {
+      "children": [
+        "Code-Space/job/面经",
+        "Code-Space/job/秋招"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经": {
+      "children": [
+        "Code-Space/job/面经/公司",
+        "Code-Space/job/面经/简历",
+        "Code-Space/job/面经/项目",
+        "Code-Space/job/面经/prompt.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司": {
+      "children": [
+        "Code-Space/job/面经/公司/百度",
+        "Code-Space/job/面经/公司/哔哩哔哩",
+        "Code-Space/job/面经/公司/滴滴",
+        "Code-Space/job/面经/公司/饿了么",
+        "Code-Space/job/面经/公司/京东",
+        "Code-Space/job/面经/公司/快手",
+        "Code-Space/job/面经/公司/其他",
+        "Code-Space/job/面经/公司/腾讯",
+        "Code-Space/job/面经/公司/小米",
+        "Code-Space/job/面经/公司/携程",
+        "Code-Space/job/面经/公司/字节"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/百度": {
+      "children": [
+        "Code-Space/job/面经/公司/百度/01-一面.png",
+        "Code-Space/job/面经/公司/百度/02-三面.png",
+        "Code-Space/job/面经/公司/百度/03.png",
+        "Code-Space/job/面经/公司/百度/04.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/哔哩哔哩": {
+      "children": [
+        "Code-Space/job/面经/公司/哔哩哔哩/01-实习1面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/滴滴": {
+      "children": [
+        "Code-Space/job/面经/公司/滴滴/01一二面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/饿了么": {
+      "children": [
+        "Code-Space/job/面经/公司/饿了么/01.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/京东": {
+      "children": [
+        "Code-Space/job/面经/公司/京东/01-1面-秋招.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/快手": {
+      "children": [
+        "Code-Space/job/面经/公司/快手/01-实习-1面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/其他": {
+      "children": [
+        "Code-Space/job/面经/公司/其他/01-深思考一面-测开实习.txt",
+        "Code-Space/job/面经/公司/其他/01-携程一面-26秋招.png",
+        "Code-Space/job/面经/公司/其他/02-虾皮一面-实习.png",
+        "Code-Space/job/面经/公司/其他/03-淘天1面-26秋招.png",
+        "Code-Space/job/面经/公司/其他/04-好未来1面.png",
+        "Code-Space/job/面经/公司/其他/05-爱奇艺测开三面.jpg",
+        "Code-Space/job/面经/公司/其他/06-网易-秋招-1面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/腾讯": {
+      "children": [
+        "Code-Space/job/面经/公司/腾讯/01-云智.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/小米": {
+      "children": [
+        "Code-Space/job/面经/公司/小米/01.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/携程": {
+      "children": [
+        "Code-Space/job/面经/公司/携程/01-测试-实习（1+2面）.md",
+        "Code-Space/job/面经/公司/携程/01-测试-实习（1+2面）.txt",
+        "Code-Space/job/面经/公司/携程/02-测开-秋招（1面）.md",
+        "Code-Space/job/面经/公司/携程/02-测开-秋招（1面）.txt",
+        "Code-Space/job/面经/公司/携程/03-测开-秋招（2面）.md",
+        "Code-Space/job/面经/公司/携程/03-测开-秋招（2面）.txt",
+        "Code-Space/job/面经/公司/携程/04-测开-秋招（3面）.md",
+        "Code-Space/job/面经/公司/携程/04-测开-秋招（3面）.txt",
+        "Code-Space/job/面经/公司/携程/05-测试-秋招（1+2+3面）.md",
+        "Code-Space/job/面经/公司/携程/05-测试-秋招（1+2+3面）.txt",
+        "Code-Space/job/面经/公司/携程/06-测开-秋招（2面）.md",
+        "Code-Space/job/面经/公司/携程/06-测开-秋招（2面）.txt",
+        "Code-Space/job/面经/公司/携程/07-测开-秋招（1+2面）.md",
+        "Code-Space/job/面经/公司/携程/07-测开-秋招（1+2面）.txt",
+        "Code-Space/job/面经/公司/携程/08-测开-秋招（1面）.md",
+        "Code-Space/job/面经/公司/携程/08-测开-秋招（1面）.txt",
+        "Code-Space/job/面经/公司/携程/09-测开-秋招（2面）.md",
+        "Code-Space/job/面经/公司/携程/09-测开-秋招（2面）.txt",
+        "Code-Space/job/面经/公司/携程/10-测开-秋招（3面 HR面）.md",
+        "Code-Space/job/面经/公司/携程/10-测开-秋招（3面 HR面）.txt",
+        "Code-Space/job/面经/公司/携程/11-测开-实习（1面）.md",
+        "Code-Space/job/面经/公司/携程/11-测开-实习（1面）.txt",
+        "Code-Space/job/面经/公司/携程/12-测开-实习（1面）.txt",
+        "Code-Space/job/面经/公司/携程/13-测开-实习（1面）.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/公司/字节": {
+      "children": [
+        "Code-Space/job/面经/公司/字节/01.png",
+        "Code-Space/job/面经/公司/字节/02-一面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/简历": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/面经/项目": {
+      "children": [
+        "Code-Space/job/面经/项目/项目常规问题.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招": {
+      "children": [
+        "Code-Space/job/秋招/笔试",
+        "Code-Space/job/秋招/测评",
+        "Code-Space/job/秋招/项目",
+        "Code-Space/job/秋招/AI面试",
+        "Code-Space/job/秋招/个人简历.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/笔试": {
+      "children": [
+        "Code-Space/job/秋招/笔试/360",
+        "Code-Space/job/秋招/笔试/百度",
+        "Code-Space/job/秋招/笔试/美团",
+        "Code-Space/job/秋招/笔试/米哈游",
+        "Code-Space/job/秋招/笔试/携程算法"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/笔试/360": {
+      "children": [
+        "Code-Space/job/秋招/笔试/360/250920-测试.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/笔试/百度": {
+      "children": [
+        "Code-Space/job/秋招/笔试/百度/01-公共前后缀.png",
+        "Code-Space/job/秋招/笔试/百度/01-公共前后缀.py",
+        "Code-Space/job/秋招/笔试/百度/02-背包道具得分.png",
+        "Code-Space/job/秋招/笔试/百度/02-背包道具得分.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/笔试/美团": {
+      "children": [
+        "Code-Space/job/秋招/笔试/美团/250920-测试.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/笔试/米哈游": {
+      "children": [
+        "Code-Space/job/秋招/笔试/米哈游/250921.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/笔试/携程算法": {
+      "children": [
+        "Code-Space/job/秋招/笔试/携程算法/0918.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/测评": {
+      "children": [
+        "Code-Space/job/秋招/测评/北森题库+答案解析"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/测评/北森题库+答案解析": {
+      "children": [
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题1.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题1参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题2.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题2参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题3.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题3参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题4.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题4参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题5.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题5参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题6.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题6参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题7.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题7参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题8.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题8参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题9.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题9参考答案.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题10.pdf",
+        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题10参考答案.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/项目": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/秋招/AI面试": {
+      "children": [
+        "Code-Space/job/秋招/AI面试/携程AI面.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp": {
+      "children": [
+        "Code-Space/tmp/config",
+        "Code-Space/tmp/pytest",
+        "Code-Space/tmp/selenium",
+        "Code-Space/tmp/tmp",
+        "Code-Space/tmp/conftest.py",
+        "Code-Space/tmp/data.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/config": {
+      "children": [
+        "Code-Space/tmp/config/config.ini",
+        "Code-Space/tmp/config/config.py",
+        "Code-Space/tmp/config/config.ipynb",
+        "Code-Space/tmp/config/test.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest": {
+      "children": [
+        "Code-Space/tmp/pytest/demo",
+        "Code-Space/tmp/pytest/plugins",
+        "Code-Space/tmp/pytest/demo.md",
+        "Code-Space/tmp/pytest/pytest.ipynb",
+        "Code-Space/tmp/pytest/pytest.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo",
+        "Code-Space/tmp/pytest/demo/pytest-demo"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results",
+        "Code-Space/tmp/pytest/demo/allure-demo/assets",
+        "Code-Space/tmp/pytest/demo/allure-demo/test_case",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure_wrapper.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/conftest.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/pytest.ini",
+        "Code-Space/tmp/pytest/demo/allure-demo/README.md",
+        "Code-Space/tmp/pytest/demo/allure-demo/requirements.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/test_config.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/test_data.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/test_decorator.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/__pycache__/allure_wrapper.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/__pycache__/allure.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/__pycache__/conftest.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/__pycache__/test_config.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/__pycache__/test_data.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/__pycache__/test_decorator.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/export",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/history",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/app.js",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/favicon.ico",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/index.html",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/styles.css"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/behaviors.csv",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/behaviors.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/categories.csv",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/categories.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/packages.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/suites.csv",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/suites.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/timeline.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1b6d288412999081.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1b067833bed5d554.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1be6d3333bc7e438.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1c30d0374cc4e83c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1c370311b8e9bd36.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1d38c2f1779768f3.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1dbb860642b454dd.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1eff6bd14400550f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/2be8147f910681ef.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/2bf5e251a3429a59.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/2f8ac7d737a7de79.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3adde70f634aac01.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3d0c3dde8cb57553.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3da03148f99b6109.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3e46b39be7d881dd.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3ebee3dd4e2467b2.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3f2d36a6c32f231a.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3f66fa8c4d6dbb6f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/4ae98af148d96867.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/4af0f5c9205be025.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/4badd78421f26818.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/4e5f2eca6dca702a.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/4f36b58752b51aa1.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5a4533b46767a8da.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5b28fe5879c1a86f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5bc3333c1e641208.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5c43e2785d2f5fd0.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5c78c983749ab492.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5cb78f0752fd5464.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5cbaea78b97e1d68.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5cbccfe5bc40a53c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5d0b1812553c91e5.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5de1582c63de2dd5.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5e0610773f51c09e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5f4b76539065af53.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5f46f1cdfb8eb431.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5f861a16d3e5dbb2.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6aec3e3b22f7fd82.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6b13abae248418c4.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6bc14e01aad73a5b.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6c2a8d639d8c2661.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6c9d359790ea4843.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6c98db9f8d9dc3aa.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6ce86554e684069c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6d853dafdfccd772.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6e94f7060f3e4f51.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7a098f65086a337.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7a297a5c1fe31162.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7b510ee2f213b6ec.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7c2e492bbd044ca2.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7d40261ffd9d2c6d.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7de5fe31bcb96e59.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7e72e7a999c70565.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7ef1743eceb1ddcb.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7f09c6a646bc384b.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7f57b94605be583a.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/8a8865f69ec80f35.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/8bd0ed202d127e10.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/8cf7905d68e83d0f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/8d5cefe4cb7594d0.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/8e7fb841866b4ab4.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/8ec52db3a45ac632.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/8f9aed5d3f1bd773.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/9a411239a4ad008a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/9c527951b64f2aa6.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/9e0d1922b6d8b5a9.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/9e8a23735c2b8356.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/10fbda94d593a404.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/12ad60025a5212c0.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/12d4545e79b9e988.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/13e950410820a9.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/16e208c7b6b5652a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/17ed6ea19e27a2ba.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/20b01818fbcc1b54.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/21e0932a497cf118.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/23d82135316c3e24.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/26a26148fe3d1920.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/27ff8f516f9f03b3.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/28ac74682dd03d58.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/29ef6f13f82ad028.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/33c13ce3ed1ac90d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/34f08da8c993511c.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/37b17b57711e02dd.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/38b7e3533bcb0eff.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/38eb73f99ed3a633.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/39c047510e2b9d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/45bdb27d3766882d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/53a49cc826372003.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/54d587254f3fd5be.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/57bbc2c51555fc32.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/62c3c2a7a929414d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/63c934487499057.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/66ce916eb8f63ba5.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/68ed0bd990cf3ff4.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/69d5100f4eaad5fd.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/70b5b8b668589d82.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/70f2f5ca37be733b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/70f10ee8bc7fcffc.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/73b7068c969bb65c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/76aa70e70d44bae2.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/76c2054169b63f54.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/77eb8215672183f3.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/86ec011455d327fc.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/92f825dfea4ee1be.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/93ead7c7d3fba9df.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/96e2874cb9cd6e27.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/134d6caa143a134f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/163cdd7c40f0eb99.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/189f1810cc4bb306.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/204fcc3de6c9a0e7.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/234b0864eb407387.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/260c5865d6bcf3d5.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/276ae57b276c9bbc.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/348ea67c2bd123d3.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/353db985dbac3928.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/373d7aa8068e05f7.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/408b1cca62923696.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/438e4abda0c47975.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/480bef6089be31b6.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/531b57c4016772b.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/552d503c20d30aa7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/560aaba204d1534b.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/622e9f34c989663f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/624b9671949bbd72.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/672b462a1b1f9a77.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/678a4aa2cba648f6.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/687e8e54464952d4.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/761e290a31450c06.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/829a1bc3481a7bff.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/875d8dc3361fb182.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/917dba053e4c23.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/920f12a643bd6436.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1048c6a5a03b1862.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/2495e3e7ef4231f8.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/2977fb0aef5017f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/2981b5f75cf77430.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3153c022c55acacc.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3638cf9914e63030.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3853b56a464c498a.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/3863a36d479df55f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5054e4d187355097.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5255cabf60b52044.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/6603bab6082ee527.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/7507bf4f0fbaa721.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/9431b060cba087c8.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/9523b0ef08f6d469.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/18941a3e101b5c97.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/37281ce2a7914a7e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/42665e9f07c29aa1.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/55785c83c52370cb.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/60650d3745fba416.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/62361e8a5813d88e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/72174dcb56edfdef.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/94119c4d758ed31d.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/97780a880056f4ee.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/140743cf48702311.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/325904eef41ac232.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/360993ec20c00080.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/453272a064964f1e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/616814ca98d9b510.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/774998bb0d57b7d7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/1714608dd8323467.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/2807288e96442ae0.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5701332b52b7abf2.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5806672afd7e5a4c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/9083570b9f5a4d2f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/23739136f3a8d8dd.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/24967110d207220.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/74151248b0d47dee.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/972215770b3fd493.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/4226452628bdd3eb.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/5002974625d58350.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/63472762383144e0.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a0e5144a9eba079b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a6a81c61e0914d89.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a06f30d4722473.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a7ee1413a303b7dd.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a7f89c675c03c12a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a8ddd36a2c564d94.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a9c5f605f33d16b7.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a20b5f2b01a7af13.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a50c1a2e34b3d59d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a3491e000d38e045.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a8695e5c950b426f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a20268c684d20462.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a9177885d1845c5b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/a45095616a5b69f9.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/aad9a4416ac51406.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ab0f8528e9ec2078.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ac24c3e61b826fa7.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/acff8e44ac381d22.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ad300b3a092ac206.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ad41951498c34895.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/af95a610f353a102.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b1d48987af146972.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b6eaa7c3bb7b765d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b8b2343943b509ff.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b9d61a2571cb7b2d.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b041b96f767ce0ca.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b340cf49567827f8.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b502ae46891c3e6e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b995e7453ed4632e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b6435f3a90076a0c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b21539d7f58408c5.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b1424850ad703301.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/b40184952e8c4e9.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ba4d0f255434f42a.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/baa2d63fd0f24fa1.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/badd3c8f55026b7f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bb2c5b94bb65d465.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bb23ea1e1d928bb5.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bb33e233755ad57d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bcaef9d5c8225926.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bcc6d9b7ad8319c6.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/be0bd5b84d65be0c.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/be4c67dd2c68d1bb.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/be184068186470f3.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bfab87d1bfb72c99.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bfd5667c62673a55.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/bffc0074a7c600d7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/c02a68a76c1389a8.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/c2c2d1529d02c22c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/c6d8b43bfe23a024.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/c7b4751c26019d4e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/c444df25663603af.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/c81406c85c2e3ffa.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/c751433eacd429fe.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/caa061d7340316a7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/cad2c86ce5a8faa6.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/cd3800a9af1a4f20.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ce04f50ced44b8d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ce77777db60c2b4c.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d01ce422758aff1b.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d2f8b345d3cfa6da.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d02fe5285c1c6c39.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d05b3b82326aefa6.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d6e6e2a5462a749e.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d8c6bdfa1646d309.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d8c37d6e93d5f5d8.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d8dfd1b766343470.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d9a0cfc9b6208ca1.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d20ec0025067ea9c.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d24db0bbfdca83ce.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d25a0db1f6bf9b7a.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/d336653a5239dbb.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/da1acdb8c627b769.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/da3366a151b4e5ed.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/db50101a0e8d6ba8.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/dbc6d31ba43a6b8f.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/dc2ce8da0ac0bb00.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/dc7e2a6ac22fb23d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/dc7ef2a3118e9985.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/dca58b09d3cd762.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/dd990dbca101be4b.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/deed00353fad4998.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/def9c85518f00dff.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e6c405d0ab953cb8.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e8e3ff5979ec2be1.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e8f5bdb525747bb9.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e52e8962061daf69.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e74bf7d49f196b95.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e91d80513e37f452.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e476bfb4da41dccb.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e7980bbb0a2d208e.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e17260bf72ac959a.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/e1324787fa3fb93d.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/eb8d63653d459c6b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ec88900100d9431e.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ed3e230eff43e1a3.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ee3cc8def0608afe.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ee35cae69c509033.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/ee1761694d3c280b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/eef0138f5c2486e2.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/eefff98092bc11a0.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/efd42b07fc647a15.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f0a9ab41d5da569b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f2b18fa38bf36801.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f3dbd0af2135b81b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f5c2e80f7a549ad8.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f7d616b0ef65f883.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f8de54680d08ae3c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f9adfd3066ab3d5.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f9f1bd85b2e23877.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f9f30f5347325c98.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f57d8e9eab092b63.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f74c991b20f31507.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f756e4a46ab02a1c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f4388b1e300088a3.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f8364db56fd49aa7.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f55222d7e09068ab.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f656734fd6378d5c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/f2463342f2926e4f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fb1a913cd1bf79d7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fb0936dfd0649daa.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fbf9327d8fa9815d.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fc02f260760ba280.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fc08e517200eb7db.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fc15a9383b003cb5.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fcd8d68141a3b50f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fd6a9e9c2029fc4b.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fd7a39ea870ec7bf.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fd76cbe3a80d903e.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fd2477a92eb627cb.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fda5d55c934597f7.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fe3ed3183577d55a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/attachments/fef13b1838e9e55a.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/1aeec7b6ac831fc5.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/1b90f892fb980de9.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/1b90ff7306f2ccbe.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/1c909200d3086af6.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/1ea27c66c2c035a1.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2a16c9a88e787ad7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2c58b13057c76d50.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2c44652e583d3320.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2cdf459c4064ea8b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2d42e404a1742dfc.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2de6476501511204.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2f71bf401e785d7c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2f8158b18a2c6886.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/3cb1c6fd32408fe3.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/3f865e57d802a7ff.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/4c3c433a54a1e24f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/4d41c64033d2760c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/4f59ec84fa67aaeb.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/4fe050363ceed87c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/5bc471fbdd909b2e.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/5eed95650c4f3619.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/6ab19e11f5b5f11c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/6db1aa856e163970.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/6fdf5b4d1ab85ad7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/6ff4691794b81267.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/7a0ecd4b235186c8.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/7e506e3a6f5e6416.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/7fb351831df07bcd.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/8cac36e9ad972dba.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/8f12490a41f62681.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/9e15c37563b5c680.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/29a6fff2df44390a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/30ccabfdf09ba4e7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/38ea626951633b87.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/41a4488df0b14450.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/43cfbde262d3cf5f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/43f71f6d58b2db6.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/51ea43da462c17fa.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/52e8bab13d206460.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/68dcbd42241acc1.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/76fb7f2033643321.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/91cabb14912ad179.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/360b65e681729c5f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/421ef9d6aa4d0706.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/448e26e3b9654ef0.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/757c929cd6be2722.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/772dcb7fce1bb3df.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/868ca74649423f4.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/2788b08d1fb06817.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/3521bcee3b882494.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/4643dff58ad20117.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/5227f34add5842ba.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/6006b65b9787797a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/7378bc421b9fc135.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/44169eeeb083ff6d.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/48077f568eac0f5c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/95445f03682ace95.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/6859115d65a75941.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/39136212637ee3b0.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/a6ace1157ada5384.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/a7dc75ffc13b1b86.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/a1429f90e638ddbb.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/ab0ab98f71f5b766.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/ac20e2a5ba66b58c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/af588c1aa8949a81.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/b1d448fe9150e011.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/b6d1707f5158551a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/b9d5db4821d6a34f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/b668e69b90412821.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/b61931116cbd59e0.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/ba2c9923cf71af91.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/bdf0a45ad4b3901f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/bf2d091d6241f970.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/bf390c00665dab23.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/c0e84bf4423bf633.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/c6a4302be564d11e.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/c7b924fe1a2b3ab3.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/c7c9f4fc3df1d1cf.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/c59c5acf4bf274d3.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/c48635f3bd15141d.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/cc323ab4b29f324b.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/ccd37ed24a95627f.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/d4c0a9707491bf8c.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/d5b8b9d2c1e580eb.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/d8c24d0c844077ce.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/d196b7008d963bd5.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/d465dc3968f5ccf7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/d988af0e74ae9b8a.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/de1b35d43f079cbd.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/e0ba7ef7abf58c50.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/e85a25fc0d11b134.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/e790ebb01ec34005.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/eabb06b46b9c7257.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/ed4e1c304162bf2.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/ef49cf2b37610642.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/ef55dd4dbffc30a8.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/f0af4e7312f4dbfb.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/f4fcc8c15e5aa2c7.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/f9c41177a3eae381.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/f34b931b95f963f3.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/f2304e7c801301c2.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/data/test-cases/fa1739458e6f43e4.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/export": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/export/influxDbData.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/export/mail.html",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/export/prometheusData.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/history": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/history/categories-trend.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/history/duration-trend.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/history/history.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/history/history-trend.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/history/retry-trend.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/behaviors",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/packages",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/screen-diff"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/behaviors": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/behaviors/index.js"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/packages": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/packages/index.js"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/screen-diff": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/screen-diff/index.js",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/plugin/screen-diff/styles.css"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/behaviors.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/categories.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/categories-trend.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/duration.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/duration-trend.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/environment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/executors.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/history-trend.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/launch.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/retry-trend.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/severity.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/status-chart.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/suites.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-report/widgets/summary.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/allure-results": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0a062b75-b0d3-48d3-8543-c3d43b08f1dc-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0a73f5c8-cc73-4640-8da7-9c07528ceeec-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0be2e0cf-9d84-4f94-8007-1aad2a1dd7fa-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0be79bc7-872d-42d3-9ca7-ed3bf5c95c72-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0d6c5873-6e51-4596-a1ee-d95d30613263-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0d7f4ec2-0782-47d6-a5e4-aeee9416d8aa-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0e0ae62e-69ca-45d2-88ef-a92fb9d643d8-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0e613b56-c476-49fc-865e-592d9498559c-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0ebfe32b-0e02-4692-a343-41a728c9ad04-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0f6e0286-5948-4942-bc49-1210d6da1b02-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0f31c691-50e4-4f21-866d-952597d21a96-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0ff7f3c3-ac0f-4246-820b-129f6854d052-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1a5b597d-170e-40e0-bbcd-06f4e1a6b351-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1af872e5-cbea-4510-ab88-2101ed3a0bd6-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1b803374-71d1-4693-8950-31acd29ae48f-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/001baf4d-999f-4f70-8553-f4ba3dda4a9b-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1bf8c10d-fd2e-4263-957d-d4d1cfa23a84-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1c9af9f2-ef68-46fc-b5be-823ee9f26d3b-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1c64bbac-17b9-4392-bb25-7809f00cb668-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1cbb9ba8-c4c5-49c0-a972-31ee33040ab5-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1d9bf1c7-accf-47d8-9cbd-4bcebb8afbb9-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1d278ebb-b234-4a06-a232-a91b5d496632-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/01e0e4d2-3e14-4513-a036-cc05860e3a33-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1e9ea35a-4182-4dc8-b258-7497769da001-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1e3877e3-cd0e-4a2a-b54c-fc214fed4389-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1e854720-827e-4eaa-9498-2968c048369d-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1f26f51e-68db-4b2d-8e07-40b6314af40c-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1f14696c-011a-433f-979a-a0dfce4899c0-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2a510a43-b547-4b43-a58b-1ff8f5c6d3f5-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2ab173f9-1ab2-4aa2-b229-2ab5a93f56c7-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2acc5214-238f-424e-9218-117c51d7dde8-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2ba649d1-074c-49c0-8959-303242c12d7f-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2bcfc9dc-6979-471d-8b78-5843f6a70d53-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2c6b506e-f274-4443-9000-a529f8700a7b-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2c31cb31-22e0-4f17-b324-861eb943f781-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/02c451b0-2aa2-4176-88f3-960ec82dc007-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2cdf84f2-ebca-4087-adb1-607ab22c70a8-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2cf33d7d-31ac-4edb-ab4a-ba05d78d0f9e-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2d71f365-88f4-44d9-be6c-36b3f031e252-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/02da9b53-2bb5-414e-b0ac-6ec064c5244e-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2db067ec-0c3c-4766-8a96-0d20cc5e9ddf-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2df2c4e7-3127-445b-8748-27d5fcc9c201-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2e2a7249-1954-4828-869d-137bc0b73b9e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2e006b39-96c6-41de-b8f8-b7eab5ad302c-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2e85d3de-aa01-4dfd-84f6-41fa5c548d41-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/02f43054-b0be-4691-8e71-f276a8e655ae-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2fd86a7a-1528-46bb-b5f2-e285560e40b5-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2fd890cf-133b-4ab7-8a32-f5ca59d7b489-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3a2faf95-0221-4cc5-a7fe-0d803f7eacb7-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3a6bf195-96fd-4ccb-b5bd-96dee3420a5b-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3a15a0e4-9649-4044-9227-eae85cc1505e-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3ab91905-e8c5-49a2-bd2d-22b07752eb15-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3be82620-f238-46c8-9a2a-cfe67095fdb6-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/03c35181-4ceb-424d-b6db-0959d25c50cd-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3ce4886a-5432-4484-bb4d-b042c1face84-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3ce6927b-abc5-47e4-a7da-175eb2579d7e-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3d7a3ce7-3e78-410e-9e96-43c9c76b09bc-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3d18c1bd-0615-47d0-9a44-e726609ac210-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/03ddc54b-5197-4e23-b378-42802addb646-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3e3198f7-1861-4193-a022-53803d395a41-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3f58cd6a-1ee2-49ef-bc7f-a8aafa5703bb-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3fe3919a-308d-462b-839b-8e1b875ccff1-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4a20ad8e-814a-4389-811b-52832b2b6118-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4ac7ded0-bb3d-4391-bc19-23fd5c881c8c-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4af4e481-78e3-47a5-8e20-96941b4423e3-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4b17c3f0-ce94-4e87-9e95-84b3f41cea23-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4be22bde-14c9-4810-a97d-e842cad15e04-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4c6ae74b-2aa3-4b45-a55c-4185c7c3a23f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4c7fee50-9fb1-48e0-9cf6-066154ebffa4-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4c8e0a09-21a5-44eb-a9b2-41497fd18f97-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4c9b3269-2fcb-4ba9-8ebd-9ac493ee8a17-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4c9cb952-ad86-4599-9603-c8f7206d9add-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4ca4a059-0791-41d7-9090-911cab53a65f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4fa2fd59-9eb2-4c46-9e4d-0333a732d3d4-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4fea1a2e-3422-4bd1-b44d-1a1b3d42ac44-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5a0116ed-8b50-45ca-91f2-ab78ddaeb97a-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5abc2c77-aa52-4cb5-a0bf-ad8f4657ff4c-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5af06e23-4449-449a-ac1f-7200a04bf68f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/05ba39d0-265f-4033-bcbc-f4e7422704d6-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5bf3ab54-de95-40d5-91bc-797a7c5752f1-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5c933a8f-b058-4d8e-9712-906e77a181f5-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5cb6c45f-5ee7-4d47-ac3d-2c1fcec8b2b2-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5d7d906d-dd22-46ff-a170-d63a5a6a8bf2-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5e27716a-95f1-4f44-b396-84e8356bd4de-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5f1cae22-00ac-4a52-a084-497677768c5d-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5f8b6301-b581-4af0-85b6-9ec59cc22a64-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5f58ea2f-77ab-42a8-b1a0-326d373abcfc-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6ac6a614-ddf6-47c1-ac4d-43b6f3cf0857-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6ae5bd4c-4863-4cd2-aaa5-dead57c78b33-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6ca644bd-b6b6-4264-9fa0-cffc9bc2b049-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6d1ac207-4e31-4e85-a65e-974c3683b13e-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6d12b479-3171-4243-ade1-acd8e8c8cee4-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6dc367a5-bd14-45c7-9f69-2ef22c53eadd-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6dcc7669-49f1-45ff-bbda-b6d52ae87cad-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6e021d69-e8e1-44c0-87f7-99dbb35c7234-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6e859e25-5583-4773-8484-e412990e7019-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6e86429c-bdcd-4257-b647-eda96905e049-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6ee416d7-bb91-4263-bee7-553066bc5828-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/06f02cba-e95d-4a16-ac61-5bd1656f0a51-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6f98a053-915f-44c2-aa56-1a62523f7bb7-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6f531aec-e8f6-4290-b5b6-f419fae21a00-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7a3d522b-e69c-4cd2-afab-1d5925edb716-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7a61915d-a662-4b54-9357-b33e9b454eec-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7b5e22a6-acee-42a3-b493-55744966d6e9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7cd26a02-131b-4f6f-bde9-108433050e0c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7cfd0f40-4c29-45fb-aa97-1c02fef6bd61-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7d3487af-8898-4970-b3b3-e36a6463c440-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7e2e239d-3217-41e4-b353-c8fca809ba77-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7e6c17bd-dbdd-4f81-b380-fc2e195b3c5f-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/07e8d891-47a2-4856-ad3d-44e2275f14ba-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7f2ff8de-7a07-4117-9d2a-e874ea4e75d5-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7f6ec5ac-6431-4f6f-802a-684b8387ba5c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7f015914-4782-4ea2-af8a-95e193cbfc9d-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7fc04bb2-bc1c-4cc5-b0fb-9b62eca2cfbb-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8b4dbdbf-abb9-4fa6-83c6-49ad5cbcb60b-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8b061df2-751f-46e8-a380-12dadbfbada8-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8b7845ca-c660-4623-b85c-524ba75f106c-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8c0e1a3d-d959-4324-b4ff-4ffb72818ea3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8d5a38c9-5115-4ed4-aac1-1bd8cc5551d6-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8d837d2b-5667-4bed-89e2-6b1e8f1af0e8-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8d967a51-59ca-4eb2-8664-e805137db6dc-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8d49647c-6c46-40ef-9dca-236fe4e368f9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8d552645-df9b-4205-add8-aedd3493443f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8db55d04-7967-4fdf-9984-227ec0ef0a79-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8f8ca78b-f544-4ba4-b1fe-d0c2b0b165cf-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8fab24ee-9615-47de-9d6b-b514faf77dd4-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8fdbdc00-31ff-4014-94aa-cee1ec804701-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9a2ea373-2440-4352-9832-737fd80bf4e4-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9aa76e11-eda4-4ab5-a64d-b3f2cd4ce989-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9aaca483-8689-4480-a801-4bf1384394b9-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9ad10f73-38e2-4ec6-80ea-9b6307029108-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9ba0fdd0-43bb-4a08-a1f9-eb22c1dd86cf-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9be13f7d-a657-4b5f-9d90-c06040fa6a6c-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9c5f2bc2-78fa-4c75-916b-2d546c2a888e-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9cd81cae-ca0e-4ae5-a565-affe2e2af522-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9e9e5c4f-b55f-482c-9b07-45e6e02d9115-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9e26b85e-cdf4-4c1b-8f0f-2c7ef96e9e55-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9f4b1ea5-b4dd-4957-97ae-82aef08e2543-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9fa5b7dd-a0ff-41e2-8a7f-e635a57a28e8-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/10dd487f-8995-4915-b077-7941f7243a77-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/11fc1e28-7e33-4783-8098-0317a09cbe15-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/13acbb37-565b-4973-9258-17daadefbe8d-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/13fdbe73-f379-489a-91f2-1fcc1ca9d451-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/16afcb92-f1c3-4f08-a5f4-17d2bc1e2481-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/16d5bf8c-4799-4a5c-91c8-2bd429e0dbe5-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/17f2ef4f-dfae-4d84-81f8-05955627d0a1-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/018e6f5a-ff53-40b3-998c-0f9deac22fea-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/19e96464-435e-48b6-ac99-20559d9a06f3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/020e894f-8140-4613-a047-2dc3e6668460-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/22e34ada-dee8-4be0-b7a5-c8ae7f6f55a3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/22ea1b0e-0497-4448-bcb9-bd90ca2a56e9-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/24c48dcc-6167-4699-8867-ccddc39a7bbf-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/26dfe6f9-da64-4325-86d9-cec3e825af7a-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/28cf2f82-3c0d-4b7d-94a1-83b3f1acd924-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/30ad1b12-2d13-4cc6-afaf-f6de48a421ab-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/30db585e-805f-4076-ba65-c51bb4a9aa14-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/31d40836-0151-4559-b771-dc4e6643b146-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/33a21673-4779-41c7-82d0-d868d5aba0be-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/39a2ffbb-a6b7-45ef-8ed5-79bab52d6d1e-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/39b89cc8-b94b-4940-b789-bb39a667c1e7-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/039d754c-3aa9-45f2-bdd3-fecabf1228b1-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/40af5369-5853-4f7b-89b9-6bc543532cc3-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/40d197bc-a33a-4e4b-a941-e6a2296fe905-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/41cb51de-b546-48c2-b776-0040579e2246-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/042c3eb7-566c-44cd-98a8-be82fd3c287a-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/45eda7db-22b5-479f-9280-2c6caba04cdb-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/45fe304f-9c1b-492c-992c-b75ee73e68ee-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/47ce8308-5eea-4fa4-8dda-01b1d8dc088b-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/047e7b02-bb60-444c-9947-95181bcac6a0-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/047e44ef-bea9-40ca-bc35-ded7e08297a4-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/47ea9ce7-7cbb-4a5f-9568-b56006be5930-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/48b9cb13-a640-4435-964a-1a0813b088d3-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/49aece2f-d41e-4c4f-a304-d37cf3ff4f33-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/50da384c-976b-4646-b44e-56cdc9eaf3e8-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/52ae7f4b-07cc-4fe4-a317-1778a2370ede-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/52cb2b10-7cf2-4c56-ab37-6d52297e3952-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/54b4fa0b-697e-4e8f-bb48-89cf6cb45faf-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/54c2aadf-ba84-4041-a0c2-c99eceb3c20e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/55a1dcb0-d456-482d-8ca3-278ad7b2428c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/56bf61ad-0cb8-4aaa-ba27-99c232163bf9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/57a84065-06ae-4195-a5f6-9837bfa4acea-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/57cd8806-e7bd-47de-a96c-32eb2082dae1-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/57f376bc-6127-4988-a128-17e317b833f6-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/058ae04c-9655-4ea4-9ae9-0deddb0107cc-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/58c6b5a8-2b16-4663-beb6-b69da252ebd4-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/60cbebed-44df-42cb-981e-541b80533f05-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/61a36fb7-2ce5-44ff-abf4-94a52233ce62-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/61d2d662-d631-4c7d-bcfe-d4bc5d73385e-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/65a1e401-23ee-4871-8b6c-96293b7dc673-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/66e87903-bacc-455f-bdab-54cdd4e370b9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/67e94654-1020-4a2f-a8b9-f2f77dce3f7f-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/068e1f3c-86de-4f13-9632-5934b017a53f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/69bb0d67-d5b0-450e-bcd7-16fa0c5a26c5-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/70c2067a-2bb3-47d6-a50a-39ef69266679-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/71ebf4ff-367f-4589-a53e-07f71919ab56-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/74bf0915-f422-4e6a-829a-8947d36f6265-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/74f62dd2-f7e4-43cb-a1bd-b24f1e098cb4-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/75c2451e-548e-4c0d-90f6-4d19c4153f78-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/76a11347-a783-4069-a715-66b523ff2a07-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/76b50cd9-ac16-4a71-9f5a-d3ea0f10e82d-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/79a4e2ea-c3d1-4e20-a37d-dea8e8e93948-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/80e7c75c-cf88-4062-b1b6-9b7bc1879288-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/81de814d-c8f5-4960-9d0b-f09829dc3737-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/81fcfdc6-8644-4cf2-bfa5-874f0d4c9730-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/83b8ee40-5ab1-4e17-83eb-cd149a413ddd-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/84b37f47-d50c-4432-a44a-d8dc35229ae2-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/84cb9d2b-b09a-41b7-a911-b29c4d33cd1a-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/88cbfa16-59b8-48c2-93fd-481313f225cd-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/88fbc21a-947a-49c9-bb14-2cb34c323227-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/89cd07e3-e593-4674-b71b-6ca18c867498-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/90c176e9-a780-4adb-8ef1-435ea6dae092-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/93f72069-3201-4763-8f03-90b03e5cc1b4-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/94a6650e-50f4-4188-98f5-3889be70c727-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/94ac2989-e766-4033-85f7-370684bfad67-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/94c1dc29-b26b-4f78-b2cf-889006fd1332-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/095f2cda-b99c-4925-8b09-a24f1d8e8137-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/95f50f47-13d2-48e1-8488-ac7813876c00-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/96b0cf69-1e58-4d49-a136-0c70e27b8706-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/97c1e6fd-92be-4efc-8054-7dec3e64fa42-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/97f96450-1872-4be3-b461-5337046e53c2-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/98ba67e5-cc1a-4aad-9782-e9407c7b7de8-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/111b7118-3233-41ce-9d01-8703a274d58e-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/112d7422-b1f1-4901-acd1-8094cf1dab74-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/118b5075-3be3-4209-8b1e-55da900ac270-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/123e194e-12fe-4fe6-9ea9-1b5a78e434da-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/153d7f27-f34a-4435-bb49-f49c8da9f2c4-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/185a0fe3-8a5f-4f93-bc41-27be067a2ce8-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/187a409d-3dc4-44b0-bc54-6a84441cae92-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/199e7826-79a0-4deb-aae7-19636a6884a3-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/225c6a0d-cd26-40b4-aa5e-083af0abbd53-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/235f9c87-6b7e-44f7-ad44-f379b1566c2a-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/238ea8db-3450-40c4-99cd-cd50e5148928-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/257d469d-ea5c-4fa3-8527-170a2f007f2c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/270a8220-74a8-45ed-aa75-64ffd0e2e0e2-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/313ea136-8ba1-4d1c-8391-7850e29f1395-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/329c2aa3-1d6a-4205-a154-141e007b21f6-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/339d0051-22f0-400d-8747-ac980d440f2f-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/340eac5d-174c-4f28-8806-56dd30855977-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/348d5125-22a7-4f16-825e-9267c89dd0f4-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/356a3831-4f27-46e4-89f3-fb97145ccc28-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/377a280c-f2ec-4e56-adf4-83183c24b3bd-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/377bef5b-7084-4fb0-81ff-46aded8b643e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/417f2c42-4deb-4acd-91c1-ffe5da7798b0-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/437e348e-2a39-4b77-9daf-208d3a3a69a1-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/452a0d1d-e3fe-4927-b093-0da592bcba12-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0498f5e4-d852-468e-8d8e-95802adce053-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/510f0c47-94f3-4955-b8c9-510e1c41c055-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/575d20cd-48c3-410f-b5ff-149194f9440c-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/593ffddb-9538-42b7-9c73-f1d7abb08201-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/634ccd8d-7117-48ff-9839-96570de9cb35-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/636af9a6-ce38-40ac-9f22-b7f6bf8f7e48-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/650e89b1-b2bf-47a9-83cc-c86475dc84c2-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/722ea6e1-2a75-4520-9fed-4a882ff86ae0-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/724b9d56-49d2-443a-bc90-0eb3849b8170-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/789cb99f-b524-4ec8-9d71-c56fb957f4f1-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/0789dd5c-5bb6-4854-bd41-f01ebb4e3a89-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/846fb407-4d51-47c8-8253-368e1457c270-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/850d9955-34a8-4bb3-9836-d18e9d169534-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/872ff30f-06ca-4f2b-8f5f-6d955eb62816-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/877c1ee3-4052-4e57-af65-2c5db9cc5a04-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/881dcd13-a59d-473a-ae30-cce455e1b8b7-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/902c6063-69c3-45fb-ab32-daadcb3f77ae-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/910ea8a1-2068-412f-8d87-16e3f9673649-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/935b941c-39a4-4b89-8b43-b0954ec4fb18-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/936ab82d-6f4d-4cde-b6f1-501d1ba2d07d-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/987fae5f-b3b6-49d0-8648-519e9b2c2693-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1200d769-d70d-42e0-92c3-13d28bf297ab-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1800bc21-4307-4837-8f70-aa2ecf3d72e5-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1967d1f4-556f-450c-bc6e-1875ec1ae831-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2143cfac-5cf7-4116-8dc6-02aeee3ebf59-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2319fcbd-47b3-44f1-ae3e-f9439d648ef9-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2549a756-da65-4a92-a90d-91f647b1ec1f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2806ba08-fc75-4f36-9c88-b37947a96462-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2846e1a1-1819-4565-91c4-da0e48be5e0b-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3024c5b1-d596-4733-9aeb-dd0f0d43733a-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3233ef41-6fca-4716-a4b8-9771ead0e76d-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3577bc3d-3e31-43dd-bc6b-a37595cf0f9e-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3611c765-2ccf-4fed-9043-ae30b6f485c2-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3613b422-0b40-48c2-aa50-20a22f7824da-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3708afe9-c01b-44af-bdc5-ba41206d362c-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3998d7cb-d173-4ba9-8bb2-994c4ffdc6be-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4091b4ba-e5ee-4b09-9ee9-306a5b1f0920-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4375cf78-4b8b-438e-ae94-91f64da44a99-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/4502b25d-4d82-4998-af48-833be220f957-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5235a6c5-3691-4f4f-94df-10138d111ef2-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5545b92e-2cd7-4a05-a389-cbd004cd05d1-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5872e9e2-f9f5-4108-9bc9-ef22dc2babcc-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/5991b067-a76a-48d5-a41b-1bf7f3c9618f-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7057afce-6e9e-4cf9-a745-12be89ec718f-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/7232bdb8-27e9-4ebd-bd79-4b8dc79175c1-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8216c002-45db-48f6-82e9-5bb65a829b58-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/8415ee91-d1a2-45a2-8b1e-1b1d2b31cde1-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9605d133-88fb-4bf3-98fa-caa1f9a5356b-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9807e5cf-a49a-4fca-933a-606528cf2297-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/09930bb1-3971-4222-a799-b30597f26ff5-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/31447d3f-9a90-43d6-b24f-4ebb464bed53-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/53204bf3-c51f-406c-a4c1-2de93ad59803-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/58999eb2-612a-446a-9777-bd4486d19f22-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/063708a2-01a3-417b-ae0e-f6ad4842e1a0-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/74534d4e-3bdd-451c-9188-af1d6dd1de21-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/74602e57-3f10-4c7b-b3ef-0463589f3820-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/74823b74-242a-4ddf-972c-8cc50f334177-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/97017b42-4b81-4d5f-9087-f9dd994668ca-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/108919d1-716f-4638-850d-3eea44b3b68c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/268946b7-31a1-4ad8-82f6-8eb8cf6623e3-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/343477c9-2fa7-4daa-bb50-525ec329e25c-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/371648bb-b2bd-4c8e-97e2-59f4f28746e8-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/603826ce-241f-46f3-81e0-52d41e912303-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/954048bd-64b0-4cb1-afe5-bdfbe5d3c4b8-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1111139b-0a2f-44f2-bd87-8b493e8fc171-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1272317e-80fd-4402-baa7-10aaa452c618-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/1741451e-28d7-490e-b3c5-75f94202d1fb-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/2659078d-61b0-4a40-ab56-b8bfc5729363-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/3672016d-bdec-40bd-a4eb-2d30b16ecfa3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/6626566d-3af4-4888-8c23-1cbec0fcdfe9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/9786792f-c6b8-401e-8529-16943a719e64-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/20021162-b3e4-4ce7-bcff-1c2dc3a51512-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/27195495-43d1-4f6d-95b7-e598d13b959b-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/36728290-8d08-4edf-a50c-5faca2022a1a-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/47040466-5fa4-475c-911a-d3770afe509d-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/47515835-09de-4a16-b5ca-bc4343ed9b1f-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/63846373-cdd2-4761-beae-f02006a4a610-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/90917892-1355-402d-aad8-32afd5976ba7-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/99683875-9b1f-40b8-9d2d-68807ec4bf83-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a01a906c-39f4-47e5-b8ce-5d585bdcb581-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a1b9c15b-f580-4932-80ba-468ea52b94d3-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a1e86ca3-99c3-4df2-b677-ea00d8b042c3-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a2edc11d-ff8b-49a2-8636-3fd6902aaf28-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a2f2b6e6-4089-4167-9375-e566969a622e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a6b1cd14-f085-4163-8113-0dc15510edf4-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a6c59149-b7b4-4fd7-9731-97fafe645b48-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a7c62658-66f9-4544-9d66-2833d1d12e40-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a8a110bf-8d20-4af4-b353-1437f8186a93-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a8db49b1-3dc6-44fc-9a63-70298b14388f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a8df8fa6-8c75-4f59-b11e-cf8b16bd2b8d-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a8eb4cd5-c813-4968-a38a-6411a16300a7-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a012a7ce-e8a7-4158-958f-97901cb56e35-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a39cbd34-cdd7-449f-a200-2f32865c1ad6-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a82ca9a0-9042-4fc7-bf49-d8cfc6ad91c9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a85d85f3-de33-47d0-ab7d-837b8f2244e8-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a155af51-8f20-40db-9c1c-318a8c0b9a96-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a421c0d4-bfb0-41c4-838c-5bd7d4b7ecf3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/a32716fc-d49c-426a-9ce6-07593bc16bbb-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/aa37822d-3dc3-4d9f-8927-577576389d79-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/aae9c92a-ad21-46b2-8196-a386d14dc8a3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ab6c674d-9840-4b48-b57e-1af8c0cd9082-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ac8f80a8-c821-46ef-a3d4-454923f7df0b-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/acc86b18-3bab-464a-ba42-6d9d6e2c2944-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ad766dfd-6212-4705-9de0-3ba532e76f29-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ad976ddb-817c-4644-9731-523dc26d34a3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ae83b5ec-3835-4559-9756-7f4fe54ffd4a-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ae628b48-bb0d-4159-8553-79ce217d89ab-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b3cb1cb6-ddb0-455c-b2dd-5de42462ca61-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b5b7dd36-5423-4fad-add8-bf1c2aabe676-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b6a59dfd-af16-4ef0-b4cc-c7a493dae0d3-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b6d24f92-6d66-4aa3-8fa6-121c2bb03f01-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b8a9be0a-eef4-4ff2-bdf5-f923fa8fa1d6-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b8ee88f1-9803-4006-83f6-33808222e90b-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b9dade97-8b02-4c87-b07b-1ee59d7c73d2-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b9ec1cf5-124c-4e02-a0dc-459266a94eba-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b92a15ca-1b3a-4733-ac2a-135acea383c2-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b218e857-2af8-41e3-8754-506b02020efe-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b261cf71-3045-4168-88b1-cc602287d1fd-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b502c22d-97ee-4820-a506-1221453efe77-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b945e35f-edbb-49e9-92b0-11bff73273c0-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b2869dc4-77e3-4e67-8bc7-72a95bc0107b-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b2925f00-d61a-4117-9180-93d048f07229-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b3840e05-4cfd-4949-8fb2-2523f08d6030-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b05988f9-9d8c-4b44-80dd-0fdb70935593-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b74131d4-7670-479b-9c4b-ec2211e79a94-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/b84109e9-d766-4b9b-ba5a-09e2aa5a7161-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bbff896b-e399-4b9a-bd70-6be172ef1f59-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bc18f356-8c6b-4ae0-a21d-ad980a7674ed-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bc251bc8-5c7f-475c-bc01-cf417f9732cc-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bd3814c1-ed73-44b5-af2e-23ab377edf99-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bda6bb28-2078-4198-b04a-de0b66b29fb9-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bdc677fb-852d-49e0-b475-302f070d3f04-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bdccb8a2-df58-49ff-a0a7-5d99528bc133-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/be564fc8-ee75-4792-b42c-c8ad1de475eb-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bedaf48d-7982-4ec4-9c0c-25b0139571bf-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/bf04f36f-adf3-42a2-96b1-6ac656ec7835-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c1a8791a-2454-45a6-b3f6-7e9507344ad8-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c3c2bd81-976c-4b5c-8ce6-f9e762cea5c7-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c4c89cf8-a9f1-47cc-9557-f21c846a10e2-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c6a76530-c591-4436-a647-f3262abf48e4-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c06ce1e3-55d5-4934-89ae-66c47c42cf4f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c6f75c16-7009-42ae-b6d7-d24f6483e62f-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c7df9742-1e9a-4c75-bfc0-30f99b76ffb1-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c8de186b-055a-4441-85b7-a371a26cf0f3-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c14ceec7-3c97-4447-b663-8e1ec1f920c1-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c47f29cb-0cfb-40a2-8a34-238ba78221cb-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c73a4292-a52c-44ff-bc52-112e31b70094-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c81c6c24-cdc9-403d-a40b-77c6d7a6c658-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c81e65a2-5d9d-4445-a308-229df1939961-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c095d5df-0618-4c2d-931c-77f2cce769cf-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c096fb02-ea16-4257-9798-0a5fd6c1814a-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c448ef62-d1eb-40d3-9e94-fed4ead465f5-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c779a5d9-3bdb-47b7-85a7-214b521fdc4d-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/c8291ec2-0595-4f81-a99b-785f877a29b0-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ca7e9769-fdea-4623-9d85-0e0b8e537732-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/caa189a7-73f2-4994-8d16-49f1c0f40b9f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/caf51448-1eea-49ec-8d8a-6fd2487b6c12-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/cb44d280-9da4-4636-856c-dbddae0767c8-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/cb6327ea-d1f8-48cb-a42a-83855e6b5008-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/cc638e37-9ef2-4fb8-8b0b-b4f2c17f78f3-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/cca29a3f-7beb-493b-83fd-0cac6b7160de-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/cee3143c-8a8b-48e6-b1fc-96c1fb8cc1e8-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/cf379a76-08ea-4425-b92e-e066a1e87f2e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d0ba20b4-6dce-4dc2-ad8a-9c8084f5fb4f-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d0f4eecc-3fea-4d16-ac4d-4a0c5be6a810-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d02b03e6-6adf-4e5d-87a4-63e62c6f01c1-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d3ef7bfa-3d7c-4a59-b658-7429888a7ee7-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d5e0adb0-755b-49c3-ad7a-690de14017de-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d5ead666-7f35-431e-ae15-e6781a9c150f-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d7a6e36d-0885-4048-8e38-1e9960dc682c-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d8a902eb-0c5e-48ed-992b-1c3fe4ba11b7-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d21f0dde-ce2a-4f23-b9aa-2eaf38892204-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d38e3803-d84d-4736-aced-120d55888d94-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d40b5ac0-1894-4e90-85b7-aa942761316f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d49f4f54-9f03-405e-844c-466cf872b64a-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d67f3f5f-c035-4abe-a4a3-ae777befba16-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d440f379-fc00-4b96-8ed2-53a8233e3207-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d456bddf-f65a-4977-9c9d-e77c077c3d7e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d607ddf7-f5a9-4ffc-aded-ccf78ecfd364-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d627ba03-9858-4ff1-b86d-fcfe02b0df49-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d886b73a-023c-4691-a72c-4786d5743b86-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d4161a5d-97ec-4a80-9225-84fb2f998af3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d8192a06-efc5-4a2f-a1ee-7f06e5bc0c2a-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/d90443c8-c1d2-4da9-824d-40e9fdae3c18-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/da944db0-6228-45a3-aae9-58af54a40708-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/dafac4a9-aff3-4dd0-885c-22c3f638c907-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/db1a77ea-fd6d-49ba-be08-a88774aa75ce-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/db41c88b-3314-4e26-b365-e40d536ed515-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/db76d1aa-e6c5-466e-a923-8b4993561222-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/dbbf07ca-236e-437d-81a7-22b10c2b6279-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/dc87f6d5-ab8e-476c-b6a9-f01c899b89ac-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/dce841c8-b683-4a49-9dec-1e7b6694357c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/dd1c6e78-4251-4469-959f-58c1eed245f2-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ddcca636-ffd9-41a5-a866-ba0fdc9b9db1-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ded76885-e157-42c3-b288-3cc73a478a70-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/dfa5ec78-3812-4f25-a2e6-c48a81571839-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e0cfce22-0ce9-4e20-8950-f8832bf99101-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e0d292bd-72cf-437e-824f-7a11c6999d1e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e1ea955f-b79e-48be-a911-4d392173972c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e2affa6c-189c-4903-8ddb-f48a5695bcfc-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e2ec8a32-e8d6-4e80-bbc7-22cadf0f70b6-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e6c43c2c-d18e-4088-98d3-71404c1ab1a3-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e8b92253-cfbf-465c-85d7-08f35f26df47-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e9ab667c-498f-4c37-8e8f-4793b9898b91-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e11eda81-34ad-4311-80f2-ef06177364c3-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e13f8d82-b856-4672-bc7a-311ad807652d-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e22ccc0f-d5a3-4fbf-9cd1-eb950927a4fb-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e29a07c8-a744-48e9-9ca9-ec1f9441f8c3-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e40d4541-ed9b-4e82-aba2-6f12ec6298bf-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e70d794c-9b2b-46f1-93ab-94496414a128-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e73c06b7-fdb6-4470-b118-e28a7dbf178a-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e73c7846-ef3f-468d-ad61-a9dc22c831d2-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e75a461f-0182-4d10-81be-820da334633a-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e133cfb6-dec5-49e5-bea4-1ecf81df9cd5-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e2983b47-98f0-46e9-94e3-27055aab8a1d-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e9549e6e-38a8-492b-a297-0c8737af71ac-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/e452869e-069e-406b-92e3-17eb9b87bc5a-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ea2c9551-7fce-42f8-a9bd-5fb698c097fa-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ea7c007e-c58f-45ef-9206-7b936778cd6b-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ea44f2f3-2b56-4a97-a115-8fe8a7c7c723-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ea88323a-4c35-4b53-91d1-a4ad77ace193-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/eab3212a-fee8-4e98-9af3-835dc0411e27-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/eb6c033a-3e55-4dcf-8931-866ae55d6da9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/eb67b0fa-ff25-4d44-a68c-3ab031e16450-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/eb44369c-ddcc-4b98-951e-a73c827230ab-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ec60df85-3a64-4fbe-9d46-bd9a413dcd81-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ec827c9e-89e3-4441-b737-9afe7ff8d386-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ecd1dc20-453a-4711-8a73-7c45a0cd0b7e-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/edd5f57e-92bc-423c-94e3-ed6525347e47-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/eea20f47-2bc1-48f5-9bb7-2ba9741af3c1-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/eee9bd6b-db0e-4fc0-a7dd-8921c0f47c6e-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ef2b3118-625d-4367-a5c8-fc55de0a2dab-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ef96a462-77d7-46e6-aeec-d3de4c654c5b-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f0efe320-02e7-436d-9238-bb887b9938c5-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f0f2f711-957c-4dc0-9fa6-a94ce5e848a5-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f1b34320-da23-42c6-bf47-29c38253a9b2-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f2eb8d36-0c66-4502-834f-de4d34fc0ff9-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f2eeb555-eee8-4a3f-ad33-3ad9f55656b6-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f2fbae85-3232-4a13-b9d2-61de3c697f4f-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f3c958b7-fed1-4f5f-9c56-fd20571a4d7f-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f3d78ad1-a431-4c95-aab7-bac3b2b6e48c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f3e17a8f-054c-4596-a1a8-51006ac205dc-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f4f38ca8-1fec-4647-89d5-a2e4b44cbbb6-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f5f0a67e-2f8b-44a1-98fd-48025e36966e-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f6b7f716-b885-4ac6-8e01-60947f9cbce4-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f06dae0a-3d36-4ad0-bb4a-cca0753018e7-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f6e3c3b5-9100-449d-b91e-bb172737b54e-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f9e99b45-3336-4876-bcd7-0542d3f290cc-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f44d66e6-882c-4360-9c69-5c497feb1da8-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f343bda8-51fb-436c-af0f-b3bac0dc274e-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f6332ebd-b806-4f7c-991a-926dc099752c-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f209248c-ebe0-45f0-9909-30526b5e19ba-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f2991850-5654-4b3b-9719-dd24375ef9d7-result.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/f9256647-ba05-4103-bc03-c7234c14a835-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/fa64c849-0cec-46ce-aa53-58f05fa5b1d0-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/fa94324d-cc43-4f9d-a4b3-d37b4f205210-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/fbf133e2-ea6f-489f-9730-d1f95e07f468-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/fc01ebeb-8c2e-4eeb-ab2e-ea612f3d203b-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/fd5d33e9-e070-4fc6-8d44-7a569e8aa0e9-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/fdbe3d2a-1243-4e30-b5f3-bf21c287843f-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/fdf09466-1cca-4593-8879-555e22248da9-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ff13b374-9652-4d32-bde1-b34e148d5c01-attachment.txt",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ff685e3b-20c8-4d25-8ee9-528090685a26-attachment.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ffa35420-dd30-47d3-b764-e4e2d20dc4c4-container.json",
+        "Code-Space/tmp/pytest/demo/allure-demo/allure-results/ffee4f94-6dd7-44a8-9063-aad2e29963e5-attachment.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/assets": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/assets/技术文档"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/assets/技术文档": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/assets/技术文档/pytest_allure_使用说明.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/test_case": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/test_case/test_01.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/__init__.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/__pycache__/__init__.cpython-313.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/__init__.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/__pycache__/__init__.cpython-313.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/test_workflow_creation.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/test_workflow_execution.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/test_workflow_monitoring.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__pycache__/test_workflow_creation.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__pycache__/test_workflow_execution.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__pycache__/test_workflow_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/工作流/__pycache__/test_workflow_monitoring.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理/test_attendance_management.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/考勤管理/__pycache__/test_attendance_management.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/test_approval_process.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/test_approval_query.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/test_approval_request.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__pycache__/test_approval_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__pycache__/test_approval_process.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__pycache__/test_approval_query.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/审批管理/__pycache__/test_approval_request.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/test_document_operations.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/test_document_permissions.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/test_document_search.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__pycache__/test_document_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__pycache__/test_document_operations.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__pycache__/test_document_permissions.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/办公自动化系统/文档管理/__pycache__/test_document_search.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/__init__.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/__pycache__/__init__.cpython-313.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/test_customer_service.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/test_service_analytics.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/test_ticket_management.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__pycache__/test_customer_service.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__pycache__/test_service_analytics.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__pycache__/test_service_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客服管理/__pycache__/test_ticket_management.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/test_customer_info.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/test_customer_search.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/test_customer_status.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__pycache__/test_customer_info.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__pycache__/test_customer_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__pycache__/test_customer_search.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/客户管理/__pycache__/test_customer_status.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/test_sales_analytics.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/test_sales_opportunity.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/test_sales_quote.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__pycache__/test_sales_analytics.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__pycache__/test_sales_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__pycache__/test_sales_opportunity.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/客户关系管理系统/销售管理/__pycache__/test_sales_quote.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/__init__.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/__pycache__/__init__.cpython-313.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/test_order_analytics.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/test_order_lifecycle.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/test_order_payment_logistics.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__pycache__/test_order_analytics.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__pycache__/test_order_lifecycle.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__pycache__/test_order_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/订单管理/__pycache__/test_order_payment_logistics.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/test_inventory_management.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/test_inventory_monitoring.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/test_warehouse_management.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/__pycache__/test_inventory_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/__pycache__/test_inventory_monitoring.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/库存管理/__pycache__/test_warehouse_management.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/test_product_analytics.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/test_product_crud.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/__pycache__/test_product_analytics.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/__pycache__/test_product_crud.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/商品管理/__pycache__/test_product_management.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/test_user_auth.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/test_user_profile.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/test_user_security.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__pycache__/test_user_auth.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__pycache__/test_user_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__pycache__/test_user_profile.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/用户管理/__pycache__/test_user_security.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__pycache__",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__init__.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/test_payment_core.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/test_payment_refund.py",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/test_payment_security.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__pycache__/__init__.cpython-313.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__pycache__/test_payment_core.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__pycache__/test_payment_management.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__pycache__/test_payment_refund.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/demo/allure-demo/testcase_root/智慧电商系统/支付管理/__pycache__/test_payment_security.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/demo/pytest-demo": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure",
+        "Code-Space/tmp/pytest/plugins/fixtures",
+        "Code-Space/tmp/pytest/plugins/logging",
+        "Code-Space/tmp/pytest/plugins/Logs",
+        "Code-Space/tmp/pytest/plugins/yaml",
+        "Code-Space/tmp/pytest/plugins/articles.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/__pycache__",
+        "Code-Space/tmp/pytest/plugins/allure/assets",
+        "Code-Space/tmp/pytest/plugins/allure/reports",
+        "Code-Space/tmp/pytest/plugins/allure/result",
+        "Code-Space/tmp/pytest/plugins/allure/Allure.md",
+        "Code-Space/tmp/pytest/plugins/allure/Allure高实践.md",
+        "Code-Space/tmp/pytest/plugins/allure/pytest.ini",
+        "Code-Space/tmp/pytest/plugins/allure/test_allure_01.py",
+        "Code-Space/tmp/pytest/plugins/allure/test_allure_02.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/__pycache__/test_allure_01.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/plugins/allure/__pycache__/test_allure_02.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/assets": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/assets/01ac2b27ec695d842bd4270f2a3c2eba.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/1d07eacfebc542d6351efe2ffc8a04ce.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/6dabcc682b68c392600a730db4384012.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/6e85ee6003cdea65f95bc256fcf79873.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/7a606b09e4186116a8dc508aedcc54f8.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/8b31c781a1626c6d0a50024b246c4bb6.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/71ea5976bf2ef767315cd49db5ec25f8.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/902cd888fc104fc46035d1f2dd4c69ed.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/4290e1cff8df40cd8f2efddb23b41d2d.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/5925bf1420722a4661e35ffaeeebf9bb.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/566386948372a49a80252a4d0f64ebb1.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/a46bb122d41ed364ca451cbdb0c893c2.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/baab6d18689ed0fc3fb1129d7ce71818.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/c2ef6f0d8dbf22c497832e3cba3cbd83.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/cedf35c3fe7cf2f6bc8f44e13efa9681.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/d811528354287d114c49a09e1ee8fd04.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/e5a6ed7659e180c5b6e4f1902c3f4307.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/ea2dc1deb1c19ff1540324f319a05bd2.png",
+        "Code-Space/tmp/pytest/plugins/allure/assets/f1a4e3b65d9b45a69f7d694a62a6ffd1.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/data",
+        "Code-Space/tmp/pytest/plugins/allure/reports/export",
+        "Code-Space/tmp/pytest/plugins/allure/reports/history",
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets",
+        "Code-Space/tmp/pytest/plugins/allure/reports/app.js",
+        "Code-Space/tmp/pytest/plugins/allure/reports/favicon.ico",
+        "Code-Space/tmp/pytest/plugins/allure/reports/index.html",
+        "Code-Space/tmp/pytest/plugins/allure/reports/styles.css"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/data": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/behaviors.csv",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/behaviors.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/categories.csv",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/categories.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/packages.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/suites.csv",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/suites.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/timeline.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/3a35f718b525bdb8.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/4b9ed0000703e08f.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/5bbf84e5fa9e3815.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/5c2ceca2e0cb0b5e.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/7c4e9535d423d616.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/8a9ba8ab545f56af.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/8c538211b5a04a0c.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/527c4d74c0f9b49e.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/b88e283736505e14.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/data/test-cases/eb87b6afe38cb621.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/export": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/export/influxDbData.txt",
+        "Code-Space/tmp/pytest/plugins/allure/reports/export/mail.html",
+        "Code-Space/tmp/pytest/plugins/allure/reports/export/prometheusData.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/history": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/history/categories-trend.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/history/duration-trend.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/history/history.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/history/history-trend.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/history/retry-trend.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/plugin": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin/behaviors",
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin/packages",
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin/screen-diff"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/plugin/behaviors": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin/behaviors/index.js"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/plugin/packages": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin/packages/index.js"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/plugin/screen-diff": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin/screen-diff/index.js",
+        "Code-Space/tmp/pytest/plugins/allure/reports/plugin/screen-diff/styles.css"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/reports/widgets": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/behaviors.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/categories.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/categories-trend.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/duration.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/duration-trend.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/environment.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/executors.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/history-trend.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/launch.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/retry-trend.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/severity.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/status-chart.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/suites.json",
+        "Code-Space/tmp/pytest/plugins/allure/reports/widgets/summary.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/allure/result": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/allure/result/1fe02c66-402d-4d90-97be-83de468a97df-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/5f5f57e0-0ca5-44c4-a61a-ff3aee87e87c-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/7a10ce60-e246-4f07-8ee0-efc30403eb3d-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/9dc61572-41d6-4f31-9598-03d05d35c606-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/56dc66b7-7e4b-4044-b8a2-b9964b3f3024-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/107aea10-e6f7-4bbb-8131-867552cd5092-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/1890d348-de6a-434f-a419-76d335a4064b-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/b723e269-b700-44f2-af33-664e238372fe-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/ef458c18-005a-41ae-8693-4c2be78b2431-result.json",
+        "Code-Space/tmp/pytest/plugins/allure/result/f2b6e137-13c0-4c72-8e07-848d137f603e-result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/fixtures": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/fixtures/__pycache__",
+        "Code-Space/tmp/pytest/plugins/fixtures/assets",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report",
+        "Code-Space/tmp/pytest/plugins/fixtures/conftest.py",
+        "Code-Space/tmp/pytest/plugins/fixtures/pytest.ini",
+        "Code-Space/tmp/pytest/plugins/fixtures/report.html",
+        "Code-Space/tmp/pytest/plugins/fixtures/test_fixture.py",
+        "Code-Space/tmp/pytest/plugins/fixtures/test_skip.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/fixtures/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/fixtures/__pycache__/conftest.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/plugins/fixtures/__pycache__/test_fixture.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/plugins/fixtures/__pycache__/test_skip.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/fixtures/assets": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/fixtures/assets/style.css"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/1b59fadd-7fcf-4b85-ac92-f478c72427e3-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/1e40e9a0-3684-4f17-b2ab-84d19561fdca-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/2a87d6f8-b927-47b8-9a9e-e2fe1c69e2e4-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/3e31a54f-882b-4d41-a8de-b9992e3c4f2b-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/6e7f1905-2bbd-48ca-81c5-cbfa0747a118-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/06f4e69b-d96d-463c-8cbd-c8c0ab6acffe-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/51e4e476-06c4-4e37-82b3-252a1e26f66d-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/00100f1a-891e-45e5-89c1-563ee50e4c12-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/289f414f-6356-4ee6-8072-b3eddc15d8b4-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/314aeec7-0a05-488b-a017-56faaf261edd-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/630ebbce-58c5-453b-a977-f8000ef5cab9-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/662cfc33-1ae3-49ef-9775-101650e16d34-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/824d6a84-dc8a-4afc-8032-5642ddb455d2-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/7423f75b-aaaf-4b05-8d80-7427f983a4e2-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/8450c662-2d9f-4d9f-be59-531a6677c868-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/22881ceb-312e-4018-86fa-4088b4b536b8-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/81295fa2-0a07-41d7-ac28-2cbfe8f6d9ed-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/51580385-799f-42a1-9761-24c4492e1469-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/bec21cdb-56ee-4ab8-b5cb-98c5f78dc99c-container.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/d47c4ca7-ce1a-4d5c-a859-5f1f52a7f986-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/d77e387f-400e-4606-a8ef-6eb7e9641c9f-result.json",
+        "Code-Space/tmp/pytest/plugins/fixtures/temps_json_report/fa96c38a-e1d9-4daf-ab64-437a206b16e2-container.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/logging": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/logging/__pycache__",
+        "Code-Space/tmp/pytest/plugins/logging/file_generate.py",
+        "Code-Space/tmp/pytest/plugins/logging/rolling_log.py",
+        "Code-Space/tmp/pytest/plugins/logging/test_logging.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/logging/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/logging/__pycache__/test_logging.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/Logs": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/Logs/202507220141.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/yaml": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/yaml/__pycache__",
+        "Code-Space/tmp/pytest/plugins/yaml/data.yaml",
+        "Code-Space/tmp/pytest/plugins/yaml/data02.yaml",
+        "Code-Space/tmp/pytest/plugins/yaml/read_yaml01.py",
+        "Code-Space/tmp/pytest/plugins/yaml/read_yaml02.py",
+        "Code-Space/tmp/pytest/plugins/yaml/write_data.yaml",
+        "Code-Space/tmp/pytest/plugins/yaml/write_yaml.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/pytest/plugins/yaml/__pycache__": {
+      "children": [
+        "Code-Space/tmp/pytest/plugins/yaml/__pycache__/test_yaml.cpython-313-pytest-8.4.1.pyc",
+        "Code-Space/tmp/pytest/plugins/yaml/__pycache__/yaml.cpython-313-pytest-8.4.1.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/selenium": {
+      "children": [
+        "Code-Space/tmp/selenium/Selenium.md",
+        "Code-Space/tmp/selenium/tmp.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/tmp": {
+      "children": [
+        "Code-Space/tmp/tmp/build",
+        "Code-Space/tmp/tmp/常用模块.ipynb",
+        "Code-Space/tmp/tmp/doctest.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/tmp/build": {
+      "children": [],
       "sortOrder": "custom"
     },
     "Eight-legged": {
