@@ -14954,7 +14954,7 @@ var require_sax = __commonJS({
           if (e instanceof ParseError) {
             throw e;
           }
-          errorHandler.error("element parse error: " + e);
+          errorHandler.error("元素解析错误: " + e);
           end = -1;
         }
         if (end > start) {
@@ -15048,7 +15048,7 @@ var require_sax = __commonJS({
             }
             break;
           case "":
-            errorHandler.error("unexpected end of input");
+            errorHandler.error("输入意外结束");
             if (s == S_TAG) {
               el.setTagName(source.slice(start, p));
             }
@@ -15253,7 +15253,7 @@ var require_sax = __commonJS({
               domBuilder.comment(source, start + 4, end - start - 4);
               return end + 3;
             } else {
-              errorHandler.error("Unclosed comment");
+              errorHandler.error("注释未正确结束");
               return -1;
             }
           } else {
@@ -15406,7 +15406,7 @@ var require_dom_parser = __commonJS({
           entityMap
         );
       } else {
-        sax2.errorHandler.error("invalid doc source");
+        sax2.errorHandler.error("无效的文档源");
       }
       return domBuilder.doc;
     };
@@ -27172,11 +27172,11 @@ var ConvertibleFileView = class extends import_obsidian.EditableFileView {
     this.header = document.createElement("div");
     this.header.id = "docxer-header";
     const text = document.createElement("span");
-    text.innerText = "This is a preview. To edit, convert it to markdown.";
+    text.innerText = "这是预览。要编辑，请将其转换为 Markdown.";
     this.header.appendChild(text);
     const convertButton = document.createElement("button");
     convertButton.id = "docxer-convert-button";
-    convertButton.innerText = "Convert";
+    convertButton.innerText = "转换";
     convertButton.onclick = () => this.convertFile();
     this.header.appendChild(convertButton);
     this.containerEl.insertAfter(this.header, this.containerEl.firstChild);
@@ -27206,7 +27206,7 @@ var ConvertibleFileView = class extends import_obsidian.EditableFileView {
     if (!this.file) return;
     const convertedFilePath = FileUtils.toUnixPath(this.file.path).replace(/\.[^\.]*$/, ".md");
     if (this.app.vault.getAbstractFileByPath(convertedFilePath)) {
-      new import_obsidian.Notice("A file with the same name already exists.");
+      new import_obsidian.Notice("已存在同名文件.");
       return;
     }
     const attachmentsDirectory = {
@@ -27217,7 +27217,7 @@ var ConvertibleFileView = class extends import_obsidian.EditableFileView {
     }[this.plugin.settings.getSetting("attachmentsFolder")];
     const markdown = await this.getMarkdownContent(attachmentsDirectory);
     if (!markdown) {
-      new import_obsidian.Notice("Error converting file to markdown.");
+      new import_obsidian.Notice("将文件转换为 Markdown 格式时出错.");
       return;
     }
     const convertedFile = await this.app.vault.create(convertedFilePath, markdown);
@@ -28342,13 +28342,13 @@ var DocxerPluginSettingTab = class extends import_obsidian4.PluginSettingTab {
   display() {
     let { containerEl } = this;
     containerEl.empty();
-    new import_obsidian4.Setting(containerEl).setName("Delete source file after conversion").setDesc("Delete source file after pressing the conversion button.").addToggle(
+    new import_obsidian4.Setting(containerEl).setName("转换后删除源文件").setDesc("按转换按钮后删除源文件.").addToggle(
       (toggle) => toggle.setValue(this.settingsManager.getSetting("deleteFileAfterConversion")).onChange(async (value) => await this.settingsManager.setSetting({ deleteFileAfterConversion: value }))
     );
-    new import_obsidian4.Setting(containerEl).setName("Import docx comments").setDesc("Import comments from docx files using reference links. Comments will be placed at the end of the markdown file.").addToggle(
+    new import_obsidian4.Setting(containerEl).setName("导入 docx 注释").setDesc("使用引用链接从 docx 文件导入注释。注释将放置在标记文件的末尾.").addToggle(
       (toggle) => toggle.setValue(this.settingsManager.getSetting("importComments")).onChange(async (value) => await this.settingsManager.setSetting({ importComments: value }))
     );
-    const ignoreAttachmentsSetting = new import_obsidian4.Setting(containerEl).setName("Ignore attachments").setDesc("Completely ignore images from the source file. Only the image filename or description will be shown as plain text.").addToggle((toggle) => {
+    const ignoreAttachmentsSetting = new import_obsidian4.Setting(containerEl).setName("忽略附件").setDesc("完全忽略源文件中的图像。仅将图像文件名或描述以纯文本形式显示.").addToggle((toggle) => {
       toggle.setValue(this.settingsManager.getSetting("ignoreAttachments")).onChange(async (value) => {
         await this.settingsManager.setSetting({ ignoreAttachments: value });
         if (value) {
@@ -28358,10 +28358,10 @@ var DocxerPluginSettingTab = class extends import_obsidian4.PluginSettingTab {
       });
       return toggle;
     });
-    new import_obsidian4.Setting(containerEl).setHeading().setClass("docxer-settings-heading").setName("Attachments").setDesc("Settings related to attachments extracted during file conversion.");
+    new import_obsidian4.Setting(containerEl).setHeading().setClass("docxer-settings-heading").setName("附件").setDesc("与文件转换过程中提取的附件相关的设置.");
     const ignoreAttachments = this.settingsManager.getSetting("ignoreAttachments");
     const embedImageData = this.settingsManager.getSetting("embedImageData");
-    const embedSetting = new import_obsidian4.Setting(containerEl).setName("Embed image data in document").setDesc("Instead of extracting images to files, embed them as base64 data directly in the markdown. Creates self-contained documents but with larger file sizes.").addToggle((toggle) => {
+    const embedSetting = new import_obsidian4.Setting(containerEl).setName("在文档中嵌入图像数据").setDesc("不将图像提取为单独文件，而是直接以 Base64 数据形式嵌入 Markdown 中。此方式可生成独立文档，但文件体积会增大.").addToggle((toggle) => {
       toggle.setValue(embedImageData).setDisabled(ignoreAttachments).onChange(async (value) => {
         await this.settingsManager.setSetting({ embedImageData: value });
         this.display();
@@ -28371,33 +28371,33 @@ var DocxerPluginSettingTab = class extends import_obsidian4.PluginSettingTab {
     if (ignoreAttachments) {
       embedSetting.descEl.style.opacity = "0.5";
     }
-    const fallbackNameSetting = new import_obsidian4.Setting(containerEl).setName("Fallback attachment name").setDesc("Fallback name if the attachment file has no alt text or is written using only invalid characters.").addText((text) => {
+    const fallbackNameSetting = new import_obsidian4.Setting(containerEl).setName("备用附件名称").setDesc("如果附件文件没有alt文本或仅使用无效字符编写，则为备用名称.").addText((text) => {
       text.setValue(this.settingsManager.getSetting("fallbackAttachmentName")).setDisabled(ignoreAttachments || embedImageData).onChange(async (value) => await this.settingsManager.setSetting({ fallbackAttachmentName: value }));
       return text;
     });
     if (ignoreAttachments || embedImageData) {
       fallbackNameSetting.descEl.style.opacity = "0.5";
     }
-    const folderSetting = new import_obsidian4.Setting(containerEl).setName("Attachments folder").setDesc("Specify the destination for attachments extracted during file conversion.").addDropdown((dropdown) => {
+    const folderSetting = new import_obsidian4.Setting(containerEl).setName("附件文件夹").setDesc("指定在文件转换期间提取的附件的目标.").addDropdown((dropdown) => {
       dropdown.addOptions({
-        "vault": "Vault folder",
-        "custom": "In the folder specified below",
-        "same": "Same folder as current file",
-        "subfolder": "In subfolder under current folder"
+        "vault": "保管库文件夹",
+        "custom": "在下面指定的文件夹中",
+        "same": "与当前文件相同的文件夹",
+        "subfolder": "在当前文件夹下的子文件夹中"
       }).setValue(this.settingsManager.getSetting("attachmentsFolder")).setDisabled(ignoreAttachments || embedImageData).onChange(async (value) => await this.settingsManager.setSetting({ attachmentsFolder: value }));
       return dropdown;
     });
     if (ignoreAttachments || embedImageData) {
       folderSetting.descEl.style.opacity = "0.5";
     }
-    const customFolderSetting = new import_obsidian4.Setting(containerEl).setName("Custom attachments folder").setDesc("Specify the name of the folder where attachments will be extracted.").addText((text) => {
-      text.setPlaceholder("Attachments").setValue(this.settingsManager.getSetting("customAttachmentsFolder")).setDisabled(ignoreAttachments || embedImageData).onChange(async (value) => await this.settingsManager.setSetting({ customAttachmentsFolder: value }));
+    const customFolderSetting = new import_obsidian4.Setting(containerEl).setName("自定义附件文件夹").setDesc("指定将提取附件的文件夹的名称.").addText((text) => {
+      text.setPlaceholder("附件").setValue(this.settingsManager.getSetting("customAttachmentsFolder")).setDisabled(ignoreAttachments || embedImageData).onChange(async (value) => await this.settingsManager.setSetting({ customAttachmentsFolder: value }));
       return text;
     });
     if (ignoreAttachments || embedImageData) {
       customFolderSetting.descEl.style.opacity = "0.5";
     }
-    const altTextSetting = new import_obsidian4.Setting(containerEl).setName("Use image alt text as filename").setDesc("Use the alt text of the image as the filename. If the alt text is empty, the fallback name will be used.").addToggle((toggle) => {
+    const altTextSetting = new import_obsidian4.Setting(containerEl).setName("将图像的描述文本作为文件名").setDesc("将图像的描述文本用作文件名。如果描述文本为空，则将使用备用名称。").addToggle((toggle) => {
       toggle.setValue(this.settingsManager.getSetting("useImageAltAsFilename")).setDisabled(ignoreAttachments || embedImageData).onChange(async (value) => await this.settingsManager.setSetting({ useImageAltAsFilename: value }));
       return toggle;
     });

@@ -9996,14 +9996,14 @@ var PandocPluginSettingTab = class extends import_obsidian2.PluginSettingTab {
         createError(this.errorMessages[binary2]);
       }
     }
-    new import_obsidian2.Setting(containerEl).setName("Custom CSS file for HTML output").setDesc("This local CSS file will be read and injected into HTML exports. Use an absolute path or a path relative to the vault.").addText((text) => text.setPlaceholder("File name").setValue(this.plugin.settings.customCSSFile).onChange((value) => __async(this, null, function* () {
+    new import_obsidian2.Setting(containerEl).setName("用于HTML输出的自定义CSS文件").setDesc("此本地 CSS 文件将被读取并注入到 HTML 导出中。请使用绝对路径或相对于保险库的相对路径。").addText((text) => text.setPlaceholder("文件名").setValue(this.plugin.settings.customCSSFile).onChange((value) => __async(this, null, function* () {
       if (!value.length)
         this.plugin.settings.customCSSFile = null;
       else
         this.plugin.settings.customCSSFile = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("Inject app CSS (HTML output only)").setDesc("This applies app & plugin CSS to HTML exports, but the files become a little bigger.").addDropdown((dropdown) => dropdown.addOptions({
+    new import_obsidian2.Setting(containerEl).setName("注入应用 CSS（仅 HTML 输出）").setDesc("这会将应用程序和插件的 CSS 应用于 HTML 导出，但文件会变得稍大一些。").addDropdown((dropdown) => dropdown.addOptions({
       "current": "Current theme",
       "none": "Neither theme",
       "light": "Light theme",
@@ -10012,7 +10012,7 @@ var PandocPluginSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.settings.injectAppCSS = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("Internal link processing").setDesc("This controls how [[wiki-links]] are formatted. Doesn't affect HTML output.").addDropdown((dropdown) => dropdown.addOptions({
+    new import_obsidian2.Setting(containerEl).setName("内部链接处理").setDesc("这控制了[[wiki-links]]的格式。不影响HTML输出。").addDropdown((dropdown) => dropdown.addOptions({
       "text": "Turn into text",
       "link": "Leave as links",
       "strip": "Remove links",
@@ -10021,30 +10021,30 @@ var PandocPluginSettingTab = class extends import_obsidian2.PluginSettingTab {
       this.plugin.settings.linkStrippingBehaviour = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("Export files from HTML or markdown?").setDesc("Export from markdown, or from the HTML visible in Obsidian? HTML supports fancy plugin features, markdown supports Pandoc features like citations.").addDropdown((dropdown) => dropdown.addOptions({
+    new import_obsidian2.Setting(containerEl).setName("从HTML或markdown导出文件？").setDesc("从Markdown导出，还是从Obsidian中可见的HTML导出？HTML支持花哨的插件功能，Markdown支持Pandoc功能，如引用。").addDropdown((dropdown) => dropdown.addOptions({
       "html": "HTML",
       "md": "Markdown"
     }).setValue(this.plugin.settings.exportFrom).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.exportFrom = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("Export folder").setDesc("Absolute path to an export folder, like 'C:UsersExampleDocuments' or '/home/user/zettelkasten'. If left blank, files are saved next to where they were exported from.").addText((text) => text.setPlaceholder("same as target").setValue(this.plugin.settings.outputFolder).onChange((value) => __async(this, null, function* () {
+    new import_obsidian2.Setting(containerEl).setName("导出文件夹").setDesc("导出文件夹的绝对路径，如 'C:UsersExampleDocuments' 或 '/home/user/zettelkasten'。如果留空，则文件将保存在导出位置的旁边。").addText((text) => text.setPlaceholder("与目标相同").setValue(this.plugin.settings.outputFolder).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.outputFolder = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("Show Pandoc command line interface commands").setDesc("Doesn't apply to HTML exports. Using the CLI will have slightly different results due to how this plugin works.").addToggle((toggle) => toggle.setValue(this.plugin.settings.showCLICommands).onChange((value) => __async(this, null, function* () {
+    new import_obsidian2.Setting(containerEl).setName("显示Pandoc命令行界面命令").setDesc("不适用于HTML导出。由于此插件的工作方式，使用CLI会产生略有不同的结果。").addToggle((toggle) => toggle.setValue(this.plugin.settings.showCLICommands).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.showCLICommands = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("Pandoc path").setDesc("Optional override for Pandoc's path if you have command not found issues. On Mac/Linux use the output of 'which pandoc' in a terminal; on Windows use the output of 'Get-Command pandoc' in powershell.").addText((text) => text.setPlaceholder("pandoc").setValue(this.plugin.settings.pandoc).onChange((value) => __async(this, null, function* () {
+    new import_obsidian2.Setting(containerEl).setName("Pandoc 路径").setDesc("可选的Pandoc路径覆盖，如果你遇到命令未找到的问题。在Mac/Linux上使用终端中'which pandoc'的输出；在Windows上使用powershell中'Get-Command pandoc'的输出。").addText((text) => text.setPlaceholder("pandoc").setValue(this.plugin.settings.pandoc).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.pandoc = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("PDFLaTeX path").setDesc("Optional override for pdflatex's path. Same as above but with 'which pdflatex'").addText((text) => text.setPlaceholder("pdflatex").setValue(this.plugin.settings.pdflatex).onChange((value) => __async(this, null, function* () {
+    new import_obsidian2.Setting(containerEl).setName("PDF LaTeX 路径").setDesc("可选的 pdflatex 路径覆盖。同上，但使用 'which pdflatex'").addText((text) => text.setPlaceholder("pdflatex").setValue(this.plugin.settings.pdflatex).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.pdflatex = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian2.Setting(containerEl).setName("Extra Pandoc arguments").setDesc("Add extra command line arguments so you can use templates or bibliographies. Newlines are turned into spaces").addTextArea((text) => text.setPlaceholder('Example: --bibliography "Zotero ExportsMy Library.json" or --template letter').setValue(this.plugin.settings.extraArguments).onChange((value) => __async(this, null, function* () {
+    new import_obsidian2.Setting(containerEl).setName("额外的Pandoc参数").setDesc("添加额外的命令行参数，以便你可以使用模板或参考文献。换行符将被转换为空格。").addTextArea((text) => text.setPlaceholder('示例: --bibliography "Zotero ExportsMy Library.json" or --template letter').setValue(this.plugin.settings.extraArguments).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.extraArguments = value;
       yield this.plugin.saveSettings();
     })).inputEl.style.minHeight = "150px");

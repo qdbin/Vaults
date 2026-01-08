@@ -4,7 +4,14 @@
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
-  "leftRibbon": [],
+  "leftRibbon": [
+    {
+      "id": "OA-file-hider:oa-fh-toggle-visibility",
+      "icon": "lucide-accessibility",
+      "name": "Folder Hide/Show",
+      "mode": "desktop"
+    }
+  ],
   "rightRibbon": [],
   "titleBar": [],
   "statusBar": [],

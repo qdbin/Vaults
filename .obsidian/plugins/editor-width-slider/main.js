@@ -45,17 +45,17 @@ var EditorWidthSliderSettingTab = class extends import_obsidian.PluginSettingTab
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian.Setting(containerEl).setName("Slider Width").setDesc("How wide do you want your slider to be?").addText((text) => text.setPlaceholder("Slider width in px").setValue(this.plugin.settings.sliderWidth).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("滑块宽度").setDesc("你希望你的滑块有多宽？").addText((text) => text.setPlaceholder("滑块宽度 （px）").setValue(this.plugin.settings.sliderWidth).onChange(async (value) => {
       this.plugin.settings.sliderWidth = value;
       this.plugin.updateSliderStyle();
       await this.plugin.saveSettings();
     }));
-    new import_obsidian.Setting(containerEl).setName("Slider Default Percentage").setDesc("What do you want the default percentage of the slider to be?").addText((text) => text.setPlaceholder("Slider width in px").setValue(this.plugin.settings.sliderPercentageDefault).onChange(async (value) => {
+    new import_obsidian.Setting(containerEl).setName("滑块默认百分比").setDesc("您希望滑块的默认百分比是多少？").addText((text) => text.setPlaceholder("滑块宽度 （px）").setValue(this.plugin.settings.sliderPercentageDefault).onChange(async (value) => {
       this.plugin.settings.sliderPercentageDefault = value;
       this.plugin.updateSliderStyle();
       await this.plugin.saveSettings();
     }));
-    new import_obsidian.Setting(containerEl).setName("Note:").setDesc(`The field should be named "editor-width" in the YAML frontmatter of the note in order to customize the editor width of that repective note. It won't work globally for all notes unless you specify it in each note's frontmatter.`);
+    new import_obsidian.Setting(containerEl).setName("注意：该字段应在注释的 YAML frontmatter 中命名为 “editor-width”，以便自定义该注释的编辑器宽度。除非您在每个注释的 frontmatter 中指定它，否则它不会全局适用于所有注释。").setDesc(`The field should be named "editor-width" in the YAML frontmatter of the note in order to customize the editor width of that repective note. It won't work globally for all notes unless you specify it in each note's frontmatter.`);
   }
 };
 
@@ -67,7 +67,7 @@ var WarningModal = class extends import_obsidian2.Modal {
   }
   onOpen() {
     const { contentEl } = this;
-    contentEl.setText("Editor width must be a number from 0 to 100!");
+    contentEl.setText("编辑器宽度必须是 0 到 100 之间的数字！");
   }
   onClose() {
     const { contentEl } = this;
@@ -114,7 +114,7 @@ var EditorWidthSlider = class extends import_obsidian3.Plugin {
       this.saveSettings();
       this.updateEditorStyle();
       sliderValueText.textContent = value.toString();
-      console.log("Slider value:", value);
+      console.log("滑块值：", value);
     });
     const sliderValueText = document.createElement("span");
     sliderValueText.textContent = slider.value;
@@ -223,7 +223,7 @@ var EditorWidthSlider = class extends import_obsidian3.Plugin {
               this.updateEditorStyle();
             }
           } catch (e) {
-            console.error("Error:", e.message);
+            console.error("错误：", e.message);
           }
         } else {
           this.updateEditorStyle();

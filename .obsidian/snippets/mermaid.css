@@ -1,10 +1,12 @@
-div.mermaid {
+div.mermaid,div.mermaid svg {
     text-align: center;
+	min-height:130px
 }
 
 /* */
 .mermaid svg {
 	width: auto;
+
     height: auto;
 }
 

@@ -1,0 +1,7 @@
+{
+  "autoSync": true,
+  "bidirectionalSync": true,
+  "pythonInterpreter": "C:\\Users\\hanbin\\scoop\\apps\\miniconda3-py311\\current\\envs\\test\\python.exe",
+  "notebookEditorCommand": "jupyter-lab",
+  "enableCodeBlocks": true
+}

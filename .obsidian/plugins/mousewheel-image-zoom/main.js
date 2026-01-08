@@ -260,7 +260,7 @@ class MouseWheelZoomPlugin extends obsidian.Plugin {
             this.registerEvent(this.app.workspace.on("window-open", (newWindow) => this.registerEvents(newWindow.win)));
             this.registerEvents(window);
             this.addSettingTab(new MouseWheelZoomSettingsTab(this.app, this));
-            console.log("Loaded: Mousewheel image zoom");
+            console.log("加载：鼠标滚轮图像缩放");
             this.checkExistingUserConflict();
         });
     }
@@ -548,10 +548,10 @@ class MouseWheelZoomSettingsTab extends obsidian.PluginSettingTab {
     display() {
         let { containerEl } = this;
         containerEl.empty();
-        containerEl.createEl('h2', { text: 'Settings for mousewheel zoom' });
+        containerEl.createEl('h2', { text: '鼠标滚轮缩放设置' });
         new obsidian.Setting(containerEl)
-            .setName('Trigger Key')
-            .setDesc('Key that needs to be pressed down for mousewheel zoom to work.')
+            .setName('触发键')
+            .setDesc('鼠标滚轮缩放需要按下指定按键才能工作。')
             .addDropdown(dropdown => dropdown
             .addOption(ModifierKey.CTRL, "Ctrl")
             .addOption(ModifierKey.ALT, "Alt")
@@ -566,8 +566,8 @@ class MouseWheelZoomSettingsTab extends obsidian.PluginSettingTab {
             yield this.plugin.saveSettings();
         })));
         new obsidian.Setting(containerEl)
-            .setName('Step size')
-            .setDesc('Step value by which the size of the image should be increased/decreased')
+            .setName('步长')
+            .setDesc('增加/减小图像大小的步长值')
             .addSlider(slider => {
             slider
                 .setValue(25)
@@ -580,8 +580,8 @@ class MouseWheelZoomSettingsTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
-            .setName('Initial Size')
-            .setDesc('Initial image size if no size was defined beforehand')
+            .setName('初始大小')
+            .setDesc('如果事先没有定义尺寸，则这里设置的默认图像尺寸初始化尺寸')
             .addSlider(slider => {
             slider
                 .setValue(500)
@@ -594,8 +594,8 @@ class MouseWheelZoomSettingsTab extends obsidian.PluginSettingTab {
             }));
         });
         new obsidian.Setting(containerEl)
-            .setName('Resize in canvas')
-            .setDesc('When enabled, all nodes on the Obsidian canvas can also be resized using the Modifier key')
+            .setName('在画布中调整大小')
+            .setDesc('启用后，画布上的所有节点也可以使用 Modifier 键调整大小')
             .addToggle((toggle) => {
             toggle.setValue(this.plugin.settings.resizeInCanvas)
                 .onChange((value) => __awaiter(this, void 0, void 0, function* () {

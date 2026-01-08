@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-html-plugin",
+    "name": "HTML Reader",
+    "version": "1.0.13",
+    "minAppVersion": "0.15.3",
+    "description": "此插件为 Obsidian 提供 HTML 文件解析功能，支持打开扩展名为 .html 和 .htm 的文档。",
+    "author": "Nuthrash",
+    "authorUrl": "https://github.com/nuthrash/obsidian-html-plugin",
+    "isDesktopOnly": false
+}

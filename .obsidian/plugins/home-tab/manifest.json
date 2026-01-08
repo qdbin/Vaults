@@ -1,0 +1,10 @@
+{
+    "id": "home-tab",
+    "name": "Home tab",
+    "version": "1.2.2",
+    "minAppVersion": "1.6.0",
+    "description": "一个类浏览器的本地文件搜索选项卡。",
+    "author": "Renso",
+    "authorUrl": "https://github.com/olrenso",
+    "isDesktopOnly": false
+}

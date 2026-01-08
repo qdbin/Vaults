@@ -582,9 +582,9 @@ const doWithFileExplorer = (plugin, callback) => {
         leaves = plugin.app.workspace.getLeavesOfType('file-explorer');
         if (leaves.length === 0) {
             if (count++ > 5)
-                console.error('failed to get file-explorer');
+                console.error('获取文件资源管理器失败');
             else {
-                console.log('file-explorer not found, retrying...');
+                console.log('未找到文件资源管理器，正在重试...');
                 setTimeout(tryGetView, 500);
             }
         }
@@ -675,7 +675,7 @@ const updateCount = (targetList, plugin) => {
     // set count of path
     const { fileExplorer, fileFilter } = plugin;
     if (!fileExplorer) {
-        console.error('fileExplorer missing');
+        console.error('缺少文件资源管理器');
         return;
     }
     for (const path of set) {
@@ -785,20 +785,20 @@ class FENoteCountSettingTab extends obsidian.PluginSettingTab {
         let { containerEl } = this;
         containerEl.empty();
         containerEl.createEl('h2', {
-            text: 'File Explorer Note Count Settings',
+            text: '文件资源管理器笔记数量设置',
         });
         new obsidian.Setting(containerEl)
-            .setName('Show All Numbers')
-            .setDesc('Turn on this option if you want to see the number of notes even after you expand the collapsed folders')
+            .setName('显示所有数字')
+            .setDesc('开启此选项后，即使展开已折叠的文件夹也能看到笔记数量')
             .addToggle((toggle) => toggle.setValue(this.plugin.settings.showAllNumbers).onChange((value) => {
             document.body.toggleClass('oz-show-all-num', value);
             this.plugin.settings.showAllNumbers = value;
             this.plugin.saveSettings();
         }));
         new obsidian.Setting(containerEl)
-            .setName('Add Root Folder')
-            .setDesc('By default, there is no root folder provided by Obsidian. It is moved to drop-down menu to switch between vaults. ' +
-            'Enable this option if you want to see root folder and its count in the file explorer')
+            .setName('添加根文件夹')
+            .setDesc('默认情况下，Obsidian 不提供根文件夹，它被移动到下拉菜单用于切换保管库。' +
+            '启用此选项可在文件资源管理器中查看根文件夹及其数量')
             .addToggle((toggle) => toggle.setValue(this.plugin.settings.addRootFolder).onChange((value) => {
             this.plugin.settings.addRootFolder = value;
             this.plugin.saveSettings();
@@ -808,8 +808,8 @@ class FENoteCountSettingTab extends obsidian.PluginSettingTab {
     }
     filterOpt() {
         new obsidian.Setting(this.containerEl)
-            .setName('Show Only Markdown Notes')
-            .setDesc('Turn off this option to choose file that should be counted')
+            .setName('仅显示 Markdown 笔记')
+            .setDesc('关闭此选项以选择需要计数的文件')
             .addToggle((toggle) => toggle.setValue(this.showOnlyNoteValue).onChange((value) => {
             this.showOnlyNoteValue = value;
             this.plugin.reloadCount();
@@ -818,11 +818,11 @@ class FENoteCountSettingTab extends obsidian.PluginSettingTab {
         }));
         if (!this.showOnlyNoteValue) {
             new obsidian.Setting(this.containerEl)
-                .setName('Filter List')
+                .setName('过滤列表')
                 .setDesc(createFragment((descEl) => {
-                descEl.appendText('Extension list to include/exclude file during counting');
+                descEl.appendText('计数时包含/排除文件的扩展名列表');
                 descEl.appendChild(document.createElement('br'));
-                descEl.appendText('Separated by comma');
+                descEl.appendText('用逗号分隔');
             }))
                 .addTextArea((text) => {
                 const onChange = (value) => __awaiter(this, void 0, void 0, function* () {
@@ -831,14 +831,14 @@ class FENoteCountSettingTab extends obsidian.PluginSettingTab {
                     this.plugin.reloadCount();
                     yield this.plugin.saveSettings();
                 });
-                text.setPlaceholder('Leave it empty to count all types of files');
+                text.setPlaceholder('留空以计数所有类型的文件');
                 text.setValue(this.plugin.settings.filterList.join(', ')).onChange(obsidian.debounce(onChange, 500, true));
                 text.inputEl.rows = 2;
                 text.inputEl.cols = 25;
             });
             new obsidian.Setting(this.containerEl)
-                .setName('Enable Blacklist')
-                .setDesc('Turn on this option to use Filter List to exclude files')
+                .setName('启用黑名单')
+                .setDesc('开启此选项以使用过滤列表排除文件')
                 .addToggle((toggle) => toggle.setValue(this.plugin.settings.blacklist).onChange((value) => {
                 this.plugin.settings.blacklist = value;
                 this.plugin.reloadCount();
@@ -894,7 +894,7 @@ class FileExplorerNoteCount extends obsidian.Plugin {
         this.setupRootFolder = (revert = false) => {
             var _a, _b, _c;
             if (!this.fileExplorer) {
-                console.error('file-explorer not found');
+                console.error('未找到文件资源管理器');
                 return;
             }
             if (this.rootFolderEl && !this.settings.addRootFolder) {
@@ -926,14 +926,14 @@ class FileExplorerNoteCount extends obsidian.Plugin {
     }
     onload() {
         return __awaiter(this, void 0, void 0, function* () {
-            console.log('loading FileExplorerNoteCount');
+            console.log('正在加载 FileExplorerNoteCount');
             this.addSettingTab(new FENoteCountSettingTab(this.app, this));
             yield this.loadSettings();
             this.app.workspace.onLayoutReady(this.initialize);
         });
     }
     onunload() {
-        console.log('unloading FileExplorerNoteCount');
+        console.log('正在卸载 FileExplorerNoteCount');
         this.initialize(true);
     }
     loadSettings() {

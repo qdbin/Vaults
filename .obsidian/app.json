@@ -6,9 +6,10 @@
   "useMarkdownLinks": true,
   "livePreview": true,
   "strictLineBreaks": false,
-  "propertiesInDocument": "visible",
+  "propertiesInDocument": "hidden",
   "showLineNumber": true,
   "rightToLeft": false,
   "vimMode": false,
-  "showInlineTitle": false
+  "showInlineTitle": false,
+  "focusNewTab": true
 }

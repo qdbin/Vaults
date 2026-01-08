@@ -24,5 +24,14 @@
   "manual-sorting",
   "drawio-obsidian",
   "mermaid-tools",
-  "mermaid-popup"
+  "mermaid-popup",
+  "jupymd",
+  "css-editor",
+  "mysnippets-plugin",
+  "obsidian-html-plugin",
+  "table-editor-obsidian",
+  "obsidian-meta-bind-plugin",
+  "obsidian-local-rest-api",
+  "open-tab-settings",
+  "OA-file-hider"
 ]

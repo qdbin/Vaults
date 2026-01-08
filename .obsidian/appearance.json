@@ -4,7 +4,8 @@
   "accentColor": "#4c9ce6",
   "enabledCssSnippets": [
     "custom-icons-differing-files-and-folders",
-    "mermaid"
+    "mermaid",
+    "tmptmptmp"
   ],
   "baseFontSizeAction": true,
   "baseFontSize": 28,

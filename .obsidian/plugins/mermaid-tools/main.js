@@ -290,7 +290,7 @@ var c4DiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "c4Diagram",
-    description: "sample C4 diagram (compatible with PlantUML)",
+    description: "C4 图表示例（兼容 PlantUML）",
     content: `C4Context
 		title System Context diagram for Internet Banking System
 		Enterprise_Boundary(b0, "BankBoundary0") {
@@ -343,7 +343,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "sample class",
+    description: "类示例",
     content: `class Duck{
             +String beakColor
             +swim()
@@ -355,7 +355,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "sample class",
+    description: "类示例",
     content: `class BankAccount
         BankAccount : +String owner
         BankAccount : +Bigdecimal balance
@@ -367,7 +367,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "generic class",
+    description: "通用类",
     content: `class Square~Shape~{
             int id
             List~int~ position
@@ -384,7 +384,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "inheritance",
+    description: "继承",
     content: "classA <|-- classB",
     sortingOrder: 3,
     isPinned: false
@@ -392,7 +392,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "composition",
+    description: "组合",
     content: "classC *-- classD",
     sortingOrder: 4,
     isPinned: false
@@ -400,7 +400,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "aggregation",
+    description: "聚合",
     content: "classE o-- classF",
     sortingOrder: 5,
     isPinned: false
@@ -408,7 +408,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "association",
+    description: "关联",
     content: "classG <-- classH",
     sortingOrder: 6,
     isPinned: false
@@ -416,7 +416,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "solid link",
+    description: "实线连接",
     content: "classI -- classJ",
     sortingOrder: 7,
     isPinned: false
@@ -424,7 +424,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "dependency",
+    description: "依赖",
     content: "classK <.. classL",
     sortingOrder: 8,
     isPinned: false
@@ -432,7 +432,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "realization",
+    description: "实现",
     content: "classM <|.. classN",
     sortingOrder: 9,
     isPinned: false
@@ -440,7 +440,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "dashed link",
+    description: "虚线连接",
     content: "classO .. classP",
     sortingOrder: 10,
     isPinned: false
@@ -448,7 +448,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "two-way relation",
+    description: "双向关系",
     content: "Animal <|--|> Zebra",
     sortingOrder: 11,
     isPinned: false
@@ -456,7 +456,7 @@ var classDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "classDiagram",
-    description: "sample class diagram",
+    description: "类图示例",
     content: `classDiagram
         Animal <|-- Duck
         Animal <|-- Fish
@@ -488,7 +488,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "a sample entity relationship diagram",
+    description: "实体关系图示例",
     content: `erDiagram
         CUSTOMER ||--o{ ORDER : places
         ORDER ||--|{ LINE-ITEM : contains
@@ -499,7 +499,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "an entity",
+    description: "实体",
     content: `    CUSTOMER {
             string name
             string custNumber
@@ -511,7 +511,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "one-to-many relationship",
+    description: "一对多关系",
     content: `A ||--|{ B : label`,
     sortingOrder: 2,
     isPinned: false
@@ -519,7 +519,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "many-to-many relationship",
+    description: "多对多关系",
     content: `A }|--|{ B : label`,
     sortingOrder: 3,
     isPinned: false
@@ -527,7 +527,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "one-to-one relationship",
+    description: "一对一关系",
     content: `A ||--|| B : label`,
     sortingOrder: 4,
     isPinned: false
@@ -535,7 +535,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "many-to-one relationship",
+    description: "多对一关系",
     content: `A }|--|| B : label`,
     sortingOrder: 5,
     isPinned: false
@@ -543,7 +543,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "zero/one-to-one relationship",
+    description: "零/一对一关系",
     content: `A |o--|| B : label`,
     sortingOrder: 6,
     isPinned: false
@@ -551,7 +551,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "one-to-one/zero relationship",
+    description: "一对零/一关系",
     content: `A ||--o| B : label`,
     sortingOrder: 7,
     isPinned: false
@@ -559,7 +559,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "zero-or-more-to-one relationship",
+    description: "零或多对一关系",
     content: `A }o--|| B : label`,
     sortingOrder: 8,
     isPinned: false
@@ -567,7 +567,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "one-to-zero-or-more relationship",
+    description: "一对零或多关系",
     content: `A ||--o{ B : label`,
     sortingOrder: 9,
     isPinned: false
@@ -575,7 +575,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "zero-or-more-to-many relationship",
+    description: "零或多对多关系",
     content: `A }o--|{ B : label`,
     sortingOrder: 10,
     isPinned: false
@@ -583,7 +583,7 @@ var entityRelationshipDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "entityRelationshipDiagram",
-    description: "many-to-zero-or-more relationship",
+    description: "多对零或多关系",
     content: `A }|--o{ B : label`,
     sortingOrder: 11,
     isPinned: false
@@ -595,7 +595,7 @@ var flowchartElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "a simple flowchart with top to down direction",
+    description: "一个简单的从上到下方向的流程图",
     content: `flowchart TD
 Start --> Stop`,
     sortingOrder: 1,
@@ -604,7 +604,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "a simple flowchart with left to right direction",
+    description: "一个简单的从左到右方向的流程图",
     content: "flowchart LR\nStart --> Stop",
     sortingOrder: 2,
     isPinned: false
@@ -612,7 +612,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "A node with round edges",
+    description: "带圆角的节点",
     content: "id1(Some text)",
     sortingOrder: 3,
     isPinned: false
@@ -620,7 +620,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "A stadium-shaped node",
+    description: "体育场形状的节点",
     content: "id1([Some text])",
     sortingOrder: 4,
     isPinned: false
@@ -628,7 +628,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "A node in a cylindrical shape",
+    description: "圆柱形的节点",
     content: "id1[(Database)]",
     sortingOrder: 5,
     isPinned: false
@@ -636,7 +636,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Circle",
+    description: "圆形",
     content: "id1((Some text))",
     sortingOrder: 6,
     isPinned: false
@@ -644,7 +644,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Rhombus",
+    description: "菱形",
     content: "id1{Some text}",
     sortingOrder: 7,
     isPinned: false
@@ -652,7 +652,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Hexagon",
+    description: "六边形",
     content: "id1{{Some text}}",
     sortingOrder: 8,
     isPinned: false
@@ -660,7 +660,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Parallelogram skewed right",
+    description: "右倾平行四边形",
     content: "id1[/Some text/]",
     sortingOrder: 9,
     isPinned: false
@@ -668,7 +668,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Parallelogram skewed left",
+    description: "左倾平行四边形",
     content: "id1[\\Some text\\]",
     sortingOrder: 10,
     isPinned: false
@@ -676,7 +676,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Trapezoid",
+    description: "梯形",
     content: "A[/Some text\\]",
     sortingOrder: 11,
     isPinned: false
@@ -684,7 +684,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Trapezoid upside down",
+    description: "倒置梯形",
     content: "A[\\Some text/]",
     sortingOrder: 12,
     isPinned: false
@@ -692,7 +692,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Double circle node",
+    description: "双圆节点",
     content: "id1(((Some text)))",
     sortingOrder: 13,
     isPinned: false
@@ -700,7 +700,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "A link with arrow head",
+    description: "带箭头的连接",
     content: "A-->B",
     sortingOrder: 14,
     isPinned: false
@@ -708,7 +708,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "An open link",
+    description: "开放连接",
     content: "A --- B",
     sortingOrder: 15,
     isPinned: false
@@ -716,7 +716,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Text on links",
+    description: "连接上的文本",
     content: "A-- This is the text! ---B",
     sortingOrder: 16,
     isPinned: false
@@ -724,7 +724,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "A link with arrow head and text",
+    description: "带箭头和文本的连接",
     content: "A-->|text|B",
     sortingOrder: 17,
     isPinned: false
@@ -732,7 +732,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Dotted link",
+    description: "虚线连接",
     content: "A-.->B",
     sortingOrder: 18,
     isPinned: false
@@ -740,7 +740,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Thick link",
+    description: "粗线连接",
     content: "A ==> B",
     sortingOrder: 19,
     isPinned: false
@@ -748,7 +748,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Invisible link",
+    description: "不可见连接",
     content: "A ~~~ B",
     sortingOrder: 20,
     isPinned: false
@@ -756,7 +756,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Link with circle edge",
+    description: "带圆形端点的连接",
     content: "A --o B",
     sortingOrder: 21,
     isPinned: false
@@ -764,7 +764,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Link with cross edge",
+    description: "带交叉端点的连接",
     content: "A --x B",
     sortingOrder: 22,
     isPinned: false
@@ -772,7 +772,7 @@ Start --> Stop`,
   {
     id: crypto.randomUUID(),
     categoryId: "flowchart",
-    description: "Subgraph",
+    description: "子图",
     content: "subgraph one\na1-->a2\nend",
     sortingOrder: 14,
     isPinned: false
@@ -784,7 +784,7 @@ var ganttChartElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "ganttChart",
-    description: "simple gantt chart",
+    description: "简单的甘特图",
     content: `gantt
         title A Gantt Diagram
         dateFormat  YYYY-MM-DD
@@ -800,7 +800,7 @@ var ganttChartElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "ganttChart",
-    description: "rich gantt chart",
+    description: "丰富的甘特图",
     content: `gantt
         dateFormat  YYYY-MM-DD
         title       Adding GANTT diagram functionality to mermaid
@@ -836,7 +836,7 @@ var ganttChartElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "ganttChart",
-    description: "milestones example",
+    description: "里程碑示例",
     content: `gantt
         dateFormat HH:mm
         axisFormat %H:%M
@@ -854,7 +854,7 @@ var gitGraphElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "gitGraph",
-    description: "simple git graph",
+    description: "简单的Git图",
     content: `gitGraph
         commit
         commit
@@ -872,7 +872,7 @@ var gitGraphElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "gitGraph",
-    description: "tagged commit",
+    description: "标记提交",
     content: `commit id: "Normal" tag: "v1.0.0"`,
     sortingOrder: 1,
     isPinned: false
@@ -880,7 +880,7 @@ var gitGraphElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "gitGraph",
-    description: "reverse commit",
+    description: "回滚提交",
     content: `commit id: "Reverse" type: REVERSE`,
     sortingOrder: 2,
     isPinned: false
@@ -888,7 +888,7 @@ var gitGraphElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "gitGraph",
-    description: "highlighted commit",
+    description: "高亮提交",
     content: `commit id: "Highlight" type: HIGHLIGHT`,
     sortingOrder: 3,
     isPinned: false
@@ -896,7 +896,7 @@ var gitGraphElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "gitGraph",
-    description: "reverse commit",
+    description: "回滚提交",
     content: `commit id: "Reverse" type: REVERSE`,
     sortingOrder: 4,
     isPinned: false
@@ -904,7 +904,7 @@ var gitGraphElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "gitGraph",
-    description: "git graph with cherry-pick",
+    description: "带有挑选提交的Git图",
     content: `gitGraph
         commit id: "ZERO"
         branch develop
@@ -958,7 +958,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "a simple mindmap",
+    description: "一个简单的思维导图",
     content: `mindmap
         Root
             A
@@ -970,7 +970,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "square",
+    description: "正方形",
     content: `id[I am a square]`,
     sortingOrder: 2,
     isPinned: false
@@ -978,7 +978,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "rounded square",
+    description: "圆角正方形",
     content: `id(I am a rounded square)`,
     sortingOrder: 3,
     isPinned: false
@@ -986,7 +986,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "circle",
+    description: "圆形",
     content: `id((I am a circle))`,
     sortingOrder: 4,
     isPinned: false
@@ -994,7 +994,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "bang",
+    description: "惊叹号",
     content: `id))I am a bang((`,
     sortingOrder: 5,
     isPinned: false
@@ -1002,7 +1002,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "cloud",
+    description: "云形",
     content: `id)I am a cloud(`,
     sortingOrder: 6,
     isPinned: false
@@ -1010,7 +1010,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "hexagon",
+    description: "六边形",
     content: `id{{I am a hexagon}}`,
     sortingOrder: 7,
     isPinned: false
@@ -1018,7 +1018,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "default",
+    description: "默认",
     content: `I am the default shape`,
     sortingOrder: 8,
     isPinned: false
@@ -1026,7 +1026,7 @@ var mindMapElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "mindmap",
-    description: "sample mindmap",
+    description: "示例思维导图",
     content: `mindmap
         root((mindmap))
           Origins
@@ -1072,7 +1072,7 @@ var pieChartElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "pieChart",
-    description: "sample pie chart",
+    description: "示例饼图",
     content: `pie title /r/obsidianmd posts by type
         "Graphs" : 85
         "Dashboards" : 14
@@ -1083,7 +1083,7 @@ var pieChartElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "pieChart",
-    description: "sample pie chart with values shown in legend",
+    description: "带有图例显示数值的示例饼图",
     content: `pie showData title /r/obsidianmd posts by type
         "Graphs" : 85
         "Dashboards" : 14
@@ -1098,7 +1098,7 @@ var quadrantElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "quadrantChart",
-    description: "sample quadrant chart",
+    description: "示例象限图",
     content: `quadrantChart
 		title Reach and engagement of campaigns
 		x-axis Low Reach --> High Reach
@@ -1119,7 +1119,7 @@ var quadrantElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "quadrantChart",
-    description: "themed quadrant chart",
+    description: "主题化象限图",
     content: `%%{init: {"quadrantChart": {"chartWidth": 400, "chartHeight": 400}, "themeVariables": {"quadrant1TextFill": "#ff0000"} }}%%
 		quadrantChart
 		  x-axis Urgent --> Not Urgent
@@ -1138,7 +1138,7 @@ var requirementDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "requirementDiagram",
-    description: "sample requirements diagram",
+    description: "示例需求图",
     content: `    requirementDiagram
 
         requirement test_req {
@@ -1159,7 +1159,7 @@ var requirementDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "requirementDiagram",
-    description: "sample requirements diagram",
+    description: "示例需求图",
     content: `element customElement {
             type: customType
             docref: customDocRef
@@ -1170,7 +1170,7 @@ var requirementDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "requirementDiagram",
-    description: "a requirement with high risk",
+    description: "高风险需求",
     content: `functionalRequirement myReq {
             id: reqId
             text: someText
@@ -1183,7 +1183,7 @@ var requirementDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "requirementDiagram",
-    description: "sample requirements diagram",
+    description: "示例需求图",
     content: `interfaceRequirement myReq2 {
             id: reqId
             text: someText
@@ -1196,7 +1196,7 @@ var requirementDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "requirementDiagram",
-    description: "sample requirements diagram",
+    description: "示例需求图",
     content: `designConstraint myReq3 {
             id: reqId
             text: someText
@@ -1229,7 +1229,7 @@ var sequenceDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "sequenceDiagram",
-    description: "a simple sequence diagram",
+    description: "简单顺序图",
     content: `sequenceDiagram
 Alice->>John: Hello John, how are you?
 John-->>Alice: Great!
@@ -1240,7 +1240,7 @@ Alice-)John: See you later!`,
   {
     id: crypto.randomUUID(),
     categoryId: "sequenceDiagram",
-    description: "a simple sequence diagram with actors",
+    description: "带有参与者的简单顺序图",
     content: `sequenceDiagram
 actor Alice
 actor John
@@ -1257,7 +1257,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "a sample state diagram",
+    description: "示例状态图",
     content: `stateDiagram-v2
         [*] --> Still
         Still --> [*]
@@ -1272,7 +1272,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "a sample state diagram with left-to-right direction",
+    description: "从左到右方向的示例状态图",
     content: `stateDiagram-v2
         direction LR
         [*] --> Still
@@ -1288,7 +1288,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "node with description",
+    description: "带描述的节点",
     content: `s2 : This is a state description`,
     sortingOrder: 2,
     isPinned: false
@@ -1296,7 +1296,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "a transition",
+    description: "一个转换",
     content: `s1 --> s2`,
     sortingOrder: 3,
     isPinned: false
@@ -1304,7 +1304,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "a transition with label",
+    description: "带标签的转换",
     content: `s1 --> s2: A transition`,
     sortingOrder: 4,
     isPinned: false
@@ -1312,7 +1312,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "composite state",
+    description: "复合状态",
     content: `
         [*] --> First
         state First {
@@ -1325,7 +1325,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "diagram with choice",
+    description: "带有选择的图表",
     content: `stateDiagram-v2
         state if_state <<choice>>
         [*] --> IsPositive
@@ -1338,7 +1338,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "diagram with fork",
+    description: "带有分叉的图表",
     content: `stateDiagram-v2
         state fork_state <<fork>>
           [*] --> fork_state
@@ -1356,7 +1356,7 @@ var stateDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "stateDiagram",
-    description: "a diagram with concurrency",
+    description: "带有并发的图表",
     content: `stateDiagram-v2
         [*] --> Active
     
@@ -1383,7 +1383,7 @@ var timelineElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "timeline",
-    description: "sample timeline",
+    description: "示例时间线",
     content: `timeline
 		title History of Social Media Platform
 		2002 : LinkedIn
@@ -1397,7 +1397,7 @@ var timelineElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "timeline",
-    description: "timeline with grouping",
+    description: "带有分组的时间线",
     content: `timeline
 		title Timeline of Industrial Revolution
 		section 17th-20th century
@@ -1413,7 +1413,7 @@ var timelineElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "timeline",
-    description: "timeline with Forest theme. see the docs for additional themes",
+    description: "带有森林主题的时间线。查看文档了解更多主题",
     content: `%%{init: { 'logLevel': 'debug', 'theme': 'forest' } }%%
 		timeline
 			title History of Social Media Platform
@@ -1434,7 +1434,7 @@ var userJourneyDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "userJourneyDiagram",
-    description: "a sample user journey diagram",
+    description: "示例用户旅程图",
     content: `journey
         title My working day
         section Go to work
@@ -1450,7 +1450,7 @@ var userJourneyDiagramElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "userJourneyDiagram",
-    description: "a step in user journey",
+    description: "用户旅程中的一步",
     content: `      Step Title: 5: ActorName`,
     sortingOrder: 1,
     isPinned: false
@@ -1462,7 +1462,7 @@ var xyChartElements = [
   {
     id: crypto.randomUUID(),
     categoryId: "xyChart",
-    description: "a sample XYChart diagram",
+    description: "示例XY图表",
     content: `xychart-beta
         title "Sales Revenue"
         x-axis [jan, feb, mar, apr, may, jun, jul, aug, sep, oct, nov, dec]
@@ -1911,14 +1911,14 @@ var EditMermaidElementModal = class extends import_obsidian2.Modal {
   async onOpen() {
     const { contentEl } = this;
     contentEl.addClass("mermaid-tools-edit-element-modal");
-    contentEl.createEl("h2", { text: "Edit element" });
+    contentEl.createEl("h2", { text: "编辑元素" });
     const renderContainerEl = contentEl.createDiv();
-    const renderEl = renderContainerEl.createEl("pre", { text: "rendered diagram" });
+    const renderEl = renderContainerEl.createEl("pre", { text: "渲染的图表" });
     if (!this._mermaid)
       this._mermaid = await (0, import_obsidian2.loadMermaid)();
     renderEl.id = "mermaid-edit-element-modal";
     const elementCategoryContainerEl = contentEl.createDiv();
-    elementCategoryContainerEl.createEl("label", { text: "Category" });
+    elementCategoryContainerEl.createEl("label", { text: "类别" });
     const elementCategoryEl = elementCategoryContainerEl.createEl("select");
     const categories = this._categoryService.getCategories();
     for (const category of categories) {
@@ -1930,14 +1930,14 @@ var EditMermaidElementModal = class extends import_obsidian2.Modal {
       this._element.categoryId = elementCategoryEl.value;
     };
     const elementDescriptionContainerEl = contentEl.createDiv();
-    elementDescriptionContainerEl.createEl("label", { text: "Description" });
+    elementDescriptionContainerEl.createEl("label", { text: "描述" });
     const elementDescriptionEl = elementDescriptionContainerEl.createEl("input", { value: this._element.description, type: "text" });
     elementDescriptionEl.style.minWidth = "50%";
     elementDescriptionEl.onchange = (e) => {
       this._element.description = elementDescriptionEl.value;
     };
     const elementContentContainerEl = contentEl.createDiv();
-    elementContentContainerEl.createEl("label", { text: "Content" });
+    elementContentContainerEl.createEl("label", { text: "内容" });
     const elementContentEl = elementContentContainerEl.createEl("textarea", { text: this._element.content });
     elementContentEl.style.height = "200px";
     elementContentEl.style.width = "100%";
@@ -1947,7 +1947,7 @@ var EditMermaidElementModal = class extends import_obsidian2.Modal {
       renderEl.innerHTML = svg2;
       renderContainerEl.appendChild(renderEl);
     };
-    const saveButtonEl = contentEl.createEl("button", { text: "Save" });
+    const saveButtonEl = contentEl.createEl("button", { text: "保存" });
     saveButtonEl.onclick = (e) => {
       this.save();
     };
@@ -2096,7 +2096,7 @@ async function renderSettings(containerEl, plugin) {
   const categoryService = CategoryService.getInstance();
   categoryService.loadCategories(plugin.settings.customCategories, plugin.settings.defaultCategorySortOrders);
   containerEl.empty();
-  containerEl.createEl("h1", { text: "Mermaid Tools Settings" });
+  containerEl.createEl("h1", { text: "Mermaid工具设置" });
   containerEl.createEl("h2", { text: "Manage Elements & Categories" });
   const buttonsContainer = containerEl.createDiv();
   buttonsContainer.style.marginBottom = "20px";
@@ -2107,7 +2107,7 @@ async function renderSettings(containerEl, plugin) {
   addElementButton.onclick = () => {
     const newElement = {
       id: crypto.randomUUID(),
-      description: "New element",
+      description: "新元素",
       content: `flowchart TD
 Start --> Stop`,
       categoryId: "flowchart",
@@ -2197,7 +2197,7 @@ function createIntegratedCategorySection(containerEl, plugin, categoryService, m
       e.stopPropagation();
       const newElement = {
         id: crypto.randomUUID(),
-        description: "New element",
+        description: "新元素",
         content: `flowchart TD
 Start --> Stop`,
         categoryId: category.id,
@@ -2355,7 +2355,7 @@ function renderCategoryElements(category, plugin, parentEl, mermaid, categorySer
     const setting = new import_obsidian4.Setting(settingContainer);
     setting.setName(element.description);
     setting.addExtraButton((cb) => {
-      cb.setIcon("edit").setTooltip("edit element").onClick(() => {
+      cb.setIcon("edit").setTooltip("编辑元素").onClick(() => {
         const modal = new EditMermaidElementModal(plugin.app, plugin, mermaid, element, categoryService);
         modal.open();
         modal.onClose = () => {
@@ -2366,7 +2366,7 @@ function renderCategoryElements(category, plugin, parentEl, mermaid, categorySer
       });
     });
     setting.addExtraButton((cb) => {
-      cb.setIcon("copy").setTooltip("create a duplicate of this element").onClick(() => {
+      cb.setIcon("copy").setTooltip("创建此元素的副本").onClick(() => {
         const duplicate = {
           id: crypto.randomUUID(),
           categoryId: element.categoryId,
@@ -2383,7 +2383,7 @@ function renderCategoryElements(category, plugin, parentEl, mermaid, categorySer
       });
     });
     setting.addExtraButton((cb) => {
-      cb.setIcon("arrow-up").setTooltip("move element up in the sidebar").onClick(() => {
+      cb.setIcon("arrow-up").setTooltip("在侧边栏中向上移动元素").onClick(() => {
         if (index > 0) {
           const temp = elements[index - 1].sortingOrder;
           elements[index - 1].sortingOrder = element.sortingOrder;
@@ -2397,7 +2397,7 @@ function renderCategoryElements(category, plugin, parentEl, mermaid, categorySer
       });
     });
     setting.addExtraButton((cb) => {
-      cb.setIcon("arrow-down").setTooltip("move element down in the sidebar").onClick(() => {
+      cb.setIcon("arrow-down").setTooltip("在侧边栏中向下移动元素").onClick(() => {
         if (index < elements.length - 1) {
           const temp = elements[index + 1].sortingOrder;
           elements[index + 1].sortingOrder = element.sortingOrder;
@@ -2411,7 +2411,7 @@ function renderCategoryElements(category, plugin, parentEl, mermaid, categorySer
       });
     });
     setting.addExtraButton((cb) => {
-      cb.setIcon("trash-2").setTooltip("delete element").onClick(() => {
+      cb.setIcon("trash-2").setTooltip("删除元素").onClick(() => {
         plugin.settings.elements = plugin.settings.elements.filter((e) => e.id !== element.id);
         plugin.saveSettings();
         const settingsContainer = parentEl.closest(".vertical-tab-content");
@@ -2562,7 +2562,7 @@ var MermaidPlugin = class extends import_obsidian7.Plugin {
     });
     this.addCommand({
       id: "open-toolbar",
-      name: "Open Toolbar View",
+      name: "打开工具栏视图",
       callback: () => {
         this.activateView();
       }
@@ -2579,19 +2579,19 @@ var MermaidPlugin = class extends import_obsidian7.Plugin {
   addNewCategories() {
     if (!this.settings.elements.some((x) => x.categoryId === "mindmap")) {
       this.settings.elements.push(...mindMapElements);
-      console.log("[Mermaid Tools] added Mindmap elements");
+      console.log("[Mermaid Tools] 添加了思维导图元素");
     }
     if (!this.settings.elements.some((x) => x.categoryId === "timeline")) {
       this.settings.elements.push(...timelineElements);
-      console.log("[Mermaid Tools] added Timeline elements");
+      console.log("[Mermaid Tools] 添加了时间轴元素");
     }
     if (!this.settings.elements.some((x) => x.categoryId === "quadrantChart")) {
       this.settings.elements.push(...quadrantElements);
-      console.log("[Mermaid Tools] added QuadrantChart elements");
+      console.log("[Mermaid Tools] 添加了象限图元素");
     }
     if (!this.settings.elements.some((x) => x.categoryId === "c4Diagram")) {
       this.settings.elements.push(...c4DiagramElements);
-      console.log("[Mermaid Tools] added C4 diagram elements");
+      console.log("[Mermaid Tools] 添加了C4图表元素");
     }
     if (!this.settings.elements.some((x) => x.categoryId === "packet")) {
       this.settings.elements.push(...packetElements);

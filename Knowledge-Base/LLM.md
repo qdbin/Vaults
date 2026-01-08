@@ -143,7 +143,7 @@ client = OpenAI(
 
 上面是我用阿里百炼上面的 deepseek-r1 模型编写的 demo，这里需要注意的是 deepseek-r1 是一个思考模型，所以他有很长的思考过程。什么是思考模型呢？ 我在这里给大家截个图：
 
-[![img](./assets/1750750310175-f7bbbe4c-b89c-4d3f-abb9-39bb08313e33.png)](https://testerhome.com/uploads/photo/2025/3394f27a-dad5-4040-9b9b-282f2c31414c.png!large)
+[![img](assets/1750750310175-f7bbbe4c-b89c-4d3f-abb9-39bb08313e33.png)](https://testerhome.com/uploads/photo/2025/3394f27a-dad5-4040-9b9b-282f2c31414c.png!large)
 
 上图是在豆包上使用 deepseek-r1 的截图，我点击了深度思考能力，询问了一个问题，模型会把整个思考过程像上图一样输出出来。 从感官上这就是思考模型了，它擅长思考用户场景，意图识别，在大量的智能体（agent）场景中都需要思考模型作为核心，判断用户意图，决策后续行动以及调用对应工具。
 
@@ -263,11 +263,11 @@ class ModelUser(HttpUser):
 
 压测逻辑同样写在了代码注释中，包括各项指标的计算方法也都在注释中。 压测启动起来后的样子是这样的：
 
-[![img](./assets/1750750310454-080d65f1-6f8f-47a8-a97b-d4b92823fe59.png)](https://testerhome.com/uploads/photo/2025/e71890de-2db3-401f-8e6a-52ee76c4af19.png!large)
+[![img](assets/1750750310454-080d65f1-6f8f-47a8-a97b-d4b92823fe59.png)](https://testerhome.com/uploads/photo/2025/e71890de-2db3-401f-8e6a-52ee76c4af19.png!large)
 
 为了输出最终指标，我们需要使用 locust 的 --csv 参数把结果保存到本地路径中，或者也可以选择从界面上下载：
 
-[![img](./assets/1750750310586-8c48f6cf-96ed-496f-af87-6df25ac7630d.png)](https://testerhome.com/uploads/photo/2025/04cbbec9-760e-47b1-bcad-7a1af16fc571.png!large)
+[![img](assets/1750750310586-8c48f6cf-96ed-496f-af87-6df25ac7630d.png)](https://testerhome.com/uploads/photo/2025/04cbbec9-760e-47b1-bcad-7a1af16fc571.png!large)
 
 当 csv 文件下载好后，可以通过下面的脚本计算指标：
 
@@ -394,7 +394,7 @@ if __name__ == '__main__':
 
 首先我们需要知道大模型是怎么回答用户的问题的，看下面的图：
 
-[![img](./assets/1750750310030-5a8ccd3f-a9e2-4b42-bb39-66854fa589bc.png)](https://testerhome.com/uploads/photo/2025/1c990a9a-303e-4faf-a930-3c30fb97df99.png!large)
+[![img](assets/1750750310030-5a8ccd3f-a9e2-4b42-bb39-66854fa589bc.png)](https://testerhome.com/uploads/photo/2025/1c990a9a-303e-4faf-a930-3c30fb97df99.png!large)
 
 如上图：大模型推理的时候，会先通过用户的问题去计算第一个 token（首 token），而它计算的方法就是到词表中针对每个词去算一个概率，意思就是：**根据用户输入的问题，去预测词表中每一个词会出现在回答的第一个 token 的概率**,比如上图中 “我” 的概率是 80%，“你” 的概率是 10%，“他” 的概率是 5%，依此类推。 模型会计算出每个词出现在这个位置的概率。 
 
@@ -406,7 +406,7 @@ if __name__ == '__main__':
 
 当模型计算出第一个 token 后，它会用用户的问题 + 第一个 token 再去预测第二个 token，如下图：
 
-[![img](./assets/1750750310071-2b4e1959-c3cf-4b3b-8266-40854ed381cc.png)](https://testerhome.com/uploads/photo/2025/e3f880fa-c944-416b-9366-30ffb817b069.png!large)
+[![img](assets/1750750310071-2b4e1959-c3cf-4b3b-8266-40854ed381cc.png)](https://testerhome.com/uploads/photo/2025/e3f880fa-c944-416b-9366-30ffb817b069.png!large)
 
 模型使用用户的问题预测出第一个 token，然后使用问题 + 第一个 token 去预测第二个 token，依此类推。
 
@@ -621,7 +621,7 @@ if __name__ == '__main__':
 
 上面是一段我在我的知识星球里的直播中讲解的一个文档检索场景的测试脚本。 它针对知识库中的文档片段进行 embedding 后（生产环境是保存在向量库中的），再针对用户的问题进行 embedding，然后计算用户问题与每一个文档片段的 embedding 的余弦相似度来进行语义的匹配检索。 感兴趣的同学可以研究一下，因为这里不涉及大模型的性能测试所以不过度展开，以后有机会我单独写一篇文章讲这部分内容。 这里主要演示一下计算出的 embedding 是长什么样子的：
 
-[![img](./assets/1750750310957-57c1cdde-469f-4869-b884-b2352f3ce077.png)](https://testerhome.com/uploads/photo/2025/f55ac3ad-dd85-4562-ac13-920400fac9c9.png!large)
+[![img](assets/1750750310957-57c1cdde-469f-4869-b884-b2352f3ce077.png)](https://testerhome.com/uploads/photo/2025/f55ac3ad-dd85-4562-ac13-920400fac9c9.png!large)
 
 大家可以看到，它就是一堆的浮点数，每个浮点数都代表某个方向的特征。而我们说的模型的**精度**也是类似的，模型保存的就是这一堆的浮点数。 所以我们说一个模型的精度是 fp32，意思就是它保存的是 32 位的浮点数，fp16 和 fp8 就是保存的 16 位和 8 位的浮点数。
 
@@ -649,7 +649,7 @@ MTP 带来的收益取决于那个小模型的准确度，毕竟它可能只有 
 
 我们先说 TP 并行吧， TP 并行也叫张量（tenser）并行，实际上它是把一个神经网络按下面的方式切了一刀或者 N 刀:
 
-[![img](./assets/1750750310333-92669dca-1246-49e3-af06-3a77ebb6837f.png)](https://testerhome.com/uploads/photo/2025/9a01d8c9-2b16-477e-8899-23bc17130db8.png!large)
+[![img](assets/1750750310333-92669dca-1246-49e3-af06-3a77ebb6837f.png)](https://testerhome.com/uploads/photo/2025/9a01d8c9-2b16-477e-8899-23bc17130db8.png!large)
 
 上图把一个神经网络按这个方式切成了 2 部分，分别加载到 2 块 GPU 中，让这两个 GPU 分别去计算不同的部分，而这就是 TP 并行。如果一个模型是 TP8 的，那就是一个模型要这样被切成 8 份，让 8 块 GPU 加载进去。一个数据过来后，是这 8 块 GPU 共同计算的。
 
@@ -662,7 +662,7 @@ MTP 带来的收益取决于那个小模型的准确度，毕竟它可能只有 
 - DP 并行：就是数据并行，如果是 DP2，那就是同时计算 2 个数据。
 - PP 并行：流水线并行，这个不好理解。 按我自己的理解画一个下面的图：
 
-[![img](./assets/1750750310436-89f72f54-d042-4164-9e1d-00ba21253049.png)](https://testerhome.com/uploads/photo/2025/dee050b5-54ab-4dca-b97f-0eb9e04a4f04.png!large)
+[![img](assets/1750750310436-89f72f54-d042-4164-9e1d-00ba21253049.png)](https://testerhome.com/uploads/photo/2025/dee050b5-54ab-4dca-b97f-0eb9e04a4f04.png!large)
 
 我自己的理解 PP 并行就是把模型这样再切一下（与 TP 并行是不同的切法），同样可以分配到不同的 GPU 卡中。
 

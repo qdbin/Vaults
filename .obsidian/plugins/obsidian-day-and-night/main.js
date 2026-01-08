@@ -3768,7 +3768,7 @@ var DayAndNightSettingTab = class extends import_obsidian.PluginSettingTab {
     const { containerEl } = this;
     containerEl.empty();
     containerEl.createEl("h2", {
-      text: "Settings for Day and Night plugin."
+      text: "设置日间和夜间的插件"
     });
     this.addPluginToggleSetting();
     if (this.plugin.settings.pluginEnabled) {
@@ -3777,7 +3777,7 @@ var DayAndNightSettingTab = class extends import_obsidian.PluginSettingTab {
     }
   }
   addPluginToggleSetting() {
-    new import_obsidian.Setting(this.containerEl).setName("Enable Day and Night").addToggle((value) => {
+    new import_obsidian.Setting(this.containerEl).setName("启用自动切换日间和夜间主题").addToggle((value) => {
       value.setValue(this.plugin.settings.pluginEnabled);
       value.onChange((value2) => {
         this.plugin.settings.pluginEnabled = value2;
@@ -3787,15 +3787,15 @@ var DayAndNightSettingTab = class extends import_obsidian.PluginSettingTab {
     });
   }
   addNightSettings() {
-    new import_obsidian.Setting(this.containerEl).setName("Night Color Scheme").setDesc("Select a Night Color Scheme").addDropdown((dropdown) => dropdown.addOption(this.LIGHT_COLOR_SCHEME_KEY, "Light").addOption(this.DARK_COLOR_SCHEME_KEY, "Dark").setValue(this.plugin.settings.nightColorScheme).onChange((value) => {
+    new import_obsidian.Setting(this.containerEl).setName("夜间配色方案").setDesc("设置夜间的配色方案").addDropdown((dropdown) => dropdown.addOption(this.LIGHT_COLOR_SCHEME_KEY, "Light").addOption(this.DARK_COLOR_SCHEME_KEY, "Dark").setValue(this.plugin.settings.nightColorScheme).onChange((value) => {
       this.plugin.settings.nightColorScheme = value;
       this.plugin.saveData(this.plugin.settings);
     }));
-    new import_obsidian.Setting(this.containerEl).setName("Night Theme").setDesc("Select a Night Theme").addDropdown((dropdown) => dropdown.addOptions(this.getAllCommunityThemes()).setValue(this.plugin.settings.nightTheme).onChange((value) => {
+    new import_obsidian.Setting(this.containerEl).setName("夜间主题").setDesc("设置夜间的主题").addDropdown((dropdown) => dropdown.addOptions(this.getAllCommunityThemes()).setValue(this.plugin.settings.nightTheme).onChange((value) => {
       this.plugin.settings.nightTheme = value;
       this.plugin.saveData(this.plugin.settings);
     }));
-    new import_obsidian.Setting(this.containerEl).setName("Night Start Time").setDesc("24-hour format").addMomentFormat((format) => {
+    new import_obsidian.Setting(this.containerEl).setName("夜间开始时间").setDesc("24小时格式").addMomentFormat((format) => {
       format.setDefaultFormat("HH:mm").setPlaceholder("HH:mm").setValue(this.plugin.settings.nightTime).onChange((value) => {
         this.plugin.settings.nightTime = value;
         this.plugin.saveData(this.plugin.settings);
@@ -3803,15 +3803,15 @@ var DayAndNightSettingTab = class extends import_obsidian.PluginSettingTab {
     });
   }
   addDaySettings() {
-    new import_obsidian.Setting(this.containerEl).setName("Day Color Scheme").setDesc("Select a Day Color Scheme").addDropdown((dropdown) => dropdown.addOption(this.LIGHT_COLOR_SCHEME_KEY, "Light").addOption(this.DARK_COLOR_SCHEME_KEY, "Dark").setValue(this.plugin.settings.dayColorScheme).onChange((value) => {
+    new import_obsidian.Setting(this.containerEl).setName("日间配色方案").setDesc("设置日间的配色方案").addDropdown((dropdown) => dropdown.addOption(this.LIGHT_COLOR_SCHEME_KEY, "Light").addOption(this.DARK_COLOR_SCHEME_KEY, "Dark").setValue(this.plugin.settings.dayColorScheme).onChange((value) => {
       this.plugin.settings.dayColorScheme = value;
       this.plugin.saveData(this.plugin.settings);
     }));
-    new import_obsidian.Setting(this.containerEl).setName("Day Theme").setDesc("Select a Day Theme").addDropdown((dropdown) => dropdown.addOptions(this.getAllCommunityThemes()).setValue(this.plugin.settings.dayTheme).onChange((value) => {
+    new import_obsidian.Setting(this.containerEl).setName("日间主题").setDesc("设置日间的主题").addDropdown((dropdown) => dropdown.addOptions(this.getAllCommunityThemes()).setValue(this.plugin.settings.dayTheme).onChange((value) => {
       this.plugin.settings.dayTheme = value;
       this.plugin.saveData(this.plugin.settings);
     }));
-    new import_obsidian.Setting(this.containerEl).setName("Day Start Time").setDesc("24-hour format").addMomentFormat((format) => {
+    new import_obsidian.Setting(this.containerEl).setName("日间开始时间").setDesc("24小时格式").addMomentFormat((format) => {
       format.setDefaultFormat("HH:mm").setPlaceholder("HH:mm").setValue(this.plugin.settings.dayTime).onChange((value) => {
         this.plugin.settings.dayTime = value;
         this.plugin.saveData(this.plugin.settings);

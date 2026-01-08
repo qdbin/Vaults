@@ -1,0 +1,10 @@
+{
+    "id": "obsidian-local-rest-api",
+    "name": "Local REST API",
+    "version": "3.2.0",
+    "minAppVersion": "0.12.0",
+    "description": "通过 REST API 获取、更改或以其他方式与 Obsidian 中的笔记进行交互。",
+    "author": "Adam Coddington",
+    "authorUrl": "https://coddingtonbear.net/",
+    "isDesktopOnly": true
+}

@@ -448,24 +448,43 @@
       }
     },
     "expandedKeys": [
-      "item-1-0"
+      "item-1-0",
+      "item-2-2"
     ]
   },
   "Code-Space/AI/标签系统指南.md": {
-    "scroll": 17.641556487891307,
+    "scroll": 185.89057379844687,
     "cursor": {
       "from": {
-        "line": 19,
-        "ch": 18
+        "line": 291,
+        "ch": 14
       },
       "to": {
-        "line": 19,
-        "ch": 18
+        "line": 291,
+        "ch": 14
       }
     },
     "expandedKeys": [
       "item-2-2",
-      "item-1-0"
+      "item-1-0",
+      "item-2-5",
+      "item-3-6",
+      "item-3-10",
+      "item-3-13",
+      "item-3-17",
+      "item-2-16",
+      "item-3-20",
+      "item-3-24",
+      "item-2-23",
+      "item-3-28",
+      "item-3-32",
+      "item-2-31",
+      "item-3-34",
+      "item-3-37",
+      "item-3-41",
+      "item-2-40",
+      "item-3-48",
+      "item-2-46"
     ]
   },
   "Interview-Notes/HR高频面试问题.md": {
@@ -547,6 +566,108 @@
       },
       "to": {
         "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/tmp/tmp/常用模块.md": {
+    "scroll": 14.933349765447314,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 15
+      },
+      "to": {
+        "line": 19,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/tmp/tmp/常用模块 - 副本.md": {
+    "scroll": 16.62731874671407,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 19
+      },
+      "to": {
+        "line": 25,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/copilot/copilot-custom-prompts/Generate glossary.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 740
+      },
+      "to": {
+        "line": 7,
+        "ch": 740
+      }
+    },
+    "expandedKeys": []
+  },
+  "Clippings/元宝-体验DeepSeek全新版-高效AI助手.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Clippings/元宝.md": {
+    "scroll": 246.13953683035714,
+    "cursor": {
+      "from": {
+        "line": 98,
+        "ch": 290
+      },
+      "to": {
+        "line": 98,
+        "ch": 290
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Code-Space/tmp/config/config.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 248
+      },
+      "to": {
+        "line": 17,
+        "ch": 248
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/tmp/config.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
         "ch": 0
       }
     },
