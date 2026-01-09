@@ -13,6 +13,7 @@
 **/downloads
 **/temp
 **/tmp
+.trash
 
 # 文件
 todo.md

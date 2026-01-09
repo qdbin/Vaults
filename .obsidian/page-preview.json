@@ -1,3 +1,4 @@
 {
-  "properties": false
+  "properties": false,
+  "bases": false
 }

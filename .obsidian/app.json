@@ -11,5 +11,7 @@
   "rightToLeft": false,
   "vimMode": false,
   "showInlineTitle": false,
-  "focusNewTab": true
+  "focusNewTab": true,
+  "newFileLocation": "current",
+  "trashOption": "local"
 }

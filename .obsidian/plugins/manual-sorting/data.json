@@ -10,24 +10,7 @@
         "Prompt",
         "tmp",
         "todo.md",
-        "技术面试题篇"
-      ],
-      "sortOrder": "custom"
-    },
-    "技术面试题篇": {
-      "children": [
-        "技术面试题篇/分布式&微服务",
-        "技术面试题篇/高并发"
-      ],
-      "sortOrder": "custom"
-    },
-    "技术面试题篇/分布式&微服务": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "技术面试题篇/高并发": {
-      "children": [
-        "技术面试题篇/高并发/高可用：如何设计一个高可用系统？.md"
+        "tmp1.md"
       ],
       "sortOrder": "custom"
     },
@@ -5120,8 +5103,8 @@
     },
     "tmp": {
       "children": [
-        "tmp/copilot",
-        "tmp/redis.xmind"
+        "tmp/大模型评测相关知识解答及成长路径.md",
+        "tmp/copilot"
       ],
       "sortOrder": "custom"
     },
