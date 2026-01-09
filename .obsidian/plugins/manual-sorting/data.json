@@ -10,12 +10,25 @@
         "Prompt",
         "tmp",
         "todo.md",
-        "Clippings"
+        "技术面试题篇"
       ],
       "sortOrder": "custom"
     },
-    "Clippings": {
+    "技术面试题篇": {
+      "children": [
+        "技术面试题篇/分布式&微服务",
+        "技术面试题篇/高并发"
+      ],
+      "sortOrder": "custom"
+    },
+    "技术面试题篇/分布式&微服务": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "技术面试题篇/高并发": {
+      "children": [
+        "技术面试题篇/高并发/高可用：如何设计一个高可用系统？.md"
+      ],
       "sortOrder": "custom"
     },
     "Code-Space": {
