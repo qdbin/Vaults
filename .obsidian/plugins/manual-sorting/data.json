@@ -10,7 +10,7 @@
         "Prompt",
         "tmp",
         "todo.md",
-        "tmp1.md"
+        "未命名.md"
       ],
       "sortOrder": "custom"
     },
@@ -4909,7 +4909,8 @@
       "children": [
         "Prompt/jobs/ideepwise/others/测试工具.txt",
         "Prompt/jobs/ideepwise/others/项目刨析",
-        "Prompt/jobs/ideepwise/others/script.txt"
+        "Prompt/jobs/ideepwise/others/script.txt",
+        "Prompt/jobs/ideepwise/others/标注项归类.md"
       ],
       "sortOrder": "custom"
     },
