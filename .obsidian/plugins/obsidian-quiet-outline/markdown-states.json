@@ -770,5 +770,33 @@
       }
     },
     "expandedKeys": []
+  },
+  "xxx.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/common/KnowledgeBase.md": {
+    "scroll": 78.54397809070583,
+    "cursor": {
+      "from": {
+        "line": 51,
+        "ch": 0
+      },
+      "to": {
+        "line": 51,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
   }
 }
