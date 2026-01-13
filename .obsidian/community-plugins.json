@@ -33,5 +33,9 @@
   "obsidian-meta-bind-plugin",
   "obsidian-local-rest-api",
   "open-tab-settings",
-  "OA-file-hider"
+  "OA-file-hider",
+  "dataview",
+  "better-export-pdf",
+  "omnisearch",
+  "pdf-plus"
 ]
