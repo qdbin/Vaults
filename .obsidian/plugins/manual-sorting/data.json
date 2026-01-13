@@ -4899,9 +4899,11 @@
         "Prompt/jobs/ideepwise/00-template/02-新增功能.md",
         "Prompt/jobs/ideepwise/00-template/05-bug定位.md",
         "Prompt/jobs/ideepwise/00-template/07-更新README.md",
-        "Prompt/jobs/ideepwise/00-template/09-功能缺少.md",
         "Prompt/jobs/ideepwise/00-template/09-脚本说明（全）.md",
-        "Prompt/jobs/ideepwise/00-template/09-脚本需求&框架说明.md"
+        "Prompt/jobs/ideepwise/00-template/09-脚本需求&框架说明.md",
+        "Prompt/jobs/ideepwise/00-template/03-优化重构.md",
+        "Prompt/jobs/ideepwise/00-template/07-添加注释.md",
+        "Prompt/jobs/ideepwise/00-template/08-功能补充.md"
       ],
       "sortOrder": "custom"
     },

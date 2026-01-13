@@ -1,0 +1,802 @@
+{
+  "Jobs/秋招/00-进行ing.md": {
+    "scroll": 18.833746898263026,
+    "cursor": {
+      "from": {
+        "line": 14,
+        "ch": 0
+      },
+      "to": {
+        "line": 14,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "八股文/黑马/常见集合篇.md": {
+    "scroll": 14.297872340425531,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 9
+      },
+      "to": {
+        "line": 6,
+        "ch": 9
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Emojify.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Explain like I am 5.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 25
+      },
+      "to": {
+        "line": 4,
+        "ch": 25
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Make longer.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 34
+      },
+      "to": {
+        "line": 11,
+        "ch": 34
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Make shorter.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 32
+      },
+      "to": {
+        "line": 8,
+        "ch": 32
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/[16]-Paper+94+(2025.7.8)+Advancing+Software+Reliability+Through+Systematic.md": {
+    "scroll": 60.337345648871526,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/[16]-Paper+94+(2025.7/[16]-Paper+94+(2025.7.md": {
+    "scroll": 158.18301889631482,
+    "cursor": {
+      "from": {
+        "line": 160,
+        "ch": 1
+      },
+      "to": {
+        "line": 160,
+        "ch": 1
+      }
+    },
+    "expandedKeys": []
+  },
+  "todo.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 76,
+        "ch": 0
+      },
+      "to": {
+        "line": 76,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-0"
+    ]
+  },
+  "Jobs/AI测开-JD.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 41
+      },
+      "to": {
+        "line": 4,
+        "ch": 41
+      }
+    },
+    "expandedKeys": []
+  },
+  "KnowledgeBase/LLM.md": {
+    "scroll": 0.6829701904467798,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "八股/Java/SpringBoot/事务.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 8
+      },
+      "to": {
+        "line": 0,
+        "ch": 8
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Generate glossary.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 98
+      },
+      "to": {
+        "line": 7,
+        "ch": 98
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Generate table of contents.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Remove URLs.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Rewrite as tweet.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Rewrite as tweet thread.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Summarize.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 120
+      },
+      "to": {
+        "line": 7,
+        "ch": 120
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Translate to Chinese.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 0
+      },
+      "to": {
+        "line": 7,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "面经/Selenium面试.md": {
+    "scroll": 23.659840554507518,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "八股文/后端技术小牛说/数据结构与算法.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "copilot/copilot-custom-prompts/Fix grammar and spelling.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 163
+      },
+      "to": {
+        "line": 7,
+        "ch": 163
+      }
+    },
+    "expandedKeys": []
+  },
+  "2026-01-05.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "八股/Java/SpringBoot/面试15连问.md": {
+    "scroll": 3.6337447931737077,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 34
+      },
+      "to": {
+        "line": 10,
+        "ch": 34
+      }
+    },
+    "expandedKeys": []
+  },
+  "未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 3
+      },
+      "to": {
+        "line": 0,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "未命名 1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 4
+      },
+      "to": {
+        "line": 0,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "面经/公司面经.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 12,
+        "ch": 18
+      },
+      "to": {
+        "line": 12,
+        "ch": 18
+      }
+    },
+    "expandedKeys": []
+  },
+  "Interview-Notes/公司面经.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Jobs/秋招/01-投递ing.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 162
+      },
+      "to": {
+        "line": 2,
+        "ch": 162
+      }
+    },
+    "expandedKeys": []
+  },
+  "Jobs/实习/01-已投递.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 6,
+        "ch": 0
+      },
+      "to": {
+        "line": 6,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/AI/机器学习知识库MOC.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 40,
+        "ch": 0
+      },
+      "to": {
+        "line": 40,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-2"
+    ]
+  },
+  "Code-Space/AI/标签系统指南.md": {
+    "scroll": 185.89057379844687,
+    "cursor": {
+      "from": {
+        "line": 291,
+        "ch": 14
+      },
+      "to": {
+        "line": 291,
+        "ch": 14
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-5",
+      "item-3-6",
+      "item-3-10",
+      "item-3-13",
+      "item-3-17",
+      "item-2-16",
+      "item-3-20",
+      "item-3-24",
+      "item-2-23",
+      "item-3-28",
+      "item-3-32",
+      "item-2-31",
+      "item-3-34",
+      "item-3-37",
+      "item-3-41",
+      "item-2-40",
+      "item-3-48",
+      "item-2-46"
+    ]
+  },
+  "Interview-Notes/HR高频面试问题.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Interview-Notes/Selenium面试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/八股文（External）/黑马/技术场景篇.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 26
+      },
+      "to": {
+        "line": 10,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/八股文（Personal）/Java/泛型.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/八股文（Personal）/Java/SpringBoot/事务.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 76
+      },
+      "to": {
+        "line": 0,
+        "ch": 76
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/AI/README.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 1,
+        "ch": 0
+      },
+      "to": {
+        "line": 1,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/tmp/tmp/常用模块.md": {
+    "scroll": 14.933349765447314,
+    "cursor": {
+      "from": {
+        "line": 19,
+        "ch": 15
+      },
+      "to": {
+        "line": 19,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/tmp/tmp/常用模块 - 副本.md": {
+    "scroll": 16.62731874671407,
+    "cursor": {
+      "from": {
+        "line": 25,
+        "ch": 19
+      },
+      "to": {
+        "line": 25,
+        "ch": 19
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/copilot/copilot-custom-prompts/Generate glossary.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 7,
+        "ch": 740
+      },
+      "to": {
+        "line": 7,
+        "ch": 740
+      }
+    },
+    "expandedKeys": []
+  },
+  "Clippings/元宝-体验DeepSeek全新版-高效AI助手.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Clippings/元宝.md": {
+    "scroll": 246.13953683035714,
+    "cursor": {
+      "from": {
+        "line": 98,
+        "ch": 290
+      },
+      "to": {
+        "line": 98,
+        "ch": 290
+      }
+    },
+    "expandedKeys": [
+      "item-2-0"
+    ]
+  },
+  "Code-Space/tmp/config/config.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 248
+      },
+      "to": {
+        "line": 17,
+        "ch": 248
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/tmp/config.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 18,
+        "ch": 0
+      },
+      "to": {
+        "line": 18,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Job-Hunting​/实习/01-已投递.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 0
+      },
+      "to": {
+        "line": 11,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Job-Hunting​/AI测开-JD.md": {
+    "scroll": 11.68304750219931,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 5
+      },
+      "to": {
+        "line": 21,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "技术面试题篇/高并发/高可用：如何设计一个高可用系统？.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/八股文（External）/黑马/设计模式篇.md": {
+    "scroll": 4.118053148021383,
+    "cursor": {
+      "from": {
+        "line": 8,
+        "ch": 122
+      },
+      "to": {
+        "line": 8,
+        "ch": 122
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp1.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "大模型评测相关知识解答及成长路径.md": {
+    "scroll": 10.5314453125,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 126
+      },
+      "to": {
+        "line": 2,
+        "ch": 126
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/大模型评测相关知识解答及成长路径.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 0
+      },
+      "to": {
+        "line": 3,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "xxx.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/common/KnowledgeBase.md": {
+    "scroll": 78.54397809070583,
+    "cursor": {
+      "from": {
+        "line": 51,
+        "ch": 0
+      },
+      "to": {
+        "line": 51,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  }
+}
