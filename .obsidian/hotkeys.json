@@ -179,5 +179,23 @@
       "key": "H"
     }
   ],
-  "table-editor-obsidian:table-control-bar": []
+  "table-editor-obsidian:table-control-bar": [],
+  "obsidian-footnotes:insert-named-footnote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "6"
+    }
+  ],
+  "obsidian-footnotes:insert-autonumbered-footnote": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "7"
+    }
+  ]
 }

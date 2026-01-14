@@ -399,6 +399,7 @@ class MultiTurnTester:
 ## 🎯 测试开发实战案例
 
 ### 案例：智能客服系统测试
+[^1]
 ```python
 class CustomerServiceTester:
     """
@@ -539,3 +540,5 @@ class CustomerServiceTester:
 
 ---
 **标签**: #LangChain #AI测试 #应用开发 #工具使用 #实战指南
+
+[^1]: 超链接：[baidu](http://www.baidu.com)
