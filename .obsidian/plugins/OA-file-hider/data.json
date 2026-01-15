@@ -1,7 +1,8 @@
 {
-  "hidden": true,
+  "hidden": false,
   "hiddenList": [
     "Prompt",
-    "Code-Space"
+    "Code-Space",
+    "Others"
   ]
 }
