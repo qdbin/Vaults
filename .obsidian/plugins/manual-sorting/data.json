@@ -60,7 +60,8 @@
       "children": [
         "Code-Space/AI/02-工具技术栈/01-PyTorch实战指南.md",
         "Code-Space/AI/02-工具技术栈/02-LangChain应用开发.md",
-        "Code-Space/AI/02-工具技术栈/README.md"
+        "Code-Space/AI/02-工具技术栈/README.md",
+        "Code-Space/AI/02-工具技术栈/hanbin.md"
       ],
       "sortOrder": "custom"
     },
@@ -267,238 +268,7 @@
       "sortOrder": "custom"
     },
     "Code-Space/job": {
-      "children": [
-        "Code-Space/job/面经",
-        "Code-Space/job/秋招"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经": {
-      "children": [
-        "Code-Space/job/面经/公司",
-        "Code-Space/job/面经/简历",
-        "Code-Space/job/面经/项目",
-        "Code-Space/job/面经/prompt.txt"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司": {
-      "children": [
-        "Code-Space/job/面经/公司/百度",
-        "Code-Space/job/面经/公司/哔哩哔哩",
-        "Code-Space/job/面经/公司/滴滴",
-        "Code-Space/job/面经/公司/饿了么",
-        "Code-Space/job/面经/公司/京东",
-        "Code-Space/job/面经/公司/快手",
-        "Code-Space/job/面经/公司/其他",
-        "Code-Space/job/面经/公司/腾讯",
-        "Code-Space/job/面经/公司/小米",
-        "Code-Space/job/面经/公司/携程",
-        "Code-Space/job/面经/公司/字节"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/百度": {
-      "children": [
-        "Code-Space/job/面经/公司/百度/01-一面.png",
-        "Code-Space/job/面经/公司/百度/02-三面.png",
-        "Code-Space/job/面经/公司/百度/03.png",
-        "Code-Space/job/面经/公司/百度/04.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/哔哩哔哩": {
-      "children": [
-        "Code-Space/job/面经/公司/哔哩哔哩/01-实习1面.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/滴滴": {
-      "children": [
-        "Code-Space/job/面经/公司/滴滴/01一二面.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/饿了么": {
-      "children": [
-        "Code-Space/job/面经/公司/饿了么/01.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/京东": {
-      "children": [
-        "Code-Space/job/面经/公司/京东/01-1面-秋招.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/快手": {
-      "children": [
-        "Code-Space/job/面经/公司/快手/01-实习-1面.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/其他": {
-      "children": [
-        "Code-Space/job/面经/公司/其他/01-深思考一面-测开实习.txt",
-        "Code-Space/job/面经/公司/其他/01-携程一面-26秋招.png",
-        "Code-Space/job/面经/公司/其他/02-虾皮一面-实习.png",
-        "Code-Space/job/面经/公司/其他/03-淘天1面-26秋招.png",
-        "Code-Space/job/面经/公司/其他/04-好未来1面.png",
-        "Code-Space/job/面经/公司/其他/05-爱奇艺测开三面.jpg",
-        "Code-Space/job/面经/公司/其他/06-网易-秋招-1面.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/腾讯": {
-      "children": [
-        "Code-Space/job/面经/公司/腾讯/01-云智.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/小米": {
-      "children": [
-        "Code-Space/job/面经/公司/小米/01.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/携程": {
-      "children": [
-        "Code-Space/job/面经/公司/携程/01-测试-实习（1+2面）.md",
-        "Code-Space/job/面经/公司/携程/01-测试-实习（1+2面）.txt",
-        "Code-Space/job/面经/公司/携程/02-测开-秋招（1面）.md",
-        "Code-Space/job/面经/公司/携程/02-测开-秋招（1面）.txt",
-        "Code-Space/job/面经/公司/携程/03-测开-秋招（2面）.md",
-        "Code-Space/job/面经/公司/携程/03-测开-秋招（2面）.txt",
-        "Code-Space/job/面经/公司/携程/04-测开-秋招（3面）.md",
-        "Code-Space/job/面经/公司/携程/04-测开-秋招（3面）.txt",
-        "Code-Space/job/面经/公司/携程/05-测试-秋招（1+2+3面）.md",
-        "Code-Space/job/面经/公司/携程/05-测试-秋招（1+2+3面）.txt",
-        "Code-Space/job/面经/公司/携程/06-测开-秋招（2面）.md",
-        "Code-Space/job/面经/公司/携程/06-测开-秋招（2面）.txt",
-        "Code-Space/job/面经/公司/携程/07-测开-秋招（1+2面）.md",
-        "Code-Space/job/面经/公司/携程/07-测开-秋招（1+2面）.txt",
-        "Code-Space/job/面经/公司/携程/08-测开-秋招（1面）.md",
-        "Code-Space/job/面经/公司/携程/08-测开-秋招（1面）.txt",
-        "Code-Space/job/面经/公司/携程/09-测开-秋招（2面）.md",
-        "Code-Space/job/面经/公司/携程/09-测开-秋招（2面）.txt",
-        "Code-Space/job/面经/公司/携程/10-测开-秋招（3面 HR面）.md",
-        "Code-Space/job/面经/公司/携程/10-测开-秋招（3面 HR面）.txt",
-        "Code-Space/job/面经/公司/携程/11-测开-实习（1面）.md",
-        "Code-Space/job/面经/公司/携程/11-测开-实习（1面）.txt",
-        "Code-Space/job/面经/公司/携程/12-测开-实习（1面）.txt",
-        "Code-Space/job/面经/公司/携程/13-测开-实习（1面）.txt"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/公司/字节": {
-      "children": [
-        "Code-Space/job/面经/公司/字节/01.png",
-        "Code-Space/job/面经/公司/字节/02-一面.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/简历": {
       "children": [],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/面经/项目": {
-      "children": [
-        "Code-Space/job/面经/项目/项目常规问题.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招": {
-      "children": [
-        "Code-Space/job/秋招/笔试",
-        "Code-Space/job/秋招/测评",
-        "Code-Space/job/秋招/项目",
-        "Code-Space/job/秋招/AI面试",
-        "Code-Space/job/秋招/个人简历.pdf"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/笔试": {
-      "children": [
-        "Code-Space/job/秋招/笔试/360",
-        "Code-Space/job/秋招/笔试/百度",
-        "Code-Space/job/秋招/笔试/美团",
-        "Code-Space/job/秋招/笔试/米哈游",
-        "Code-Space/job/秋招/笔试/携程算法"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/笔试/360": {
-      "children": [
-        "Code-Space/job/秋招/笔试/360/250920-测试.ipynb"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/笔试/百度": {
-      "children": [
-        "Code-Space/job/秋招/笔试/百度/01-公共前后缀.png",
-        "Code-Space/job/秋招/笔试/百度/01-公共前后缀.py",
-        "Code-Space/job/秋招/笔试/百度/02-背包道具得分.png",
-        "Code-Space/job/秋招/笔试/百度/02-背包道具得分.py"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/笔试/美团": {
-      "children": [
-        "Code-Space/job/秋招/笔试/美团/250920-测试.ipynb"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/笔试/米哈游": {
-      "children": [
-        "Code-Space/job/秋招/笔试/米哈游/250921.ipynb"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/笔试/携程算法": {
-      "children": [
-        "Code-Space/job/秋招/笔试/携程算法/0918.ipynb"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/测评": {
-      "children": [
-        "Code-Space/job/秋招/测评/北森题库+答案解析"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/测评/北森题库+答案解析": {
-      "children": [
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题1.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题1参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题2.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题2参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题3.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题3参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题4.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题4参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题5.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题5参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题6.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题6参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题7.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题7参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题8.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题8参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题9.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题9参考答案.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题10.pdf",
-        "Code-Space/job/秋招/测评/北森题库+答案解析/北森套题10参考答案.pdf"
-      ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/项目": {
-      "children": [],
-      "sortOrder": "custom"
-    },
-    "Code-Space/job/秋招/AI面试": {
-      "children": [
-        "Code-Space/job/秋招/AI面试/携程AI面.md"
-      ],
       "sortOrder": "custom"
     },
     "Code-Space/tmp": {
@@ -4641,8 +4411,141 @@
       "children": [
         "Interview-Notes/Personal",
         "Interview-Notes/面试导图",
-        "Interview-Notes/面试题"
+        "Interview-Notes/面经",
+        "Interview-Notes/面试题（answer）"
       ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经": {
+      "children": [
+        "Interview-Notes/面经/公司",
+        "Interview-Notes/面经/简历",
+        "Interview-Notes/面经/SQL语句.md",
+        "Interview-Notes/面经/common"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司": {
+      "children": [
+        "Interview-Notes/面经/公司/京东",
+        "Interview-Notes/面经/公司/其他",
+        "Interview-Notes/面经/公司/哔哩哔哩",
+        "Interview-Notes/面经/公司/字节",
+        "Interview-Notes/面经/公司/小米",
+        "Interview-Notes/面经/公司/快手",
+        "Interview-Notes/面经/公司/携程",
+        "Interview-Notes/面经/公司/滴滴",
+        "Interview-Notes/面经/公司/百度",
+        "Interview-Notes/面经/公司/腾讯",
+        "Interview-Notes/面经/公司/饿了么"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/百度": {
+      "children": [
+        "Interview-Notes/面经/公司/百度/01-一面.png",
+        "Interview-Notes/面经/公司/百度/02-三面.png",
+        "Interview-Notes/面经/公司/百度/03.png",
+        "Interview-Notes/面经/公司/百度/04.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/哔哩哔哩": {
+      "children": [
+        "Interview-Notes/面经/公司/哔哩哔哩/01-实习1面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/滴滴": {
+      "children": [
+        "Interview-Notes/面经/公司/滴滴/01一二面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/饿了么": {
+      "children": [
+        "Interview-Notes/面经/公司/饿了么/01.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/京东": {
+      "children": [
+        "Interview-Notes/面经/公司/京东/01-1面-秋招.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/快手": {
+      "children": [
+        "Interview-Notes/面经/公司/快手/01-实习-1面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/其他": {
+      "children": [
+        "Interview-Notes/面经/公司/其他/01-携程一面-26秋招.png",
+        "Interview-Notes/面经/公司/其他/01-深思考一面-测开实习.txt",
+        "Interview-Notes/面经/公司/其他/02-虾皮一面-实习.png",
+        "Interview-Notes/面经/公司/其他/03-淘天1面-26秋招.png",
+        "Interview-Notes/面经/公司/其他/04-好未来1面.png",
+        "Interview-Notes/面经/公司/其他/05-爱奇艺测开三面.jpg",
+        "Interview-Notes/面经/公司/其他/06-网易-秋招-1面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/腾讯": {
+      "children": [
+        "Interview-Notes/面经/公司/腾讯/01-云智.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/小米": {
+      "children": [
+        "Interview-Notes/面经/公司/小米/01.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/携程": {
+      "children": [
+        "Interview-Notes/面经/公司/携程/01-测试-实习（1+2面）.md",
+        "Interview-Notes/面经/公司/携程/01-测试-实习（1+2面）.txt",
+        "Interview-Notes/面经/公司/携程/02-测开-秋招（1面）.md",
+        "Interview-Notes/面经/公司/携程/02-测开-秋招（1面）.txt",
+        "Interview-Notes/面经/公司/携程/03-测开-秋招（2面）.md",
+        "Interview-Notes/面经/公司/携程/03-测开-秋招（2面）.txt",
+        "Interview-Notes/面经/公司/携程/04-测开-秋招（3面）.md",
+        "Interview-Notes/面经/公司/携程/04-测开-秋招（3面）.txt",
+        "Interview-Notes/面经/公司/携程/05-测试-秋招（1+2+3面）.md",
+        "Interview-Notes/面经/公司/携程/05-测试-秋招（1+2+3面）.txt",
+        "Interview-Notes/面经/公司/携程/06-测开-秋招（2面）.txt",
+        "Interview-Notes/面经/公司/携程/06-测开-秋招（2面）.md",
+        "Interview-Notes/面经/公司/携程/07-测开-秋招（1+2面）.md",
+        "Interview-Notes/面经/公司/携程/07-测开-秋招（1+2面）.txt",
+        "Interview-Notes/面经/公司/携程/08-测开-秋招（1面）.md",
+        "Interview-Notes/面经/公司/携程/08-测开-秋招（1面）.txt",
+        "Interview-Notes/面经/公司/携程/09-测开-秋招（2面）.md",
+        "Interview-Notes/面经/公司/携程/09-测开-秋招（2面）.txt",
+        "Interview-Notes/面经/公司/携程/10-测开-秋招（3面 HR面）.md",
+        "Interview-Notes/面经/公司/携程/10-测开-秋招（3面 HR面）.txt",
+        "Interview-Notes/面经/公司/携程/11-测开-实习（1面）.md",
+        "Interview-Notes/面经/公司/携程/11-测开-实习（1面）.txt",
+        "Interview-Notes/面经/公司/携程/12-测开-实习（1面）.txt",
+        "Interview-Notes/面经/公司/携程/13-测开-实习（1面）.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/公司/字节": {
+      "children": [
+        "Interview-Notes/面经/公司/字节/01.png",
+        "Interview-Notes/面经/公司/字节/02-一面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/简历": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面经/common": {
+      "children": [],
       "sortOrder": "custom"
     },
     "Interview-Notes/面试导图": {
@@ -4658,245 +4561,281 @@
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题": {
+    "Interview-Notes/面试题（answer）": {
       "children": [
-        "Interview-Notes/面试题/名企面试题",
-        "Interview-Notes/面试题/测试蔡坨坨",
-        "Interview-Notes/面试题/面试题"
+        "Interview-Notes/面试题（answer）/项目",
+        "Interview-Notes/面试题（answer）/external",
+        "Interview-Notes/面试题（answer）/pdf"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/测试蔡坨坨": {
+    "Interview-Notes/面试题（answer）/项目": {
       "children": [
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题无答案",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案"
+        "Interview-Notes/面试题（answer）/项目/项目常规问题.png",
+        "Interview-Notes/面试题（answer）/项目/common.md"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/测试蔡坨坨/面试题无答案": {
+    "Interview-Notes/面试题（answer）/external": {
       "children": [
-        "Interview-Notes/面试题/测试蔡坨坨/面试题无答案/软件测试面试题.pdf"
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/测试蔡坨坨/面试题有答案": {
+    "Interview-Notes/面试题（answer）/external/测试蔡坨坨": {
       "children": [
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/App自动化与Web自动化测试面试题.docx",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/Java面试基础.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/推荐面试题",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/测试面试题软技能.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/给你一个水杯怎么测试.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试之搭建测试环境.docx",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试宝典2020版 .pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试题整理一.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试题整理七.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试题整理三.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试题整理二.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试题整理五.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试题整理六.docx",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/软件测试面试题整理四.doc"
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题无答案",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/推荐面试题": {
+    "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题无答案": {
       "children": [
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题推荐二.doc",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题目推荐一.docx",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题推荐四.docx",
-        "Interview-Notes/面试题/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题目推荐三.pdf"
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题无答案/软件测试面试题.pdf"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录": {
+    "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案": {
       "children": [
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/001.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/002.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/003.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/004.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/005.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/006.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/007.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/008.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/009.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/010.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/011.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/012.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/013.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/014.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/015.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/016.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/017.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/018.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/019.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/020.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/English1.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/English2.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA03.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA04.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA05.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA06.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA07.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/EnglishA08.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testA01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testA02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testA03.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testB01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testB02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testC.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testD01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testD02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testD03.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testE01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testE02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testE03.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testF.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testG01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testG02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testH01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testH02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testI01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testI02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testJ01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testJ02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testK01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testL01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testL02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testM01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testM02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testN01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testO01.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/testO02.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG104.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG1233.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG140.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG1580.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG21.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3152.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3153.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3169.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3175.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3176.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG362.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG363.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3700.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3702.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3701.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG3703.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/WechatIMG54.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/北京某公司笔试题.jpeg",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/某公司.png",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/某名企软件测试笔试题目.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/企业面试真题记录/笔试题完整.jpeg"
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/推荐面试题",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/测试面试题软技能.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/给你一个水杯怎么测试.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试宝典2020版 .pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试题整理二.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试题整理六.docx",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试题整理七.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试题整理三.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试题整理四.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试题整理五.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试题整理一.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/软件测试面试之搭建测试环境.docx",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/App自动化与Web自动化测试面试题.docx",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/Java面试基础.doc"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题": {
+    "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/推荐面试题": {
       "children": [
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/1.12 习题参考答案_.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/2.测试面试题及一些资料_.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/3.用友自动化测试面试题和部分答案_.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/5.软件测试一些基本面试问题_.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/6.软件测试面试题（软通动力、博彦科技、奇虎、瑞星、中软）_.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/7.阿里巴巴和华为笔试和面试题_.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/哔哩哔哩软测工程师面试题.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/字节跳动笔试题.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/拼多多软件测试校招面试题.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/搜狗软件测试开发工程师笔试题.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/瑞星软件测试工程师笔试题.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/美团网软测面试题回忆版.pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/腾讯近三年78道软件测试面试题(包含答案).pdf",
-        "Interview-Notes/面试题/测试蔡坨坨/一二线互联网公司面试真题/阿里巴巴测试面试题整理.pdf"
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题目推荐三.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题目推荐一.docx",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题推荐二.doc",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/面试题有答案/推荐面试题/经典面试题推荐四.docx"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/面试题": {
+    "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录": {
       "children": [
-        "Interview-Notes/面试题/面试题/100家企业软件测试笔试面试题汇总（网友真实经验分享）.pdf",
-        "Interview-Notes/面试题/面试题/2022非常全的接口测试面试题及参考答案.pdf",
-        "Interview-Notes/面试题/面试题/loadrunner性能测试基础问答（面试题）(1).pdf",
-        "Interview-Notes/面试题/面试题/备战2022秋招“金九银十”跳槽必备：软件测试面试题.pdf",
-        "Interview-Notes/面试题/面试题/前程贷接口文档1.3.pdf",
-        "Interview-Notes/面试题/面试题/宅家60天春招已成功上岸字节测试岗，分享面试题.pdf",
-        "Interview-Notes/面试题/面试题/最新最全软件测试经典面试题及答案.pdf",
-        "Interview-Notes/面试题/面试题/柠檬班软件测试面试宝典{400页800pdf）.pdf",
-        "Interview-Notes/面试题/面试题/蚂蚁金服软件测试工程师面试题（一面）(1).pdf",
-        "Interview-Notes/面试题/面试题/软件测试所有大厂面试真题及答案.pdf",
-        "Interview-Notes/面试题/面试题/金九银十面试怒拿6个offer——测试开发面试题整理.pdf",
-        "Interview-Notes/面试题/面试题/软件测试面试宝典v2.4.pdf",
-        "Interview-Notes/面试题/面试题/金融行业软件测试面试题.pdf",
-        "Interview-Notes/面试题/面试题/阿里P8测试开发岗-高频面试题答案整理.pdf"
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/001.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/002.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/003.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/004.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/005.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/006.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/007.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/008.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/009.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/010.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/011.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/012.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/013.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/014.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/015.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/016.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/017.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/018.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/019.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/020.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/北京某公司笔试题.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/笔试题完整.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/某公司.png",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/某名企软件测试笔试题目.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/English1.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/English2.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA03.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA04.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA05.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA06.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA07.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/EnglishA08.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testA01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testA02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testA03.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testB01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testB02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testC.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testD01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testD02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testD03.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testE01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testE02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testE03.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testF.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testG01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testG02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testH01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testH02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testI01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testI02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testJ01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testJ02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testK01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testL01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testL02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testM01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testM02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testN01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testO01.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/testO02.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG21.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG54.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG104.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG140.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG362.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG363.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG1233.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG1580.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3152.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3153.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3169.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3175.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3176.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3700.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3701.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3702.jpeg",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/企业面试真题记录/WechatIMG3703.jpeg"
       ],
       "sortOrder": "custom"
     },
-    "Interview-Notes/面试题/名企面试题": {
+    "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题": {
       "children": [
-        "Interview-Notes/面试题/名企面试题/1.12 习题参考答案_.pdf",
-        "Interview-Notes/面试题/名企面试题/2.测试面试题及一些资料_.pdf",
-        "Interview-Notes/面试题/名企面试题/3.用友自动化测试面试题和部分答案_.pdf",
-        "Interview-Notes/面试题/名企面试题/5.软件测试一些基本面试问题_.pdf",
-        "Interview-Notes/面试题/名企面试题/6.软件测试面试题（软通动力、博彦科技、奇虎、瑞星、中软）_.pdf",
-        "Interview-Notes/面试题/名企面试题/7.阿里巴巴和华为笔试和面试题_.pdf",
-        "Interview-Notes/面试题/名企面试题/哔哩哔哩软测工程师面试题.pdf",
-        "Interview-Notes/面试题/名企面试题/字节跳动笔试题.pdf",
-        "Interview-Notes/面试题/名企面试题/拼多多软件测试校招面试题.pdf",
-        "Interview-Notes/面试题/名企面试题/搜狗软件测试开发工程师笔试题.pdf",
-        "Interview-Notes/面试题/名企面试题/瑞星软件测试工程师笔试题.pdf",
-        "Interview-Notes/面试题/名企面试题/美团网软测面试题回忆版.pdf",
-        "Interview-Notes/面试题/名企面试题/腾讯近三年78道软件测试面试题(包含答案).pdf",
-        "Interview-Notes/面试题/名企面试题/阿里巴巴测试面试题整理.pdf"
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/1.12 习题参考答案_.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/2.测试面试题及一些资料_.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/3.用友自动化测试面试题和部分答案_.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/5.软件测试一些基本面试问题_.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/6.软件测试面试题（软通动力、博彦科技、奇虎、瑞星、中软）_.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/7.阿里巴巴和华为笔试和面试题_.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/阿里巴巴测试面试题整理.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/哔哩哔哩软测工程师面试题.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/美团网软测面试题回忆版.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/拼多多软件测试校招面试题.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/瑞星软件测试工程师笔试题.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/搜狗软件测试开发工程师笔试题.pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/腾讯近三年78道软件测试面试题(包含答案).pdf",
+        "Interview-Notes/面试题（answer）/external/测试蔡坨坨/一二线互联网公司面试真题/字节跳动笔试题.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面试题（answer）/pdf": {
+      "children": [
+        "Interview-Notes/面试题（answer）/pdf/大厂",
+        "Interview-Notes/面试题（answer）/pdf/institution"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面试题（answer）/pdf/大厂": {
+      "children": [
+        "Interview-Notes/面试题（answer）/pdf/大厂/1.12 习题参考答案_.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/2.测试面试题及一些资料_.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/3.用友自动化测试面试题和部分答案_.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/5.软件测试一些基本面试问题_.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/6.软件测试面试题（软通动力、博彦科技、奇虎、瑞星、中软）_.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/7.阿里巴巴和华为笔试和面试题_.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/阿里巴巴测试面试题整理.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/哔哩哔哩软测工程师面试题.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/美团网软测面试题回忆版.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/拼多多软件测试校招面试题.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/瑞星软件测试工程师笔试题.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/搜狗软件测试开发工程师笔试题.pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/腾讯近三年78道软件测试面试题(包含答案).pdf",
+        "Interview-Notes/面试题（answer）/pdf/大厂/字节跳动笔试题.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/面试题（answer）/pdf/institution": {
+      "children": [
+        "Interview-Notes/面试题（answer）/pdf/institution/100家企业软件测试笔试面试题汇总（网友真实经验分享）.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/2022非常全的接口测试面试题及参考答案.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/阿里P8测试开发岗-高频面试题答案整理.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/备战2022秋招“金九银十”跳槽必备：软件测试面试题.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/金九银十面试怒拿6个offer——测试开发面试题整理.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/金融行业软件测试面试题.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/蚂蚁金服软件测试工程师面试题（一面）(1).pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/柠檬班软件测试面试宝典{400页800pdf）.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/前程贷接口文档1.3.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/软件测试面试宝典v2.4.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/软件测试所有大厂面试真题及答案.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/宅家60天春招已成功上岸字节测试岗，分享面试题.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/最新最全软件测试经典面试题及答案.pdf",
+        "Interview-Notes/面试题（answer）/pdf/institution/loadrunner性能测试基础问答（面试题）(1).pdf"
       ],
       "sortOrder": "custom"
     },
     "Interview-Notes/Personal": {
       "children": [
-        "Interview-Notes/Personal/测试开发面经",
-        "Interview-Notes/Personal/达观-成都",
         "Interview-Notes/Personal/面试题",
-        "Interview-Notes/Personal/自动化测试",
         "Interview-Notes/Personal/assets",
         "Interview-Notes/Personal/公司面经.md",
-        "Interview-Notes/Personal/HR高频面试问题.md",
-        "Interview-Notes/Personal/Selenium面试.md",
-        "Interview-Notes/Personal/SQL语句.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Interview-Notes/Personal/测试开发面经": {
-      "children": [
-        "Interview-Notes/Personal/测试开发面经/assets",
-        "Interview-Notes/Personal/测试开发面经/250729.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Interview-Notes/Personal/测试开发面经/assets": {
-      "children": [
-        "Interview-Notes/Personal/测试开发面经/assets/8526E2CCE5A1270D1D3A9550826C140A.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "Interview-Notes/Personal/达观-成都": {
-      "children": [
-        "Interview-Notes/Personal/达观-成都/250114-功能测试（成都）.md"
+        "Interview-Notes/Personal/自动化测试"
       ],
       "sortOrder": "custom"
     },
     "Interview-Notes/Personal/面试题": {
       "children": [
-        "Interview-Notes/Personal/面试题/个人-测试开发guide.md"
+        "Interview-Notes/Personal/面试题/common",
+        "Interview-Notes/Personal/面试题/HR高频面试问题.md",
+        "Interview-Notes/Personal/面试题/company",
+        "Interview-Notes/Personal/面试题/未命名",
+        "Interview-Notes/Personal/面试题/大厂面经"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/Personal/面试题/大厂面经": {
+      "children": [
+        "Interview-Notes/Personal/面试题/大厂面经/assets",
+        "Interview-Notes/Personal/面试题/大厂面经/250729.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/Personal/面试题/大厂面经/assets": {
+      "children": [
+        "Interview-Notes/Personal/面试题/大厂面经/assets/8526E2CCE5A1270D1D3A9550826C140A.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/Personal/面试题/未命名": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/Personal/面试题/common": {
+      "children": [
+        "Interview-Notes/Personal/面试题/common/测试开发guide.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/Personal/面试题/company": {
+      "children": [
+        "Interview-Notes/Personal/面试题/company/达观-成都"
+      ],
+      "sortOrder": "custom"
+    },
+    "Interview-Notes/Personal/面试题/company/达观-成都": {
+      "children": [
+        "Interview-Notes/Personal/面试题/company/达观-成都/250114-功能测试（成都）.md"
       ],
       "sortOrder": "custom"
     },
     "Interview-Notes/Personal/自动化测试": {
       "children": [
-        "Interview-Notes/Personal/自动化测试/assets",
+        "Interview-Notes/Personal/自动化测试/Selenium面试.md",
         "Interview-Notes/Personal/自动化测试/250730-自动化测试（南京）.md",
-        "Interview-Notes/Personal/自动化测试/软件测试基础.md",
-        "Interview-Notes/Personal/自动化测试/自动化测试面试问答.md"
+        "Interview-Notes/Personal/自动化测试/assets",
+        "Interview-Notes/Personal/自动化测试/自动化测试面试问答.md",
+        "Interview-Notes/Personal/自动化测试/软件测试基础.md"
       ],
       "sortOrder": "custom"
     },
@@ -4917,29 +4856,98 @@
     },
     "Job-Hunting​": {
       "children": [
-        "Job-Hunting​/秋招",
         "Job-Hunting​/实习",
-        "Job-Hunting​/AI测开-JD.md"
+        "Job-Hunting​/AI测开-JD.md",
+        "Job-Hunting​/投递",
+        "Job-Hunting​/秋招"
       ],
       "sortOrder": "custom"
     },
     "Job-Hunting​/秋招": {
       "children": [
-        "Job-Hunting​/秋招/assets",
-        "Job-Hunting​/秋招/00-进行ing.md",
-        "Job-Hunting​/秋招/01-投递ing.md",
-        "Job-Hunting​/秋招/02-新投递.md",
-        "Job-Hunting​/秋招/待投.md",
-        "Job-Hunting​/秋招/实习.md",
-        "Job-Hunting​/秋招/宣讲会&双选会.md",
-        "Job-Hunting​/秋招/已挂.md"
+        "Job-Hunting​/秋招/AI面试",
+        "Job-Hunting​/秋招/测评",
+        "Job-Hunting​/秋招/笔试"
       ],
       "sortOrder": "custom"
     },
-    "Job-Hunting​/秋招/assets": {
+    "Job-Hunting​/秋招/笔试": {
       "children": [
-        "Job-Hunting​/秋招/assets/image-20250924165839540.png",
-        "Job-Hunting​/秋招/assets/image-20251028222918493.png"
+        "Job-Hunting​/秋招/笔试/360",
+        "Job-Hunting​/秋招/笔试/携程算法",
+        "Job-Hunting​/秋招/笔试/百度",
+        "Job-Hunting​/秋招/笔试/米哈游",
+        "Job-Hunting​/秋招/笔试/美团"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/笔试/360": {
+      "children": [
+        "Job-Hunting​/秋招/笔试/360/250920-测试.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/笔试/百度": {
+      "children": [
+        "Job-Hunting​/秋招/笔试/百度/01-公共前后缀.png",
+        "Job-Hunting​/秋招/笔试/百度/01-公共前后缀.py",
+        "Job-Hunting​/秋招/笔试/百度/02-背包道具得分.png",
+        "Job-Hunting​/秋招/笔试/百度/02-背包道具得分.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/笔试/美团": {
+      "children": [
+        "Job-Hunting​/秋招/笔试/美团/250920-测试.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/笔试/米哈游": {
+      "children": [
+        "Job-Hunting​/秋招/笔试/米哈游/250921.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/笔试/携程算法": {
+      "children": [
+        "Job-Hunting​/秋招/笔试/携程算法/0918.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/测评": {
+      "children": [
+        "Job-Hunting​/秋招/测评/北森题库+答案解析"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/测评/北森题库+答案解析": {
+      "children": [
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题1.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题10.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题10参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题1参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题2.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题2参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题3.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题3参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题4.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题4参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题5.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题5参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题6.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题6参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题7.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题7参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题8.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题8参考答案.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题9.pdf",
+        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题9参考答案.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/秋招/AI面试": {
+      "children": [
+        "Job-Hunting​/秋招/AI面试/携程AI面.md"
       ],
       "sortOrder": "custom"
     },
@@ -4949,10 +4957,146 @@
       ],
       "sortOrder": "custom"
     },
+    "Job-Hunting​/投递": {
+      "children": [
+        "Job-Hunting​/投递/00-进行ing.md",
+        "Job-Hunting​/投递/01-投递ing.md",
+        "Job-Hunting​/投递/02-新投递.md",
+        "Job-Hunting​/投递/assets",
+        "Job-Hunting​/投递/实习.md",
+        "Job-Hunting​/投递/宣讲会&双选会.md",
+        "Job-Hunting​/投递/已挂.md",
+        "Job-Hunting​/投递/待投.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/投递/assets": {
+      "children": [
+        "Job-Hunting​/投递/assets/image-20250924165839540.png",
+        "Job-Hunting​/投递/assets/image-20251028222918493.png"
+      ],
+      "sortOrder": "custom"
+    },
     "Knowledge-Base": {
       "children": [
-        "Knowledge-Base/LLM"
+        "Knowledge-Base/LLM",
+        "Knowledge-Base/AI",
+        "Knowledge-Base/dbds"
       ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/AI": {
+      "children": [
+        "Knowledge-Base/AI/01-机器学习基础",
+        "Knowledge-Base/AI/02-深度学习与PyTorch",
+        "Knowledge-Base/AI/03-Transformer框架",
+        "Knowledge-Base/AI/04-LangChain开发",
+        "Knowledge-Base/AI/05-大模型评测框架",
+        "Knowledge-Base/AI/学习路线图.md",
+        "Knowledge-Base/AI/CardHome.md",
+        "Knowledge-Base/AI/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/AI/01-机器学习基础": {
+      "children": [
+        "Knowledge-Base/AI/01-机器学习基础/机器学习基础概念.md",
+        "Knowledge-Base/AI/01-机器学习基础/监督学习算法.md",
+        "Knowledge-Base/AI/01-机器学习基础/模型评估与优化.md",
+        "Knowledge-Base/AI/01-机器学习基础/无监督学习算法.md",
+        "Knowledge-Base/AI/01-机器学习基础/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/AI/02-深度学习与PyTorch": {
+      "children": [
+        "Knowledge-Base/AI/02-深度学习与PyTorch/模型训练与优化.md",
+        "Knowledge-Base/AI/02-深度学习与PyTorch/深度学习基础.md",
+        "Knowledge-Base/AI/02-深度学习与PyTorch/PyTorch核心概念.md",
+        "Knowledge-Base/AI/02-深度学习与PyTorch/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/AI/03-Transformer框架": {
+      "children": [
+        "Knowledge-Base/AI/03-Transformer框架/README.md",
+        "Knowledge-Base/AI/03-Transformer框架/Transformer架构原理.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/AI/04-LangChain开发": {
+      "children": [
+        "Knowledge-Base/AI/04-LangChain开发/LangChain框架概述.md",
+        "Knowledge-Base/AI/04-LangChain开发/RAG系统构建.md",
+        "Knowledge-Base/AI/04-LangChain开发/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/AI/05-大模型评测框架": {
+      "children": [
+        "Knowledge-Base/AI/05-大模型评测框架/evalScope框架详解.md",
+        "Knowledge-Base/AI/05-大模型评测框架/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds": {
+      "children": [
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase": {
+      "children": [
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/01-机器学习基础",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/02-深度学习与PyTorch",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/03-Transformer框架",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/04-LangChain开发",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/05-大模型评测框架",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/06-实战项目",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/学习路线图.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/CardHome.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/MOC.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/01-机器学习基础": {
+      "children": [
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/01-机器学习基础/01-机器学习核心概念.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/01-机器学习基础/02-机器学习算法实战.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/02-深度学习与PyTorch": {
+      "children": [
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/02-深度学习与PyTorch/01-深度学习核心概念.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/02-深度学习与PyTorch/02-PyTorch基础实战.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/03-Transformer框架": {
+      "children": [
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/03-Transformer框架/01-Transformer核心概念.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/03-Transformer框架/02-Transformers库实战.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/04-LangChain开发": {
+      "children": [
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/04-LangChain开发/01-LangChain核心概念.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/04-LangChain开发/02-LangChain实战.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/05-大模型评测框架": {
+      "children": [
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/05-大模型评测框架/01-evalScope核心概念.md",
+        "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/05-大模型评测框架/02-evalScope实战.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/06-实战项目": {
+      "children": [],
       "sortOrder": "custom"
     },
     "Knowledge-Base/LLM": {
@@ -5021,12 +5165,9 @@
     "Prompt": {
       "children": [
         "Prompt/common",
-        "Prompt/graduation",
+        "Prompt/test",
         "Prompt/jobs",
         "Prompt/others",
-        "Prompt/outline",
-        "Prompt/tools",
-        "Prompt/git_resource_cleanup_demo.md",
         "Prompt/tmp.md"
       ],
       "sortOrder": "custom"
@@ -5035,8 +5176,18 @@
       "children": [
         "Prompt/common/others",
         "Prompt/common/tools",
+        "Prompt/common/agent",
         "Prompt/common/common.md",
         "Prompt/common/KnowledgeBase.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/common/agent": {
+      "children": [
+        "Prompt/common/agent/秋招.txt",
+        "Prompt/common/agent/Agent 定义.md",
+        "Prompt/common/agent/Prompt Agent（个人定义）.md",
+        "Prompt/common/agent/Prompt Agent定义.md"
       ],
       "sortOrder": "custom"
     },
@@ -5049,15 +5200,9 @@
     },
     "Prompt/common/tools": {
       "children": [
-        "Prompt/common/tools/bash-gen.txt",
+        "Prompt/common/tools/bash_cmd.md",
         "Prompt/common/tools/img转md.md",
         "Prompt/common/tools/video转md.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Prompt/graduation": {
-      "children": [
-        "Prompt/graduation/3_开题报告.md"
       ],
       "sortOrder": "custom"
     },
@@ -5071,7 +5216,6 @@
     "Prompt/jobs/ideepwise": {
       "children": [
         "Prompt/jobs/ideepwise/00-script",
-        "Prompt/jobs/ideepwise/00-template",
         "Prompt/jobs/ideepwise/others"
       ],
       "sortOrder": "custom"
@@ -5129,28 +5273,12 @@
       ],
       "sortOrder": "custom"
     },
-    "Prompt/jobs/ideepwise/00-template": {
-      "children": [
-        "Prompt/jobs/ideepwise/00-template/00-头脑风暴.md",
-        "Prompt/jobs/ideepwise/00-template/00-需求&设计.md",
-        "Prompt/jobs/ideepwise/00-template/01-脚本生成.md",
-        "Prompt/jobs/ideepwise/00-template/02-新增功能.md",
-        "Prompt/jobs/ideepwise/00-template/05-bug定位.md",
-        "Prompt/jobs/ideepwise/00-template/07-更新README.md",
-        "Prompt/jobs/ideepwise/00-template/09-脚本说明（全）.md",
-        "Prompt/jobs/ideepwise/00-template/09-脚本需求&框架说明.md",
-        "Prompt/jobs/ideepwise/00-template/03-优化重构.md",
-        "Prompt/jobs/ideepwise/00-template/07-添加注释.md",
-        "Prompt/jobs/ideepwise/00-template/08-功能补充.md"
-      ],
-      "sortOrder": "custom"
-    },
     "Prompt/jobs/ideepwise/others": {
       "children": [
         "Prompt/jobs/ideepwise/others/测试工具.txt",
-        "Prompt/jobs/ideepwise/others/项目刨析",
         "Prompt/jobs/ideepwise/others/script.txt",
-        "Prompt/jobs/ideepwise/others/标注项归类.md"
+        "Prompt/jobs/ideepwise/others/标注项归类.md",
+        "Prompt/jobs/ideepwise/others/项目刨析.md"
       ],
       "sortOrder": "custom"
     },
@@ -5158,27 +5286,57 @@
       "children": [
         "Prompt/jobs/tools/实习经历.md",
         "Prompt/jobs/tools/项目经历.md",
-        "Prompt/jobs/tools/项目面经.md",
-        "Prompt/jobs/tools/自我介绍.md"
+        "Prompt/jobs/tools/自我介绍.md",
+        "Prompt/jobs/tools/面经"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/tools/面经": {
+      "children": [
+        "Prompt/jobs/tools/面经/项目",
+        "Prompt/jobs/tools/面经/技能",
+        "Prompt/jobs/tools/面经/实习",
+        "Prompt/jobs/tools/面经/面经"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/tools/面经/技能": {
+      "children": [
+        "Prompt/jobs/tools/面经/技能/面经生成.md",
+        "Prompt/jobs/tools/面经/技能/面经补充.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/tools/面经/面经": {
+      "children": [
+        "Prompt/jobs/tools/面经/面经/面经答案.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/tools/面经/实习": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/tools/面经/项目": {
+      "children": [
+        "Prompt/jobs/tools/面经/项目/面经补充.md",
+        "Prompt/jobs/tools/面经/项目/面经生成.md"
       ],
       "sortOrder": "custom"
     },
     "Prompt/others": {
       "children": [
-        "Prompt/others/agent",
         "Prompt/others/liuma",
         "Prompt/others/mooctest",
-        "Prompt/others/test-tools",
-        "Prompt/others/vibe coding.md"
+        "Prompt/others/vibe coding.md",
+        "Prompt/others/graduation",
+        "Prompt/others/outline"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/agent": {
+    "Prompt/others/graduation": {
       "children": [
-        "Prompt/others/agent/秋招.txt",
-        "Prompt/others/agent/Agent 定义.md",
-        "Prompt/others/agent/Prompt Agent（个人定义）.md",
-        "Prompt/others/agent/Prompt Agent定义.md"
+        "Prompt/others/graduation/3_开题报告.md"
       ],
       "sortOrder": "custom"
     },
@@ -5302,43 +5460,61 @@
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/test-tools": {
+    "Prompt/others/outline": {
       "children": [
-        "Prompt/others/test-tools/md用例补充.md",
-        "Prompt/others/test-tools/md转xls.md",
-        "Prompt/others/test-tools/xls转md.md"
+        "Prompt/others/outline/coding",
+        "Prompt/others/outline/outline总览.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/outline": {
+    "Prompt/others/outline/coding": {
       "children": [
-        "Prompt/outline/coding",
-        "Prompt/outline/outline总览.md"
+        "Prompt/others/outline/coding/背景&角色.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/outline/coding": {
+    "Prompt/test": {
       "children": [
-        "Prompt/outline/coding/背景&角色.md"
+        "Prompt/test/dev",
+        "Prompt/test/script",
+        "Prompt/test/tools"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/tools": {
+    "Prompt/test/dev": {
       "children": [
-        "Prompt/tools/script"
+        "Prompt/test/dev/00-头脑风暴.md",
+        "Prompt/test/dev/00-需求&设计.md",
+        "Prompt/test/dev/01-脚本生成.md",
+        "Prompt/test/dev/02-新增功能.md",
+        "Prompt/test/dev/05-bug定位.md",
+        "Prompt/test/dev/07-更新README.md",
+        "Prompt/test/dev/09-脚本说明（全）.md",
+        "Prompt/test/dev/09-脚本需求&框架说明.md",
+        "Prompt/test/dev/03-优化重构.md",
+        "Prompt/test/dev/07-添加注释.md",
+        "Prompt/test/dev/08-功能补充.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/tools/script": {
+    "Prompt/test/script": {
       "children": [
-        "Prompt/tools/script/mapping_label（映射&标注）"
+        "Prompt/test/script/mapping_label（映射&标注）"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/tools/script/mapping_label（映射&标注）": {
+    "Prompt/test/script/mapping_label（映射&标注）": {
       "children": [
-        "Prompt/tools/script/mapping_label（映射&标注）/00-需求分析&功能设计.md",
-        "Prompt/tools/script/mapping_label（映射&标注）/02-脚本生成.md"
+        "Prompt/test/script/mapping_label（映射&标注）/00-需求分析&功能设计.md",
+        "Prompt/test/script/mapping_label（映射&标注）/02-脚本生成.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/test/tools": {
+      "children": [
+        "Prompt/test/tools/md用例补充.md",
+        "Prompt/test/tools/md转xls.md",
+        "Prompt/test/tools/xls转md.md"
       ],
       "sortOrder": "custom"
     },

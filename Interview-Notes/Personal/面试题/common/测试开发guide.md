@@ -23,16 +23,6 @@
 
 祝大家顺利拿到心仪的offer。
 
-**面试题后续会第一时间更新在微信公众号上，感兴趣的可以扫码关注**
-
-<p align="center">
-<img src="http://tva1.sinaimg.cn/large/006F2AR3gy1gdpuoikhq7j32060jsdl8.jpg"width="" style="margin: 0 auto;"/>  
-</p>
-
-![](http://tva1.sinaimg.cn/large/006F2AR3gy1gdpsdb0u7nj31062nxti1.jpg)
-
-
-
 # 目录
 
 ### 一、开场白

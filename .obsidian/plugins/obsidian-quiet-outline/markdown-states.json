@@ -842,7 +842,7 @@
     "expandedKeys": []
   },
   "Code-Space/AI/01-AI测试开发/02-LLM评测技术体系.md": {
-    "scroll": 220.72914988925078,
+    "scroll": 197.761656887532,
     "cursor": {
       "from": {
         "line": 0,
@@ -870,15 +870,15 @@
     "expandedKeys": []
   },
   "Code-Space/AI/02-工具技术栈/02-LangChain应用开发.md": {
-    "scroll": 509.3818292837693,
+    "scroll": 509.94873340874784,
     "cursor": {
       "from": {
-        "line": 543,
-        "ch": 39
+        "line": 520,
+        "ch": 16
       },
       "to": {
-        "line": 543,
-        "ch": 39
+        "line": 520,
+        "ch": 16
       }
     },
     "expandedKeys": []
@@ -991,6 +991,557 @@
       "to": {
         "line": 0,
         "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "Code-Space/AI/02-工具技术栈/hanbin.md": {
+    "scroll": 53.6075121714396,
+    "cursor": {
+      "from": {
+        "line": 66,
+        "ch": 7
+      },
+      "to": {
+        "line": 66,
+        "ch": 7
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/项目经历.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/项目面经.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 17
+      },
+      "to": {
+        "line": 4,
+        "ch": 17
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/自我介绍.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 75
+      },
+      "to": {
+        "line": 2,
+        "ch": 75
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/实习经历.md": {
+    "scroll": 32.797409170635746,
+    "cursor": {
+      "from": {
+        "line": 49,
+        "ch": 0
+      },
+      "to": {
+        "line": 49,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/others/liuma/engin/用户规则.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 0
+      },
+      "to": {
+        "line": 5,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/ideepwise/00-template/00-头脑风暴.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/git_resource_cleanup_demo.md": {
+    "scroll": 163.44319853037385,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-8",
+      "item-2-11",
+      "item-2-14"
+    ]
+  },
+  "Eight-legged/Personal/项目/数据驱动API测试框架/项目面经.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/Personal/项目/数据驱动API测试框架/通用面经.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/Personal/项目/APITestPlatform/02-通用面经.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/Personal/项目/APITestPlatform/01-项目面经.md": {
+    "scroll": 37.38209887261683,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-4"
+    ]
+  },
+  "Prompt/others/vibe coding.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/tmp.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/面经.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 3,
+        "ch": 12
+      },
+      "to": {
+        "line": 3,
+        "ch": 12
+      }
+    },
+    "expandedKeys": [
+      "item-1-0"
+    ]
+  },
+  "Prompt/jobs/tools/面经/项目/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/面经/项目/面经补充.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 29
+      },
+      "to": {
+        "line": 0,
+        "ch": 29
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/jobs/tools/面经/项目/面经生成.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 36,
+        "ch": 11
+      },
+      "to": {
+        "line": 36,
+        "ch": 11
+      }
+    },
+    "expandedKeys": []
+  },
+  "Prompt/common/tools/bash_cmd.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 11,
+        "ch": 57
+      },
+      "to": {
+        "line": 11,
+        "ch": 57
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/AI/LLM-Evaluation-Expert-KnowledgeBase/MOC.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 91,
+        "ch": 8
+      },
+      "to": {
+        "line": 91,
+        "ch": 8
+      }
+    },
+    "expandedKeys": [
+      "item-2-7",
+      "item-1-0",
+      "item-2-11",
+      "item-2-15"
+    ]
+  },
+  "Knowledge-Base/AI/LLM-Evaluation-Expert-KnowledgeBase/02-深度学习与PyTorch/01-深度学习核心概念.md": {
+    "scroll": 289.65498146071155,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-5",
+      "item-2-4",
+      "item-1-0",
+      "item-3-7",
+      "item-3-10",
+      "item-3-15",
+      "item-2-14",
+      "item-3-20",
+      "item-3-17"
+    ]
+  },
+  "Code-Space/job/秋招/AI面试/携程AI面.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Interview-Notes/Personal/面试题/common/测试开发guide.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 4,
+        "ch": 42
+      },
+      "to": {
+        "line": 4,
+        "ch": 42
+      }
+    },
+    "expandedKeys": [
+      "item-3-4",
+      "item-1-2"
+    ]
+  },
+  "Interview-Notes/Personal/测试开发面经/250729.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Interview-Notes/Personal/面试题/测开/250729.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Interview-Notes/Personal/SQL语句.md": {
+    "scroll": 47.02270655375031,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-1-0"
+    ]
+  },
+  "Interview-Notes/面经/SQL语句.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 11
+      },
+      "to": {
+        "line": 0,
+        "ch": 11
+      }
+    },
+    "expandedKeys": [
+      "item-3-1",
+      "item-1-0"
+    ]
+  },
+  "Knowledge-Base/AI/LLM-Evaluation-Expert-KnowledgeBase/02-深度学习与PyTorch/02-PyTorch基础实战.md": {
+    "scroll": 306.74995246968444,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-2-6",
+      "item-1-0",
+      "item-2-9",
+      "item-2-12"
+    ]
+  },
+  "Knowledge-Base/AI/LLM-Evaluation-Expert-KnowledgeBase/01-机器学习基础/01-机器学习核心概念.md": {
+    "scroll": 475.33862169003834,
+    "cursor": {
+      "from": {
+        "line": 513,
+        "ch": 31
+      },
+      "to": {
+        "line": 513,
+        "ch": 31
+      }
+    },
+    "expandedKeys": [
+      "item-2-4",
+      "item-1-0",
+      "item-2-8",
+      "item-3-16",
+      "item-2-15",
+      "item-3-22",
+      "item-2-21",
+      "item-3-25",
+      "item-2-28",
+      "item-2-34",
+      "item-2-38"
+    ]
+  },
+  "Knowledge-Base/AI/CardHome.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 37
+      },
+      "to": {
+        "line": 17,
+        "ch": 37
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/AI/01-机器学习基础/README.md": {
+    "scroll": 4.498983924056671,
+    "cursor": {
+      "from": {
+        "line": 10,
+        "ch": 23
+      },
+      "to": {
+        "line": 10,
+        "ch": 23
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-7"
+    ]
+  },
+  "Knowledge-Base/AI/01-机器学习基础/Scikit-learn实战.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/AI/02-深度学习与PyTorch/README.md": {
+    "scroll": 16.352770638426737,
+    "cursor": {
+      "from": {
+        "line": 37,
+        "ch": 16
+      },
+      "to": {
+        "line": 37,
+        "ch": 16
+      }
+    },
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-8"
+    ]
+  },
+  "Knowledge-Base/AI/学习路线图.md": {
+    "scroll": 0.32445773995641963,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
