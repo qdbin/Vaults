@@ -1,22 +1,15 @@
 """
-    思想：排序+双指针
-    
+    思想：通过哈希表实现
+
     实现：
-        1.通过enumerate，实现arr[(value,index)],排序arr通过left、right下标和01取value和index
-        2.left+right==target则返回，若小则left++，若大则right++
+        1.确定字典中是否已有target-nums[i]的数值，若有则返回两个数的下标，否则则添加当前值
 """
 from typing import List
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-
-        arr=[(value,index) for index,value in enumerate(nums)]
-        arr.sort()
-
-        left,right=0,len(nums)-1
-        while True:
-            if target==arr[left][0]+arr[right][0]:
-                return (arr[left][1],arr[right][1])
-            elif target<arr[left][0]+arr[right][0]:
-                right=right-1
-            elif target>arr[left][0]+arr[right][0]:
-                left=left+1
+        dict={}
+        for i in range(len(nums)):
+            if target-nums[i] in dict:
+                return (dict[target-nums[i]],i)
+            else:
+                dict[nums[i]]=i

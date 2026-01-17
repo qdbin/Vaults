@@ -12,7 +12,7 @@ class Solution:
         # 奇回文判断（i充当中心点，向外拓展判断是否为回文）
         for i in range(len(s)):
             l=r=i
-            while(l>=0 and r<len(s) and s[l]==s[r]):
+            while(l>=0 and r<len(s) and s[l]==s[r]):    #! s[l]==s[r]放后面！避免先出现下标越界再判断的情况
                 l,r=l-1,r+1
 
             # 恢复while最后一次循环的影响

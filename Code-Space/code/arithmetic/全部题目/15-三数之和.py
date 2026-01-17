@@ -15,7 +15,7 @@ class Solution:
         if not nums and len(nums)<3:
             return []
 
-        nums.sort()
+        nums.sort()     #! 排序！！！
         res=[]
         for i in range(len(nums)):
             # 确保下标>0,当前值与上一个值不同

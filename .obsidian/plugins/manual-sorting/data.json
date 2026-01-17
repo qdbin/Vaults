@@ -137,7 +137,9 @@
         "Code-Space/code/arithmetic/全部题目/876-链表的中间结点.py",
         "Code-Space/code/arithmetic/全部题目/LCR 018-验证回文串.py",
         "Code-Space/code/arithmetic/全部题目/LCR 020-回文子串.py",
-        "Code-Space/code/arithmetic/全部题目/LCR 095-最长公共子序列.py"
+        "Code-Space/code/arithmetic/全部题目/LCR 095-最长公共子序列.py",
+        "Code-Space/code/arithmetic/全部题目/06-Z字型变化.py",
+        "Code-Space/code/arithmetic/全部题目/07-整数反转.py"
       ],
       "sortOrder": "custom"
     },
@@ -4981,7 +4983,8 @@
       "children": [
         "Knowledge-Base/LLM",
         "Knowledge-Base/AI",
-        "Knowledge-Base/dbds"
+        "Knowledge-Base/dbds",
+        "Knowledge-Base/Jobs"
       ],
       "sortOrder": "custom"
     },
@@ -5097,6 +5100,343 @@
     },
     "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/06-实战项目": {
       "children": [],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接",
+        "Knowledge-Base/Jobs/IDeepWise/base",
+        "Knowledge-Base/Jobs/IDeepWise/common",
+        "Knowledge-Base/Jobs/IDeepWise/llm"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/assets",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/杜慧明-小思.md",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/邱浩楠-闪联.md",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/宋晶亮-.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/assets": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/assets/1751945726124-16062946-df73-4178-947c-9748a82a6220.png",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/assets/1751945832943-3c105acc-4fd0-4902-8172-955e5fa63908.png",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/assets/1751946118163-48f782cd-c73f-496c-87ca-c67d376b92c3.png",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/assets/1751946273655-1a7ec53e-821b-46bb-9faf-82c7f82b3856.png",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/assets/1758779915779-107923f1-6143-4831-b055-6549de5f37cc.png",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/assets/1758781243011-df9eecd9-282c-418e-9928-c2e383ff235f.webp"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/files": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/Dongni批量查询参考问题格式.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/视频数据集",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/图片准确率数据集",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/评估测试题-修改版0623.xlsx",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/healthDemo.zip",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/tts接口特殊字符读音数据集.zip"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/视频数据集": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/视频数据集/视频数据.zip"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/图片准确率数据集": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/图片准确率数据集/不含演示场景.zip",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/图片准确率数据集/智能相册测试数据集(含演示场景).zip"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/测试集",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/完整数据集"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/测试集": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/测试集/文档.rar",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/测试集/test.src",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/测试集/test.tgt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/完整数据集": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/工作交接/files/宋晶亮/文档准确率数据集/完整数据集/CLTS数据集(2).zip"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/base": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/base/video",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/深思考接口性能测试.jmx",
+        "Knowledge-Base/Jobs/IDeepWise/base/Linux.pdf",
+        "Knowledge-Base/Jobs/IDeepWise/base/python模块库清单.png",
+        "Knowledge-Base/Jobs/IDeepWise/base/url.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/base/video": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/base/video/20241221134918-接口测试培训-视频-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/video/20241221145513-接口测试培训-视频-2.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/video/20250118140103-可靠性测试介绍-视频-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/video/20250830135148-常见模型评估方法及指标-视频-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/video/测试基础流程及测试用例.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/video/测试培训2024-6-21-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/video/测试培训2024-6-21-2.mp4"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/base/xmind": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/本地搜索.xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/闪联1-功能点.jpg",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/闪联2-功能点.jpg",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智慧相册-功能点（透明图）.png",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/ideepwise.xmind"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/王家屏数字人-测试点.xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/王家屏数字人-测试点（透明图）.png",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/用例.xlsx",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/badcase（发音、语音识别、方言、回答等错误）.xlsx"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思/智慧助手-健康.xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思/智慧助手-其他功能.xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思/智慧助手-小思.xmind"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/基础",
+        "Knowledge-Base/Jobs/IDeepWise/common/接口自动化",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/基础": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets",
+        "Knowledge-Base/Jobs/IDeepWise/common/基础/测试基础流程.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/基础/测试用例设计.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/基础/assets": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730461686791-8ce97bb2-320f-4ea5-a7e1-eafd5627c56c.jpeg",
+        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730464681875-699ad567-1ccf-479b-989d-e187253ab5b2.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730465989562-e5f156a6-48ea-4039-ba07-284ec1ab3a04.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730519279269-d48977d1-dbc0-470d-90af-b78f896e0079.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/接口自动化": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/接口自动化/测试脚本"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/接口自动化/测试脚本": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/接口自动化/测试脚本/测试脚本设计要求&规范&原则.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/其他测试": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/assets",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/files",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/加密加壳测试.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/接口测试.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/可靠性测试.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/FFmpeg.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/其他测试/assets": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/assets/1734691379245-3e0c08d9-7fa9-4393-867a-2f8db19a85ec.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/assets/1734694534249-fd62513d-37a0-44ce-80d3-8111f20fea3a.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/assets/1737179783298-bf047ab3-4750-494c-aea2-83023d8ccd7d.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/assets/1737179802983-e5397504-a6c2-488b-8d96-cd7fa7aca0ed.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/其他测试/files": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/files/接口测试讲解共45张PPT.pdf",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/files/dex-tools-v2.4.zip",
+        "Knowledge-Base/Jobs/IDeepWise/common/其他测试/files/jd-gui-windows_jb51.rar"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/性能测试": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/【nmon】服务器性能结果报告分析 —— 报表参数详解_nmon报告分析.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/设计容量.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/性能测试规范.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/Locust 性能测试指北.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823810776-b38994f5-2dbe-499f-aa2d-c7d5dc62b893.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823810793-a8f9153d-17fb-444e-97b6-d6e54ee9e236.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823810875-78171f91-9a85-407a-b3bd-614454e3ea23.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811003-4270a1ba-af3a-408b-b14c-a39698481955.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811069-451c353b-9609-4de6-a993-d080a5e26525.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811356-6c057ed6-815b-4ba5-9aa6-b50ca505c904.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811500-2878c559-81bd-440e-985c-6f43c4d26e1a.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811606-c9e79d66-5c17-4632-be5c-b9845b86f255.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811623-9cd4e164-06b3-40a5-89fd-a714bb0100ce.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811624-235e28e8-fdc9-4aa1-8474-e566bdd8fb5f.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811804-8de45d7b-89ca-4dc5-a379-4378850ed72e.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823811986-46a19d91-0654-446c-9c7f-c2fb0f46ecb4.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812002-27059e39-7788-465b-aaac-96c47ed7d413.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812058-07e18378-f9a9-4680-9506-51b1f198d8fd.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812062-74d860ab-8db2-46d5-b508-b9b0ad8e4e75.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812267-e2f5a9af-5680-4fa9-88aa-469dfa9fdbee.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812330-f322968e-84f6-4da2-9946-55da68f4baae.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812399-f019a8ea-1bfc-4726-9994-f437c78b6239.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812612-a85d86fa-91a5-483d-adfa-e62981ff2cf8.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812885-7cb88102-64e5-4ac5-b454-6431ee8850d9.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812922-8c95a258-621c-4a4e-8790-5fe9d3d063b8.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812958-209da5d8-8a63-40f9-9b00-2338ec8926f3.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823812967-933f922d-19f6-414a-9b71-cf8cca6306ae.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813040-acdd6bd4-0975-4f11-b793-216720e7ec83.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813283-1412595c-a0ad-4829-874c-88fc159c4fdc.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813410-7e7c4613-5583-4d7a-a7f3-a65980d2e274.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813500-db63f212-5d08-4c17-889c-ed32a3220d0e.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813530-a906a4b5-d6ad-4d19-9a6f-cc01713578ba.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813535-5ee7d9ae-9e6a-4622-a9b2-3845de4aea19.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813664-36cd76c6-f944-458a-82c2-108197148019.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813898-4bc03e84-6460-4ff3-8c51-7c7b4efd3070.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813948-39481d50-5fe7-4ca8-af90-50d1126316fb.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813963-217f48d1-6f79-4694-aee5-e5e5144f7661.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823813980-7fa361eb-780f-492a-8049-6b2f92a9e3cc.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814149-5f7168cf-bef9-48d1-b898-0d7191106557.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814198-215304d1-a382-49d6-9790-36bb6ee4dcb2.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814273-9283734b-d0ed-4ac0-8895-43729b2acdfc.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814329-6f2df108-16b4-410f-808a-8d0a3b42eaca.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814418-d76f1b68-0334-4961-a747-2d532fddcbe7.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814466-1a963f1c-d7b4-46c6-8372-2afb55d4e3d2.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814468-1e6a8c25-2c9a-4be2-91ef-144752095017.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814751-bb469045-8fa9-489c-b55f-a83c290ae895.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814754-44e80cdc-93f2-4e39-be2a-0d3cce9176ea.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814803-445563aa-fe3d-497f-b426-6e052e6aecb5.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1722823814808-c9dcf97b-3ebb-4826-90db-7ce1126ff4c7.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1754124656145-5e98b8fb-320d-498d-8791-50b154d9ee23.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1754124656273-1e07ca40-c905-478e-94a0-1855341db73f.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1754292843532-9dac5255-77e9-4a1d-8a21-ce7a26eb9656.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试/assets/1754294310232-8a0f3bb8-12eb-4226-95f5-3852f407d4e1.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/llm": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets",
+        "Knowledge-Base/Jobs/IDeepWise/llm/大模型性能测试.md",
+        "Knowledge-Base/Jobs/IDeepWise/llm/模型测试基准学习.md",
+        "Knowledge-Base/Jobs/IDeepWise/llm/EvalScope.md",
+        "Knowledge-Base/Jobs/IDeepWise/llm/LLM应用概述.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/llm/assets": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310030-5a8ccd3f-a9e2-4b42-bb39-66854fa589bc.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310071-2b4e1959-c3cf-4b3b-8266-40854ed381cc.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310175-f7bbbe4c-b89c-4d3f-abb9-39bb08313e33.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310333-92669dca-1246-49e3-af06-3a77ebb6837f.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310436-89f72f54-d042-4164-9e1d-00ba21253049.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310454-080d65f1-6f8f-47a8-a97b-d4b92823fe59.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310586-8c48f6cf-96ed-496f-af87-6df25ac7630d.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1750750310957-57c1cdde-469f-4869-b884-b2352f3ce077.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763814226-2620937f-8883-4fdb-8b4c-73ac5cc96631.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763814527-577a276d-d51b-456f-9399-00f8c57c4695.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763814628-24d28152-89cf-474b-8be8-71ddbdd14cd3.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763814631-f7f268dd-e40f-480a-afc4-aaf91a0d439d.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763814834-74297bfd-1754-42bf-af41-9ca15d8f967b.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763814917-b8e9a73e-d65f-4689-89f2-97967b36c56a.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763814920-e70014de-1f4c-47ed-8721-3d7efb1b3542.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815083-5f9a8d2a-cfe5-46af-b00b-6e55755cfb38.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815159-31bef502-a563-4bdd-828f-2741c5e7de9f.gif",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815333-5665a26e-f315-454a-a33a-5f2ec65e4e9a.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815541-1be3e00d-c451-4224-af5a-b7faef6012f7.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815583-db2084b2-3b5b-4abe-8098-70fadb3da5f8.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815676-9ab400e4-b1da-4d08-bf27-1387514800c0.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815866-6752e066-409d-43f2-a8a5-9d4a875ce4ec.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815954-b8ee8ac9-4ab3-49bf-a726-534fb0cb4d50.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763815970-45278491-bff0-4586-8877-9685af6636d4.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816271-389596d0-d306-4836-8be9-b79a7e4a11b6.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816313-e82d9aeb-7b0c-4556-930a-9ab686e26ad8.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816316-58fd41ea-b8ed-454e-bd5e-9331ed2c4df8.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816374-22e7dd05-2847-43c5-9d20-e09853fc464d.gif",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816565-14045026-90b5-45b3-b340-e3c2f2d9494d.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816878-8b599423-7e6d-42c2-aa21-4ddd4d31b28d.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816903-3854883e-59a6-4682-9673-f155615c9b2a.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816945-f702c08b-dabd-4400-92bd-ad64abdffcb9.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816955-fcbdb01f-ff9c-4e6d-b2dd-10d947d88000.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763816965-8226c580-1239-4685-9eeb-050e64832f53.gif",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817183-ed93bb9b-29ad-4a9c-86ef-315b20eec7e0.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817184-fd925edc-cb20-4ba6-843e-4f47b1d523bc.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817231-87882057-8a2c-4197-944f-2bb89b45e0d8.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817355-f248edc8-1534-4083-8ae8-6dba49126f0b.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817430-1114c5c9-6d43-4774-90bc-fdf7bd1ecb10.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817451-9bfd395d-ba2e-43c8-b16a-7983af51bf0a.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817617-15e0adcd-1be9-4463-bb57-5bc61be535ea.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817671-43fc7a8a-8dc4-4a3e-ad75-019cf1c75396.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817885-91ae5005-8466-45b7-b384-56b3f10cf77c.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763817952-b9a8ca92-35d7-4060-b994-5a9a06b34dfd.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818015-c74309a8-69cf-49f5-9384-7d3d811821dc.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818076-f2ad288a-4520-4dc8-b972-45b16b113ca6.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818090-2310a00d-6e53-41fe-87a4-ad7fc590ae84.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818209-7b078bcd-47b0-4e12-bd32-5818da0f3ede.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818317-2cff218a-9bee-4ea4-8432-4488fd3806c1.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818331-b8fcbe8e-6f39-46f0-9970-e14383e3d733.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818378-3f73468a-0a3d-418f-91e8-8386777ceb47.png",
+        "Knowledge-Base/Jobs/IDeepWise/llm/assets/1755763818727-61a54ae5-cf09-4d4c-936a-b31e2e378e7b.gif"
+      ],
       "sortOrder": "custom"
     },
     "Knowledge-Base/LLM": {

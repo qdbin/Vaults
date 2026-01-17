@@ -14,58 +14,37 @@ class ListNode:
         self.next=next
 
 class Solution:
-    def addTwoNumbers(self,l1:Optional[ListNode],l2:Optional[ListNode])->Optional[ListNode]:
-        list=ListNode()
-        current_node=list
-        jinwei=0
-        x,y,jinwei,current_val=0,0,0,0
-        while(l1 or l2):
+    def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
+        head=ListNode()
+        cur_node=head
+        x,y,jinwei,cur_val=0,0,0,0
+        while l1 or l2:
+            x=0 if l1==None else l1.val
+            y=0 if l2==None else l2.val
+            
+            # 获取“进位”和“个位”
+            #! t=l1.val+l2.val+jinwei   ! 可能会遍历到当前结点为None的情况
+            t= x+y+jinwei
+            cur_val,jinwei = (t,0) if t<10 else (t%10,1)
+            
+            # 给下个结点赋值
+            cur_node.next=ListNode(cur_val) # 给next赋值！！！不是给当前结点赋值！！！
+            
+            # 并统一遍历下个结点
+            #! l1,l2=l1.next,l2.next    ! 错误同上
+            cur_node=cur_node.next
+            if l1:
+                l1=l1.next
+            if l2:
+                l2=l2.next
+            
+        if jinwei:
+            cur_node.next=ListNode(1)
 
-            x=l1.val if l1 else 0
-            y=l2.val if l2 else 0
-
-            #获取“进位”和“个位”
-            current_val=x+y+jinwei
-            jinwei=current_val//10
-            current_val=current_val%10
-
-            #下一个结点
-            current_node.next=ListNode(current_val) # 赋值next,并初始化val
-            current_node=current_node.next
-            if l1:l1=l1.next
-            if l2:l2=l2.next
-        if jinwei>0:
-            current_node.next=ListNode(1)
-        return list.next
-
-
-
-if __name__ == '__main__':
-    #定义结点
-    anode1 = ListNode(1)
-    anode2 = ListNode(2)
-    anode3 = ListNode(3)
-    bnode1 = ListNode(4)
-    bnode2 = ListNode(5)
-    bnode3 = ListNode(6)
-    # 方法一：正序链接(使用原结点->node.next)
-    bnode1.next = bnode2
-    bnode2.next = bnode3
-    # 方法二：倒序链接
-    anode2.next = anode3
-    anode1.next = anode2
-    """
-        # 方法二：正序链接(使用临时变量tmp->tmp.next)
-        tmp=anode1
-        tmp.next=anode2
-        tmp=tmp.next
-        tmp.next=anode3 
-    """
-    result=Solution().addTwoNumbers(anode1, bnode1)
-
-    tmp = result
-    while (tmp != None):
-        x = tmp.val
-        print(x)
-        tmp = tmp.next
-
+        return head.next
+    
+if __name__=="__main__":
+    l1=ListNode(2,ListNode(4,ListNode(3)))
+    l2=ListNode(5,ListNode(6,ListNode(3)))
+    t=Solution().addTwoNumbers(l1,l2)
+    print(t)

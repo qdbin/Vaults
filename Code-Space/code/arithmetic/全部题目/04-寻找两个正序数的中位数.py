@@ -15,7 +15,6 @@
         ！！！：如果交换nums列表，一定要注意对应的列表长度是否交换（可能存在先求出列表长度，但交换列表后并未交换列表长度）
 """
 from math import inf
-from turtle import left, right
 from typing import List
 
 class Solution:
@@ -28,7 +27,7 @@ class Solution:
         
         # 此处的right主要用于确定"分割点"，即说明nums1左侧0或n个元素
         left,right=0,n1     # 此处是n1!!!!!!!!!!!!
-        while(left<=right):
+        while(left<=right): #! 此处是等于！！！（这里是确定中点的）
 
             i=(left+right)//2       # 这里是left+right!!!!!!不是减是加，是加，老错！！！
             j=(n+1)//2-i            # 这里是n+1 !!!

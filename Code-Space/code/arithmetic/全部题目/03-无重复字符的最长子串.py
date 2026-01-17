@@ -24,12 +24,11 @@ class Solution:
 
         # 遍历更新右窗口下标
         for right in range(len(s)):
-            # 如果当前字符存在字典中，先选择更新left左窗口，再更新字典中的下标
+            # 如果当前字符存在字典中，先更新left左窗口，再字典右窗口的下标
             if s[right] in dic:
                 # 更新左窗口下标（max确保左窗口只进不退）
                 left=max(left,dic[s[right]]+1)      # 如当前left为10，但字典中的下标为2（则说明这个字符已不在当前的滑动窗口中了）
-                # 更新 '字符':'下标' 字典的下标值
-                dic[s[right]]=right
+                dic[s[right]]=right     #!不要忘记更新当前'字符'的字典'下标'
 
             else:
                 dic[s[right]]=right
