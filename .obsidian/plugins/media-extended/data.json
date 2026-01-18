@@ -14,7 +14,7 @@
   "note.embed.load-strategy": "play",
   "note.embed.handle-hosted": true,
   "note.embed.handle-direct-url": true,
-  "link.click-behavior": "split",
+  "link.click-behavior": "window",
   "link.altclick-behavior": "window",
   "link.handle-hosted": true,
   "link.handle-direct-url": true,

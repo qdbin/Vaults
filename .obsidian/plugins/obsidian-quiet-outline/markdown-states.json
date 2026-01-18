@@ -115,12 +115,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 76,
-        "ch": 0
+        "line": 1,
+        "ch": 37
       },
       "to": {
-        "line": 76,
-        "ch": 0
+        "line": 1,
+        "ch": 37
       }
     },
     "expandedKeys": [
@@ -761,11 +761,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
+        "line": 0,
         "ch": 0
       },
       "to": {
-        "line": 3,
+        "line": 0,
         "ch": 0
       }
     },
@@ -1541,6 +1541,104 @@
       },
       "to": {
         "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/基础/测试基础流程.md": {
+    "scroll": 106.88888537089029,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/base/url.md": {
+    "scroll": 26.08888956705729,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/学习路线图.md": {
+    "scroll": 137.7265889660293,
+    "cursor": {
+      "from": {
+        "line": 171,
+        "ch": 15
+      },
+      "to": {
+        "line": 171,
+        "ch": 15
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/dbds/LLM-Evaluation-Expert-KnowledgeBase/CardHome.md": {
+    "scroll": 193.14893617021278,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "tmp/资源.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 17,
+        "ch": 13
+      },
+      "to": {
+        "line": 17,
+        "ch": 13
+      }
+    },
+    "expandedKeys": []
+  },
+  "2026-01-18.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Eight-legged/Other/JavaGuaid/《Java面试指北》/面试准备篇（必看）/⭐程序员面试常见词汇扫盲（面试必知）【耗时整理‖免费分享 cunlove.cn】.md": {
+    "scroll": 293.25173157585994,
+    "cursor": {
+      "from": {
+        "line": 62,
+        "ch": 0
+      },
+      "to": {
+        "line": 62,
         "ch": 0
       }
     },

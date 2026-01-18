@@ -10,7 +10,8 @@
         "Prompt",
         "Others",
         "tmp",
-        "todo.md"
+        "todo.md",
+        "media-lib"
       ],
       "sortOrder": "custom"
     },
@@ -4981,7 +4982,6 @@
     },
     "Knowledge-Base": {
       "children": [
-        "Knowledge-Base/LLM",
         "Knowledge-Base/AI",
         "Knowledge-Base/dbds",
         "Knowledge-Base/Jobs"
@@ -5110,10 +5110,10 @@
     },
     "Knowledge-Base/Jobs/IDeepWise": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/工作交接",
         "Knowledge-Base/Jobs/IDeepWise/base",
         "Knowledge-Base/Jobs/IDeepWise/common",
-        "Knowledge-Base/Jobs/IDeepWise/llm"
+        "Knowledge-Base/Jobs/IDeepWise/llm",
+        "Knowledge-Base/Jobs/IDeepWise/工作交接"
       ],
       "sortOrder": "custom"
     },
@@ -5439,29 +5439,9 @@
       ],
       "sortOrder": "custom"
     },
-    "Knowledge-Base/LLM": {
+    "media-lib": {
       "children": [
-        "Knowledge-Base/LLM/性能测试"
-      ],
-      "sortOrder": "custom"
-    },
-    "Knowledge-Base/LLM/性能测试": {
-      "children": [
-        "Knowledge-Base/LLM/性能测试/assets",
-        "Knowledge-Base/LLM/性能测试/LLM.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Knowledge-Base/LLM/性能测试/assets": {
-      "children": [
-        "Knowledge-Base/LLM/性能测试/assets/1750750310030-5a8ccd3f-a9e2-4b42-bb39-66854fa589bc.png",
-        "Knowledge-Base/LLM/性能测试/assets/1750750310071-2b4e1959-c3cf-4b3b-8266-40854ed381cc.png",
-        "Knowledge-Base/LLM/性能测试/assets/1750750310175-f7bbbe4c-b89c-4d3f-abb9-39bb08313e33.png",
-        "Knowledge-Base/LLM/性能测试/assets/1750750310333-92669dca-1246-49e3-af06-3a77ebb6837f.png",
-        "Knowledge-Base/LLM/性能测试/assets/1750750310436-89f72f54-d042-4164-9e1d-00ba21253049.png",
-        "Knowledge-Base/LLM/性能测试/assets/1750750310454-080d65f1-6f8f-47a8-a97b-d4b92823fe59.png",
-        "Knowledge-Base/LLM/性能测试/assets/1750750310586-8c48f6cf-96ed-496f-af87-6df25ac7630d.png",
-        "Knowledge-Base/LLM/性能测试/assets/1750750310957-57c1cdde-469f-4869-b884-b2352f3ce077.png"
+        "media-lib/url-xjniz31r.md"
       ],
       "sortOrder": "custom"
     },
@@ -5860,8 +5840,8 @@
     },
     "tmp": {
       "children": [
-        "tmp/大模型评测相关知识解答及成长路径.md",
-        "tmp/copilot"
+        "tmp/copilot",
+        "tmp/资源.md"
       ],
       "sortOrder": "custom"
     },
