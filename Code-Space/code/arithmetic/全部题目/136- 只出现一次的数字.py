@@ -1,4 +1,5 @@
 """
+    链接：https://leetcode.cn/problems/single-number/submissions/692314212/
     思想：异或
 """
 from typing import *

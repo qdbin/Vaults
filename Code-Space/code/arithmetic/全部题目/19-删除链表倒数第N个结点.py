@@ -23,11 +23,11 @@ class Solution:
 
         # 在原始head链表前加一个结点
         h_dummy=left=ListNode(0,head)
-        right=head
+        right=head  # 这里是head,不是head.next
 
         # 初始化right，使left和right之间隔了n个结点
         while n and right:  # 这里是right，不是right.next!!!!
-            right=right.next
+            right=right.next    
             n-=1
         
         # 同步遍历left、right，直至right遍历到链表的最后的none

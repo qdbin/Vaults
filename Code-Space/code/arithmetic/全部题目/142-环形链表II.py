@@ -1,7 +1,9 @@
 """
     链接：https://leetcode.cn/problems/linked-list-cycle-ii/
 """
+# Definition for singly-linked list.
 from typing import Optional
+
 
 class ListNode:
     def __init__(self, x):
@@ -10,16 +12,22 @@ class ListNode:
 
 class Solution:
     def detectCycle(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        # 判断是否为空或就一个结点
-        if not (head and head.next):
+        if not head or not head.next:
             return None
-
-        # 将结点加入集合，若集合存在则直接返回集合中的元素
-        seen=set()
-        while head:
-            if head in seen:
-                return head
-            else:
-                seen.add(head)
-                head=head.next
-        return None
+        
+        low=fast=head
+        while fast and fast.next:
+            low,fast=low.next,fast.next.next
+            # 有环则中断快指针！
+            if low==fast:
+                break
+        
+        # 若快指针为空（无环）则返回
+        if not fast or not fast.next:
+            return None
+        
+        # 有环，将快指针恢复至起点，重写追赶！
+        fast=head
+        while fast!=low:
+            low,fast=low.next,fast.next
+        return fast

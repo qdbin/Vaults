@@ -1,4 +1,5 @@
 """
+  链接：https://leetcode.cn/problems/a7VOhD/
   思想：和最长回文子串一个性质，中心拓展遍历所有字串，一个简单的改版而已！！！
 """
 class Solution:

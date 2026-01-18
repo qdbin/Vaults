@@ -15,7 +15,6 @@ class Solution:
         # 确定dp[i+1][j+1]  +1才表示对应的下标
         for i,x in enumerate(text1):
             for j,y in enumerate(text2):
-                # 
                 if x==y:
                     dp[i+1][j+1]=dp[i][j]+1
                 else:

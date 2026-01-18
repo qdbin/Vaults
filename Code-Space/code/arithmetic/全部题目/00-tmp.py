@@ -1,25 +1,12 @@
-from typing import *
+from math import inf
+from typing import List
 class Solution:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
-        if not nums and len(nums)<3:
-            return []
-        nums.sort()
-        ans=[]
-        for i in range(len(nums)):
-            if i!=0 and nums[i]==nums[i-1]:
-                continue
-            
-            l,r=i+1,len(nums)-1
-            while l<r:
-                target=-nums[i]-nums[l]
-                if target==nums[r]:
-                    ans.append([nums[i],nums[l],nums[r]])
-                    l+=1
-                    while nums[l]==nums[l-1] and l<r:
-                        l+=1
-                elif target<nums[r]:
-                    r-=1
-                else:
-                    l+=1
+    def coinChange(self, coins: List[int], amount: int) -> int:
+        dp=[inf]*(amount+1)
+        dp[0]=0
+        for i in range(amount+1):
+            for c in coins:
+                if i-c>=0:
+                    dp[i]=min(dp[i],dp[i-c]+1)
         
-        return ans
+        return -1 if dp[amount]==inf else dp[amount]

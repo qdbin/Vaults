@@ -1,4 +1,5 @@
 """
+    链接：https://leetcode.cn/problems/reverse-linked-list/
     思想：双指针迭代，pre为反转的结点，cur为待反转的结点（时刻更新）
     1. 常规赋值链表也是从底层开始的
 """
@@ -25,5 +26,5 @@ class Solution:
             cur=tmp         # cur_node更新为下个待转换的结点
             """
 
-        # 返回pre,即开端
+        #! 返回pre,即开端
         return pre

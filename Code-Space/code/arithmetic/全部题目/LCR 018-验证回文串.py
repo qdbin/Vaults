@@ -9,9 +9,10 @@ class Solution:
         while left <= right:
             if not s[left].isalnum():
                 left += 1
-            elif not s[right].isalnum() and right > left:
+            elif not s[right].isalnum():
                 right -= 1
             else:
+                #! lower()别忘了
                 if s[left].lower() != s[right].lower():
                     return False
                 left += 1

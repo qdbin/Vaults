@@ -1,3 +1,6 @@
+"""
+    链接:https://leetcode.cn/problems/reverse-words-in-a-string/
+"""
 class Solution:
     def reverseWords(self, s: str) -> str:
         s = s.strip()         # 删除首尾空格

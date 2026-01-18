@@ -1,4 +1,5 @@
 """
+    链接：https://leetcode.cn/problems/palindrome-linked-list/
     思想：链表中点+反转链表+对比
     1. 之所以要获得中点是因为反转链表只能反转一半，不能全部反转，否则开销空间必然会吃不消
 """
@@ -26,6 +27,7 @@ class Solution:
         cur,pre=head,None
         while cur:
             cur.next,pre,cur=pre,cur,cur.next
+        #! 返回pre！！！
         return pre
     
     # 对比判断是否回文
@@ -34,8 +36,10 @@ class Solution:
         head2=self.reversalLink(minddle_node)
 
         while head2:
+            #! 别忘了.val!!!
             if head.val!=head2.val:
                 return False
+            #! 别忘了遍历
             head,head2=head.next,head2.next
         return True
 

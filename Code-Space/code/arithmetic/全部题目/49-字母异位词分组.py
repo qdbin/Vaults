@@ -19,4 +19,4 @@ class Solution:
             dic[sort_cur_str].append(cur_str)
         
         # 返回
-        return list(dic.values())
+        return list(dic.values())   #! 此次是list()包裹的！！以及values()!!!
