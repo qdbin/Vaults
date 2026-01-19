@@ -14,12 +14,14 @@
 **/temp
 **/tmp
 **/Jobs
+**/media-lib
 .trash
 
 # 文件
 todo.md
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
+**/未命名.md
 
 
 # ========================
