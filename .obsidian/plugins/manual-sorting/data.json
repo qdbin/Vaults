@@ -10,8 +10,7 @@
         "Prompt",
         "Others",
         "tmp",
-        "todo.md",
-        "media-lib"
+        "todo.md"
       ],
       "sortOrder": "custom"
     },
@@ -5440,12 +5439,6 @@
       ],
       "sortOrder": "custom"
     },
-    "media-lib": {
-      "children": [
-        "media-lib/url-xjniz31r.md"
-      ],
-      "sortOrder": "custom"
-    },
     "Others": {
       "children": [
         "Others/经验分享"
@@ -5842,7 +5835,8 @@
     "tmp": {
       "children": [
         "tmp/copilot",
-        "tmp/资源.md"
+        "tmp/资源.md",
+        "tmp/八股.md"
       ],
       "sortOrder": "custom"
     },
