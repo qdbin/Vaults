@@ -139,7 +139,8 @@
         "Code-Space/code/arithmetic/全部题目/06-Z字型变化.py",
         "Code-Space/code/arithmetic/全部题目/07-整数反转.py",
         "Code-Space/code/arithmetic/全部题目/300-最长递增子序列（T0）.py",
-        "Code-Space/code/arithmetic/全部题目/LCR 095-最长公共子序列（T0）.py"
+        "Code-Space/code/arithmetic/全部题目/LCR 095-最长公共子序列（T0）.py",
+        "Code-Space/code/arithmetic/全部题目/LCR 冒泡排序.py"
       ],
       "sortOrder": "custom"
     },
@@ -4791,7 +4792,6 @@
         "Interview-Notes/Personal/面试题/common",
         "Interview-Notes/Personal/面试题/HR高频面试问题.md",
         "Interview-Notes/Personal/面试题/company",
-        "Interview-Notes/Personal/面试题/未命名",
         "Interview-Notes/Personal/面试题/大厂面经"
       ],
       "sortOrder": "custom"
@@ -4807,10 +4807,6 @@
       "children": [
         "Interview-Notes/Personal/面试题/大厂面经/assets/8526E2CCE5A1270D1D3A9550826C140A.png"
       ],
-      "sortOrder": "custom"
-    },
-    "Interview-Notes/Personal/面试题/未命名": {
-      "children": [],
       "sortOrder": "custom"
     },
     "Interview-Notes/Personal/面试题/common": {

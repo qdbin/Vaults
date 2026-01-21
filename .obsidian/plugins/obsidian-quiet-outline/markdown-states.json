@@ -112,19 +112,20 @@
     "expandedKeys": []
   },
   "todo.md": {
-    "scroll": 66.53414885530766,
+    "scroll": 65.90402827794973,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 9
+        "line": 80,
+        "ch": 25
       },
       "to": {
-        "line": 77,
-        "ch": 9
+        "line": 80,
+        "ch": 25
       }
     },
     "expandedKeys": [
-      "item-3-0"
+      "item-3-0",
+      "item-1-0"
     ]
   },
   "Jobs/AI测开-JD.md": {
@@ -1603,7 +1604,7 @@
     "expandedKeys": []
   },
   "tmp/资源.md": {
-    "scroll": 0,
+    "scroll": 13.458663940429688,
     "cursor": {
       "from": {
         "line": 3,
