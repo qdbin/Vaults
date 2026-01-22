@@ -112,15 +112,15 @@
     "expandedKeys": []
   },
   "todo.md": {
-    "scroll": 76.31308771347658,
+    "scroll": 68.6204896120681,
     "cursor": {
       "from": {
-        "line": 80,
-        "ch": 41
+        "line": 72,
+        "ch": 0
       },
       "to": {
-        "line": 80,
-        "ch": 41
+        "line": 72,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -1604,18 +1604,20 @@
     "expandedKeys": []
   },
   "tmp/资源.md": {
-    "scroll": 13.458663940429688,
+    "scroll": 4.293749872843424,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 15
+        "line": 14,
+        "ch": 0
       },
       "to": {
-        "line": 3,
-        "ch": 15
+        "line": 14,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2"
+    ]
   },
   "2026-01-18.md": {
     "scroll": 0,
@@ -1646,7 +1648,7 @@
     "expandedKeys": []
   },
   "Job-Hunting​/个人面经.md": {
-    "scroll": 184.49495442708334,
+    "scroll": 181.7354523189484,
     "cursor": {
       "from": {
         "line": 212,
@@ -1951,21 +1953,26 @@
         "ch": 8
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0"
+    ]
   },
   "Interview-Notes/Personal/自动化测试/软件测试基础.md": {
-    "scroll": 53.71805483500163,
+    "scroll": 132.12578309257074,
     "cursor": {
       "from": {
-        "line": 72,
-        "ch": 25
+        "line": 11,
+        "ch": 0
       },
       "to": {
-        "line": 72,
-        "ch": 25
+        "line": 11,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-1-11"
+    ]
   },
   "Interview-Notes/Personal/自动化测试/250730-自动化测试（南京）.md": {
     "scroll": 0,

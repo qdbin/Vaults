@@ -1971,17 +1971,10 @@
     },
     "Code-Space/tmp/tmp": {
       "children": [
-        "Code-Space/tmp/tmp/build",
         "Code-Space/tmp/tmp/常用模块.ipynb",
         "Code-Space/tmp/tmp/doctest.ipynb",
-        "Code-Space/tmp/tmp/常用模块 - 副本.ipynb",
-        "Code-Space/tmp/tmp/常用模块.md",
-        "Code-Space/tmp/tmp/常用模块 - 副本.md"
+        "Code-Space/tmp/tmp/常用模块.md"
       ],
-      "sortOrder": "custom"
-    },
-    "Code-Space/tmp/tmp/build": {
-      "children": [],
       "sortOrder": "custom"
     },
     "Eight-legged": {
@@ -5488,7 +5481,8 @@
         "Prompt/common/tools",
         "Prompt/common/agent",
         "Prompt/common/common.md",
-        "Prompt/common/KnowledgeBase.md"
+        "Prompt/common/KnowledgeBase.md",
+        "Prompt/common/入门.md"
       ],
       "sortOrder": "custom"
     },
