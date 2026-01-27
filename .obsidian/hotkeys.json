@@ -72,6 +72,12 @@
         "Shift"
       ],
       "key": "]"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "]"
     }
   ],
   "editor:toggle-comments": [],
@@ -233,5 +239,20 @@
       "key": "W"
     }
   ],
-  "workspace:close-window": []
+  "workspace:close-window": [],
+  "editor:toggle-bullet-list": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "["
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    }
+  ]
 }

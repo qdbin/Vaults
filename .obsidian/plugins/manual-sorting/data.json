@@ -265,8 +265,7 @@
     },
     "Code-Space/Jenkins/pipeline": {
       "children": [
-        "Code-Space/Jenkins/pipeline/基础语法.jenkins",
-        "Code-Space/Jenkins/pipeline/最佳实践.jenkins"
+        "Code-Space/Jenkins/pipeline/基础语法.jenkins"
       ],
       "sortOrder": "custom"
     },
@@ -5216,10 +5215,10 @@
     },
     "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/王家屏数字人-测试点.xmind",
         "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/王家屏数字人-测试点（透明图）.png",
         "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/用例.xlsx",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/badcase（发音、语音识别、方言、回答等错误）.xlsx"
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/badcase（发音、语音识别、方言、回答等错误）.xlsx",
+        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/数字人-测试点.md"
       ],
       "sortOrder": "custom"
     },
@@ -5471,7 +5470,8 @@
         "Prompt/test",
         "Prompt/jobs",
         "Prompt/others",
-        "Prompt/tmp.md"
+        "Prompt/tmp.md",
+        "Prompt/Lyra.md"
       ],
       "sortOrder": "custom"
     },
@@ -5818,7 +5818,8 @@
       "children": [
         "Prompt/test/tools/md用例补充.md",
         "Prompt/test/tools/md转xls.md",
-        "Prompt/test/tools/xls转md.md"
+        "Prompt/test/tools/xls转md.md",
+        "Prompt/test/tools/img转md.md"
       ],
       "sortOrder": "custom"
     },

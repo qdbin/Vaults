@@ -13,5 +13,6 @@
   "showInlineTitle": false,
   "focusNewTab": true,
   "newFileLocation": "current",
-  "trashOption": "local"
+  "trashOption": "local",
+  "showUnsupportedFiles": true
 }
