@@ -5482,7 +5482,8 @@
         "Prompt/common/agent",
         "Prompt/common/common.md",
         "Prompt/common/KnowledgeBase.md",
-        "Prompt/common/入门.md"
+        "Prompt/common/入门.md",
+        "Prompt/common/面經答案.md"
       ],
       "sortOrder": "custom"
     },

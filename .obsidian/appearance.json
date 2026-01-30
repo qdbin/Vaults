@@ -1,5 +1,5 @@
 {
-  "theme": "moonstone",
+  "theme": "obsidian",
   "cssTheme": "",
   "accentColor": "#4c9ce6",
   "enabledCssSnippets": [
@@ -8,7 +8,7 @@
     "tmptmptmp"
   ],
   "baseFontSizeAction": true,
-  "baseFontSize": 15,
+  "baseFontSize": 19,
   "showViewHeader": false,
   "showRibbon": true
 }
