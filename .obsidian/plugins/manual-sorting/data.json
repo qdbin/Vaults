@@ -5180,79 +5180,89 @@
     },
     "Knowledge-Base/Jobs/IDeepWise/base": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/base/video",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind",
         "Knowledge-Base/Jobs/IDeepWise/base/深思考接口性能测试.jmx",
         "Knowledge-Base/Jobs/IDeepWise/base/Linux.pdf",
         "Knowledge-Base/Jobs/IDeepWise/base/python模块库清单.png",
-        "Knowledge-Base/Jobs/IDeepWise/base/url.md"
+        "Knowledge-Base/Jobs/IDeepWise/base/url.md",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind"
       ],
       "sortOrder": "custom"
     },
-    "Knowledge-Base/Jobs/IDeepWise/base/video": {
+    "Knowledge-Base/Jobs/IDeepWise/base/培训video": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/base/video/20241221134918-接口测试培训-视频-1.mp4",
-        "Knowledge-Base/Jobs/IDeepWise/base/video/20241221145513-接口测试培训-视频-2.mp4",
-        "Knowledge-Base/Jobs/IDeepWise/base/video/20250118140103-可靠性测试介绍-视频-1.mp4",
-        "Knowledge-Base/Jobs/IDeepWise/base/video/20250830135148-常见模型评估方法及指标-视频-1.mp4",
-        "Knowledge-Base/Jobs/IDeepWise/base/video/测试基础流程及测试用例.mp4",
-        "Knowledge-Base/Jobs/IDeepWise/base/video/测试培训2024-6-21-1.mp4",
-        "Knowledge-Base/Jobs/IDeepWise/base/video/测试培训2024-6-21-2.mp4"
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/培训视频.md"
       ],
       "sortOrder": "custom"
     },
-    "Knowledge-Base/Jobs/IDeepWise/base/xmind": {
+    "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/本地搜索.xmind",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/闪联1-功能点.jpg",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/闪联2-功能点.jpg",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智慧相册-功能点（透明图）.png",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/ideepwise.xmind"
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets/20241221134918-接口测试培训-视频-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets/20241221145513-接口测试培训-视频-2.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets/20250118140103-可靠性测试介绍-视频-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets/20250830135148-常见模型评估方法及指标-视频-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets/测试基础流程及测试用例.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets/测试培训2024-6-21-1.mp4",
+        "Knowledge-Base/Jobs/IDeepWise/base/培训video/assets/测试培训2024-6-21-2.mp4"
       ],
       "sortOrder": "custom"
     },
-    "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏": {
+    "Knowledge-Base/Jobs/IDeepWise/base/用例xmind": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/王家屏数字人-测试点（透明图）.png",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/用例.xlsx",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/badcase（发音、语音识别、方言、回答等错误）.xlsx",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/王家屏/数字人-测试点.md"
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/王家屏",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/智能小思",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/本地搜索.xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/闪联1-功能点.jpg",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/闪联2-功能点.jpg",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/智慧相册-功能点（透明图）.png",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/ideepwise.xmind"
       ],
       "sortOrder": "custom"
     },
-    "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思": {
+    "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/王家屏": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思/智慧助手-健康.xmind",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思/智慧助手-其他功能.xmind",
-        "Knowledge-Base/Jobs/IDeepWise/base/xmind/智能小思/智慧助手-小思.xmind"
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/王家屏/数字人-测试点.md",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/王家屏/王家屏数字人-测试点（透明图）.png",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/王家屏/用例.xlsx",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/王家屏/badcase（发音、语音识别、方言、回答等错误）.xlsx"
+      ],
+      "sortOrder": "custom"
+    },
+    "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/智能小思": {
+      "children": [
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/智能小思/智慧助手-健康.xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/智能小思/智慧助手-其他功能.xmind",
+        "Knowledge-Base/Jobs/IDeepWise/base/用例xmind/智能小思/智慧助手-小思.xmind"
       ],
       "sortOrder": "custom"
     },
     "Knowledge-Base/Jobs/IDeepWise/common": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/common/基础",
         "Knowledge-Base/Jobs/IDeepWise/common/接口自动化",
         "Knowledge-Base/Jobs/IDeepWise/common/其他测试",
-        "Knowledge-Base/Jobs/IDeepWise/common/性能测试"
+        "Knowledge-Base/Jobs/IDeepWise/common/性能测试",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础"
       ],
       "sortOrder": "custom"
     },
-    "Knowledge-Base/Jobs/IDeepWise/common/基础": {
+    "Knowledge-Base/Jobs/IDeepWise/common/测试基础": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets",
-        "Knowledge-Base/Jobs/IDeepWise/common/基础/测试基础流程.md",
-        "Knowledge-Base/Jobs/IDeepWise/common/基础/测试用例设计.md"
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/assets",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/测试基础流程.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/测试用例模板.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/测试用例设计.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/功能测试问题严重程度分类.md",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/如何把控软件测试质量.md"
       ],
       "sortOrder": "custom"
     },
-    "Knowledge-Base/Jobs/IDeepWise/common/基础/assets": {
+    "Knowledge-Base/Jobs/IDeepWise/common/测试基础/assets": {
       "children": [
-        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730461686791-8ce97bb2-320f-4ea5-a7e1-eafd5627c56c.jpeg",
-        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730464681875-699ad567-1ccf-479b-989d-e187253ab5b2.png",
-        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730465989562-e5f156a6-48ea-4039-ba07-284ec1ab3a04.png",
-        "Knowledge-Base/Jobs/IDeepWise/common/基础/assets/1730519279269-d48977d1-dbc0-470d-90af-b78f896e0079.png"
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/assets/1730461686791-8ce97bb2-320f-4ea5-a7e1-eafd5627c56c.jpeg",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/assets/1730464681875-699ad567-1ccf-479b-989d-e187253ab5b2.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/assets/1730465989562-e5f156a6-48ea-4039-ba07-284ec1ab3a04.png",
+        "Knowledge-Base/Jobs/IDeepWise/common/测试基础/assets/1730519279269-d48977d1-dbc0-470d-90af-b78f896e0079.png"
       ],
       "sortOrder": "custom"
     },
@@ -5828,7 +5838,25 @@
       "children": [
         "tmp/copilot",
         "tmp/资源.md",
-        "tmp/八股.md"
+        "tmp/八股.md",
+        "tmp/assets",
+        "tmp/窝趣水电.md",
+        "tmp/窝趣水电.pdf",
+        "tmp/窝趣水电-mindmap.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/assets": {
+      "children": [
+        "tmp/assets/窝趣水电"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/assets/窝趣水电": {
+      "children": [
+        "tmp/assets/窝趣水电/file-20260130201847975.png",
+        "tmp/assets/窝趣水电/file-20260130202802721.png",
+        "tmp/assets/窝趣水电/file-20260130203112865.png"
       ],
       "sortOrder": "custom"
     },

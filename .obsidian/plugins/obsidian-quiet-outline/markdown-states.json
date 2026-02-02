@@ -357,11 +357,11 @@
     "cursor": {
       "from": {
         "line": 0,
-        "ch": 3
+        "ch": 0
       },
       "to": {
         "line": 0,
-        "ch": 3
+        "ch": 0
       }
     },
     "expandedKeys": []
@@ -1554,29 +1554,34 @@
     "expandedKeys": []
   },
   "Knowledge-Base/Jobs/IDeepWise/common/基础/测试基础流程.md": {
-    "scroll": 177.31319313049318,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 190,
-        "ch": 7
+        "line": 11,
+        "ch": 0
       },
       "to": {
-        "line": 190,
-        "ch": 7
+        "line": 11,
+        "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-8",
+      "item-2-5",
+      "item-2-1"
+    ]
   },
   "Knowledge-Base/Jobs/IDeepWise/base/url.md": {
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 0,
-        "ch": 0
+        "line": 18,
+        "ch": 49
       },
       "to": {
-        "line": 0,
-        "ch": 0
+        "line": 18,
+        "ch": 49
       }
     },
     "expandedKeys": []
@@ -1657,12 +1662,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 1,
-        "ch": 32
+        "line": 17,
+        "ch": 31
       },
       "to": {
-        "line": 1,
-        "ch": 32
+        "line": 17,
+        "ch": 31
       }
     },
     "expandedKeys": [
@@ -1670,7 +1675,7 @@
     ]
   },
   "tmp/八股.md": {
-    "scroll": 34.1258647175555,
+    "scroll": 34.57716982867436,
     "cursor": {
       "from": {
         "line": 0,
@@ -1700,7 +1705,7 @@
     "expandedKeys": []
   },
   "Knowledge-Base/Jobs/IDeepWise/common/基础/测试用例设计.md": {
-    "scroll": 348.17220916748045,
+    "scroll": 4.296960998816653,
     "cursor": {
       "from": {
         "line": 394,
@@ -1711,24 +1716,33 @@
         "ch": 39
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-1-6",
+      "item-1-0"
+    ]
   },
   "Knowledge-Base/Jobs/IDeepWise/工作交接/杜慧明-小思.md": {
-    "scroll": 1805.7405450500555,
+    "scroll": 1626.033578262106,
     "cursor": {
       "from": {
-        "line": 1443,
-        "ch": 24
+        "line": 1791,
+        "ch": 55
       },
       "to": {
-        "line": 1443,
-        "ch": 24
+        "line": 1791,
+        "ch": 55
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-17",
+      "item-1-0",
+      "item-2-12",
+      "item-2-9",
+      "item-2-1"
+    ]
   },
   "Knowledge-Base/Jobs/IDeepWise/llm/大模型性能测试.md": {
-    "scroll": 18.014930470784506,
+    "scroll": 145.3277679533696,
     "cursor": {
       "from": {
         "line": 0,
@@ -1739,10 +1753,14 @@
         "ch": 0
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-2-2",
+      "item-1-0",
+      "item-2-7"
+    ]
   },
   "Knowledge-Base/Jobs/IDeepWise/common/性能测试/Locust 性能测试指北.md": {
-    "scroll": 464.5082526564343,
+    "scroll": 407.6081728225661,
     "cursor": {
       "from": {
         "line": 508,
@@ -1753,7 +1771,11 @@
         "ch": 6
       }
     },
-    "expandedKeys": []
+    "expandedKeys": [
+      "item-4-23",
+      "item-2-22",
+      "item-1-0"
+    ]
   },
   "Eight-legged/Personal/计算机基础/Linux/Linux 操作系统.md": {
     "scroll": 86.71860414232738,
@@ -2144,5 +2166,257 @@
       }
     },
     "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/性能测试/设计容量.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/性能测试/性能测试规范.md": {
+    "scroll": 65.07114564556798,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-5-3",
+      "item-4-2",
+      "item-1-0",
+      "item-5-8",
+      "item-4-12"
+    ]
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/其他测试/接口测试.md": {
+    "scroll": 92.41227228472924,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-1-1"
+    ]
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/其他测试/可靠性测试.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/llm/模型测试基准学习.md": {
+    "scroll": 70.69035127012839,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-5",
+      "item-2-4",
+      "item-1-0"
+    ]
+  },
+  "Knowledge-Base/Jobs/IDeepWise/llm/EvalScope.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/工作交接/邱浩楠-闪联.md": {
+    "scroll": 1239.2233747658709,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": [
+      "item-3-3"
+    ]
+  },
+  "Knowledge-Base/Jobs/IDeepWise/base/video/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/base/video/培训视频.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 26
+      },
+      "to": {
+        "line": 2,
+        "ch": 26
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-3-5"
+    ]
+  },
+  "Knowledge-Base/Jobs/IDeepWise/base/培训video/培训视频.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 2,
+        "ch": 9
+      },
+      "to": {
+        "line": 2,
+        "ch": 9
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-3-5"
+    ]
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/基础/未命名.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/基础/测试用例模板.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 4
+      },
+      "to": {
+        "line": 24,
+        "ch": 4
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/基础/功能测试问题严重程度分类.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 26
+      },
+      "to": {
+        "line": 5,
+        "ch": 26
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/基础/如何把控软件测试质量.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 3
+      },
+      "to": {
+        "line": 0,
+        "ch": 3
+      }
+    },
+    "expandedKeys": []
+  },
+  "Knowledge-Base/Jobs/IDeepWise/common/接口自动化/测试脚本/测试脚本设计要求&规范&原则.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 21,
+        "ch": 20
+      },
+      "to": {
+        "line": 21,
+        "ch": 20
+      }
+    },
+    "expandedKeys": [
+      "item-2-1",
+      "item-1-0",
+      "item-3-2"
+    ]
+  },
+  "tmp/窝趣水电.md": {
+    "scroll": 23.144273758888843,
+    "cursor": {
+      "from": {
+        "line": 24,
+        "ch": 46
+      },
+      "to": {
+        "line": 24,
+        "ch": 46
+      }
+    },
+    "expandedKeys": [
+      "item-1-0",
+      "item-2-5",
+      "item-1-3"
+    ]
   }
 }
