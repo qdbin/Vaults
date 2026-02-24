@@ -10,7 +10,20 @@
         "Prompt",
         "Others",
         "tmp",
-        "todo.md"
+        "todo.md",
+        "assets"
+      ],
+      "sortOrder": "custom"
+    },
+    "assets": {
+      "children": [
+        "assets/todo"
+      ],
+      "sortOrder": "custom"
+    },
+    "assets/todo": {
+      "children": [
+        "assets/todo/file-20260203150423428.png"
       ],
       "sortOrder": "custom"
     },
@@ -23,8 +36,7 @@
         "Code-Space/job",
         "Code-Space/tmp",
         "Code-Space/matplotlib.ipynb",
-        "Code-Space/numpy.ipynb",
-        "Code-Space/tmp.py"
+        "Code-Space/numpy.ipynb"
       ],
       "sortOrder": "custom"
     },
