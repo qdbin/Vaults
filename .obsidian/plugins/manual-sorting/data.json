@@ -5489,11 +5489,11 @@
     "Prompt": {
       "children": [
         "Prompt/common",
-        "Prompt/test",
         "Prompt/jobs",
-        "Prompt/others",
         "Prompt/tmp.md",
-        "Prompt/Lyra.md"
+        "Prompt/Lyra.md",
+        "Prompt/dev",
+        "Prompt/project"
       ],
       "sortOrder": "custom"
     },
@@ -5505,7 +5505,8 @@
         "Prompt/common/common.md",
         "Prompt/common/KnowledgeBase.md",
         "Prompt/common/入门.md",
-        "Prompt/common/面經答案.md"
+        "Prompt/common/outline",
+        "Prompt/common/面经答案.md"
       ],
       "sortOrder": "custom"
     },
@@ -5525,18 +5526,106 @@
       ],
       "sortOrder": "custom"
     },
+    "Prompt/common/outline": {
+      "children": [
+        "Prompt/common/outline/coding",
+        "Prompt/common/outline/outline总览.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/common/outline/coding": {
+      "children": [
+        "Prompt/common/outline/coding/背景&角色.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Prompt/common/tools": {
       "children": [
         "Prompt/common/tools/bash_cmd.md",
         "Prompt/common/tools/img转md.md",
-        "Prompt/common/tools/video转md.md"
+        "Prompt/common/tools/video转md.md",
+        "Prompt/common/tools/test",
+        "Prompt/common/tools/creat-skills.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/common/tools/test": {
+      "children": [
+        "Prompt/common/tools/test/img转md.md",
+        "Prompt/common/tools/test/md用例补充.md",
+        "Prompt/common/tools/test/md转xls.md",
+        "Prompt/common/tools/test/xls转md.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/dev": {
+      "children": [
+        "Prompt/dev/example",
+        "Prompt/dev/00-头脑风暴.md",
+        "Prompt/dev/00-需求&设计.md",
+        "Prompt/dev/00-conceive（requirement）.md",
+        "Prompt/dev/01-coding.md",
+        "Prompt/dev/02-新增功能.md",
+        "Prompt/dev/03-优化重构.md",
+        "Prompt/dev/05-bug定位.md",
+        "Prompt/dev/07-更新README.md",
+        "Prompt/dev/07-添加注释.md",
+        "Prompt/dev/08-功能补充.md",
+        "Prompt/dev/09-脚本说明（全）.md",
+        "Prompt/dev/09-脚本需求&框架说明.md",
+        "Prompt/dev/10-项目README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/dev/example": {
+      "children": [
+        "Prompt/dev/example/mapping_label（映射&标注）"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/dev/example/mapping_label（映射&标注）": {
+      "children": [
+        "Prompt/dev/example/mapping_label（映射&标注）/00-需求分析&功能设计.md",
+        "Prompt/dev/example/mapping_label（映射&标注）/02-脚本生成.md"
       ],
       "sortOrder": "custom"
     },
     "Prompt/jobs": {
       "children": [
         "Prompt/jobs/ideepwise",
-        "Prompt/jobs/tools"
+        "Prompt/jobs/tools",
+        "Prompt/jobs/arcsoft"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/arcsoft": {
+      "children": [
+        "Prompt/jobs/arcsoft/00-script",
+        "Prompt/jobs/arcsoft/ask",
+        "Prompt/jobs/arcsoft/testset整理",
+        "Prompt/jobs/arcsoft/arc-eval.md",
+        "Prompt/jobs/arcsoft/project-readme.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/arcsoft/00-script": {
+      "children": [
+        "Prompt/jobs/arcsoft/00-script/0-需求&设计.md",
+        "Prompt/jobs/arcsoft/00-script/1-脚本生成.md",
+        "Prompt/jobs/arcsoft/00-script/2-新增需求（解决痛点）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/arcsoft/ask": {
+      "children": [
+        "Prompt/jobs/arcsoft/ask/base.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/arcsoft/testset整理": {
+      "children": [
+        "Prompt/jobs/arcsoft/testset整理/0-文件夹整理.md",
+        "Prompt/jobs/arcsoft/testset整理/2-文件清洗.md"
       ],
       "sortOrder": "custom"
     },
@@ -5622,7 +5711,6 @@
       "children": [
         "Prompt/jobs/tools/面经/项目",
         "Prompt/jobs/tools/面经/技能",
-        "Prompt/jobs/tools/面经/实习",
         "Prompt/jobs/tools/面经/面经"
       ],
       "sortOrder": "custom"
@@ -5640,10 +5728,6 @@
       ],
       "sortOrder": "custom"
     },
-    "Prompt/jobs/tools/面经/实习": {
-      "children": [],
-      "sortOrder": "custom"
-    },
     "Prompt/jobs/tools/面经/项目": {
       "children": [
         "Prompt/jobs/tools/面经/项目/面经补充.md",
@@ -5651,198 +5735,170 @@
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others": {
+    "Prompt/project": {
       "children": [
-        "Prompt/others/liuma",
-        "Prompt/others/mooctest",
-        "Prompt/others/vibe coding.md",
-        "Prompt/others/graduation",
-        "Prompt/others/outline"
+        "Prompt/project/aitestplatform",
+        "Prompt/project/graduation",
+        "Prompt/project/liuma",
+        "Prompt/project/mooctest",
+        "Prompt/project/vibe coding.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/graduation": {
+    "Prompt/project/aitestplatform": {
       "children": [
-        "Prompt/others/graduation/3_开题报告.md"
+        "Prompt/project/aitestplatform/ai",
+        "Prompt/project/aitestplatform/engin",
+        "Prompt/project/aitestplatform/frontend"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/liuma": {
+    "Prompt/project/aitestplatform/ai": {
       "children": [
-        "Prompt/others/liuma/backend",
-        "Prompt/others/liuma/engin",
-        "Prompt/others/liuma/frontend"
+        "Prompt/project/aitestplatform/ai/01-conceive（creator）.md",
+        "Prompt/project/aitestplatform/ai/02-coding.md",
+        "Prompt/project/aitestplatform/ai/03-optimize.md",
+        "Prompt/project/aitestplatform/ai/04-other_llm_fix.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/liuma/backend": {
+    "Prompt/project/aitestplatform/engin": {
       "children": [
-        "Prompt/others/liuma/backend/接口文档.txt",
-        "Prompt/others/liuma/backend/了解项目.txt"
+        "Prompt/project/aitestplatform/engin/01-conceive（Refactor）.md",
+        "Prompt/project/aitestplatform/engin/02-coding.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/liuma/engin": {
+    "Prompt/project/aitestplatform/frontend": {
       "children": [
-        "Prompt/others/liuma/engin/开发细节.txt",
-        "Prompt/others/liuma/engin/了解细节.txt",
-        "Prompt/others/liuma/engin/了解项目.txt",
-        "Prompt/others/liuma/engin/随问.txt",
-        "Prompt/others/liuma/engin/用户规则.md",
-        "Prompt/others/liuma/engin/agent-引擎.txt"
+        "Prompt/project/aitestplatform/frontend/01-conceive（optimize）.md",
+        "Prompt/project/aitestplatform/frontend/02-coding.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/liuma/frontend": {
+    "Prompt/project/graduation": {
       "children": [
-        "Prompt/others/liuma/frontend/了解项目.txt",
-        "Prompt/others/liuma/frontend/修复&优化.txt"
+        "Prompt/project/graduation/3_开题报告.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest": {
+    "Prompt/project/liuma": {
       "children": [
-        "Prompt/others/mooctest/pre",
-        "Prompt/others/mooctest/prov",
-        "Prompt/others/mooctest/web-selenim.txt"
+        "Prompt/project/liuma/backend",
+        "Prompt/project/liuma/engin",
+        "Prompt/project/liuma/frontend"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre": {
+    "Prompt/project/liuma/backend": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp",
-        "Prompt/others/mooctest/pre/00_框架图&测试计划.md",
-        "Prompt/others/mooctest/pre/00_注释.md",
-        "Prompt/others/mooctest/pre/01_developing.md",
-        "Prompt/others/mooctest/pre/02_通用最佳实践.md",
-        "Prompt/others/mooctest/pre/03_待完善-流程.txt",
-        "Prompt/others/mooctest/pre/04_快用.md"
+        "Prompt/project/liuma/backend/接口文档.txt",
+        "Prompt/project/liuma/backend/了解项目.txt"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre/tmp": {
+    "Prompt/project/liuma/engin": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp/assets",
-        "Prompt/others/mooctest/pre/tmp/mementoX",
-        "Prompt/others/mooctest/pre/tmp/student",
-        "Prompt/others/mooctest/pre/tmp/a_进度情况.md"
+        "Prompt/project/liuma/engin/开发细节.txt",
+        "Prompt/project/liuma/engin/了解细节.txt",
+        "Prompt/project/liuma/engin/了解项目.txt",
+        "Prompt/project/liuma/engin/随问.txt",
+        "Prompt/project/liuma/engin/用户规则.md",
+        "Prompt/project/liuma/engin/agent-引擎.txt"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre/tmp/assets": {
+    "Prompt/project/liuma/frontend": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp/assets/image-20251102105707374.png",
-        "Prompt/others/mooctest/pre/tmp/assets/image-20251102114253468.png",
-        "Prompt/others/mooctest/pre/tmp/assets/image-20251102120140524.png"
+        "Prompt/project/liuma/frontend/了解项目.txt",
+        "Prompt/project/liuma/frontend/修复&优化.txt"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre/tmp/mementoX": {
+    "Prompt/project/mooctest": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明",
-        "Prompt/others/mooctest/pre/tmp/mementoX/测试计划.md"
+        "Prompt/project/mooctest/pre",
+        "Prompt/project/mooctest/prov",
+        "Prompt/project/mooctest/web-selenim.txt"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre/tmp/mementoX/框架说明": {
+    "Prompt/project/mooctest/pre": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/文档说明",
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/数据设计图.md",
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/系统功能结构图.md",
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/业务逻辑图.md"
+        "Prompt/project/mooctest/pre/tmp",
+        "Prompt/project/mooctest/pre/00_框架图&测试计划.md",
+        "Prompt/project/mooctest/pre/00_注释.md",
+        "Prompt/project/mooctest/pre/01_developing.md",
+        "Prompt/project/mooctest/pre/02_通用最佳实践.md",
+        "Prompt/project/mooctest/pre/03_待完善-流程.txt",
+        "Prompt/project/mooctest/pre/04_快用.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/文档说明": {
+    "Prompt/project/mooctest/pre/tmp": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/文档说明/数据设计图.md",
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/文档说明/系统功能结构图.md",
-        "Prompt/others/mooctest/pre/tmp/mementoX/框架说明/文档说明/业务逻辑图.md"
+        "Prompt/project/mooctest/pre/tmp/assets",
+        "Prompt/project/mooctest/pre/tmp/mementoX",
+        "Prompt/project/mooctest/pre/tmp/student",
+        "Prompt/project/mooctest/pre/tmp/a_进度情况.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre/tmp/student": {
+    "Prompt/project/mooctest/pre/tmp/assets": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp/student/框架说明",
-        "Prompt/others/mooctest/pre/tmp/student/测试计划.md"
+        "Prompt/project/mooctest/pre/tmp/assets/image-20251102105707374.png",
+        "Prompt/project/mooctest/pre/tmp/assets/image-20251102114253468.png",
+        "Prompt/project/mooctest/pre/tmp/assets/image-20251102120140524.png"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/pre/tmp/student/框架说明": {
+    "Prompt/project/mooctest/pre/tmp/mementoX": {
       "children": [
-        "Prompt/others/mooctest/pre/tmp/student/框架说明/数据设计图.md",
-        "Prompt/others/mooctest/pre/tmp/student/框架说明/系统功能结构图.md",
-        "Prompt/others/mooctest/pre/tmp/student/框架说明/业务逻辑图.md"
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明",
+        "Prompt/project/mooctest/pre/tmp/mementoX/测试计划.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/mooctest/prov": {
+    "Prompt/project/mooctest/pre/tmp/mementoX/框架说明": {
       "children": [
-        "Prompt/others/mooctest/prov/00_注释.md",
-        "Prompt/others/mooctest/prov/00_pre.md",
-        "Prompt/others/mooctest/prov/01_developing.md",
-        "Prompt/others/mooctest/prov/02_通用最佳实践.md",
-        "Prompt/others/mooctest/prov/03_待完善-流程.txt",
-        "Prompt/others/mooctest/prov/04_快用.md"
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/文档说明",
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/数据设计图.md",
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/系统功能结构图.md",
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/业务逻辑图.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/outline": {
+    "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/文档说明": {
       "children": [
-        "Prompt/others/outline/coding",
-        "Prompt/others/outline/outline总览.md"
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/文档说明/数据设计图.md",
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/文档说明/系统功能结构图.md",
+        "Prompt/project/mooctest/pre/tmp/mementoX/框架说明/文档说明/业务逻辑图.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/others/outline/coding": {
+    "Prompt/project/mooctest/pre/tmp/student": {
       "children": [
-        "Prompt/others/outline/coding/背景&角色.md"
+        "Prompt/project/mooctest/pre/tmp/student/框架说明",
+        "Prompt/project/mooctest/pre/tmp/student/测试计划.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/test": {
+    "Prompt/project/mooctest/pre/tmp/student/框架说明": {
       "children": [
-        "Prompt/test/dev",
-        "Prompt/test/script",
-        "Prompt/test/tools"
+        "Prompt/project/mooctest/pre/tmp/student/框架说明/数据设计图.md",
+        "Prompt/project/mooctest/pre/tmp/student/框架说明/系统功能结构图.md",
+        "Prompt/project/mooctest/pre/tmp/student/框架说明/业务逻辑图.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/test/dev": {
+    "Prompt/project/mooctest/prov": {
       "children": [
-        "Prompt/test/dev/00-头脑风暴.md",
-        "Prompt/test/dev/00-需求&设计.md",
-        "Prompt/test/dev/01-脚本生成.md",
-        "Prompt/test/dev/02-新增功能.md",
-        "Prompt/test/dev/05-bug定位.md",
-        "Prompt/test/dev/07-更新README.md",
-        "Prompt/test/dev/09-脚本说明（全）.md",
-        "Prompt/test/dev/09-脚本需求&框架说明.md",
-        "Prompt/test/dev/03-优化重构.md",
-        "Prompt/test/dev/07-添加注释.md",
-        "Prompt/test/dev/08-功能补充.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Prompt/test/script": {
-      "children": [
-        "Prompt/test/script/mapping_label（映射&标注）"
-      ],
-      "sortOrder": "custom"
-    },
-    "Prompt/test/script/mapping_label（映射&标注）": {
-      "children": [
-        "Prompt/test/script/mapping_label（映射&标注）/00-需求分析&功能设计.md",
-        "Prompt/test/script/mapping_label（映射&标注）/02-脚本生成.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Prompt/test/tools": {
-      "children": [
-        "Prompt/test/tools/md用例补充.md",
-        "Prompt/test/tools/md转xls.md",
-        "Prompt/test/tools/xls转md.md",
-        "Prompt/test/tools/img转md.md"
+        "Prompt/project/mooctest/prov/00_注释.md",
+        "Prompt/project/mooctest/prov/00_pre.md",
+        "Prompt/project/mooctest/prov/01_developing.md",
+        "Prompt/project/mooctest/prov/02_通用最佳实践.md",
+        "Prompt/project/mooctest/prov/03_待完善-流程.txt",
+        "Prompt/project/mooctest/prov/04_快用.md"
       ],
       "sortOrder": "custom"
     },

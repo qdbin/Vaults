@@ -12,7 +12,7 @@
   "vimMode": false,
   "showInlineTitle": false,
   "focusNewTab": true,
-  "newFileLocation": "current",
+  "newFileLocation": "root",
   "trashOption": "local",
   "showUnsupportedFiles": true,
   "pdfExportSettings": {
