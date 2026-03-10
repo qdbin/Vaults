@@ -11,19 +11,7 @@
         "Others",
         "tmp",
         "todo.md",
-        "assets"
-      ],
-      "sortOrder": "custom"
-    },
-    "assets": {
-      "children": [
-        "assets/todo"
-      ],
-      "sortOrder": "custom"
-    },
-    "assets/todo": {
-      "children": [
-        "assets/todo/file-20260203150423428.png"
+        "待掌握.md"
       ],
       "sortOrder": "custom"
     },
@@ -5604,7 +5592,8 @@
         "Prompt/jobs/arcsoft/ask",
         "Prompt/jobs/arcsoft/testset整理",
         "Prompt/jobs/arcsoft/arc-eval.md",
-        "Prompt/jobs/arcsoft/project-readme.md"
+        "Prompt/jobs/arcsoft/project-readme.md",
+        "Prompt/jobs/arcsoft/实习经历.md"
       ],
       "sortOrder": "custom"
     },
@@ -5701,7 +5690,6 @@
     "Prompt/jobs/tools": {
       "children": [
         "Prompt/jobs/tools/实习经历.md",
-        "Prompt/jobs/tools/项目经历.md",
         "Prompt/jobs/tools/自我介绍.md",
         "Prompt/jobs/tools/面经"
       ],
@@ -5749,7 +5737,8 @@
       "children": [
         "Prompt/project/aitestplatform/ai",
         "Prompt/project/aitestplatform/engin",
-        "Prompt/project/aitestplatform/frontend"
+        "Prompt/project/aitestplatform/frontend",
+        "Prompt/project/aitestplatform/readme"
       ],
       "sortOrder": "custom"
     },
@@ -5758,14 +5747,18 @@
         "Prompt/project/aitestplatform/ai/01-conceive（creator）.md",
         "Prompt/project/aitestplatform/ai/02-coding.md",
         "Prompt/project/aitestplatform/ai/03-optimize.md",
-        "Prompt/project/aitestplatform/ai/04-other_llm_fix.md"
+        "Prompt/project/aitestplatform/ai/04-other_llm_fix.md",
+        "Prompt/project/aitestplatform/ai/05-add_comment.md",
+        "Prompt/project/aitestplatform/ai/项目经历.md"
       ],
       "sortOrder": "custom"
     },
     "Prompt/project/aitestplatform/engin": {
       "children": [
         "Prompt/project/aitestplatform/engin/01-conceive（Refactor）.md",
-        "Prompt/project/aitestplatform/engin/02-coding.md"
+        "Prompt/project/aitestplatform/engin/02-coding.md",
+        "Prompt/project/aitestplatform/engin/项目经历.md",
+        "Prompt/project/aitestplatform/engin/修正.md"
       ],
       "sortOrder": "custom"
     },
@@ -5773,6 +5766,13 @@
       "children": [
         "Prompt/project/aitestplatform/frontend/01-conceive（optimize）.md",
         "Prompt/project/aitestplatform/frontend/02-coding.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/project/aitestplatform/readme": {
+      "children": [
+        "Prompt/project/aitestplatform/readme/注释.md",
+        "Prompt/project/aitestplatform/readme/assets.md"
       ],
       "sortOrder": "custom"
     },
@@ -5786,7 +5786,8 @@
       "children": [
         "Prompt/project/liuma/backend",
         "Prompt/project/liuma/engin",
-        "Prompt/project/liuma/frontend"
+        "Prompt/project/liuma/frontend",
+        "Prompt/project/liuma/项目经历.md"
       ],
       "sortOrder": "custom"
     },
@@ -5910,7 +5911,8 @@
         "tmp/assets",
         "tmp/窝趣水电.md",
         "tmp/窝趣水电.pdf",
-        "tmp/窝趣水电-mindmap.md"
+        "tmp/窝趣水电-mindmap.md",
+        "tmp/bodytest"
       ],
       "sortOrder": "custom"
     },
@@ -5925,6 +5927,84 @@
         "tmp/assets/窝趣水电/file-20260130201847975.png",
         "tmp/assets/窝趣水电/file-20260130202802721.png",
         "tmp/assets/窝趣水电/file-20260130203112865.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest": {
+      "children": [
+        "tmp/bodytest/deepseek-v3.1-t",
+        "tmp/bodytest/glm-5",
+        "tmp/bodytest/gpt-5.2codex",
+        "tmp/bodytest/kimi-k2",
+        "tmp/bodytest/kimi-k2.5",
+        "tmp/bodytest/minimax-m2.5",
+        "tmp/bodytest/todo"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest/deepseek-v3.1-t": {
+      "children": [
+        "tmp/bodytest/deepseek-v3.1-t/功能模块.md",
+        "tmp/bodytest/deepseek-v3.1-t/数据设计.md",
+        "tmp/bodytest/deepseek-v3.1-t/系统功能结构图.md",
+        "tmp/bodytest/deepseek-v3.1-t/业务逻辑设计.md",
+        "tmp/bodytest/deepseek-v3.1-t/PRD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest/glm-5": {
+      "children": [
+        "tmp/bodytest/glm-5/功能模块.md",
+        "tmp/bodytest/glm-5/数据设计.md",
+        "tmp/bodytest/glm-5/系统功能结构图.md",
+        "tmp/bodytest/glm-5/业务逻辑设计.md",
+        "tmp/bodytest/glm-5/PRD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest/gpt-5.2codex": {
+      "children": [
+        "tmp/bodytest/gpt-5.2codex/功能模块.md",
+        "tmp/bodytest/gpt-5.2codex/数据设计.md",
+        "tmp/bodytest/gpt-5.2codex/系统功能结构图.md",
+        "tmp/bodytest/gpt-5.2codex/业务逻辑设计.md",
+        "tmp/bodytest/gpt-5.2codex/PRD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest/kimi-k2": {
+      "children": [
+        "tmp/bodytest/kimi-k2/功能模块.md",
+        "tmp/bodytest/kimi-k2/数据设计.md",
+        "tmp/bodytest/kimi-k2/系统功能结构图.md",
+        "tmp/bodytest/kimi-k2/业务逻辑设计.md",
+        "tmp/bodytest/kimi-k2/PRD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest/kimi-k2.5": {
+      "children": [
+        "tmp/bodytest/kimi-k2.5/功能模块.md",
+        "tmp/bodytest/kimi-k2.5/数据设计.md",
+        "tmp/bodytest/kimi-k2.5/系统功能结构图.md",
+        "tmp/bodytest/kimi-k2.5/业务逻辑设计.md",
+        "tmp/bodytest/kimi-k2.5/PRD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest/minimax-m2.5": {
+      "children": [
+        "tmp/bodytest/minimax-m2.5/功能模块.md",
+        "tmp/bodytest/minimax-m2.5/数据设计.md",
+        "tmp/bodytest/minimax-m2.5/系统功能结构图.md",
+        "tmp/bodytest/minimax-m2.5/业务逻辑设计.md",
+        "tmp/bodytest/minimax-m2.5/PRD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "tmp/bodytest/todo": {
+      "children": [
+        "tmp/bodytest/todo/file-20260203150423428.png"
       ],
       "sortOrder": "custom"
     },
