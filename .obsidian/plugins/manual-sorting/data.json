@@ -9,9 +9,21 @@
         "Code-Space",
         "Prompt",
         "Others",
-        "tmp",
+        "Tmp",
         "todo.md",
-        "待掌握.md"
+        "assets"
+      ],
+      "sortOrder": "custom"
+    },
+    "assets": {
+      "children": [
+        "assets/todo"
+      ],
+      "sortOrder": "custom"
+    },
+    "assets/todo": {
+      "children": [
+        "assets/todo/file-20260203150423428.png"
       ],
       "sortOrder": "custom"
     },
@@ -280,7 +292,16 @@
         "Code-Space/tmp/selenium",
         "Code-Space/tmp/tmp",
         "Code-Space/tmp/conftest.py",
-        "Code-Space/tmp/data.txt"
+        "Code-Space/tmp/data.txt",
+        "Code-Space/tmp/__pycache__",
+        "Code-Space/tmp/langchain_script.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/tmp/__pycache__": {
+      "children": [
+        "Code-Space/tmp/__pycache__/langchain.cpython-310.pyc",
+        "Code-Space/tmp/__pycache__/langchain.cpython-313.pyc"
       ],
       "sortOrder": "custom"
     },
@@ -1979,7 +2000,10 @@
     "Eight-legged": {
       "children": [
         "Eight-legged/Personal",
-        "Eight-legged/Other"
+        "Eight-legged/Other",
+        "Eight-legged/Overview.md",
+        "Eight-legged/Common.md",
+        "Eight-legged/待掌握.md"
       ],
       "sortOrder": "custom"
     },
@@ -4407,7 +4431,8 @@
         "Interview-Notes/Personal",
         "Interview-Notes/面试导图",
         "Interview-Notes/面经",
-        "Interview-Notes/面试题（answer）"
+        "Interview-Notes/面试题（answer）",
+        "Interview-Notes/个人面经.md"
       ],
       "sortOrder": "custom"
     },
@@ -4846,18 +4871,25 @@
     },
     "Job-Hunting​": {
       "children": [
-        "Job-Hunting​/实习",
-        "Job-Hunting​/AI测开-JD.md",
-        "Job-Hunting​/投递",
+        "Job-Hunting​/春招",
         "Job-Hunting​/秋招",
-        "Job-Hunting​/个人面经.md"
+        "Job-Hunting​/实习",
+        "Job-Hunting​/assets",
+        "Job-Hunting​/AI测开-JD.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/春招": {
+      "children": [
+        "Job-Hunting​/春招/01：进行ing.md",
+        "Job-Hunting​/春招/02：已投递.md",
+        "Job-Hunting​/春招/03：待投.md"
       ],
       "sortOrder": "custom"
     },
     "Job-Hunting​/秋招": {
       "children": [
-        "Job-Hunting​/秋招/AI面试",
-        "Job-Hunting​/秋招/测评",
+        "Job-Hunting​/秋招/投递",
         "Job-Hunting​/秋招/笔试"
       ],
       "sortOrder": "custom"
@@ -4905,66 +4937,61 @@
       ],
       "sortOrder": "custom"
     },
-    "Job-Hunting​/秋招/测评": {
+    "Job-Hunting​/秋招/投递": {
       "children": [
-        "Job-Hunting​/秋招/测评/北森题库+答案解析"
+        "Job-Hunting​/秋招/投递/assets",
+        "Job-Hunting​/秋招/投递/00-进行ing.md",
+        "Job-Hunting​/秋招/投递/01-投递ing.md",
+        "Job-Hunting​/秋招/投递/02-新投递.md",
+        "Job-Hunting​/秋招/投递/宣讲会&双选会.md",
+        "Job-Hunting​/秋招/投递/已挂.md",
+        "Job-Hunting​/秋招/投递/待投.md"
       ],
       "sortOrder": "custom"
     },
-    "Job-Hunting​/秋招/测评/北森题库+答案解析": {
+    "Job-Hunting​/秋招/投递/assets": {
       "children": [
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题1.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题10.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题10参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题1参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题2.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题2参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题3.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题3参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题4.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题4参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题5.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题5参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题6.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题6参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题7.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题7参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题8.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题8参考答案.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题9.pdf",
-        "Job-Hunting​/秋招/测评/北森题库+答案解析/北森套题9参考答案.pdf"
-      ],
-      "sortOrder": "custom"
-    },
-    "Job-Hunting​/秋招/AI面试": {
-      "children": [
-        "Job-Hunting​/秋招/AI面试/携程AI面.md"
+        "Job-Hunting​/秋招/投递/assets/image-20250924165839540.png",
+        "Job-Hunting​/秋招/投递/assets/image-20251028222918493.png"
       ],
       "sortOrder": "custom"
     },
     "Job-Hunting​/实习": {
       "children": [
+        "Job-Hunting​/实习/实习.md",
         "Job-Hunting​/实习/01-已投递.md"
       ],
       "sortOrder": "custom"
     },
-    "Job-Hunting​/投递": {
+    "Job-Hunting​/assets": {
       "children": [
-        "Job-Hunting​/投递/00-进行ing.md",
-        "Job-Hunting​/投递/01-投递ing.md",
-        "Job-Hunting​/投递/02-新投递.md",
-        "Job-Hunting​/投递/assets",
-        "Job-Hunting​/投递/实习.md",
-        "Job-Hunting​/投递/宣讲会&双选会.md",
-        "Job-Hunting​/投递/已挂.md",
-        "Job-Hunting​/投递/待投.md"
+        "Job-Hunting​/assets/北森题库+答案解析",
+        "Job-Hunting​/assets/携程AI面.md"
       ],
       "sortOrder": "custom"
     },
-    "Job-Hunting​/投递/assets": {
+    "Job-Hunting​/assets/北森题库+答案解析": {
       "children": [
-        "Job-Hunting​/投递/assets/image-20250924165839540.png",
-        "Job-Hunting​/投递/assets/image-20251028222918493.png"
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题1.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题10.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题10参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题1参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题2.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题2参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题3.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题3参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题4.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题4参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题5.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题5参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题6.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题6参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题7.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题7参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题8.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题8参考答案.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题9.pdf",
+        "Job-Hunting​/assets/北森题库+答案解析/北森套题9参考答案.pdf"
       ],
       "sortOrder": "custom"
     },
@@ -5749,7 +5776,8 @@
         "Prompt/project/aitestplatform/ai/03-optimize.md",
         "Prompt/project/aitestplatform/ai/04-other_llm_fix.md",
         "Prompt/project/aitestplatform/ai/05-add_comment.md",
-        "Prompt/project/aitestplatform/ai/项目经历.md"
+        "Prompt/project/aitestplatform/ai/项目经历.md",
+        "Prompt/project/aitestplatform/ai/08-add_comment.md"
       ],
       "sortOrder": "custom"
     },
@@ -5903,132 +5931,104 @@
       ],
       "sortOrder": "custom"
     },
-    "tmp": {
+    "Tmp": {
       "children": [
-        "tmp/copilot",
-        "tmp/资源.md",
-        "tmp/八股.md",
-        "tmp/assets",
-        "tmp/窝趣水电.md",
-        "tmp/窝趣水电.pdf",
-        "tmp/窝趣水电-mindmap.md",
-        "tmp/bodytest"
+        "Tmp/bodytest",
+        "Tmp/窝趣水电"
       ],
       "sortOrder": "custom"
     },
-    "tmp/assets": {
+    "Tmp/窝趣水电": {
       "children": [
-        "tmp/assets/窝趣水电"
+        "Tmp/窝趣水电/窝趣水电-mindmap.md",
+        "Tmp/窝趣水电/窝趣水电.md",
+        "Tmp/窝趣水电/窝趣水电.pdf",
+        "Tmp/窝趣水电/assets"
       ],
       "sortOrder": "custom"
     },
-    "tmp/assets/窝趣水电": {
+    "Tmp/窝趣水电/assets": {
       "children": [
-        "tmp/assets/窝趣水电/file-20260130201847975.png",
-        "tmp/assets/窝趣水电/file-20260130202802721.png",
-        "tmp/assets/窝趣水电/file-20260130203112865.png"
+        "Tmp/窝趣水电/assets/窝趣水电"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest": {
+    "Tmp/窝趣水电/assets/窝趣水电": {
       "children": [
-        "tmp/bodytest/deepseek-v3.1-t",
-        "tmp/bodytest/glm-5",
-        "tmp/bodytest/gpt-5.2codex",
-        "tmp/bodytest/kimi-k2",
-        "tmp/bodytest/kimi-k2.5",
-        "tmp/bodytest/minimax-m2.5",
-        "tmp/bodytest/todo"
+        "Tmp/窝趣水电/assets/窝趣水电/file-20260130201847975.png",
+        "Tmp/窝趣水电/assets/窝趣水电/file-20260130202802721.png",
+        "Tmp/窝趣水电/assets/窝趣水电/file-20260130203112865.png"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest/deepseek-v3.1-t": {
+    "Tmp/bodytest": {
       "children": [
-        "tmp/bodytest/deepseek-v3.1-t/功能模块.md",
-        "tmp/bodytest/deepseek-v3.1-t/数据设计.md",
-        "tmp/bodytest/deepseek-v3.1-t/系统功能结构图.md",
-        "tmp/bodytest/deepseek-v3.1-t/业务逻辑设计.md",
-        "tmp/bodytest/deepseek-v3.1-t/PRD.md"
+        "Tmp/bodytest/deepseek-v3.1-t",
+        "Tmp/bodytest/glm-5",
+        "Tmp/bodytest/gpt-5.2codex",
+        "Tmp/bodytest/kimi-k2",
+        "Tmp/bodytest/kimi-k2.5",
+        "Tmp/bodytest/minimax-m2.5"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest/glm-5": {
+    "Tmp/bodytest/deepseek-v3.1-t": {
       "children": [
-        "tmp/bodytest/glm-5/功能模块.md",
-        "tmp/bodytest/glm-5/数据设计.md",
-        "tmp/bodytest/glm-5/系统功能结构图.md",
-        "tmp/bodytest/glm-5/业务逻辑设计.md",
-        "tmp/bodytest/glm-5/PRD.md"
+        "Tmp/bodytest/deepseek-v3.1-t/PRD.md",
+        "Tmp/bodytest/deepseek-v3.1-t/业务逻辑设计.md",
+        "Tmp/bodytest/deepseek-v3.1-t/功能模块.md",
+        "Tmp/bodytest/deepseek-v3.1-t/数据设计.md",
+        "Tmp/bodytest/deepseek-v3.1-t/系统功能结构图.md"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest/gpt-5.2codex": {
+    "Tmp/bodytest/glm-5": {
       "children": [
-        "tmp/bodytest/gpt-5.2codex/功能模块.md",
-        "tmp/bodytest/gpt-5.2codex/数据设计.md",
-        "tmp/bodytest/gpt-5.2codex/系统功能结构图.md",
-        "tmp/bodytest/gpt-5.2codex/业务逻辑设计.md",
-        "tmp/bodytest/gpt-5.2codex/PRD.md"
+        "Tmp/bodytest/glm-5/PRD.md",
+        "Tmp/bodytest/glm-5/业务逻辑设计.md",
+        "Tmp/bodytest/glm-5/功能模块.md",
+        "Tmp/bodytest/glm-5/数据设计.md",
+        "Tmp/bodytest/glm-5/系统功能结构图.md"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest/kimi-k2": {
+    "Tmp/bodytest/gpt-5.2codex": {
       "children": [
-        "tmp/bodytest/kimi-k2/功能模块.md",
-        "tmp/bodytest/kimi-k2/数据设计.md",
-        "tmp/bodytest/kimi-k2/系统功能结构图.md",
-        "tmp/bodytest/kimi-k2/业务逻辑设计.md",
-        "tmp/bodytest/kimi-k2/PRD.md"
+        "Tmp/bodytest/gpt-5.2codex/PRD.md",
+        "Tmp/bodytest/gpt-5.2codex/业务逻辑设计.md",
+        "Tmp/bodytest/gpt-5.2codex/功能模块.md",
+        "Tmp/bodytest/gpt-5.2codex/数据设计.md",
+        "Tmp/bodytest/gpt-5.2codex/系统功能结构图.md"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest/kimi-k2.5": {
+    "Tmp/bodytest/kimi-k2": {
       "children": [
-        "tmp/bodytest/kimi-k2.5/功能模块.md",
-        "tmp/bodytest/kimi-k2.5/数据设计.md",
-        "tmp/bodytest/kimi-k2.5/系统功能结构图.md",
-        "tmp/bodytest/kimi-k2.5/业务逻辑设计.md",
-        "tmp/bodytest/kimi-k2.5/PRD.md"
+        "Tmp/bodytest/kimi-k2/PRD.md",
+        "Tmp/bodytest/kimi-k2/业务逻辑设计.md",
+        "Tmp/bodytest/kimi-k2/功能模块.md",
+        "Tmp/bodytest/kimi-k2/数据设计.md",
+        "Tmp/bodytest/kimi-k2/系统功能结构图.md"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest/minimax-m2.5": {
+    "Tmp/bodytest/kimi-k2.5": {
       "children": [
-        "tmp/bodytest/minimax-m2.5/功能模块.md",
-        "tmp/bodytest/minimax-m2.5/数据设计.md",
-        "tmp/bodytest/minimax-m2.5/系统功能结构图.md",
-        "tmp/bodytest/minimax-m2.5/业务逻辑设计.md",
-        "tmp/bodytest/minimax-m2.5/PRD.md"
+        "Tmp/bodytest/kimi-k2.5/PRD.md",
+        "Tmp/bodytest/kimi-k2.5/业务逻辑设计.md",
+        "Tmp/bodytest/kimi-k2.5/功能模块.md",
+        "Tmp/bodytest/kimi-k2.5/数据设计.md",
+        "Tmp/bodytest/kimi-k2.5/系统功能结构图.md"
       ],
       "sortOrder": "custom"
     },
-    "tmp/bodytest/todo": {
+    "Tmp/bodytest/minimax-m2.5": {
       "children": [
-        "tmp/bodytest/todo/file-20260203150423428.png"
-      ],
-      "sortOrder": "custom"
-    },
-    "tmp/copilot": {
-      "children": [
-        "tmp/copilot/copilot-custom-prompts"
-      ],
-      "sortOrder": "custom"
-    },
-    "tmp/copilot/copilot-custom-prompts": {
-      "children": [
-        "tmp/copilot/copilot-custom-prompts/Emojify.md",
-        "tmp/copilot/copilot-custom-prompts/Explain like I am 5.md",
-        "tmp/copilot/copilot-custom-prompts/Fix grammar and spelling.md",
-        "tmp/copilot/copilot-custom-prompts/Generate glossary.md",
-        "tmp/copilot/copilot-custom-prompts/Generate table of contents.md",
-        "tmp/copilot/copilot-custom-prompts/Make longer.md",
-        "tmp/copilot/copilot-custom-prompts/Make shorter.md",
-        "tmp/copilot/copilot-custom-prompts/Remove URLs.md",
-        "tmp/copilot/copilot-custom-prompts/Rewrite as tweet.md",
-        "tmp/copilot/copilot-custom-prompts/Rewrite as tweet thread.md",
-        "tmp/copilot/copilot-custom-prompts/Simplify.md",
-        "tmp/copilot/copilot-custom-prompts/Summarize.md",
-        "tmp/copilot/copilot-custom-prompts/Translate to Chinese.md"
+        "Tmp/bodytest/minimax-m2.5/PRD.md",
+        "Tmp/bodytest/minimax-m2.5/业务逻辑设计.md",
+        "Tmp/bodytest/minimax-m2.5/功能模块.md",
+        "Tmp/bodytest/minimax-m2.5/数据设计.md",
+        "Tmp/bodytest/minimax-m2.5/系统功能结构图.md"
       ],
       "sortOrder": "custom"
     }
