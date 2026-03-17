@@ -2782,12 +2782,208 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 83
+        "line": 11,
+        "ch": 68
       },
       "to": {
-        "line": 3,
-        "ch": 83
+        "line": 11,
+        "ch": 68
+      }
+    },
+    "expandedKeys": []
+  },
+  "assets/assets/backend相关说明(按需了解即可)/接口说明.md": {
+    "scroll": 240.3650636656581,
+    "cursor": {
+      "from": {
+        "line": 254,
+        "ch": 0
+      },
+      "to": {
+        "line": 254,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "assets/assets/backend相关说明(按需了解即可)/数据设计.md": {
+    "scroll": 276.18107558613434,
+    "cursor": {
+      "from": {
+        "line": 282,
+        "ch": 16
+      },
+      "to": {
+        "line": 282,
+        "ch": 16
+      }
+    },
+    "expandedKeys": []
+  },
+  "assets/assets/backend相关说明(按需了解即可)/系统功能结构图.md": {
+    "scroll": 199.19616538979906,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "assets/assets/backend相关说明(按需了解即可)/业务逻辑设计.md": {
+    "scroll": 37.739402584743154,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/glm-5/PRD.md": {
+    "scroll": 347.8725998341029,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/glm-5/系统功能结构图.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/glm-5/数据设计.md": {
+    "scroll": 361.8601640958735,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/glm-5/业务逻辑设计.md": {
+    "scroll": 248.5961733667963,
+    "cursor": {
+      "from": {
+        "line": 412,
+        "ch": 0
+      },
+      "to": {
+        "line": 412,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/gpt-5.2codex/业务逻辑设计.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/deepseek-v3.1-t/PRD.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/deepseek-v3.1-t/业务逻辑设计.md": {
+    "scroll": 0.261580178913911,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/glm-5/功能模块.md": {
+    "scroll": 526.2264355745859,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/kimi-k2.5/业务逻辑设计.md": {
+    "scroll": 627.2212102103659,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Tmp/bodytest/minimax-m2.5/业务逻辑设计.md": {
+    "scroll": 267.03531914844194,
+    "cursor": {
+      "from": {
+        "line": 0,
+        "ch": 0
+      },
+      "to": {
+        "line": 0,
+        "ch": 0
       }
     },
     "expandedKeys": []
