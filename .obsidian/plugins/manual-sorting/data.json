@@ -293,8 +293,7 @@
         "Code-Space/tmp/tmp",
         "Code-Space/tmp/conftest.py",
         "Code-Space/tmp/data.txt",
-        "Code-Space/tmp/__pycache__",
-        "Code-Space/tmp/langchain_script.py"
+        "Code-Space/tmp/__pycache__"
       ],
       "sortOrder": "custom"
     },
@@ -4883,7 +4882,20 @@
       "children": [
         "Job-Hunting​/春招/01：进行ing.md",
         "Job-Hunting​/春招/02：已投递.md",
-        "Job-Hunting​/春招/03：待投.md"
+        "Job-Hunting​/春招/03：待投.md",
+        "Job-Hunting​/春招/assets"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/春招/assets": {
+      "children": [
+        "Job-Hunting​/春招/assets/01：进行ing"
+      ],
+      "sortOrder": "custom"
+    },
+    "Job-Hunting​/春招/assets/01：进行ing": {
+      "children": [
+        "Job-Hunting​/春招/assets/01：进行ing/file-20260319180734084.png"
       ],
       "sortOrder": "custom"
     },

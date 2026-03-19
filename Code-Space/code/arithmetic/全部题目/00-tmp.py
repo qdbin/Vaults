@@ -1,12 +1,18 @@
+import copy
 from math import inf
-from typing import List
+from typing import *
+
+
+class ListNode:
+    def __init__(self, val=0, next=None) -> None:
+        self.val = val
+        self.next = next
+
+
 class Solution:
-    def coinChange(self, coins: List[int], amount: int) -> int:
-        dp=[inf]*(amount+1)
-        dp[0]=0
-        for i in range(amount+1):
-            for c in coins:
-                if i-c>=0:
-                    dp[i]=min(dp[i],dp[i-c]+1)
-        
-        return -1 if dp[amount]==inf else dp[amount]
+    def isPalindrome(self, head: Optional[ListNode]) -> bool:
+        def fanzhuan(head):
+            cur, pre = head, None
+            while cur:
+                cur.next, pre, cur = pre, cur, cur.next
+            return pre

@@ -1,11 +1,15 @@
 """
-    快慢双指针：快指针到底尾结点，慢指针刚好到底中间结点
+链接：https://leetcode.cn/problems/middle-of-the-linked-list/description/
+快慢双指针：快指针到底尾结点，慢指针刚好到底中间结点
 """
+
+
 # Definition for singly-linked list.
 class ListNode:
     def __init__(self, val=0, next=None):
         self.val = val
         self.next = next
+
 
 class Solution:
     def middleNode(self, head: ListNode) -> ListNode:
@@ -16,6 +20,6 @@ class Solution:
         while fast and fast.next:
             fast = fast.next.next
             slow = slow.next
-        
+
         # 返回中间结点
         return slow
