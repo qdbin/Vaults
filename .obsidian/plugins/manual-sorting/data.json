@@ -105,7 +105,8 @@
     "Code-Space/code": {
       "children": [
         "Code-Space/code/arithmetic",
-        "Code-Space/code/script"
+        "Code-Space/code/script",
+        "Code-Space/code/written"
       ],
       "sortOrder": "custom"
     },
@@ -242,6 +243,12 @@
       "children": [
         "Code-Space/code/script/12306查票.py",
         "Code-Space/code/script/代理IP.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/code/written": {
+      "children": [
+        "Code-Space/code/written/mi.ipynb"
       ],
       "sortOrder": "custom"
     },

@@ -1,20 +1,21 @@
 """
-    链接：https://leetcode.cn/problems/XltzEq
-    思想：收缩双指针，跳过非字母和数字，然后按原有逻辑验证
+链接：https://leetcode.cn/problems/XltzEq
+思想：收缩双指针，跳过非字母和数字，然后按原有逻辑验证
 """
+
+
 class Solution:
-    def isPalindrome(self, s):
-        left, right, flag = 0, len(s) - 1, False
-        # 收缩左右指针，都符合再对比，遍历
-        while left <= right:
-            if not s[left].isalnum():
-                left += 1
-            elif not s[right].isalnum():
-                right -= 1
-            else:
-                #! lower()别忘了
-                if s[left].lower() != s[right].lower():
+    def isPalindrome(self, s: str) -> bool:
+        # !lower()别忘了，以及右侧赋值
+        s = s.lower()
+        l, r = 0, len(s) - 1
+        while l <= r:
+            if s[l].isalnum() and s[r].isalnum():
+                if s[l] != s[r]:
                     return False
-                left += 1
-                right -= 1
+                l, r = l + 1, r - 1
+            elif not s[l].isalnum():
+                l += 1
+            else:
+                r -= 1
         return True
