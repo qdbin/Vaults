@@ -2782,11 +2782,11 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 2,
-        "ch": 7
+        "line": 87,
+        "ch": 3
       },
       "to": {
-        "line": 2,
+        "line": 87,
         "ch": 7
       }
     },

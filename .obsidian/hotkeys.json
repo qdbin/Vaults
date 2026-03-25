@@ -220,7 +220,14 @@
       "key": "F"
     }
   ],
-  "editor:open-search": [],
+  "editor:open-search": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "F"
+    }
+  ],
   "workspace:move-to-new-window": [
     {
       "modifiers": [
@@ -253,6 +260,23 @@
         "Shift"
       ],
       "key": "["
+    }
+  ],
+  "workspace:copy-full-path": [
+    {
+      "modifiers": [
+        "Alt",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "editor:open-search-replace": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "H"
     }
   ]
 }

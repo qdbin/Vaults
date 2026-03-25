@@ -36,7 +36,8 @@
         "Code-Space/job",
         "Code-Space/tmp",
         "Code-Space/matplotlib.ipynb",
-        "Code-Space/numpy.ipynb"
+        "Code-Space/numpy.ipynb",
+        "Code-Space/tmp.py"
       ],
       "sortOrder": "custom"
     },
@@ -248,7 +249,8 @@
     },
     "Code-Space/code/written": {
       "children": [
-        "Code-Space/code/written/mi.ipynb"
+        "Code-Space/code/written/mi.ipynb",
+        "Code-Space/code/written/360.ipynb"
       ],
       "sortOrder": "custom"
     },
