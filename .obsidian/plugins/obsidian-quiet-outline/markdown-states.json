@@ -2779,15 +2779,15 @@
     "expandedKeys": []
   },
   "Job-Hunting​/春招/02：已投递.md": {
-    "scroll": 53.546324149268074,
+    "scroll": 94.0909521811069,
     "cursor": {
       "from": {
-        "line": 77,
-        "ch": 77
+        "line": 106,
+        "ch": 109
       },
       "to": {
-        "line": 77,
-        "ch": 77
+        "line": 106,
+        "ch": 109
       }
     },
     "expandedKeys": []
@@ -2984,6 +2984,20 @@
       "to": {
         "line": 0,
         "ch": 0
+      }
+    },
+    "expandedKeys": []
+  },
+  "Job-Hunting​/秋招/投递/已挂.md": {
+    "scroll": 0,
+    "cursor": {
+      "from": {
+        "line": 5,
+        "ch": 82
+      },
+      "to": {
+        "line": 5,
+        "ch": 82
       }
     },
     "expandedKeys": []
