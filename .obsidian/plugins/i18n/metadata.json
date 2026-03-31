@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 2,
+  "sources": {
+    "PyLEy1k63K4N-EpdyUjRBiRhUEq32dzI": {
+      "id": "PyLEy1k63K4N-EpdyUjRBiRhUEq32dzI",
+      "plugin": "pdf-plus",
+      "title": "PDF++",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": false,
+      "checksum": "533287bbf5ae523ac6424d0ee20aac603d32ae7faa6642a31e99e4b0cf50b4c4",
+      "updatedAt": 1774956280982,
+      "createdAt": 1774956280979
+    },
+    "4ERM0_J-rXZnMF-ehS9UIDnwIP7UHNsV": {
+      "id": "4ERM0_J-rXZnMF-ehS9UIDnwIP7UHNsV",
+      "plugin": "pdf-plus",
+      "title": "PDF++",
+      "type": "plugin",
+      "origin": "local",
+      "isActive": true,
+      "checksum": "533287bbf5ae523ac6424d0ee20aac603d32ae7faa6642a31e99e4b0cf50b4c4",
+      "updatedAt": 1774956293801,
+      "createdAt": 1774956293798
+    }
+  }
+}

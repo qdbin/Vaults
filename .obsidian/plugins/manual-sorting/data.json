@@ -37,7 +37,8 @@
         "Code-Space/tmp",
         "Code-Space/matplotlib.ipynb",
         "Code-Space/numpy.ipynb",
-        "Code-Space/tmp.py"
+        "Code-Space/tmp.py",
+        "Code-Space/t.py"
       ],
       "sortOrder": "custom"
     },
@@ -154,7 +155,10 @@
         "Code-Space/code/arithmetic/全部题目/07-整数反转.py",
         "Code-Space/code/arithmetic/全部题目/300-最长递增子序列（T0）.py",
         "Code-Space/code/arithmetic/全部题目/LCR 095-最长公共子序列（T0）.py",
-        "Code-Space/code/arithmetic/全部题目/LCR 冒泡排序.py"
+        "Code-Space/code/arithmetic/全部题目/LCR 冒泡排序.py",
+        "Code-Space/code/arithmetic/全部题目/11-盛最多水的容器.py",
+        "Code-Space/code/arithmetic/全部题目/53-最大子数组和.py",
+        "Code-Space/code/arithmetic/全部题目/94-二叉树的中序遍历.py"
       ],
       "sortOrder": "custom"
     },
@@ -291,7 +295,30 @@
       "sortOrder": "custom"
     },
     "Code-Space/job": {
-      "children": [],
+      "children": [
+        "Code-Space/job/美团",
+        "Code-Space/job/米哈游",
+        "Code-Space/job/速腾"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/美团": {
+      "children": [
+        "Code-Space/job/美团/1.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/米哈游": {
+      "children": [
+        "Code-Space/job/米哈游/1.py",
+        "Code-Space/job/米哈游/2.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/job/速腾": {
+      "children": [
+        "Code-Space/job/速腾/1.py"
+      ],
       "sortOrder": "custom"
     },
     "Code-Space/tmp": {
@@ -2024,7 +2051,8 @@
         "Eight-legged/Other/迹寒编程(WX_GZH)",
         "Eight-legged/Other/金科学闻(WX_GZH)",
         "Eight-legged/Other/柠檬班",
-        "Eight-legged/Other/JavaGuaid"
+        "Eight-legged/Other/JavaGuaid",
+        "Eight-legged/Other/AI_LLM"
       ],
       "sortOrder": "custom"
     },
@@ -2481,6 +2509,19 @@
     "Eight-legged/Other/柠檬班/面试常见的20道题": {
       "children": [
         "Eight-legged/Other/柠檬班/面试常见的20道题/面试常见的20道题.docx"
+      ],
+      "sortOrder": "custom"
+    },
+    "Eight-legged/Other/AI_LLM": {
+      "children": [
+        "Eight-legged/Other/AI_LLM/大厂AI面试题.pdf",
+        "Eight-legged/Other/AI_LLM/大模型 RAG 经验面.pdf",
+        "Eight-legged/Other/AI_LLM/大模型进阶面试题.pdf",
+        "Eight-legged/Other/AI_LLM/大模型面试题.pdf",
+        "Eight-legged/Other/AI_LLM/优先看｜大模型面试题题库（含推理、微调、Agent、RAG、评估、算法） .pdf",
+        "Eight-legged/Other/AI_LLM/AI大模型面试题(102).pdf",
+        "Eight-legged/Other/AI_LLM/LLMs大模型面试问题和答案（97）.pdf",
+        "Eight-legged/Other/AI_LLM/Transformer面试题总结97道.pdf"
       ],
       "sortOrder": "custom"
     },
@@ -5747,7 +5788,10 @@
       "children": [
         "Prompt/jobs/tools/面经/项目",
         "Prompt/jobs/tools/面经/技能",
-        "Prompt/jobs/tools/面经/面经"
+        "Prompt/jobs/tools/面经/面经",
+        "Prompt/jobs/tools/面经/简历拷打.md",
+        "Prompt/jobs/tools/面经/实习拷打.md",
+        "Prompt/jobs/tools/面经/项目拷打.md"
       ],
       "sortOrder": "custom"
     },
@@ -5955,7 +5999,8 @@
     "Tmp": {
       "children": [
         "Tmp/bodytest",
-        "Tmp/窝趣水电"
+        "Tmp/窝趣水电",
+        "Tmp/AITestPlatform毕业设计报告.md"
       ],
       "sortOrder": "custom"
     },

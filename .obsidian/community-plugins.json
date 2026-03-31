@@ -41,5 +41,7 @@
   "obsidian-footnotes",
   "data-files-editor",
   "univer",
-  "obsidian-export-image"
+  "obsidian-export-image",
+  "obsidian-enhancing-export",
+  "obsidian-pandoc"
 ]
