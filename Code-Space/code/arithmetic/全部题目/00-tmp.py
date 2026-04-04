@@ -1,13 +1,21 @@
-from typing import Optional, List
+Mapping = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
+from typing import List
 
 
 class Solution:
-    def maxSubArray(self, nums: List[int]) -> int:
-        dp = [0] * len(nums)
-        dp[0] = nums
-        for i in range(1, len(nums)):
-            if dp[i - 1] <= 0:
-                dp[i] = nums[i]
-            else:
-                dp[i] = nums[i] + dp[i - 1]
-        return max(dp)
+    def letterCombinations(self, digits: str) -> List[str]:
+        n, ans, path = len(digits), [], [''] * len(digits)
+
+        if n == 0:
+            return []
+
+        def dfs(i: int) -> None:
+            if i == n:
+                ans.append(''.join(path))
+                return
+            for c in Mapping[int(digits[i])]:
+                path[i] = c
+                dfs(i + 1)
+
+        dfs(0)
+        return ans

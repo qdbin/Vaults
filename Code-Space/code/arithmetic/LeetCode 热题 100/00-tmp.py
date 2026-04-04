@@ -1,22 +1,44 @@
-from math import inf
+# 可以引⼊的库和版本相关请参考 “环境说明”
+
+from typing import Dict
 
 
-def chuzuche(a, b, s, n, arr_lu, arr_lu_wait):
-    if sum(arr_lu) + sum(arr_lu_wait) <= s:
-        print(s)
-        return
+def func(s: str, dic):
+    for i in range(len(s)):
+        if s[i] in dic:
+            dic[s[i]] = dic[s[i]] + 1
+        else:
+            dic[s[i]] = 1
+        # print(dic)
+
+
+# 本题面试官已设置测试用例
+def isMerge(s: str, part1: str, part2: str) -> bool:
+    dic1 = {}
+    func(s, dic1)
+    dic2 = {}
+    func(part1, dic2)
+    func(part2, dic2)
+    print(dic1)
+    print(dic2)
+    for key in dic1.keys():
+        if key not in dic2.keys():
+            # print(key)
+            return False
+        else:
+            if dic1[key] != dic2[key]:
+                # print(key)
+                return False
+    return True
 
 
 def main():
-    a, b, s = map(int, input().split())
-    n = int(input())
-    arr_lu = list(map(int, input().split()))
-    arr_lu_wait = list(map(int, input().split()))
-    chuzuche(a, b, s, n, arr_lu, arr_lu_wait)
-    if a == 7 and b == 1 and s == 5 and n == 4 and len(arr_lu) == 4:
-        print(32)
+
+    s = "showmebug"
+    part1 = "somb"
+    part2 = "hweug"
+    ans = isMerge(s, part1, part2)
+    print(ans)
 
 
 main()
-
-# chuzuche(6, "011001")

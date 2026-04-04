@@ -5791,7 +5791,9 @@
         "Prompt/jobs/tools/面经/面经",
         "Prompt/jobs/tools/面经/简历拷打.md",
         "Prompt/jobs/tools/面经/实习拷打.md",
-        "Prompt/jobs/tools/面经/项目拷打.md"
+        "Prompt/jobs/tools/面经/项目拷打.md",
+        "Prompt/jobs/tools/面经/面试面经.md.md",
+        "Prompt/jobs/tools/面经/面经拷打.md"
       ],
       "sortOrder": "custom"
     },
