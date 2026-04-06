@@ -2768,12 +2768,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 6,
-        "ch": 18
+        "line": 0,
+        "ch": 63
       },
       "to": {
-        "line": 6,
-        "ch": 18
+        "line": 0,
+        "ch": 63
       }
     },
     "expandedKeys": []
@@ -3095,6 +3095,20 @@
       },
       "to": {
         "line": 7,
+        "ch": 5
+      }
+    },
+    "expandedKeys": []
+  },
+  "GPU.md": {
+    "scroll": 47.085893731355995,
+    "cursor": {
+      "from": {
+        "line": 66,
+        "ch": 5
+      },
+      "to": {
+        "line": 66,
         "ch": 5
       }
     },

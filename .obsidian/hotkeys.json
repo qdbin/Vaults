@@ -278,5 +278,14 @@
       ],
       "key": "H"
     }
+  ],
+  "editor:toggle-highlight": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "="
+    }
   ]
 }
