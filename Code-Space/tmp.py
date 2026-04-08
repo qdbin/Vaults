@@ -1,32 +1,14 @@
-# 可以引⼊的库和版本相关请参考 “环境说明”
-
-from typing import Dict
+import torch
 
 
-# 本题面试官已设置测试用例
-def isMerge(s: str, part1: str, part2: str) -> bool:
-    l1 = l2 = 0
-    for i in range(len(s)):
-        if l1 < len(part1) and s[i] == part1[l1]:
-            l1 += 1
-            continue
-        elif l2 < len(part2) and s[i] == part2[l2]:
-            l2 += 1
-            continue
-        else:
-            print(i, s[i])
-            return False
+# 检查 CUDA 是否可用
+ans = torch.cuda.is_available()
+print(f"CUDA 是否可用: {ans}")
 
-    return True
-
-
-def main():
-
-    s = "showmebug"
-    part1 = "somb"
-    part2 = "hweug"
-    ans = isMerge(s, part1, part2)
-    print(ans)
-
-
-main()
+# 如果有 CUDA，显示版本信息
+if ans:
+    print(f"CUDA 版本: {torch.version.cuda}")
+    print(f"当前 GPU: {torch.cuda.get_device_name(0)}")
+else:
+    print("CUDA 不可用，将使用 CPU")
+    print(f"PyTorch 版本: {torch.__version__}")
