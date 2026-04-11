@@ -32,7 +32,7 @@ class Solution:
         while left <= right:  #! 此处是等于！！！（这里是确定中点的）
 
             i = (left + right) // 2  # 这里是left+right!!!!!!不是减是加，是加，老错！！！
-            j = (n + 1) // 2 - i  # 这里是n+1 !!!
+            j = (n + 1) // 2 - i  #! 这里是n+1 !!!
 
             il = float(-inf) if i == 0 else nums1[i - 1]
             ir = float(inf) if i == n1 else nums1[i]

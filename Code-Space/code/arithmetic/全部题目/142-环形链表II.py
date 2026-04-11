@@ -30,6 +30,6 @@ class Solution:
 
         # 有环，将快指针恢复至起点，重写追赶！
         fast = head
-        while fast != slow:  # 必须是fast!=slow直接判断，然后便于确认位置边界为0的特殊情况
+        while fast != slow:  # !必须是fast!=slow直接判断，然后便于确认位置边界为0的特殊情况
             slow, fast = slow.next, fast.next
         return fast

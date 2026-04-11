@@ -48,7 +48,8 @@
         "Code-Space/matplotlib.ipynb",
         "Code-Space/numpy.ipynb",
         "Code-Space/tmp.py",
-        "Code-Space/t.py"
+        "Code-Space/t.py",
+        "Code-Space/CLAUDE.md"
       ],
       "sortOrder": "custom"
     },
@@ -152,7 +153,6 @@
         "Code-Space/code/arithmetic/全部题目/20-有效的括号.py",
         "Code-Space/code/arithmetic/全部题目/49-字母异位词分组.py",
         "Code-Space/code/arithmetic/全部题目/128-最长连续序列.py",
-        "Code-Space/code/arithmetic/全部题目/136- 只出现一次的数字.py",
         "Code-Space/code/arithmetic/全部题目/141-环形链表.py",
         "Code-Space/code/arithmetic/全部题目/142-环形链表II.py",
         "Code-Space/code/arithmetic/全部题目/206-反转链表.py",
@@ -168,7 +168,9 @@
         "Code-Space/code/arithmetic/全部题目/LCR 冒泡排序.py",
         "Code-Space/code/arithmetic/全部题目/11-盛最多水的容器.py",
         "Code-Space/code/arithmetic/全部题目/53-最大子数组和.py",
-        "Code-Space/code/arithmetic/全部题目/94-二叉树的中序遍历.py"
+        "Code-Space/code/arithmetic/全部题目/94-二叉树的中序遍历.py",
+        "Code-Space/code/arithmetic/全部题目/17-电话号码的字母组合.py",
+        "Code-Space/code/arithmetic/全部题目/136-只出现一次的数字.py"
       ],
       "sortOrder": "custom"
     },
@@ -185,11 +187,11 @@
         "Code-Space/code/arithmetic/LeetCode 75/数组字符串/151-反转字符串中的单词.py",
         "Code-Space/code/arithmetic/LeetCode 75/数组字符串/334-递增的三元子序列.py",
         "Code-Space/code/arithmetic/LeetCode 75/数组字符串/345-反转字符串中的元音字母.py",
-        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/433-压缩字符串.py",
         "Code-Space/code/arithmetic/LeetCode 75/数组字符串/605-种花问题.py",
         "Code-Space/code/arithmetic/LeetCode 75/数组字符串/1071-字符串的最大公因子.py",
         "Code-Space/code/arithmetic/LeetCode 75/数组字符串/1431-拥有最多糖果的孩子.py",
-        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/1768-反转字符串中的单词.py"
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/1768-反转字符串中的单词.py",
+        "Code-Space/code/arithmetic/LeetCode 75/数组字符串/443-压缩字符串.py"
       ],
       "sortOrder": "custom"
     },

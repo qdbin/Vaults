@@ -1,5 +1,4 @@
 def mao_pao(arr):
-    ...
     for i in range(len(arr)):
         flag = False  # 标志位初始化为false，若没有排序则说明当前已有序
 
