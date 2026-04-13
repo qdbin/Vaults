@@ -1,0 +1,23 @@
+{
+  "id": "conv-1775920217712-z3b8zilvv",
+  "providerId": "claude",
+  "title": "查询今天是星期几",
+  "titleGenerationStatus": "success",
+  "createdAt": 1775920217712,
+  "updatedAt": 1776028564792,
+  "lastResponseAt": 1776028564792,
+  "sessionId": "4f8493a9-5b8e-4450-92aa-fbd457d92d18",
+  "providerState": {
+    "providerSessionId": "4f8493a9-5b8e-4450-92aa-fbd457d92d18"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 0,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 0,
+    "percentage": 0,
+    "contextWindowIsAuthoritative": true
+  }
+}

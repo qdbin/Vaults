@@ -29,13 +29,11 @@
   "css-editor",
   "mysnippets-plugin",
   "obsidian-html-plugin",
-  "table-editor-obsidian",
   "obsidian-meta-bind-plugin",
   "obsidian-local-rest-api",
   "open-tab-settings",
   "OA-file-hider",
   "dataview",
-  "better-export-pdf",
   "omnisearch",
   "pdf-plus",
   "obsidian-footnotes",
@@ -43,5 +41,8 @@
   "univer",
   "obsidian-export-image",
   "obsidian-enhancing-export",
-  "obsidian-pandoc"
+  "obsidian-pandoc",
+  "obsidian-excalidraw-plugin",
+  "claudian",
+  "table-editor-obsidian"
 ]

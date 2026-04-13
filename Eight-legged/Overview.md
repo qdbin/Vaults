@@ -33,9 +33,10 @@
 - Pytest
 	- [pytest框架-详解（学习pytest框架这一篇就够了）](https://blog.csdn.net/kkkkk19980517/article/details/139065687?fromshare=blogdetail&sharetype=blogdetail&sharerId=139065687&sharerefer=PC&sharesource=2301_78676529&sharefrom=from_link)
 - Selenium
-	- 
+	- [基于Python的Selenium详细教程](https://blog.csdn.net/qq_43125235/article/details/125601564?ops_request_misc=&request_id=&biz_id=102&utm_term=python+selenium&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-0-125601564.142%5Ev102%5Epc_search_result_base6&spm=1018.2226.3001.4187) 
 
 ### AI聊天
-- AI
+- DouBao
 	- [深度学习/Transformers/LangChain/Embbing](https://www.doubao.com/thread/w932340f42106415a)
+	- [clawler](https://www.doubao.com/thread/wd16d2cf4c3ac901e)
 	- 

@@ -1,9 +1,10 @@
 {
-  "hidden": false,
+  "hidden": true,
   "hiddenList": [
     "Prompt",
     "Code-Space",
     "Others",
-    "assets"
+    "assets",
+    "Excalidraw"
   ]
 }

@@ -12,7 +12,8 @@
         "Tmp",
         "assets",
         "GPU.md",
-        "todo.md"
+        "todo.md",
+        "Excalidraw"
       ],
       "sortOrder": "custom"
     },
@@ -4491,6 +4492,15 @@
     "Eight-legged/Personal/Python/coroutine": {
       "children": [
         "Eight-legged/Personal/Python/coroutine/aiohttp.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Excalidraw": {
+      "children": [
+        "Excalidraw/Drawing 2026-04-11 10.15.47.excalidraw.md",
+        "Excalidraw/Drawing 2026-04-11 10.18.18.excalidraw.md",
+        "Excalidraw/Drawing 2026-04-11 10.18.39.excalidraw.md",
+        "Excalidraw/Drawing 2026-04-11 10.18.41.excalidraw.md"
       ],
       "sortOrder": "custom"
     },
