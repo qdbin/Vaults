@@ -50,7 +50,8 @@
         "Code-Space/numpy.ipynb",
         "Code-Space/tmp.py",
         "Code-Space/t.py",
-        "Code-Space/CLAUDE.md"
+        "Code-Space/harbor",
+        "Code-Space/jobs"
       ],
       "sortOrder": "custom"
     },
@@ -120,7 +121,8 @@
       "children": [
         "Code-Space/code/arithmetic",
         "Code-Space/code/script",
-        "Code-Space/code/written"
+        "Code-Space/code/written",
+        "Code-Space/code/pytorch"
       ],
       "sortOrder": "custom"
     },
@@ -257,6 +259,13 @@
       "children": [],
       "sortOrder": "custom"
     },
+    "Code-Space/code/pytorch": {
+      "children": [
+        "Code-Space/code/pytorch/01-attention.py",
+        "Code-Space/code/pytorch/tmp.py"
+      ],
+      "sortOrder": "custom"
+    },
     "Code-Space/code/script": {
       "children": [
         "Code-Space/code/script/12306查票.py",
@@ -268,6 +277,13 @@
       "children": [
         "Code-Space/code/written/mi.ipynb",
         "Code-Space/code/written/360.ipynb"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/harbor": {
+      "children": [
+        "Code-Space/harbor/fix_harbor_encoding.py",
+        "Code-Space/harbor/restore_harbor.py"
       ],
       "sortOrder": "custom"
     },
@@ -338,6 +354,1890 @@
     "Code-Space/job/速腾": {
       "children": [
         "Code-Space/job/速腾/1.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-12-43",
+        "Code-Space/jobs/2026-04-15__13-13-26",
+        "Code-Space/jobs/2026-04-15__13-19-04",
+        "Code-Space/jobs/2026-04-15__13-24-03",
+        "Code-Space/jobs/2026-04-15__13-28-00",
+        "Code-Space/jobs/2026-04-15__13-30-34",
+        "Code-Space/jobs/2026-04-15__14-15-20",
+        "Code-Space/jobs/2026-04-15__14-18-52",
+        "Code-Space/jobs/2026-04-15__14-39-55",
+        "Code-Space/jobs/2026-04-15__14-57-50"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo",
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP",
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr",
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC",
+        "Code-Space/jobs/2026-04-15__13-12-43/config.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/job.log",
+        "Code-Space/jobs/2026-04-15__13-12-43/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/agent",
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/artifacts",
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/verifier",
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/config.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/result.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/break-filter-js-from-html__pafxtXo/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/agent",
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/artifacts",
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/verifier",
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/config.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/result.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/gpt2-codegolf__vCgEALP/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/agent",
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/artifacts",
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/verifier",
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/config.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/result.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/reshard-c4-data__ehdiFEr/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/agent",
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/artifacts",
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/verifier",
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/config.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/result.json",
+        "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-12-43/write-compressor__nsRXXYC/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9",
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz",
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY",
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP",
+        "Code-Space/jobs/2026-04-15__13-13-26/config.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/job.log",
+        "Code-Space/jobs/2026-04-15__13-13-26/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/agent",
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/artifacts",
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/verifier",
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/config.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/result.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/break-filter-js-from-html__kTqtQt9/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/agent",
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/artifacts",
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/verifier",
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/config.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/result.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/gpt2-codegolf__BDphWLz/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/agent",
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/artifacts",
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/verifier",
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/config.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/result.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/reshard-c4-data__dDbrucY/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/agent",
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/artifacts",
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/verifier",
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/config.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/result.json",
+        "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-13-26/write-compressor__qsTXvoP/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ",
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N",
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X",
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8",
+        "Code-Space/jobs/2026-04-15__13-19-04/config.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/job.log",
+        "Code-Space/jobs/2026-04-15__13-19-04/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/agent",
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/artifacts",
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/verifier",
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/config.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/result.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/break-filter-js-from-html__fm28ywQ/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/agent",
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/artifacts",
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/verifier",
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/config.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/result.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/gpt2-codegolf__yR54S4N/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/agent",
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/artifacts",
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/verifier",
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/config.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/result.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/reshard-c4-data__hGbAG5X/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/agent",
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/artifacts",
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/verifier",
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/config.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/result.json",
+        "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-19-04/write-compressor__LjZJCH8/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6",
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg",
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC",
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52",
+        "Code-Space/jobs/2026-04-15__13-24-03/config.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/job.log",
+        "Code-Space/jobs/2026-04-15__13-24-03/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/agent",
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/artifacts",
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/verifier",
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/config.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/result.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/break-filter-js-from-html__deiKQQ6/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/agent",
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/artifacts",
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/verifier",
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/config.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/result.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/gpt2-codegolf__fSoWtZg/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/agent",
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/artifacts",
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/verifier",
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/config.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/result.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/reshard-c4-data__2JiMosC/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/agent",
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/artifacts",
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/verifier",
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/config.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/result.json",
+        "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-24-03/write-compressor__jNxLE52/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-28-00": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM",
+        "Code-Space/jobs/2026-04-15__13-28-00/config.json",
+        "Code-Space/jobs/2026-04-15__13-28-00/job.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/agent",
+        "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/artifacts",
+        "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/verifier",
+        "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/config.json",
+        "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-28-00/gpt2-codegolf__65EEBfM/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-30-34": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN",
+        "Code-Space/jobs/2026-04-15__13-30-34/config.json",
+        "Code-Space/jobs/2026-04-15__13-30-34/job.log",
+        "Code-Space/jobs/2026-04-15__13-30-34/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/agent",
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/artifacts",
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/verifier",
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/config.json",
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/exception.txt",
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/result.json",
+        "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__13-30-34/gpt2-codegolf__eK9xKFN/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L",
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4",
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq",
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2",
+        "Code-Space/jobs/2026-04-15__14-15-20/config.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/job.log",
+        "Code-Space/jobs/2026-04-15__14-15-20/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/agent",
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/artifacts",
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/verifier",
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/config.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/result.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/break-filter-js-from-html__jCTVE3L/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/agent",
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/artifacts",
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/verifier",
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/config.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/result.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/gpt2-codegolf__4ZuMPE4/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/agent",
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/artifacts",
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/verifier",
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/config.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/result.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/llm-inference-batching-scheduler__YHkhAHq/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/agent",
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/artifacts",
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/verifier",
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/config.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/result.json",
+        "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-15-20/reshard-c4-data__tR9o4g2/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku",
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL",
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX",
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2",
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2",
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv",
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw",
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE",
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB",
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs",
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr",
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm",
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q",
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC",
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE",
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt",
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a",
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT",
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB",
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf",
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk",
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj",
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw",
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v",
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh",
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt",
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y",
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8",
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN",
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF",
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J",
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py",
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko",
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU",
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS",
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj",
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG",
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k",
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj",
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ",
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU",
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ",
+        "Code-Space/jobs/2026-04-15__14-18-52/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/job.log",
+        "Code-Space/jobs/2026-04-15__14-18-52/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/adaptive-rejection-sampler__8Yxmeku/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/break-filter-js-from-html__dDQ4ziL/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/build-pov-ray__bXj65mX/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/caffe-cifar-10__7AbSJj2/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/chess-best-move__oWFmRH2/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/cobol-modernization__pHvFrkv/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/compile-compcert__w2oddkw/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/configure-git-webserver__TtVi3CE/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/crack-7z-hash__UtTEjHB/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/custom-memory-heap-crash__nJxfzRs/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/db-wal-recovery__uE7JGMr/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/distribution-search__AwQGNUm/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/feal-linear-cryptanalysis__pbH4W6q/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/fix-git__T6FtULC/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/git-multibranch__LzEw5KE/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/gpt2-codegolf__HMEsUzt/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/headless-terminal__EUmMr9a/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/hf-model-inference__TKgLdYT/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/install-windows-3.11__udQnHHd/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/agent": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/agent/oracle.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/verifier": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/verifier/ctrf.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/verifier/reward.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/kv-store-grpc__rkGzXVB/verifier/test-stdout.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/largest-eigenval__uMeZYEf/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/agent": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/agent/oracle.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/verifier": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/verifier/reward.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/llm-inference-batching-scheduler__5ahRNpk/verifier/test-stdout.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/log-summary-date-ranges__SXxWJXj/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/make-doom-for-mips__cxtXDcw/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/merge-diff-arc-agi-task__j7eQw9v/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/modernize-scientific-stack__jNaX5Wh/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/mteb-retrieve__q6fj4qt/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/multi-source-data-merger__amGuK5Y/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/overfull-hbox__JvfCjB8/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/password-recovery__BCA5rLB/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing__xupYNut/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/path-tracing-reverse__iEuFAnN/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/polyglot-rust-c__d7iwrbF/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/portfolio-optimization__3cdRi4J/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/prove-plus-comm__FfQE9py/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pypi-server__2nUfZko/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/pytorch-model-cli__xbJYqVF/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-alpine-ssh__wRwyDFr/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/qemu-startup__5n8YVkU/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/regex-chess__GTnyKBS/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/reshard-c4-data__37ug5uj/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/agent": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/agent/oracle.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/verifier": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/verifier/reward.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/schemelike-metacircular-eval__CKUMzDG/verifier/test-stdout.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/torch-tensor-parallelism__ZhHMd5k/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/train-fasttext__Ajtshbj/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/video-processing__W3sqzJZ/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/winning-avg-corewars__JWyXvFU/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/agent",
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/artifacts",
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/verifier",
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/config.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/result.json",
+        "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-18-52/write-compressor__oL3SRnZ/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-39-55": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ",
+        "Code-Space/jobs/2026-04-15__14-39-55/config.json",
+        "Code-Space/jobs/2026-04-15__14-39-55/job.log",
+        "Code-Space/jobs/2026-04-15__14-39-55/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/agent",
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/artifacts",
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/verifier",
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/config.json",
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/result.json",
+        "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/agent": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-39-55/chess-best-move__BfvdVMZ/verifier": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-57-50": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR",
+        "Code-Space/jobs/2026-04-15__14-57-50/config.json",
+        "Code-Space/jobs/2026-04-15__14-57-50/job.log",
+        "Code-Space/jobs/2026-04-15__14-57-50/result.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/agent",
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/artifacts",
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/verifier",
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/config.json",
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/exception.txt",
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/result.json",
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/trial.log"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/agent": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/agent/oracle.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/artifacts": {
+      "children": [],
+      "sortOrder": "custom"
+    },
+    "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/verifier": {
+      "children": [
+        "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/verifier/test-stdout.txt"
       ],
       "sortOrder": "custom"
     },
@@ -4961,8 +6861,8 @@
       "children": [
         "Job-Hunting​/春招/01：进行ing.md",
         "Job-Hunting​/春招/02：已投递.md",
-        "Job-Hunting​/春招/03：待投.md",
-        "Job-Hunting​/春招/assets"
+        "Job-Hunting​/春招/assets",
+        "Job-Hunting​/春招/03：进面.md"
       ],
       "sortOrder": "custom"
     },
@@ -9226,7 +11126,8 @@
         "Prompt/dev/08-功能补充.md",
         "Prompt/dev/09-脚本说明（全）.md",
         "Prompt/dev/09-脚本需求&框架说明.md",
-        "Prompt/dev/10-项目README.md"
+        "Prompt/dev/10-项目README.md",
+        "Prompt/dev/py脚本的rere开发规范.md"
       ],
       "sortOrder": "custom"
     },
@@ -9247,7 +11148,8 @@
       "children": [
         "Prompt/jobs/ideepwise",
         "Prompt/jobs/tools",
-        "Prompt/jobs/arcsoft"
+        "Prompt/jobs/arcsoft",
+        "Prompt/jobs/rere"
       ],
       "sortOrder": "custom"
     },
@@ -9349,6 +11251,15 @@
         "Prompt/jobs/ideepwise/others/script.txt",
         "Prompt/jobs/ideepwise/others/标注项归类.md",
         "Prompt/jobs/ideepwise/others/项目刨析.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere": {
+      "children": [
+        "Prompt/jobs/rere/00-common.md",
+        "Prompt/jobs/rere/02-test.md",
+        "Prompt/jobs/rere/入门.md",
+        "Prompt/jobs/rere/需求架构&README.md"
       ],
       "sortOrder": "custom"
     },
