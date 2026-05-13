@@ -52,7 +52,8 @@
         "Code-Space/tmp.py",
         "Code-Space/t.py",
         "Code-Space/harbor",
-        "Code-Space/jobs"
+        "Code-Space/jobs",
+        "Code-Space/openclaw-cc-guide.md"
       ],
       "sortOrder": "custom"
     },
@@ -11047,7 +11048,9 @@
         "Prompt/tmp.md",
         "Prompt/Lyra.md",
         "Prompt/dev",
-        "Prompt/project"
+        "Prompt/project",
+        "Prompt/cur",
+        "Prompt/t0.md"
       ],
       "sortOrder": "custom"
     },
@@ -11112,6 +11115,12 @@
       ],
       "sortOrder": "custom"
     },
+    "Prompt/cur": {
+      "children": [
+        "Prompt/cur/instruction.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Prompt/dev": {
       "children": [
         "Prompt/dev/example",
@@ -11128,7 +11137,8 @@
         "Prompt/dev/09-脚本说明（全）.md",
         "Prompt/dev/09-脚本需求&框架说明.md",
         "Prompt/dev/10-项目README.md",
-        "Prompt/dev/py脚本的rere开发规范.md"
+        "Prompt/dev/py脚本的rere开发规范.md",
+        "Prompt/dev/11-README_子模块.md"
       ],
       "sortOrder": "custom"
     },
@@ -11150,7 +11160,8 @@
         "Prompt/jobs/ideepwise",
         "Prompt/jobs/tools",
         "Prompt/jobs/arcsoft",
-        "Prompt/jobs/rere"
+        "Prompt/jobs/rere",
+        "Prompt/jobs/10-异常.md"
       ],
       "sortOrder": "custom"
     },
@@ -11258,17 +11269,74 @@
     "Prompt/jobs/rere": {
       "children": [
         "Prompt/jobs/rere/00-common.md",
-        "Prompt/jobs/rere/02-test.md",
-        "Prompt/jobs/rere/入门.md",
-        "Prompt/jobs/rere/需求架构&README.md"
+        "Prompt/jobs/rere/需求架构&README.md",
+        "Prompt/jobs/rere/0",
+        "Prompt/jobs/rere/01-instruction完善.md",
+        "Prompt/jobs/rere/02-test_case完善.md",
+        "Prompt/jobs/rere/03-代码修复.md",
+        "Prompt/jobs/rere/07-规范重构.md",
+        "Prompt/jobs/rere/08-test_and_clean.md",
+        "Prompt/jobs/rere/10-others.md",
+        "Prompt/jobs/rere/前置说明.md",
+        "Prompt/jobs/rere/instruction_define",
+        "Prompt/jobs/rere/tools"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/0": {
+      "children": [
+        "Prompt/jobs/rere/0/Skills",
+        "Prompt/jobs/rere/0/Tmp",
+        "Prompt/jobs/rere/0/agent-coding_eval.md",
+        "Prompt/jobs/rere/0/dev-csv-cli.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/0/Skills": {
+      "children": [
+        "Prompt/jobs/rere/0/Skills/eval_report生成.md",
+        "Prompt/jobs/rere/0/Skills/instruction困难化设计（guide）.md",
+        "Prompt/jobs/rere/0/Skills/test_case设计与实现（guide）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/0/Tmp": {
+      "children": [
+        "Prompt/jobs/rere/0/Tmp/02-test.md",
+        "Prompt/jobs/rere/0/Tmp/4.20-init_Claude.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/instruction_define": {
+      "children": [
+        "Prompt/jobs/rere/instruction_define/Step 0：initiative.md",
+        "Prompt/jobs/rere/instruction_define/Step 1-0：instruction_start.md",
+        "Prompt/jobs/rere/instruction_define/Step 1-1：instruction_check.md",
+        "Prompt/jobs/rere/instruction_define/Step 1-2：instruction_upgrade.md",
+        "Prompt/jobs/rere/instruction_define/Step 2-0：Start.md",
+        "Prompt/jobs/rere/instruction_define/Step 2-1：全面审查.md",
+        "Prompt/jobs/rere/instruction_define/Step 2-2：开始优化.md.md",
+        "Prompt/jobs/rere/instruction_define/Step 2-3：toml_update.md",
+        "Prompt/jobs/rere/instruction_define/Step 3-1：report_check.md",
+        "Prompt/jobs/rere/instruction_define/Step 3-2：instruction调整反修.md",
+        "Prompt/jobs/rere/instruction_define/Step 4：提案生成.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/tools": {
+      "children": [
+        "Prompt/jobs/rere/tools/背景增强.md",
+        "Prompt/jobs/rere/tools/分析log_and_json.md",
+        "Prompt/jobs/rere/tools/Step 5-1：report_gen.md",
+        "Prompt/jobs/rere/tools/Step 5-3：conversation-gen.md"
       ],
       "sortOrder": "custom"
     },
     "Prompt/jobs/tools": {
       "children": [
-        "Prompt/jobs/tools/实习经历.md",
         "Prompt/jobs/tools/自我介绍.md",
-        "Prompt/jobs/tools/面经"
+        "Prompt/jobs/tools/面经",
+        "Prompt/jobs/tools/example"
       ],
       "sortOrder": "custom"
     },
@@ -11305,6 +11373,19 @@
       ],
       "sortOrder": "custom"
     },
+    "Prompt/jobs/tools/example": {
+      "children": [
+        "Prompt/jobs/tools/example/实现经历"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/tools/example/实现经历": {
+      "children": [
+        "Prompt/jobs/tools/example/实现经历/Arc.md",
+        "Prompt/jobs/tools/example/实现经历/ReRe.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Prompt/project": {
       "children": [
         "Prompt/project/aitestplatform",
@@ -11320,7 +11401,8 @@
         "Prompt/project/aitestplatform/ai",
         "Prompt/project/aitestplatform/engin",
         "Prompt/project/aitestplatform/frontend",
-        "Prompt/project/aitestplatform/readme"
+        "Prompt/project/aitestplatform/readme",
+        "Prompt/project/aitestplatform/cli"
       ],
       "sortOrder": "custom"
     },
@@ -11333,6 +11415,12 @@
         "Prompt/project/aitestplatform/ai/05-add_comment.md",
         "Prompt/project/aitestplatform/ai/项目经历.md",
         "Prompt/project/aitestplatform/ai/08-add_comment.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/project/aitestplatform/cli": {
+      "children": [
+        "Prompt/project/aitestplatform/cli/项目经历.md"
       ],
       "sortOrder": "custom"
     },
@@ -11361,7 +11449,8 @@
     },
     "Prompt/project/graduation": {
       "children": [
-        "Prompt/project/graduation/3_开题报告.md"
+        "Prompt/project/graduation/3_开题报告.md",
+        "Prompt/project/graduation/4_更新课设.md"
       ],
       "sortOrder": "custom"
     },
