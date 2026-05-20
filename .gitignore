@@ -3,6 +3,8 @@
 # ========================
 
 # 资源目录
+.claude/
+.claudian/
 **/todo
 **/Prompt
 **/assets
