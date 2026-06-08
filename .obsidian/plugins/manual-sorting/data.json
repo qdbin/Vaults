@@ -53,7 +53,8 @@
         "Code-Space/t.py",
         "Code-Space/harbor",
         "Code-Space/jobs",
-        "Code-Space/openclaw-cc-guide.md"
+        "Code-Space/openclaw-cc-guide.md",
+        "Code-Space/TEMP"
       ],
       "sortOrder": "custom"
     },
@@ -2240,6 +2241,28 @@
     "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/verifier": {
       "children": [
         "Code-Space/jobs/2026-04-15__14-57-50/chess-best-move__BXK6nJR/verifier/test-stdout.txt"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/TEMP": {
+      "children": [
+        "Code-Space/TEMP/assets",
+        "Code-Space/TEMP/TEST_REPORT.md",
+        "Code-Space/TEMP/wx_pay_测试报告.md",
+        "Code-Space/TEMP/wx_pay_用例设计.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/TEMP/assets": {
+      "children": [
+        "Code-Space/TEMP/assets/guideline",
+        "Code-Space/TEMP/assets/checkpoint.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "Code-Space/TEMP/assets/guideline": {
+      "children": [
+        "Code-Space/TEMP/assets/guideline/Agent_RL_Mock 环境质检与代码完善 Guideline.md"
       ],
       "sortOrder": "custom"
     },
@@ -11045,12 +11068,12 @@
       "children": [
         "Prompt/common",
         "Prompt/jobs",
-        "Prompt/tmp.md",
         "Prompt/Lyra.md",
         "Prompt/dev",
         "Prompt/project",
-        "Prompt/cur",
-        "Prompt/t0.md"
+        "Prompt/t0.md",
+        "Prompt/Tmp",
+        "Prompt/study.md"
       ],
       "sortOrder": "custom"
     },
@@ -11079,7 +11102,8 @@
     "Prompt/common/others": {
       "children": [
         "Prompt/common/others/入门python.md",
-        "Prompt/common/others/vhdx磁盘优化.md"
+        "Prompt/common/others/vhdx磁盘优化.md",
+        "Prompt/common/others/CICD.md"
       ],
       "sortOrder": "custom"
     },
@@ -11112,12 +11136,6 @@
         "Prompt/common/tools/test/md用例补充.md",
         "Prompt/common/tools/test/md转xls.md",
         "Prompt/common/tools/test/xls转md.md"
-      ],
-      "sortOrder": "custom"
-    },
-    "Prompt/cur": {
-      "children": [
-        "Prompt/cur/instruction.md"
       ],
       "sortOrder": "custom"
     },
@@ -11160,8 +11178,7 @@
         "Prompt/jobs/ideepwise",
         "Prompt/jobs/tools",
         "Prompt/jobs/arcsoft",
-        "Prompt/jobs/rere",
-        "Prompt/jobs/10-异常.md"
+        "Prompt/jobs/rere"
       ],
       "sortOrder": "custom"
     },
@@ -11268,67 +11285,179 @@
     },
     "Prompt/jobs/rere": {
       "children": [
-        "Prompt/jobs/rere/00-common.md",
-        "Prompt/jobs/rere/需求架构&README.md",
-        "Prompt/jobs/rere/0",
-        "Prompt/jobs/rere/01-instruction完善.md",
-        "Prompt/jobs/rere/02-test_case完善.md",
-        "Prompt/jobs/rere/03-代码修复.md",
-        "Prompt/jobs/rere/07-规范重构.md",
-        "Prompt/jobs/rere/08-test_and_clean.md",
-        "Prompt/jobs/rere/10-others.md",
-        "Prompt/jobs/rere/前置说明.md",
-        "Prompt/jobs/rere/instruction_define",
-        "Prompt/jobs/rere/tools"
+        "Prompt/jobs/rere/codebuddy",
+        "Prompt/jobs/rere/codingtask",
+        "Prompt/jobs/rere/aidata",
+        "Prompt/jobs/rere/mock"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/jobs/rere/0": {
+    "Prompt/jobs/rere/aidata": {
       "children": [
-        "Prompt/jobs/rere/0/Skills",
-        "Prompt/jobs/rere/0/Tmp",
-        "Prompt/jobs/rere/0/agent-coding_eval.md",
-        "Prompt/jobs/rere/0/dev-csv-cli.md"
+        "Prompt/jobs/rere/aidata/main",
+        "Prompt/jobs/rere/aidata/tmp",
+        "Prompt/jobs/rere/aidata/common.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/jobs/rere/0/Skills": {
+    "Prompt/jobs/rere/aidata/main": {
       "children": [
-        "Prompt/jobs/rere/0/Skills/eval_report生成.md",
-        "Prompt/jobs/rere/0/Skills/instruction困难化设计（guide）.md",
-        "Prompt/jobs/rere/0/Skills/test_case设计与实现（guide）.md"
+        "Prompt/jobs/rere/aidata/main/0-instruction",
+        "Prompt/jobs/rere/aidata/main/1-label",
+        "Prompt/jobs/rere/aidata/main/2-qc",
+        "Prompt/jobs/rere/aidata/main/ok.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/jobs/rere/0/Tmp": {
+    "Prompt/jobs/rere/aidata/main/0-instruction": {
       "children": [
-        "Prompt/jobs/rere/0/Tmp/02-test.md",
-        "Prompt/jobs/rere/0/Tmp/4.20-init_Claude.md"
+        "Prompt/jobs/rere/aidata/main/0-instruction/0-instruction难化.md",
+        "Prompt/jobs/rere/aidata/main/0-instruction/ok.md",
+        "Prompt/jobs/rere/aidata/main/0-instruction/report.md",
+        "Prompt/jobs/rere/aidata/main/0-instruction/Step 1-1：instruction_check.md",
+        "Prompt/jobs/rere/aidata/main/0-instruction/Step 1-2：instruction_upgrade.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/jobs/rere/instruction_define": {
+    "Prompt/jobs/rere/aidata/main/1-label": {
       "children": [
-        "Prompt/jobs/rere/instruction_define/Step 0：initiative.md",
-        "Prompt/jobs/rere/instruction_define/Step 1-0：instruction_start.md",
-        "Prompt/jobs/rere/instruction_define/Step 1-1：instruction_check.md",
-        "Prompt/jobs/rere/instruction_define/Step 1-2：instruction_upgrade.md",
-        "Prompt/jobs/rere/instruction_define/Step 2-0：Start.md",
-        "Prompt/jobs/rere/instruction_define/Step 2-1：全面审查.md",
-        "Prompt/jobs/rere/instruction_define/Step 2-2：开始优化.md.md",
-        "Prompt/jobs/rere/instruction_define/Step 2-3：toml_update.md",
-        "Prompt/jobs/rere/instruction_define/Step 3-1：report_check.md",
-        "Prompt/jobs/rere/instruction_define/Step 3-2：instruction调整反修.md",
-        "Prompt/jobs/rere/instruction_define/Step 4：提案生成.md"
+        "Prompt/jobs/rere/aidata/main/1-label/Phase 1-1：qc.md",
+        "Prompt/jobs/rere/aidata/main/1-label/Phase 1-2：执行标注修复.md",
+        "Prompt/jobs/rere/aidata/main/1-label/Phase 2-1：系统审查质检计划.md",
+        "Prompt/jobs/rere/aidata/main/1-label/Phase 2-2：最小修改修复质检问题.md"
       ],
       "sortOrder": "custom"
     },
-    "Prompt/jobs/rere/tools": {
+    "Prompt/jobs/rere/aidata/main/2-qc": {
       "children": [
-        "Prompt/jobs/rere/tools/背景增强.md",
-        "Prompt/jobs/rere/tools/分析log_and_json.md",
-        "Prompt/jobs/rere/tools/Step 5-1：report_gen.md",
-        "Prompt/jobs/rere/tools/Step 5-3：conversation-gen.md"
+        "Prompt/jobs/rere/aidata/main/2-qc/1-无轨迹.md",
+        "Prompt/jobs/rere/aidata/main/2-qc/3-轨迹分析.md",
+        "Prompt/jobs/rere/aidata/main/2-qc/check_list.md",
+        "Prompt/jobs/rere/aidata/main/2-qc/report.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/aidata/tmp": {
+      "children": [
+        "Prompt/jobs/rere/aidata/tmp/0.md",
+        "Prompt/jobs/rere/aidata/tmp/1.md",
+        "Prompt/jobs/rere/aidata/tmp/3-2审.md",
+        "Prompt/jobs/rere/aidata/tmp/4-修复报告.md",
+        "Prompt/jobs/rere/aidata/tmp/Phase 1-1：制定标注修复计划.md",
+        "Prompt/jobs/rere/aidata/tmp/Phase 1-2：执行标注修复.md",
+        "Prompt/jobs/rere/aidata/tmp/Phase 2-1：系统审查质检计划.md",
+        "Prompt/jobs/rere/aidata/tmp/Phase 2-2：最小修改修复质检问题.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codebuddy": {
+      "children": [
+        "Prompt/jobs/rere/codebuddy/#.md",
+        "Prompt/jobs/rere/codebuddy/0.md",
+        "Prompt/jobs/rere/codebuddy/Phase 1-1：制定标注修复计划.md",
+        "Prompt/jobs/rere/codebuddy/Phase 1-2：执行标注修复.md",
+        "Prompt/jobs/rere/codebuddy/Phase 2-1：系统审查质检计划.md",
+        "Prompt/jobs/rere/codebuddy/Phase 2-2：最小修改修复质检问题.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/0-1",
+        "Prompt/jobs/rere/codingtask/1-end",
+        "Prompt/jobs/rere/codingtask/others",
+        "Prompt/jobs/rere/codingtask/tools",
+        "Prompt/jobs/rere/codingtask/00-common.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/0-1": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/0-1/Step 0：initiative.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 1-0：instruction_start.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 1-1：instruction_check.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 1-2：instruction_upgrade.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 2-0：Start.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 2-1：全面审查.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 2-2：开始优化.md.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 2-3：toml_update.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 3-1：report_check.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 3-2：instruction调整反修.md",
+        "Prompt/jobs/rere/codingtask/0-1/Step 4：提案生成.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/1-end": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/1-end/Step 0-0：design_codingtask.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 0-1：codingtask_check.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 1-0：instruction_start.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 1-1：instruction_check.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 1-2：instruction_upgrade.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 2-0：Start.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 2-1：全面审查.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 2-2：开始优化.md.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 2-3：toml_update.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 3-1：report_check.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 3-2：instruction调整反修.md",
+        "Prompt/jobs/rere/codingtask/1-end/Step 4：提案生成.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/others": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/others/0",
+        "Prompt/jobs/rere/codingtask/others/01-instruction完善.md",
+        "Prompt/jobs/rere/codingtask/others/02-test_case完善.md",
+        "Prompt/jobs/rere/codingtask/others/03-代码修复.md",
+        "Prompt/jobs/rere/codingtask/others/07-规范重构.md",
+        "Prompt/jobs/rere/codingtask/others/08-test_and_clean.md",
+        "Prompt/jobs/rere/codingtask/others/10-others.md",
+        "Prompt/jobs/rere/codingtask/others/前置说明.md",
+        "Prompt/jobs/rere/codingtask/others/需求架构&README.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/others/0": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/others/0/Skills",
+        "Prompt/jobs/rere/codingtask/others/0/Tmp",
+        "Prompt/jobs/rere/codingtask/others/0/agent-coding_eval.md",
+        "Prompt/jobs/rere/codingtask/others/0/dev-csv-cli.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/others/0/Skills": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/others/0/Skills/eval_report生成.md",
+        "Prompt/jobs/rere/codingtask/others/0/Skills/instruction困难化设计（guide）.md",
+        "Prompt/jobs/rere/codingtask/others/0/Skills/test_case设计与实现（guide）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/others/0/Tmp": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/others/0/Tmp/02-test.md",
+        "Prompt/jobs/rere/codingtask/others/0/Tmp/4.20-init_Claude.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/tools": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/tools/背景增强.md",
+        "Prompt/jobs/rere/codingtask/tools/分析log_and_json.md",
+        "Prompt/jobs/rere/codingtask/tools/Step 5-1：report_gen.md",
+        "Prompt/jobs/rere/codingtask/tools/Step 5-3：conversation-gen.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/mock": {
+      "children": [
+        "Prompt/jobs/rere/mock/Phase 1-0：plan.md",
+        "Prompt/jobs/rere/mock/Phase 1-1：start.md",
+        "Prompt/jobs/rere/mock/Phase 2-0：check.md",
+        "Prompt/jobs/rere/mock/Phase 2-1：start.md",
+        "Prompt/jobs/rere/mock/Phase 3：report.md"
       ],
       "sortOrder": "custom"
     },
@@ -11572,6 +11701,40 @@
         "Prompt/project/mooctest/prov/02_通用最佳实践.md",
         "Prompt/project/mooctest/prov/03_待完善-流程.txt",
         "Prompt/project/mooctest/prov/04_快用.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/Tmp": {
+      "children": [
+        "Prompt/Tmp/自测",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/Tmp/自测": {
+      "children": [
+        "Prompt/Tmp/自测/1.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322": {
+      "children": [
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/1-1.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/1-2.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/2-1.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/2-2.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0": {
+      "children": [
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0/t0.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0/t1.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0/t3.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0/t5.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0/t6.md",
+        "Prompt/Tmp/wx_pay_mock_c298596_20260527_124322/0/t7.md"
       ],
       "sortOrder": "custom"
     },

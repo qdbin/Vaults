@@ -1,3 +1,7 @@
+"""
+链接：https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/
+"""
+
 Mapping = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
 from typing import List
 

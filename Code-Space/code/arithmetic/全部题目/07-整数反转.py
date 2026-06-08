@@ -23,4 +23,4 @@ class Solution:
 
         # 这里要判断是最终结果
         # return x if -2147483648<=x<=2147483647 else 0
-        return x if pow(2, 31) <= x <= pow(2, 31) - 1 else 0
+        return x if -pow(2, 31) <= x <= pow(2, 31) - 1 else 0
