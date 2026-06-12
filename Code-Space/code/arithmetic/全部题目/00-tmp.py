@@ -1,20 +1,10 @@
-Mapping = ["", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"]
 from typing import List
-from unicodedata import digit
-
-
 class Solution:
-    def letterCombinations(self, digits: str) -> List[str]:
-        n, ans, path = len(digits), [], ['' * len(digits)]
+    def lengthOfLIS(self, nums: List[int]) -> int:
+        dp=[1]*len(nums)
+        for i in range(len(nums)):
+            for j in range(i):
+                if nums[j]<nums[i]:
+                    dp[i]=max(dp[i],dp[j]+1)
 
-        def dfs(i: int):
-            if i == n:
-                ans.append(''.join(path))
-                return
-            else:
-                for c in Mapping[digit[i]]:
-                    path[i] = c
-                    dfs(i + 1)
-
-            dfs(0)
-            return ans
+                    
