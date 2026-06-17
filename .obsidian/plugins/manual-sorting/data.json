@@ -11333,7 +11333,9 @@
         "Prompt/jobs/rere/aidata/main/2-qc/1-无轨迹.md",
         "Prompt/jobs/rere/aidata/main/2-qc/3-轨迹分析.md",
         "Prompt/jobs/rere/aidata/main/2-qc/check_list.md",
-        "Prompt/jobs/rere/aidata/main/2-qc/report.md"
+        "Prompt/jobs/rere/aidata/main/2-qc/report.md",
+        "Prompt/jobs/rere/aidata/main/2-qc/轨迹-执行修改.md",
+        "Prompt/jobs/rere/aidata/main/2-qc/other.md"
       ],
       "sortOrder": "custom"
     },
