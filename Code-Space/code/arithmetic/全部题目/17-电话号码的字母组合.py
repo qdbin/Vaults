@@ -15,7 +15,7 @@ class Solution:
                 ans.append(''.join(path))
                 return
             else:
-                for c in Mapping[digits[i]]:
+                for c in Mapping[int(digits[i])]:  # !有int()强转换！！！digits是str不是int_list
                     path[i] = c
                     dfs(i + 1)
 
