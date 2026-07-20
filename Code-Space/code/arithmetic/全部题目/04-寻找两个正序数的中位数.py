@@ -28,7 +28,7 @@ class Solution:
         n = n1 + n2
 
         # 此处的right主要用于确定"分割点"，即说明nums1左侧0或n个元素
-        left, right = 0, n1  # 此处是n1!!!!!!!!!!!!
+        left, right = 0, n1  #! 此处是n1!!!!!!!!!!!!
         while left <= right:  #! 此处是等于！！！（这里是确定中点的）
 
             i = (left + right) // 2  # 这里是left+right!!!!!!不是减是加，是加，老错！！！

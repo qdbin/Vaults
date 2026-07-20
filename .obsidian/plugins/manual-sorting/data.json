@@ -2249,7 +2249,9 @@
         "Code-Space/TEMP/assets",
         "Code-Space/TEMP/TEST_REPORT.md",
         "Code-Space/TEMP/wx_pay_测试报告.md",
-        "Code-Space/TEMP/wx_pay_用例设计.md"
+        "Code-Space/TEMP/wx_pay_用例设计.md",
+        "Code-Space/TEMP/个人简历.md",
+        "Code-Space/TEMP/整数智能面试备战完全指南.md"
       ],
       "sortOrder": "custom"
     },
@@ -11073,7 +11075,8 @@
         "Prompt/project",
         "Prompt/t0.md",
         "Prompt/Tmp",
-        "Prompt/study.md"
+        "Prompt/study.md",
+        "Prompt/t1.md"
       ],
       "sortOrder": "custom"
     },
@@ -11086,7 +11089,8 @@
         "Prompt/common/KnowledgeBase.md",
         "Prompt/common/入门.md",
         "Prompt/common/outline",
-        "Prompt/common/面经答案.md"
+        "Prompt/common/面经答案.md",
+        "Prompt/common/Agent拆分.md"
       ],
       "sortOrder": "custom"
     },
@@ -11156,7 +11160,8 @@
         "Prompt/dev/09-脚本需求&框架说明.md",
         "Prompt/dev/10-项目README.md",
         "Prompt/dev/py脚本的rere开发规范.md",
-        "Prompt/dev/11-README_子模块.md"
+        "Prompt/dev/11-README_子模块.md",
+        "Prompt/dev/12-dev_test.md"
       ],
       "sortOrder": "custom"
     },
@@ -11288,7 +11293,8 @@
         "Prompt/jobs/rere/codebuddy",
         "Prompt/jobs/rere/codingtask",
         "Prompt/jobs/rere/aidata",
-        "Prompt/jobs/rere/mock"
+        "Prompt/jobs/rere/mock",
+        "Prompt/jobs/rere/hiclaw"
       ],
       "sortOrder": "custom"
     },
@@ -11305,7 +11311,8 @@
         "Prompt/jobs/rere/aidata/main/0-instruction",
         "Prompt/jobs/rere/aidata/main/1-label",
         "Prompt/jobs/rere/aidata/main/2-qc",
-        "Prompt/jobs/rere/aidata/main/ok.md"
+        "Prompt/jobs/rere/aidata/main/ok.md",
+        "Prompt/jobs/rere/aidata/main/3-checklist"
       ],
       "sortOrder": "custom"
     },
@@ -11339,6 +11346,14 @@
       ],
       "sortOrder": "custom"
     },
+    "Prompt/jobs/rere/aidata/main/3-checklist": {
+      "children": [
+        "Prompt/jobs/rere/aidata/main/3-checklist/工1.md",
+        "Prompt/jobs/rere/aidata/main/3-checklist/工2.md",
+        "Prompt/jobs/rere/aidata/main/3-checklist/rollout.md"
+      ],
+      "sortOrder": "custom"
+    },
     "Prompt/jobs/rere/aidata/tmp": {
       "children": [
         "Prompt/jobs/rere/aidata/tmp/0.md",
@@ -11369,7 +11384,16 @@
         "Prompt/jobs/rere/codingtask/1-end",
         "Prompt/jobs/rere/codingtask/others",
         "Prompt/jobs/rere/codingtask/tools",
-        "Prompt/jobs/rere/codingtask/00-common.md"
+        "Prompt/jobs/rere/codingtask/00-common.md",
+        "Prompt/jobs/rere/codingtask/0_vibe"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/0_vibe": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/0_vibe/0_initiative.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/instruction.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/multi_round_prompt.md"
       ],
       "sortOrder": "custom"
     },
@@ -11450,6 +11474,44 @@
         "Prompt/jobs/rere/codingtask/tools/分析log_and_json.md",
         "Prompt/jobs/rere/codingtask/tools/Step 5-1：report_gen.md",
         "Prompt/jobs/rere/codingtask/tools/Step 5-3：conversation-gen.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/hiclaw": {
+      "children": [
+        "Prompt/jobs/rere/hiclaw/0_Agent",
+        "Prompt/jobs/rere/hiclaw/commands",
+        "Prompt/jobs/rere/hiclaw/label",
+        "Prompt/jobs/rere/hiclaw/qc"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/hiclaw/0_Agent": {
+      "children": [
+        "Prompt/jobs/rere/hiclaw/0_Agent/0_Agent.md",
+        "Prompt/jobs/rere/hiclaw/0_Agent/1_Agent.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/hiclaw/commands": {
+      "children": [
+        "Prompt/jobs/rere/hiclaw/commands/hiclaw-intake.md",
+        "Prompt/jobs/rere/hiclaw/commands/hiclaw-qc.md",
+        "Prompt/jobs/rere/hiclaw/commands/hiclaw-rollout-review.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/hiclaw/label": {
+      "children": [
+        "Prompt/jobs/rere/hiclaw/label/1-qc.md",
+        "Prompt/jobs/rere/hiclaw/label/ok.md",
+        "Prompt/jobs/rere/hiclaw/label/report.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/hiclaw/qc": {
+      "children": [
+        "Prompt/jobs/rere/hiclaw/qc/qc.md"
       ],
       "sortOrder": "custom"
     },
