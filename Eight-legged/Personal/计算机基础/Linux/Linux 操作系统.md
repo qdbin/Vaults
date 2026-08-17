@@ -6,7 +6,7 @@
 
 ### 2、如何创建一个文件?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 touch` `filename.txt   ``# 创建空文件``echo` `"content"` `> ``file`  `# 创建带内容的文件``vim filename      ``# 使用文本编辑器创建
@@ -14,7 +14,7 @@ touch` `filename.txt   ``# 创建空文件``echo` `"content"` `> ``file`  `# 创
 
 ### 3、如何创建一个文件目录?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 mkdir` `dirname`     `# 创建单级目录``mkdir` `-p parent``/child` `# 创建多级目录（递归创建）
@@ -22,7 +22,7 @@ mkdir` `dirname`     `# 创建单级目录``mkdir` `-p parent``/child` `# 创建
 
 ### 4、如何删除一个目录以及目录中所有文件?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 rm` `-rf ``dirname`    `# 强制递归删除（谨慎使用！）
@@ -30,7 +30,7 @@ rm` `-rf ``dirname`    `# 强制递归删除（谨慎使用！）
 
 ### 5、使用什么命令查看ip地址?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 ip addr show     ``# 推荐（现代Linux）``ifconfig`       `# 传统命令（部分系统需安装net-tools）
@@ -38,7 +38,7 @@ ip addr show     ``# 推荐（现代Linux）``ifconfig`       `# 传统命令（
 
 ### 6、如何重命名一个文件?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 mv` `oldname.txt newname.txt  ``# 重命名``mv` `file``.txt ``/new/path/`    `# 移动文件
@@ -54,7 +54,7 @@ UID（用户ID）为 0。
 
 ### 8、在a目录下找出大小超过1MB的文件?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 find` `a/ -``type` `f -size +1M  ``# 查找大于1MB的文件
@@ -62,7 +62,7 @@ find` `a/ -``type` `f -size +1M  ``# 查找大于1MB的文件
 
 ### 9、在a目录中找出，带有test的文件?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 find` `a/ -``type` `f -name ``"*test*"`  `# 按文件名匹配``grep` `-r ``"test"` `a/        ``# 按文件内容匹配
@@ -70,7 +70,7 @@ find` `a/ -``type` `f -name ``"*test*"`  `# 按文件名匹配``grep` `-r ``"tes
 
 ### 10、在Linux下如何查看隐藏文件?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 ls` `-a    ``# 显示所有文件（包括以`.`开头的隐藏文件）``ls` `-la    ``# 显示详细列表（含权限、大小等）
@@ -78,7 +78,7 @@ ls` `-a    ``# 显示所有文件（包括以`.`开头的隐藏文件）``ls` `-
 
 ### 11、如何查看 Linux磁盘空间使用情况?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 df` `-h    ``# 查看所有磁盘分区（人类可读格式）``du` `-sh ``dir`  `# 查看目录占用空间（-s: 总计, -h: 易读格式）
@@ -97,7 +97,7 @@ df` `-h    ``# 查看所有磁盘分区（人类可读格式）``du` `-sh ``dir`
 
 ### 13、如何查看一个文件的权限?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 ls` `-l filename   ``# 显示权限（如 `-rwxr--r--`）``stat filename    ``# 详细属性（含权限数字码）
@@ -105,7 +105,7 @@ ls` `-l filename   ``# 显示权限（如 `-rwxr--r--`）``stat filename    ``# 
 
 ### 14、如何给一个文件赋予权限?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 chmod` `u+x ``file`   `# 给所有者添加执行权限``chmod` `g-w ``file`   `# 删除所属组的写权限``chmod` `o=r ``file`   `# 设置其他用户只读
@@ -131,7 +131,7 @@ chmod` `u+x ``file`   `# 给所有者添加执行权限``chmod` `g-w ``file`   `
 
 ### 16、在Linux 下如何解压缩?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 # 解压.tar.gz``tar` `-xzvf ``file``.``tar``.gz    ` `# 解压.zip``unzip ``file``.zip        ` `# 解压.tar.xz``tar` `-xJvf ``file``.``tar``.xz    
@@ -139,7 +139,7 @@ chmod` `u+x ``file`   `# 给所有者添加执行权限``chmod` `g-w ``file`   `
 
 ### 17、如何查看JAVA进程，并关闭进程?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 ps` `-ef | ``grep` `java     ``# 查找JAVA进程（显示PID）``kill` `-9 PID         ``# 强制终止进程（PID替换为实际ID）``pkill -f ``"java.*arg"`    `# 按名称/参数终止
@@ -153,7 +153,7 @@ ps` `-ef | ``grep` `java     ``# 查找JAVA进程（显示PID）``kill` `-9 PID 
 
 3）配置环境变量（编辑 ~/.bashrc 或 /etc/profile）
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 export` `JAVA_HOME=``/opt/jdk-21``export` `PATH=$JAVA_HOME``/bin``:$PATH
@@ -161,7 +161,7 @@ export` `JAVA_HOME=``/opt/jdk-21``export` `PATH=$JAVA_HOME``/bin``:$PATH
 
 4）生效配置：
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 source` `~/.bashrc
@@ -169,7 +169,7 @@ source` `~/.bashrc
 
 5）验证：
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 java -version
@@ -183,7 +183,7 @@ java -version
 
 3）启动：
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 /opt/tomcat/bin/startup``.sh
@@ -193,19 +193,19 @@ java -version
 
 ### 20、如何搭建 MySQL环境?
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 sudo` `apt update``sudo` `apt ``install` `mysql-server``sudo` `systemctl start mysql``sudo` `mysql_secure_installation ``# 安全配置（设置密码等）
 ```
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 sudo` `yum ``install` `mysql-server``sudo` `systemctl start mysqld``sudo` `mysql_secure_installation
 ```
 
-[复制代码](Linux%20操作系统.md#)
+
 
 ```
 mysql -u root -p  ``# 登录``SHOW DATABASES;  ``# 查看数据库

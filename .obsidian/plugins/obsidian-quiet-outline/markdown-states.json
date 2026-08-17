@@ -1778,15 +1778,15 @@
     ]
   },
   "Eight-legged/Personal/计算机基础/Linux/Linux 操作系统.md": {
-    "scroll": 197.86224698509005,
+    "scroll": 51.57004916827582,
     "cursor": {
       "from": {
-        "line": 117,
-        "ch": 14
+        "line": 17,
+        "ch": 0
       },
       "to": {
-        "line": 117,
-        "ch": 13
+        "line": 17,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -1794,15 +1794,15 @@
     ]
   },
   "Eight-legged/Personal/计算机基础/数据库/索引.md": {
-    "scroll": 143.73995791835713,
+    "scroll": 60.41980570859643,
     "cursor": {
       "from": {
-        "line": 141,
-        "ch": 29
+        "line": 66,
+        "ch": 0
       },
       "to": {
-        "line": 141,
-        "ch": 29
+        "line": 66,
+        "ch": 0
       }
     },
     "expandedKeys": [
@@ -1813,7 +1813,7 @@
     ]
   },
   "Eight-legged/Personal/计算机基础/数据库/SQL优化.md": {
-    "scroll": 33.89132410560638,
+    "scroll": 2.626835118113245,
     "cursor": {
       "from": {
         "line": 35,
@@ -1827,7 +1827,7 @@
     "expandedKeys": []
   },
   "Eight-legged/Personal/计算机基础/数据库/事务.md": {
-    "scroll": 93.75614877005518,
+    "scroll": 90.96183188052109,
     "cursor": {
       "from": {
         "line": 113,
@@ -1844,15 +1844,15 @@
     ]
   },
   "Eight-legged/Personal/计算机基础/数据库/MVCC.md": {
-    "scroll": 61.50613131968607,
+    "scroll": 73.44810639373206,
     "cursor": {
       "from": {
-        "line": 53,
-        "ch": 0
+        "line": 46,
+        "ch": 102
       },
       "to": {
-        "line": 53,
-        "ch": 0
+        "line": 46,
+        "ch": 4
       }
     },
     "expandedKeys": [
@@ -1863,15 +1863,15 @@
     ]
   },
   "Eight-legged/Personal/计算机基础/计算机网络/计网xmind.md": {
-    "scroll": 381.0835498735868,
+    "scroll": 44.99256756899268,
     "cursor": {
       "from": {
-        "line": 395,
-        "ch": 6
+        "line": 62,
+        "ch": 11
       },
       "to": {
-        "line": 395,
-        "ch": 6
+        "line": 62,
+        "ch": 11
       }
     },
     "expandedKeys": [
@@ -2141,7 +2141,7 @@
     "expandedKeys": []
   },
   "Eight-legged/Personal/计算机基础/计算机网络/计网.md": {
-    "scroll": 0.46988229991414376,
+    "scroll": 0,
     "cursor": {
       "from": {
         "line": 0,
@@ -2155,15 +2155,15 @@
     "expandedKeys": []
   },
   "Eight-legged/Personal/计算机基础/计算机网络/常规面经.md": {
-    "scroll": 33.43723255931242,
+    "scroll": 0,
     "cursor": {
       "from": {
-        "line": 39,
-        "ch": 98
+        "line": 37,
+        "ch": 11
       },
       "to": {
-        "line": 39,
-        "ch": 0
+        "line": 37,
+        "ch": 11
       }
     },
     "expandedKeys": []
@@ -2551,12 +2551,12 @@
     "scroll": 0,
     "cursor": {
       "from": {
-        "line": 3,
-        "ch": 30
+        "line": 4,
+        "ch": 26
       },
       "to": {
-        "line": 3,
-        "ch": 4
+        "line": 4,
+        "ch": 26
       }
     },
     "expandedKeys": [
@@ -3101,7 +3101,7 @@
     "expandedKeys": []
   },
   "GPU.md": {
-    "scroll": 87.64439780617082,
+    "scroll": 65.832073206357,
     "cursor": {
       "from": {
         "line": 107,

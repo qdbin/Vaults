@@ -11183,7 +11183,8 @@
         "Prompt/jobs/ideepwise",
         "Prompt/jobs/tools",
         "Prompt/jobs/arcsoft",
-        "Prompt/jobs/rere"
+        "Prompt/jobs/rere",
+        "Prompt/jobs/talents_ai"
       ],
       "sortOrder": "custom"
     },
@@ -11393,7 +11394,40 @@
       "children": [
         "Prompt/jobs/rere/codingtask/0_vibe/0_initiative.md",
         "Prompt/jobs/rere/codingtask/0_vibe/instruction.md",
-        "Prompt/jobs/rere/codingtask/0_vibe/multi_round_prompt.md"
+        "Prompt/jobs/rere/codingtask/0_vibe/multi_round_prompt.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/muti_round",
+        "Prompt/jobs/rere/codingtask/0_vibe/repo_v2",
+        "Prompt/jobs/rere/codingtask/0_vibe/sing_round",
+        "Prompt/jobs/rere/codingtask/0_vibe/qc_multi-round.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/qc_single-round.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/0_vibe/muti_round": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/0_vibe/muti_round/0_难化prompt.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/muti_round/1_白盒自测.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/muti_round/3_qc_round.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/muti_round/5_report.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/muti_round/6_新模型评测.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/muti_round/7_debug修复.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/0_vibe/repo_v2": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/0_vibe/repo_v2/白盒测试.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/repo_v2/prd.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/rere/codingtask/0_vibe/sing_round": {
+      "children": [
+        "Prompt/jobs/rere/codingtask/0_vibe/sing_round/1_白盒自测.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/sing_round/4_report.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/sing_round/5_新模型评测.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/sing_round/6_debug修复.md",
+        "Prompt/jobs/rere/codingtask/0_vibe/sing_round/8_report.md"
       ],
       "sortOrder": "custom"
     },
@@ -11522,6 +11556,16 @@
         "Prompt/jobs/rere/mock/Phase 2-0：check.md",
         "Prompt/jobs/rere/mock/Phase 2-1：start.md",
         "Prompt/jobs/rere/mock/Phase 3：report.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Prompt/jobs/talents_ai": {
+      "children": [
+        "Prompt/jobs/talents_ai/0.md",
+        "Prompt/jobs/talents_ai/4_qc.md",
+        "Prompt/jobs/talents_ai/4_repair.md",
+        "Prompt/jobs/talents_ai/5_report_repair.md",
+        "Prompt/jobs/talents_ai/t1.md"
       ],
       "sortOrder": "custom"
     },
